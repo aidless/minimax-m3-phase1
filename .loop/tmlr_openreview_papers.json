@@ -1,0 +1,4197 @@
+[
+  {
+    "title": "Prescribe-then-Select: Adaptive Policy Selection for Contextual Stochastic Optimization",
+    "authors": "Caio de Pr{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Strengthening Interpretability: An Investigative Study of Integrated Gradient Methods",
+    "authors": "Shree Singhi and Anupriya Kumari",
+    "year": "2024"
+  },
+  {
+    "title": "Online Tensor Max-Norm Regularization via Stochastic Optimization",
+    "authors": "Tong Wu",
+    "year": "2024"
+  },
+  {
+    "title": "Solving Inverse Problems via Diffusion-Based Priors: An Approximation-Free Ensemble Sampling Approach",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "Semantic-aware Adversarial Fine-tuning for CLIP",
+    "authors": "Jiacheng Zhang and Jinhao Li and Hanxun Huang and Sarah Mona",
+    "year": "2026"
+  },
+  {
+    "title": "QuaRL: Quantization for Fast and Environmentally Sustainable Reinforcement Learning",
+    "authors": "Srivatsan Krishnan and Max Lam and Sharad Chitlangia and Zis",
+    "year": "2022"
+  },
+  {
+    "title": "AgriPath: A Systematic Exploration of Architectural Trade- offs for Crop Disease Classification",
+    "authors": "Hamza Mooraj and Georgios Pantazopoulos and Alessandro Sugli",
+    "year": "2026"
+  },
+  {
+    "title": "Exploit CAM by itself: Complementary Learning System for Weakly Supervised Semantic Segmentation",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Towards Multi-spatiotemporal-scale Generalized PDE Modeling",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "EdgeMask-DG*: Learning Domain-Invariant Graph Structures via Adversarial Edge Masking",
+    "authors": "Rishabh Bhattacharya and Naresh Manwani",
+    "year": "2026"
+  },
+  {
+    "title": "Selective Prediction via Training Dynamics",
+    "authors": "Stephan Rabanser and Anvith Thudi and Kimia Hamidieh and Ada",
+    "year": "2025"
+  },
+  {
+    "title": "TimeSeAD: Benchmarking Deep Multivariate Time-Series Anomaly Detection",
+    "authors": "Dennis Wagner and Tobias Michels and Florian C.F. Schulz and",
+    "year": "2023"
+  },
+  {
+    "title": "AlignFix: Fixing Adversarial Perturbations by Agreement Checking for Adversarial Robustness against Black-box Attacks",
+    "authors": "Ashutosh Kumar Nirala and Jin Tian and Olukorede Fakorede an",
+    "year": "2025"
+  },
+  {
+    "title": "[RE] GNNBoundary: Finding Boundaries and Going Beyond Them",
+    "authors": "Jan Henrik Bertrand and Lukas Bierling and Ina Klaric and Ar",
+    "year": "2025"
+  },
+  {
+    "title": "Smoothed Differential Privacy",
+    "authors": "Ao Liu and Yu-Xiang Wang and Lirong Xia",
+    "year": "2023"
+  },
+  {
+    "title": "Calibrated Selective Classification",
+    "authors": "Adam Fisch and Tommi S. Jaakkola and Regina Barzilay",
+    "year": "2022"
+  },
+  {
+    "title": "Studying memorization of large language models using answers to Stack Overflow questions",
+    "authors": "Laura Caspari and Alexander Trautsch and Michael Granitzer a",
+    "year": "2025"
+  },
+  {
+    "title": "Distributed Multi-Agent Lifelong Learning",
+    "authors": "Prithviraj Tarale and Edward Rietman and Hava T Siegelmann",
+    "year": "2025"
+  },
+  {
+    "title": "Contributions for TMLR",
+    "authors": "Lawrence K. Saul",
+    "year": "2023"
+  },
+  {
+    "title": "More Rigorous Software Engineering Would Improve Reproducibility in Machine Learning Research",
+    "authors": "Clement Nyanhongo and Bruno Miranda Henrique and Eugene Sant",
+    "year": "2025"
+  },
+  {
+    "title": "Reward Distance Comparisons Under Transition Sparsity",
+    "authors": "Yang Zhang and Chenjia Bai and Bin Zhao and Junchi Yan and X",
+    "year": "2025"
+  },
+  {
+    "title": "I am convinced that the paper should get accepted.",
+    "authors": "Song Wang and Chris Tennant and Jundong Li",
+    "year": "2026"
+  },
+  {
+    "title": "Decentralized Transformers with Centralized Aggregation are Sample-Efficient Multi-Agent World Models",
+    "authors": "Teodora Pandeva and Tim Bakker and Christian A. Naesseth and",
+    "year": "2024"
+  },
+  {
+    "title": "Label Noise-Robust Learning using a Confidence-Based Sieving Strategy",
+    "authors": "Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zhang and Fe",
+    "year": "2025"
+  },
+  {
+    "title": "Please use the correct TMLR format",
+    "authors": "Binxu Li and Yuhui Zhang and Xiaohan Wang and Weixin Liang a",
+    "year": "2026"
+  },
+  {
+    "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+    "authors": "Xu Han and Jiajing Hu and Liping Liu",
+    "year": "2026"
+  },
+  {
+    "title": "Harnessing Optimization Dynamics for Curvature-Informed Model Merging",
+    "authors": "Yucong Dai and Lu Zhang and Yaowei Hu and Susan Gauch and Yo",
+    "year": "2026"
+  },
+  {
+    "title": "A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models",
+    "authors": "Santiago Acevedo and Andrea Mascaretti and Riccardo Rende an",
+    "year": "2026"
+  },
+  {
+    "title": "A Bi-level Framework for Debiasing Implicit Feedback with Low Variance",
+    "authors": "Li Zhang and Pengtao Xie",
+    "year": "2026"
+  },
+  {
+    "title": "How does TMLR work?",
+    "authors": "Dong Bok Lee and Seanie Lee and Sangwoo Park and Minki Kang ",
+    "year": "2026"
+  },
+  {
+    "title": "Controlling Confusion via Generalisation Bounds",
+    "authors": "Yi-Zeng Fang and Juinn-Dar Huang",
+    "year": "2026"
+  },
+  {
+    "title": "The Weakest Link: A Nodal Tension Model for Local Network Resilience",
+    "authors": "Emanuele Zangrando and Piero Deidda and Simone Brugiapaglia ",
+    "year": "2026"
+  },
+  {
+    "title": "Refer to TMLR acceptance criteria",
+    "authors": "Sidhant Nair and Tanmay Sen and Mrinmay Sen and Sayantan Ban",
+    "year": "2026"
+  },
+  {
+    "title": "Multi-objective Bayesian Optimization with Heuristic Objectives for Biomedical and Molecular Data Analysis Workflows",
+    "authors": "Soham Bonnerjee and Kingsley Yeon and Anna Asch and Sagnik N",
+    "year": "2026"
+  },
+  {
+    "title": "Closing the Modality Gap for Mixed Modality Search",
+    "authors": "Mengwei Yang and Baturalp Buyukates and Yanning Shen and Ath",
+    "year": "2026"
+  },
+  {
+    "title": "Self-Consistent Flow: Unifying Velocity and Endpoint Prediction for Rectified Flow Models",
+    "authors": "Willa Potosnak and Malcolm Wolff and Mengfei Cao and Ruijun ",
+    "year": "2026"
+  },
+  {
+    "title": "Causally Fair Node Classification on Non-IID Graph Data",
+    "authors": "Yubo Li",
+    "year": "2026"
+  },
+  {
+    "title": "A quantitative analysis of semantic information in deep representations of text and images",
+    "authors": "Dirk Elias Schut and Robert van Liere and Tristan van Leeuwe",
+    "year": "2026"
+  },
+  {
+    "title": "Learning to Prompt for Generalizable Instance Segmentation via Bi-Level Optimization",
+    "authors": "Manuel Wendl and Lukas Koller and Tobias Ladner and Matthias",
+    "year": "2026"
+  },
+  {
+    "title": "Rethinking Reward Models for Multi-Domain Test-Time Scaling",
+    "authors": "Alan T. L. Bacellar and Sathvik Chemudupati and Shashank Nag",
+    "year": "2026"
+  },
+  {
+    "title": "Beyond Freezing the Router: Rank-Aligned Post-Training Quantization for Mixture-of-Experts Models",
+    "authors": "Saja Tawalbeh and Jose Oramas",
+    "year": "2026"
+  },
+  {
+    "title": "Provable Emergence of Deep Neural Collapse and Low-Rank Bias in $L^2$-Regularized Nonlinear Networks",
+    "authors": "Nam V. Nguyen and Thong T. Doan and Luong Tran and Van Nguye",
+    "year": "2026"
+  },
+  {
+    "title": "DP-FedSOFIM: Differentially Private Federated Stochastic Optimization using Regularized Fisher Information Matrix",
+    "authors": "Javier Lopez-Piqueres and Pranav Deshpande and Archan Ray an",
+    "year": "2026"
+  },
+  {
+    "title": "How Private is Your Attention? Bridging Privacy with In-Context Learning",
+    "authors": "Parveena Shamim ABDUL SALAM and Abhishek A and Harsh Pandey",
+    "year": "2026"
+  },
+  {
+    "title": "DuoShapley: Adaptive and Scalable Shapley Value Approximation for Federated Learning",
+    "authors": "Shaoan Xie and Biwei Huang and Bin Gu and Tongliang Liu and ",
+    "year": "2026"
+  },
+  {
+    "title": "Forking-Sequences: Statistically and Computationally Efficient Multi-Horizon Forecasting with Reduced Volatility",
+    "authors": "Tao Feng and Haozhen Zhang and Zijie Lei and Pengrui Han and",
+    "year": "2026"
+  },
+  {
+    "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
+    "authors": "Peyman Baghershahi and Sourav Medya",
+    "year": "2026"
+  },
+  {
+    "title": "Monte Carlo Multi-Feature Baseline Shapley (MMBS): An axiomatic attribution method for fine-grained explanations of image classification networks",
+    "authors": "Zhaoyi Joey Hou and Alvin Zhang and Yining Lu and Bhiman Kum",
+    "year": "2026"
+  },
+  {
+    "title": "Training Verifiably Robust Agents Using Set-Based Reinforcement Learning",
+    "authors": "Panagiotis Lymperopoulos and Liping Liu",
+    "year": "2026"
+  },
+  {
+    "title": "From Arithmetic to Logic: The Resilience of Logic and Lookup-Based Neural Networks Under Parameter Bit-Flips",
+    "authors": "Yucong Dai and Jie Ji and Xiaolong Ma and Yongkai Wu",
+    "year": "2026"
+  },
+  {
+    "title": "Visual Explanations for Capsule Networks",
+    "authors": "Alessandro Favero and Antonio Sclocchi and Matthieu Wyart",
+    "year": "2026"
+  },
+  {
+    "title": "LibMoE: A Library for Comprehensive Research on Mixture of Experts in Large Language Models",
+    "authors": "Bal{\\\\'a",
+    "year": ""
+  },
+  {
+    "title": "MetaTT: A Global Tensor-Train Adapter for Parameter-Efficient Fine-Tuning",
+    "authors": "Louie Hong Yao and Nicholas Jarvis and Tiffany Zhan and Sapt",
+    "year": "2026"
+  },
+  {
+    "title": "Temporal Energy Transformer for Long Range Propagation in Continuous Time Dynamic Graphs",
+    "authors": "Vincent Perreault and Katsumi Inoue and Richard Labib and Al",
+    "year": "2026"
+  },
+  {
+    "title": "Advancing Counterfactual Prediction through Nonlinear Quantile Regression",
+    "authors": "Rui Xia and Ayan Das and Artem Artemev and Andi Zhang and Gu",
+    "year": "2026"
+  },
+  {
+    "title": "FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data",
+    "authors": "Anna Bair and Madan Ravi Ganesh and Devin Willmott and J Zic",
+    "year": "2026"
+  },
+  {
+    "title": "Freeze, Prompt, and Adapt: A Framework for Source-free Unsupervised GNN Prompting",
+    "authors": "Liheng Ma and Soumyasundar Pal and Yingxue Zhang and Philip ",
+    "year": "2026"
+  },
+  {
+    "title": "CreativityPrism: A Cross-Domain Evaluation Framework for Large Language Model Creativity",
+    "authors": "Haiquan Qiu and Quanming Yao",
+    "year": "2026"
+  },
+  {
+    "title": "Towards Overcoming Reasoning Shortcuts in Neurosymbolic Learning via Efficient Generative Proxies",
+    "authors": "Alokendu Mazumder and Arnab Roy and Punit Rathore",
+    "year": "2026"
+  },
+  {
+    "title": "FairSAM: Fair Classification on Corrupted Image Data Through Sharpness-Aware Minimization",
+    "authors": "Yihao Xue and Kristjan Greenewald and Youssef Mroueh and Bah",
+    "year": "2026"
+  },
+  {
+    "title": "Bigger Isn’t Always Memorizing: Early Stopping Overparameterized Diffusion Models",
+    "authors": "Brian Godwin Lim and Galvin Brice Lim and Renzo Roel Tan and",
+    "year": "2026"
+  },
+  {
+    "title": "On Rate-Optimal Partitioning Classification from Observable and from Privatised Data",
+    "authors": "Guangming Huang and Yunfei Long and Cunjin Luo",
+    "year": "2026"
+  },
+  {
+    "title": "A Geometric Lens on LLM Abilities through Joint Embedding Item Response Theory",
+    "authors": "AJ Piergiovanni and Ganesh Satish Mallya and Dahun Kim and A",
+    "year": "2026"
+  },
+  {
+    "title": "Neural Logic Networks for Interpretable Classification",
+    "authors": "Lei Jiang and Weixin Yang and Xin Zhang and Hao Ni",
+    "year": "2026"
+  },
+  {
+    "title": "Improved denoising diffusion probabilistic models with efficient non-diagonal covariance modeling",
+    "authors": "Edvin Listo Zec and Adam Breitholtz and Fredrik D. Johansson",
+    "year": "2026"
+  },
+  {
+    "title": "Leveraging Vision-Language Models for Resource Constrained Settings",
+    "authors": "Weixin Chen and Antonio Vergari and Han Zhao",
+    "year": "2026"
+  },
+  {
+    "title": "Plain Transformers Can be Powerful Graph Learners",
+    "authors": "Chenguang Wang and Xuanhao Pan and Tianshu Yu",
+    "year": "2026"
+  },
+  {
+    "title": "Graph Unitary Message Passing",
+    "authors": "Shubhang Bhatnagar and Andy Xu and Kar-Han Tan and Narendra ",
+    "year": "2026"
+  },
+  {
+    "title": "On Hamming–Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric: Theory and Simple Proofs",
+    "authors": "Sneha Paul and Zachary Patterson and Nizar Bouguila",
+    "year": "2026"
+  },
+  {
+    "title": "Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination Detection",
+    "authors": "Xufeng Liu and Wenhan Gao and Yi Liu",
+    "year": "2026"
+  },
+  {
+    "title": "Enhancing Graph Representations with Neighborhood-Contextualized Message-Passing",
+    "authors": "Hiroki Naganuma and Atish Agarwala and Priya Kasimbeg and Ge",
+    "year": "2026"
+  },
+  {
+    "title": "Similarity-Dissimilarity Loss for Multi-label Supervised Contrastive Learning",
+    "authors": "Lu Wang and Wenyu Zhang and Wang Chengke and Guimei Liu and ",
+    "year": "2026"
+  },
+  {
+    "title": "Learning to Understand Videos From Encoded Bytes",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "GCN-DevLSTM: Path Development for Skeleton-Based Action Recognition",
+    "authors": "Disha Hegde and Jon Cockayne and Chris J. Oates",
+    "year": "2026"
+  },
+  {
+    "title": "Overcoming label shift in target-aware federated learning",
+    "authors": "Charles Westphal and Stephen Hailes and Mirco Musolesi",
+    "year": "2026"
+  },
+  {
+    "title": "Can VLMs Reason Robustly? A Neuro-Symbolic Investigation",
+    "authors": "Dongfu Jiang and Yi Lu and Zhuofeng Li and Zhiheng Lyu and P",
+    "year": "2026"
+  },
+  {
+    "title": "Towards Principled Task Grouping for Multi-Task Learning",
+    "authors": "Zeynep Sonat Baltaci and Romain Loiseau and Mathieu Aubry",
+    "year": "2026"
+  },
+  {
+    "title": "LUQ: Layerwise Ultra-Low Bit Quantization for Multimodal Large Language Models",
+    "authors": "BIN XU and Ayan Banerjee and Sandeep Gupta",
+    "year": "2026"
+  },
+  {
+    "title": "Domain Generalizable Adaptation of 3D Vision-Language Models via Regularized Fine-Tuning",
+    "authors": "Taiki Yano and Satoshi Yagi and Satoshi Yamamori and Jun Mor",
+    "year": "2026"
+  },
+  {
+    "title": "Confidence-Aware Explanations for 3D Molecular Graphs via Energy-Based Masking",
+    "authors": "Howard Chen and Jiayi Geng and Adithya Bhaskar and Dan Fried",
+    "year": "2026"
+  },
+  {
+    "title": "What do near-optimal learning rate schedules look like?",
+    "authors": "Parsa Hosseini and Sumit Nawathe and Mazda Moayeri and Srira",
+    "year": "2026"
+  },
+  {
+    "title": "Domain Adaptation for Cold-Start Users in Sequential Recommendation",
+    "authors": "Tianyi Alex Qiu and Ahmed Ismail and Zhonghao He and Shi Fen",
+    "year": "2026"
+  },
+  {
+    "title": "Modelling Complex Tabular Datasets with a Mixture of Diverse Generative Models",
+    "authors": "Eva Yezerets and En Yang and Misha B. Ahrens and Adam Shabti",
+    "year": "2026"
+  },
+  {
+    "title": "Extrapolating from Regularised Solutions for Solving Ill-Conditioned Linear Systems in Machine Learning",
+    "authors": "Saurabh Pujar and Ira Ceka and Irene L Manotas and Gail Kais",
+    "year": "2026"
+  },
+  {
+    "title": "TERC: A Transfer Entropy Redundancy Criterion for State Variable Selection in Reinforcement Learning",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "VerlTool: Towards Holistic Agentic Reinforcement Learning with Tool Use",
+    "authors": "Andres Potapczynski and Ravi Kiran Selvam and Tatiana Konsta",
+    "year": "2026"
+  },
+  {
+    "title": "Weight-balancing fixes and flows for deep learning",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "TMLR audience",
+    "authors": "Rishabh Bhattacharya and Naresh Manwani",
+    "year": "2026"
+  },
+  {
+    "title": "The SMOTE Paradox: Why a 92% Baseline Collapsed to 6%—A Systematic Review of 821 Papers in Imbalanced Learning (2020–2025)",
+    "authors": "Severin Bratus and David F. Jenny and Andreas Plesner and Ro",
+    "year": "2026"
+  },
+  {
+    "title": "Overview of eRisk 2025: Early Risk Prediction on the Internet",
+    "authors": "Fang Sun and Zijie Huang and Haixin Wang and Huacong Tang an",
+    "year": "2025"
+  },
+  {
+    "title": "Overview of the CLEF 2025 SimpleText Track - Simplify Scientific Text (and Nothing More)",
+    "authors": "Valentijn Oldenburg and Floris de Kam and Stef de Wildt and ",
+    "year": "2026"
+  },
+  {
+    "title": "Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025",
+    "authors": "Charlesquin Kemajou Mbakam and Marcelo Pereyra and Jonathan ",
+    "year": "2025"
+  },
+  {
+    "title": "AI Idea Bench 2025: AI Research Idea Generation Benchmark",
+    "authors": "Oscar Mir{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Squeeze3D: Extreme Neural Compression with Latent Space Bridging",
+    "authors": "Caio de Pr{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Koli Calling 2024: Call for Submissions",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "TMLR acceptance criteria",
+    "authors": "Hamza Mooraj and Georgios Pantazopoulos and Alessandro Sugli",
+    "year": "2026"
+  },
+  {
+    "title": "Report on the 7th International Workshop on Narrative Extraction from Texts (Text2Story 2024) at ECIR 2024",
+    "authors": "Lawrence K. Saul",
+    "year": "2023"
+  },
+  {
+    "title": "Report on the 1st International Workshop on Graph-Based Approaches in Information Retrieval (IRonGraphs 2024) at ECIR 2024",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "E-Valuating Classifier Two-Sample Tests",
+    "authors": "Asen Dotsinski and Udit Thakur and Marko Ivanov and Mohammad",
+    "year": "2025"
+  },
+  {
+    "title": "The 2024 Foundation Model Transparency Index",
+    "authors": "Izabela Kurek and Wojciech Trejter and Stipe Frkovic and And",
+    "year": "2025"
+  },
+  {
+    "title": "Report on the 8th Workshop on Search-Oriented Conversational Artificial Intelligence (SCAI 2024) at CHIIR 2024",
+    "authors": "Kamil Ciosek and Nicol{\\\\`o",
+    "year": "2025"
+  },
+  {
+    "title": "[Re] Improving Interpretation Faithfulness for Vision Transformers",
+    "authors": "Freek Byrman and Emma Kasteleyn and Bart Kuipers and Daniel ",
+    "year": "2025"
+  },
+  {
+    "title": "Statistical Model Checking the 2024 Edition!",
+    "authors": "Tijs Wiegman and Leyla Perotti and Vikt{\\\\'o",
+    "year": "2025"
+  },
+  {
+    "title": "Model AI Assignments 2024",
+    "authors": "C{\\\\u{a",
+    "year": "2025"
+  },
+  {
+    "title": "Report on the 1st International Workshop on Open Web Search (WOWS 2024) at ECIR 2024",
+    "authors": "Johanna D'Ciofalo Khodaverdian and Eric Banzuzi and Katharin",
+    "year": "2025"
+  },
+  {
+    "title": "Message from the General Chairs; ICHI 2024",
+    "authors": "Meher Changlani and Benjamin Hucko and Ioannis Kechagias and",
+    "year": "2025"
+  },
+  {
+    "title": "VAST 2024-MC2 Challenge",
+    "authors": "Yuki Ichihara and Yuu Jinnai and Tetsuro Morimura and Kenshi",
+    "year": "2025"
+  },
+  {
+    "title": "POMACS V8, N1, March 2024 Editorial",
+    "authors": "Kelly Ramsay and Aukosh Jagannath and Shojaeddin Chenouri",
+    "year": "2025"
+  },
+  {
+    "title": "POMACS V8, N2, June 2024 Editorial",
+    "authors": "Fang Sun and Zijie Huang and Haixin Wang and Huacong Tang an",
+    "year": "2025"
+  },
+  {
+    "title": "Meta-Calibration: Learning of Model Calibration Using Differentiable Expected Calibration Error",
+    "authors": "Ondrej Bohdal and Yongxin Yang and Timothy Hospedales",
+    "year": "2023"
+  },
+  {
+    "title": "Assuming Locally Equal Calibration Errors for Non-Parametric Multiclass Calibration",
+    "authors": "Kaspar Valk and Meelis Kull",
+    "year": "2023"
+  },
+  {
+    "title": "Towards Unbiased Calibration using Meta-Regularization",
+    "authors": "Cheng Wang and Jacek Golebiowski",
+    "year": "2024"
+  },
+  {
+    "title": "Simple Calibration via Geodesic Kernels",
+    "authors": "Jayanta Dey and Haoyin Xu and Ashwin De Silva and Joshua T V",
+    "year": "2025"
+  },
+  {
+    "title": "Optimizing Estimators of Squared Calibration Errors in Classification",
+    "authors": "Sebastian Gregor Gruber and Francis R. Bach",
+    "year": "2025"
+  },
+  {
+    "title": "Does confidence calibration improve conformal prediction?",
+    "authors": "HuaJun Xi and Jianguo Huang and Kangdao Liu and Lei Feng and",
+    "year": "2025"
+  },
+  {
+    "title": "Hidden Heterogeneity: When to Choose Similarity-Based Calibration",
+    "authors": "Kiri L. Wagstaff and Thomas G Dietterich",
+    "year": "2023"
+  },
+  {
+    "title": "On Calibration of Multilingual Question Answering LLMs",
+    "authors": "Yahan Yang and Soham Dan and Dan Roth and Insup Lee",
+    "year": "2026"
+  },
+  {
+    "title": "On Uncertainty Calibration for Equivariant Functions",
+    "authors": "Edward Berman and Jacob Ginesin and Marco Pacini and Robin W",
+    "year": "2026"
+  },
+  {
+    "title": "Where are we with calibration under dataset shift in image classification?",
+    "authors": "M{\\\\'e",
+    "year": "2025"
+  },
+  {
+    "title": "Evaluating Posterior Probabilities:  Decision Theory, Proper Scoring Rules, and Calibration",
+    "authors": "Luciana Ferrer and Daniel Ramos",
+    "year": "2025"
+  },
+  {
+    "title": "Estimating Expected Calibration Error for Positive-Unlabeled Learning",
+    "authors": "Ryuichi Kiryo and Futoshi Futami and Masashi Sugiyama",
+    "year": "2026"
+  },
+  {
+    "title": "Socrates Loss: Unifying Confidence Calibration and Classification by Leveraging the Unknown",
+    "authors": "Sandra G{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "HopCast: Calibration of Autoregressive Dynamics Models",
+    "authors": "Muhammad Bilal Shahid and Cody Fleming",
+    "year": "2025"
+  },
+  {
+    "title": "Calibration Enhanced Decision Maker: Towards Trustworthy Sequential Decision-Making with Large Sequence Models",
+    "authors": "Haoyuan Sun and Bo Xia and Yifu Luo and Tiantian Zhang and X",
+    "year": "2026"
+  },
+  {
+    "title": "Calibration Attacks: A Comprehensive Study of Adversarial Attacks on Model Confidence",
+    "authors": "Stephen Obadinma and Xiaodan Zhu and Hongyu Guo",
+    "year": "2024"
+  },
+  {
+    "title": "Towards Understanding Variants of Invariant Risk Minimization through the Lens of Calibration",
+    "authors": "Kotaro Yoshida and Hiroki Naganuma",
+    "year": "2024"
+  },
+  {
+    "title": "Neural Clamping: Joint Input Perturbation and Temperature Scaling for Neural Network Calibration",
+    "authors": "Yung-Chen Tang and Pin-Yu Chen and Tsung-Yi Ho",
+    "year": "2024"
+  },
+  {
+    "title": "On the Convergence and Calibration of Deep Learning with Differential Privacy",
+    "authors": "Zhiqi Bu and Hua Wang and Zongyu Dai and Qi Long",
+    "year": "2023"
+  },
+  {
+    "title": "Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects in Large Language Models",
+    "authors": "Prateek Chhikara",
+    "year": "2025"
+  },
+  {
+    "title": "Navigating Noise: A Study of How Noise Influences Generalisation and Calibration of Neural Networks",
+    "authors": "Martin Ferianc and Ondrej Bohdal and Timothy Hospedales and ",
+    "year": "2024"
+  },
+  {
+    "title": "An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration",
+    "authors": "Hiroki Naganuma and Ryuichiro Hataya and Kotaro Yoshida and ",
+    "year": "2025"
+  },
+  {
+    "title": "Graph-based Confidence Calibration for Large Language Models",
+    "authors": "Yukun Li and Sijia Wang and Lifu Huang and Liping Liu",
+    "year": "2025"
+  },
+  {
+    "title": "Using Platt’s scaling for calibration after undersampling — limitations and how to address them",
+    "authors": "Nathan Phelps and Daniel J Lizotte and Douglas G. Woolford",
+    "year": "2025"
+  },
+  {
+    "title": "Conformal Calibration of Statistical Confidence Sets",
+    "authors": "Luben Miguel Cruz Cabezas and Guilherme Soares and Thiago Ra",
+    "year": "2026"
+  },
+  {
+    "title": "On Joint Regularization and Calibration in Deep Ensembles",
+    "authors": "Laurits Fredsgaard and Mikkel N. Schmidt",
+    "year": "2025"
+  },
+  {
+    "title": "End-to-End Conformal Calibration for Optimization Under Uncertainty",
+    "authors": "Christopher Yeh and Nicolas Christianson and Alan Wu and Ada",
+    "year": "2025"
+  },
+  {
+    "title": "On Calibrating Diffusion Probabilistic Models",
+    "authors": "Hamza Mooraj and Georgios Pantazopoulos and Alessandro Sugli",
+    "year": "2026"
+  },
+  {
+    "title": "Causal Reinforcement Learning: A Survey",
+    "authors": "Anonymous",
+    "year": "2023"
+  },
+  {
+    "title": "Replay-enhanced Continual Reinforcement Learning",
+    "authors": "Tommaso Marzi and Arshjot Singh Khehra and Andrea Cini and C",
+    "year": "2024"
+  },
+  {
+    "title": "Feudal Graph Reinforcement Learning",
+    "authors": "Paul Ghanem and Owen Lewis Howell and Michael Potter and Pau",
+    "year": "2026"
+  },
+  {
+    "title": "Recursive Deep  Inverse Reinforcement Learning",
+    "authors": "ABULIKEMU ABUDUWEILI and Changliu Liu",
+    "year": "2023"
+  },
+  {
+    "title": "An Optical Control Environment for  Benchmarking Reinforcement Learning Algorithms",
+    "authors": "Oliver Schulte and Pascal Poupart",
+    "year": "2025"
+  },
+  {
+    "title": "When Should Reinforcement Learning Use Causal Reasoning?",
+    "authors": "Mastane Achab and Reda ALAMI and YASSER ABDELAZIZ DAHOU DJIL",
+    "year": "2023"
+  },
+  {
+    "title": "One-Step Distributional Reinforcement Learning",
+    "authors": "Calarina Muslimani and Alex Lewandowski and Dale Schuurmans ",
+    "year": "2023"
+  },
+  {
+    "title": "Reinforcement Teaching ",
+    "authors": "Stefan Sylvius Wagner and Peter Arndt and Jan Robine and Ste",
+    "year": "2023"
+  },
+  {
+    "title": "Cyclophobic Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2023"
+  },
+  {
+    "title": "Multi-Source Transfer Learning for Deep Model-Based Reinforcement Learning",
+    "authors": "Yinglun Xu and Tarun Suresh and Rohan Gumaste and David Zhu ",
+    "year": "2025"
+  },
+  {
+    "title": "Two-Step Offline Preference-Based Reinforcement Learning on Explicitly Constrained Policies",
+    "authors": "Rolf A. N. Starre and Sammie Katt and Mustafa Mert {\\\\c{C",
+    "year": "2025"
+  },
+  {
+    "title": "Abstraction for Bayesian Reinforcement Learning in Factored POMDPs",
+    "authors": "Ludvig Killingberg and Helge Langseth",
+    "year": "2023"
+  },
+  {
+    "title": "The Multiquadric Kernel for Moment-Matching Distributional Reinforcement Learning",
+    "authors": "Junlin Lu and Patrick Mannion and Karl Mason",
+    "year": "2024"
+  },
+  {
+    "title": "Sociodynamics of Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2024"
+  },
+  {
+    "title": "Demonstration-Guided Multi-Objective Reinforcement Learning",
+    "authors": "Vanya Cohen and Geraud Nangue Tasse and Nakul Gopalan and St",
+    "year": "2024"
+  },
+  {
+    "title": "Compositional Instruction Following with Language Models and Reinforcement Learning",
+    "authors": "Louk van Remmerden and Zhao Yang and Shujian Yu and Mark Hoo",
+    "year": "2025"
+  },
+  {
+    "title": "Learning Task-Aware Abstract Representations for Meta-Reinforcement Learning",
+    "authors": "Nabuat Zaman Nahim and Fairoz Nower Khan and Peizhong Ju",
+    "year": "2026"
+  },
+  {
+    "title": "Constrained Reinforcement Learning Using Successor Representations",
+    "authors": "Gregory Gorbov and Artem Latyshev and Aleksandr Panov",
+    "year": "2025"
+  },
+  {
+    "title": "A Survey of Flow Matching in Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2025"
+  },
+  {
+    "title": "State-Constrained Offline Reinforcement Learning",
+    "authors": "Johannes Hog and Raghu Rajan and Andr{\\\\'e",
+    "year": "2025"
+  },
+  {
+    "title": "Group Fairness in Reinforcement Learning",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Meta-learning Population-based Methods for Reinforcement Learning",
+    "authors": "Lorenz Wolf and Mirco Musolesi",
+    "year": "2025"
+  },
+  {
+    "title": "A Survey of Reinforcement Learning from Human Feedback",
+    "authors": "Jiate Liu and Yiqin Zhu and Kaiwen Xiao and QIANG FU and Xia",
+    "year": "2023"
+  },
+  {
+    "title": "Heterogeneous Knowledge for Augmented Modular Reinforcement Learning",
+    "authors": "Arnaud Robert and Aldo A. Faisal and Ciara Pike-Burke",
+    "year": "2025"
+  },
+  {
+    "title": "RLTF: Reinforcement Learning from Unit Test Feedback",
+    "authors": "Cong Lu and Philip J. Ball and Tim G. J. Rudner and Jack Par",
+    "year": "2023"
+  },
+  {
+    "title": "Posterior Sampling for Reinforcement Learning on Graphs",
+    "authors": "Sami Jullien and Mozhdeh Ariannezhad and Paul Groth and Maar",
+    "year": "2023"
+  },
+  {
+    "title": "Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations",
+    "authors": "James Queeney and Erhan Can Ozcan and Ioannis Paschalidis an",
+    "year": "2024"
+  },
+  {
+    "title": "A Simulation Environment and Reinforcement Learning Method for Waste Reduction",
+    "authors": "Marco Bagatella and Sammy Joe Christen and Otmar Hilliges",
+    "year": "2022"
+  },
+  {
+    "title": "Optimal Transport Perturbations for Safe Reinforcement Learning with Robustness Guarantees",
+    "authors": "Taiwei Shi and Yiyang Wu and Linxin Song and Tianyi Zhou and",
+    "year": "2026"
+  },
+  {
+    "title": "SFP: State-free Priors for Exploration in Off-Policy Reinforcement Learning",
+    "authors": "Armin Saghafian and Amirmohammad Izadi and Negin Hashemi Dij",
+    "year": "2025"
+  },
+  {
+    "title": "Efficient Reinforcement Finetuning via Adaptive Curriculum Learning",
+    "authors": "Jianhao Yan and Jin Xu and Chiyu Song and Chenming Wu and Ya",
+    "year": "2024"
+  },
+  {
+    "title": "CAREL: Instruction-guided reinforcement learning with cross-modal auxiliary objectives",
+    "authors": "Evelyn Ma and S. Rasoul Etesami and Praneet Rathi",
+    "year": "2024"
+  },
+  {
+    "title": "Reward Poisoning on Federated Reinforcement Learning",
+    "authors": "Georgios Tzannetos and B{\\\\'a",
+    "year": "2023"
+  },
+  {
+    "title": "Proximal Curriculum for Reinforcement Learning Agents",
+    "authors": "Nathan Wispinski and Andrew Butcher and Kory Wallace Mathews",
+    "year": "2023"
+  },
+  {
+    "title": "Normality-Guided Distributional Reinforcement Learning for Continuous Control",
+    "authors": "Lijun Zhang and Lin Li and Wei Wei and Huizhong Song and Yao",
+    "year": "2024"
+  },
+  {
+    "title": "Adaptive patch foraging in deep reinforcement learning agents",
+    "authors": "Tongzhou Mu and Kaixiang Lin and Feiyang Niu and Govind That",
+    "year": "2022"
+  },
+  {
+    "title": "Learning Two-Step Hybrid Policy for Graph-Based Interpretable Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "AGaLiTe: Approximate Gated Linear Transformers for Online Reinforcement Learning",
+    "authors": "Aritra Mitra and George J. Pappas and Hamed Hassani",
+    "year": "2024"
+  },
+  {
+    "title": "Temporal Difference Learning with Compressed Updates: Error-Feedback meets Reinforcement Learning",
+    "authors": "Eseoghene Ben-Iwhiwhu and Saptarshi Nath and Praveen Kumar P",
+    "year": "2023"
+  },
+  {
+    "title": "A Survey of State Representation Learning for Deep Reinforcement Learning",
+    "authors": "Aleksandar Todorov and Juan Cardenas-Cartagena and Rafael F.",
+    "year": "2025"
+  },
+  {
+    "title": "Lifelong Reinforcement Learning with Modulating Masks",
+    "authors": "Guibin Zhang and Hejia Geng and Xiaohang Yu and Zhenfei Yin ",
+    "year": "2026"
+  },
+  {
+    "title": "Sparsity-Driven Plasticity in Multi-Task Reinforcement Learning",
+    "authors": "Radu Stoican and Angelo Cangelosi and Christian Goerick and ",
+    "year": "2026"
+  },
+  {
+    "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+    "authors": "Qingfeng Lan and Yangchen Pan and Jun Luo and A. Rupam Mahmo",
+    "year": "2023"
+  },
+  {
+    "title": "Task-Specific Exploration in Meta-Reinforcement Learning via Task Reconstruction",
+    "authors": "Wenzhe Li and Hao Luo and Zichuan Lin and Chongjie Zhang and",
+    "year": "2023"
+  },
+  {
+    "title": "Memory-efficient Reinforcement Learning with Value-based Knowledge Consolidation",
+    "authors": "Barna P{\\\\'a",
+    "year": "2023"
+  },
+  {
+    "title": "A Survey on Transformers in Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Efficient Model-Based Multi-Agent Mean-Field Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2024"
+  },
+  {
+    "title": "Contextualize Me – The Case for Context in Reinforcement Learning",
+    "authors": "Guanquan Wang and Takuya Hiraoka and Yoshimasa Tsuruoka",
+    "year": "2024"
+  },
+  {
+    "title": "Reinforcement Learning from Bagged Reward",
+    "authors": "Georgios Tzannetos and Parameswaran Kamalaruban and Adish Si",
+    "year": "2024"
+  },
+  {
+    "title": "Planning with Consistency Models for Model-Based Offline Reinforcement Learning",
+    "authors": "Adrian Remonda and Cole Corbitt Terrell and Eduardo E. Veas ",
+    "year": "2025"
+  },
+  {
+    "title": "Uncertainty-Based Experience Replay for Task-Agnostic Continual Reinforcement Learning",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Investigating Action Encodings in Recurrent Neural Networks in Reinforcement Learning",
+    "authors": "Yizhao Jin and Gregory Slabaugh and Simon Lucas",
+    "year": "2024"
+  },
+  {
+    "title": "Directed Exploration in Reinforcement Learning from Linear Temporal Logic",
+    "authors": "Gaurav Chaudhary and Washim Uddin Mondal and Laxmidhar Beher",
+    "year": "2025"
+  },
+  {
+    "title": "Self-supervised Color Generalization in Reinforcement Learning",
+    "authors": "Victor-Alexandru Darvariu and Stephen Hailes and Mirco Musol",
+    "year": "2024"
+  },
+  {
+    "title": "MOORL: A Framework for Integrating Offline-Online Reinforcement Learning",
+    "authors": "Gabriel Stella and Dmitri Loguinov",
+    "year": "2026"
+  },
+  {
+    "title": "Graph Reinforcement Learning for Combinatorial Optimization: A Survey and Unifying Perspective",
+    "authors": "Rolf A. N. Starre and Marco Loog and Elena Congeduti and Fra",
+    "year": "2023"
+  },
+  {
+    "title": "An Analysis of Model-Based Reinforcement Learning From Abstracted Observations",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Bayesian Methods for Constraint Inference in Reinforcement Learning",
+    "authors": "Alex Beeson and David Ireland and Giovanni Montana",
+    "year": "2024"
+  },
+  {
+    "title": "An Investigation of Offline Reinforcement Learning in Factorisable Action Spaces",
+    "authors": "Ting Zhu and Yue Jin and Jeremie Houssineau and Giovanni Mon",
+    "year": "2024"
+  },
+  {
+    "title": "Efficient Action Robust Reinforcement Learning with Probabilistic Policy Execution Uncertainty",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Mitigating Relative Over-Generalization in Multi-Agent Reinforcement Learning",
+    "authors": "Chenliang Li and Junyu Leng and Jiaxiang Li and Youbang Sun ",
+    "year": "2026"
+  },
+  {
+    "title": "Adaptive Rank Control for Robust Reinforcement Learning",
+    "authors": "Ioannis Dimanidis and Tolga Ok and Peyman Mohajerin Esfahani",
+    "year": "2026"
+  },
+  {
+    "title": "Reset-free Reinforcement Learning with World Models",
+    "authors": "Weiye Zhao and Yifan Sun and Feihan Li and Rui Chen and Ruix",
+    "year": "2024"
+  },
+  {
+    "title": "Offline Reinforcement Learning via Inverse Optimization",
+    "authors": "Huozhi Zhou and Jinglin Chen and Lav R. Varshney and Ashish ",
+    "year": "2022"
+  },
+  {
+    "title": "GUARD: A Safe Reinforcement Learning Benchmark",
+    "authors": "Aishwarya Mandyam and Didong Li and Andrew Jones and Diana C",
+    "year": "2024"
+  },
+  {
+    "title": "Nonstationary Reinforcement Learning with Linear Function Approximation",
+    "authors": "Zheming Fan and Guopu Zhu and Zixuan Yu and Shen Wang and Li",
+    "year": "2026"
+  },
+  {
+    "title": "KD-BIRL: Kernel Density Bayesian Inverse Reinforcement Learning",
+    "authors": "Lingwei Zhu and Matthew Kyle Schlegel and Han Wang and Marth",
+    "year": "2024"
+  },
+  {
+    "title": "Offline Reinforcement Learning via Tsallis Regularization",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Conciliator steering: Imposing user preference in multi-objective reinforcement learning",
+    "authors": "Anonymous",
+    "year": "2022"
+  },
+  {
+    "title": "Contextual Policies Enable Efficient and Interpretable Inverse Reinforcement Learning for Populations",
+    "authors": "Bang You and Huaping Liu and Jan Peters and Oleg Arenz",
+    "year": "2025"
+  },
+  {
+    "title": "Rollout Total Correlation for Deep Reinforcement Learning",
+    "authors": "Gaurav Chaudhary and Laxmidhar Behera",
+    "year": "2025"
+  },
+  {
+    "title": "Evaluating Human-Language Model Interaction",
+    "authors": "Manuel Faysse and Patrick Fernandes and Nuno M Guerreiro and",
+    "year": "2025"
+  },
+  {
+    "title": "CroissantLLM: A Truly Bilingual French-English Language Model",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Hierarchical Language Model Design For Interpretable Graph Reasoning",
+    "authors": "Rui-Jie Zhu and Qihang Zhao and Guoqi Li and Jason Eshraghia",
+    "year": "2024"
+  },
+  {
+    "title": "SpikeGPT: Generative Pre-trained Language Model with Spiking Neural Networks",
+    "authors": "Ziheng Chen and Yue Song and Xiaojun Wu and Gaowen Liu and N",
+    "year": "2025"
+  },
+  {
+    "title": "Multi-Attribute Constraint Satisfaction via Language Model Rewriting",
+    "authors": "Shikun Liu and Linxi Fan and Edward Johns and Zhiding Yu and",
+    "year": "2024"
+  },
+  {
+    "title": "Prismer: A Vision-Language Model with Multi-Task Experts",
+    "authors": "Jihao Liu and Jinliang Zheng and Boxiao Liu and Yu Liu and H",
+    "year": "2024"
+  },
+  {
+    "title": "Enhancing Vision-Language Model with Unmasked Token Alignment",
+    "authors": "Tong Wu",
+    "year": "2024"
+  },
+  {
+    "title": "Tree Search for Language Model Agents",
+    "authors": "Amine El hattami and Nicolas Chapados and Christopher Pal",
+    "year": "2025"
+  },
+  {
+    "title": "Spaced Scheduling for Large Language Model Training",
+    "authors": "Jiacheng Zhang and Jinhao Li and Hanxun Huang and Sarah Mona",
+    "year": "2026"
+  },
+  {
+    "title": "Visually Descriptive Language Model for Vector Graphics Reasoning",
+    "authors": "Yishan Wang and Tsai-Ning Wang and Mathias Funk and Aaqib Sa",
+    "year": "2026"
+  },
+  {
+    "title": "StethoLM: Audio Language Model for Cardiopulmonary Analysis Across Clinical Tasks",
+    "authors": "Peiyang Song and Pengrui Han and Noah Goodman",
+    "year": "2026"
+  },
+  {
+    "title": "Large Language Model Reasoning Failures",
+    "authors": "Tejaswini Pedapati and Amit Dhurandhar and Soumya Ghosh and ",
+    "year": "2025"
+  },
+  {
+    "title": "Large Language Model Confidence Estimation via Black-Box Access",
+    "authors": "Qiwen Dong and Xiaoyang Jing and Aoying Zhou and Xiuzhen Hu",
+    "year": "2020"
+  },
+  {
+    "title": "MiniGPT-Med: A Unified Vision-Language Model for Radiology Image Understanding",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "Large Language Model-based Data Science Agent: A Survey",
+    "authors": "Jackson Petty and Sjoerd van Steenkiste and Tal Linzen",
+    "year": "2025"
+  },
+  {
+    "title": "How Does Code Pretraining Affect Language Model Task Performance?",
+    "authors": "Ali Taheri and Alireza Taban and Qizhou Wang and Shanshan Ye",
+    "year": "2026"
+  },
+  {
+    "title": "Forgetting: A New Mechanism Towards Better Large Language Model Fine-tuning",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Continuous Language Model Interpolation yields Dynamic and Controllable Text Generation",
+    "authors": "Mustafa Shukor and Corentin Dancette and Alexandre Rame and ",
+    "year": "2023"
+  },
+  {
+    "title": "UnIVAL: Unified Model for Image, Video, Audio and Language Tasks",
+    "authors": "Anirudhan Badrinath and Prabhat Agarwal and Jiajing Xu",
+    "year": "2025"
+  },
+  {
+    "title": "Unified Preference Optimization: Language Model Alignment Beyond the Preference Frontier",
+    "authors": "Sonia Cromp and Satya Sai Srinath Namburi GNVV and Mohammed ",
+    "year": "2026"
+  },
+  {
+    "title": "Tabby: A Language Model Architecture for Tabular and Structured Data Synthesis",
+    "authors": "Pingcheng Jian and Xiao Wei and Yanbaihui Liu and Samuel A. ",
+    "year": "2025"
+  },
+  {
+    "title": "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning",
+    "authors": "Laur{\\\\`e",
+    "year": "2025"
+  },
+  {
+    "title": "Prompt Engineering Techniques for Language Model Reasoning Lack Replicability",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Large Language Model-Brained GUI Agents: A Survey",
+    "authors": "Haoyang LI and Yiming Li and Anxin Tian and Tianhao Tang and",
+    "year": "2025"
+  },
+  {
+    "title": "A Survey on Large Language Model Acceleration based on KV Cache Management",
+    "authors": "Apurv Verma and Satyapriya Krishna and Sebastian Gehrmann an",
+    "year": "2025"
+  },
+  {
+    "title": "Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "One Model for All: Multi-Objective Controllable Language Models",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "TE-VLM: Transfer Entropy for Vision Language Model Distillation",
+    "authors": "Hoyoung Kim and Seokhee Jin and Changhwan Sung and Jaechang ",
+    "year": "2025"
+  },
+  {
+    "title": "Sequential Causal Discovery with Noisy Language Model Priors",
+    "authors": "ChangHao Li and Yuchen Zhuang and Chenxiao Gao and Haotian S",
+    "year": "2026"
+  },
+  {
+    "title": "Active Prompt Learning with Vision-Language Model Priors",
+    "authors": "Rishabh Bhattacharya and Naresh Manwani",
+    "year": "2026"
+  },
+  {
+    "title": "Exploration-Driven Optimization for Test-Time Large Language Model Reasoning",
+    "authors": "Anonymous",
+    "year": "2025"
+  },
+  {
+    "title": "Valley: Video Assistant with Large Language Model Enhanced Ability",
+    "authors": "Ayan Sengupta and Md Shad Akhtar and Tanmoy Chakraborty",
+    "year": "2024"
+  },
+  {
+    "title": "Iterative Preference Optimization with Proximal Policy Regularization for Large Language Model Alignment",
+    "authors": "Anonymous",
+    "year": "2025"
+  },
+  {
+    "title": "Privacy-Preserving Language Model Inference with Instance Obfuscation",
+    "authors": "Atsuki Yamaguchi and Terufumi Morishita and Aline Villavicen",
+    "year": "2025"
+  },
+  {
+    "title": "Multi-Modal Language Models as Text-to-Image Model Evaluators",
+    "authors": "Teodora Pandeva and Tim Bakker and Christian A. Naesseth and",
+    "year": "2024"
+  },
+  {
+    "title": "TMLR Submission 4836",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Explainable Graph Learning for Particle Accelerator Operations",
+    "authors": "Carolina Zheng and Keyon Vafa and David Blei",
+    "year": "2023"
+  },
+  {
+    "title": "Adapting Chat Language Models Using Only Target Unlabeled Language Data",
+    "authors": "Lars Malmqvist",
+    "year": "2026"
+  },
+  {
+    "title": "Revisiting Topic-Guided Language Models",
+    "authors": "Hiroki Furuta and Yutaka Matsuo and Aleksandra Faust and Izz",
+    "year": "2024"
+  },
+  {
+    "title": "Investigating Linguistic Steering: An Analysis of Adjectival Effects Across Large Language Model Architectures",
+    "authors": "Atsuyuki Miyai and Jingkang Yang and Jingyang Zhang and Yife",
+    "year": "2025"
+  },
+  {
+    "title": "SQL-PaLM: Improved large language model adaptation for Text-to-SQL",
+    "authors": "Minttu Alakuijala and Reginald McLean and Isaac Woungang and",
+    "year": "2025"
+  },
+  {
+    "title": "Segmenting Text and Learning Their Rewards for Improved RLHF in Language Model",
+    "authors": "Omprakash Chakraborty and Aadarsh Sahoo and Rameswar Panda a",
+    "year": "2024"
+  },
+  {
+    "title": "MGPATH: A Vision-Language Model with Multi-Granular Prompt Learning for Few-Shot Whole Slide Pathology Classification",
+    "authors": "Xiachong Feng and Longxu Dou and Minzhi Li and Qinghao Wang ",
+    "year": "2025"
+  },
+  {
+    "title": "Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "AA-SVD: Anchored and Adaptive SVD for Large Language Model Compression",
+    "authors": "Anonymous",
+    "year": "2026"
+  },
+  {
+    "title": "Learning without training: The implicit dynamics of in-context learning",
+    "authors": "Anonymous",
+    "year": "2024"
+  },
+  {
+    "title": "Model-diff: A Tool for Comparative Study of Language Models in the Input Space",
+    "authors": "Anonymous",
+    "year": "2022"
+  },
+  {
+    "title": "Hypothesize and Verify: Natural-Language Explanations of Vision Model Errors",
+    "authors": "Gabriel Poesia and Kanishk Gandhi and Eric Zelikman and Noah",
+    "year": "2024"
+  },
+  {
+    "title": "Physics of Language Models: Part 1, Learning Hierarchical Language Structures",
+    "authors": "Jyh-Jing Hwang and Runsheng Xu and Hubert Lin and Wei-Chih H",
+    "year": "2025"
+  },
+  {
+    "title": "Persona-aware Generative Model for Code-mixed Language",
+    "authors": "Anonymous",
+    "year": "2025"
+  },
+  {
+    "title": "Data Models for Dataset Drift Controls in Machine Learning With Images",
+    "authors": "O{\\\\u{g",
+    "year": "2026"
+  },
+  {
+    "title": "EMMA: End-to-End Multimodal Model for Autonomous Driving",
+    "authors": "Michael S Matena and Colin Raffel",
+    "year": "2026"
+  },
+  {
+    "title": "Decentralized Projection-free Online Upper-Linearizable Optimization with Applications to DR-Submodular Optimization",
+    "authors": "Yiyang Lu and Mohammad Pedramfar and Vaneet Aggarwal",
+    "year": "2025"
+  },
+  {
+    "title": "Optimistic Optimization of Gaussian Process Samples",
+    "authors": "Julia Grosse and Cheng Zhang and Philipp Hennig",
+    "year": "2023"
+  },
+  {
+    "title": "Bayesian Optimization with Informative Covariance",
+    "authors": "Afonso Eduardo and Michael U. Gutmann",
+    "year": "2023"
+  },
+  {
+    "title": "Triple Preference Optimization: Achieving Better Alignment using a Single Step Optimization",
+    "authors": "Amir Saeidi and Shivanshu Verma and Kashif Rasul and Aswin R",
+    "year": "2025"
+  },
+  {
+    "title": "Are Convex Optimization Curves Convex?",
+    "authors": "Guy Barzilai and Ohad Shamir and Moslem Zamani",
+    "year": "2025"
+  },
+  {
+    "title": "Forge: Foundational Optimization Representations from Graph Embeddings",
+    "authors": "Zohair Shafi and Serdar Kadioglu",
+    "year": "2026"
+  },
+  {
+    "title": "Can Optimization Trajectories Explain Multi-Task Transfer?",
+    "authors": "David Mueller and Mark Dredze and Nicholas Andrews",
+    "year": "2025"
+  },
+  {
+    "title": "Understanding Curriculum Learning in Policy Optimization for Online Combinatorial Optimization",
+    "authors": "Runlong Zhou and Zelin He and Yuandong Tian and Yi Wu and Si",
+    "year": "2023"
+  },
+  {
+    "title": "Mini-Batch Optimization of Contrastive Loss",
+    "authors": "Jaewoong Cho and Kartik Sreenivasan and Keon Lee and Kyungho",
+    "year": "2024"
+  },
+  {
+    "title": "Contaminated Online Convex Optimization",
+    "authors": "Tomoya Kamijima and Shinji Ito",
+    "year": "2024"
+  },
+  {
+    "title": "Towards Optimization-Friendly Binary Neural Network",
+    "authors": "Nianhui Guo and Joseph Bethge and Hong Guo and Christoph Mei",
+    "year": "2023"
+  },
+  {
+    "title": "Byzantine-Robust and Hessian-Free Federated Bilevel Optimization",
+    "authors": "Xiwei Cheng and Xiangxin Zhou and Yuwei Yang and Yu Bao and ",
+    "year": "2025"
+  },
+  {
+    "title": "Decomposed Direct Preference Optimization for Structure-Based Drug Design",
+    "authors": "Franck Iutzeler and Adrien Mazoyer",
+    "year": "2025"
+  },
+  {
+    "title": "Risk-controlling Prediction with Distributionally Robust Optimization",
+    "authors": "Guillaume Perrin and rodolphe le riche",
+    "year": "2024"
+  },
+  {
+    "title": "Bayesian optimization with derivatives acceleration",
+    "authors": "Reyhane Askari Hemmat and Amartya Mitra and Guillaume Lajoie",
+    "year": "2023"
+  },
+  {
+    "title": "LEAD: Min-Max Optimization from a Physical Perspective",
+    "authors": "Lawrence K. Saul",
+    "year": "2023"
+  },
+  {
+    "title": "Dual Caption Preference Optimization for Diffusion Models",
+    "authors": "Paul Brunzema and Alexander von Rohr and Friedrich Solowjow ",
+    "year": "2025"
+  },
+  {
+    "title": "Frictionless Hamiltonian Descent with Discretization and Parallel Optimization",
+    "authors": "Soichiro Nishimori and Yu-Jie Zhang and Thanawat Lodkaew and",
+    "year": "2026"
+  },
+  {
+    "title": "Event-Triggered Time-Varying Bayesian Optimization",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "On Symmetric Losses for Policy Optimization with Noisy Preferences",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization",
+    "authors": "Daniel Cortild and Claire Delplancke and Nadia Oudjane and J",
+    "year": "2025"
+  },
+  {
+    "title": "Conditional Latent Space Molecular Scaffold Optimization for Accelerated Molecular Design",
+    "authors": "Ramnath Kumar and Kushal Alpesh Majmundar and Dheeraj Mysore",
+    "year": "2024"
+  },
+  {
+    "title": "Global Optimization Algorithm through High-Resolution Sampling",
+    "authors": "Pranay Sharma and Rohan Panda and Gauri Joshi",
+    "year": "2023"
+  },
+  {
+    "title": "Stochastic Re-weighted Gradient Descent via Distributionally Robust Optimization",
+    "authors": "Song Wang and Chris Tennant and Jundong Li",
+    "year": "2026"
+  },
+  {
+    "title": "Federated Minimax Optimization with Client Heterogeneity",
+    "authors": "Teodora Pandeva and Tim Bakker and Christian A. Naesseth and",
+    "year": "2024"
+  },
+  {
+    "title": "$$\\\\texttt{C2-DPO}$$: Constrained Controlled Direct Preference Optimization",
+    "authors": "Zhou Fan and Xinran Han and Zi Wang",
+    "year": "2024"
+  },
+  {
+    "title": "How Well Can Preference Optimization Generalize Under Noisy Feedback?",
+    "authors": "Jun Song and Niao He and Lijun Ding and Chaoyue Zhao",
+    "year": "2023"
+  },
+  {
+    "title": "Transfer Learning for Bayesian Optimization on Heterogeneous Search Spaces",
+    "authors": "Ibrahim Merad and St{\\\\'e",
+    "year": ""
+  },
+  {
+    "title": "Provably Convergent Policy Optimization via Metric-aware Trust Region Methods",
+    "authors": "Fusheng Liu and Haizhao Yang and Soufiane Hayou and Qianxiao",
+    "year": "2022"
+  },
+  {
+    "title": "Test-Time Adaptation for Unsupervised Combinatorial Optimization",
+    "authors": "Daniel Rho and Jun Myeong Choi and Biswadip Dey and Roni Sen",
+    "year": "2026"
+  },
+  {
+    "title": "Permutation Picture of Graph Combinatorial Optimization Problems",
+    "authors": "Can Chen and Christopher Beckham and Zixuan Liu and Xue Liu ",
+    "year": "2024"
+  },
+  {
+    "title": "Robust Stochastic Optimization via Gradient Quantile Clipping",
+    "authors": "Pedro Cisneros-Velarde and Zhijie Chen and Sanmi Koyejo and ",
+    "year": "2025"
+  },
+  {
+    "title": "From Optimization Dynamics to Generalization Bounds via Łojasiewicz Gradient Inequality",
+    "authors": "Filip Hanzely and Boxin Zhao and mladen kolar",
+    "year": "2023"
+  },
+  {
+    "title": "ProJo4D: Progressive Joint Optimization for Sparse-View Inverse Physics Estimation",
+    "authors": "Han Meng and Xinsong Feng and Yang Li and Chenan Wang and Ki",
+    "year": "2026"
+  },
+  {
+    "title": "Robust Guided Diffusion for Offline Black-Box Optimization",
+    "authors": "Saiteja Utpala and Andi Han and Pratik Jawanpuria and Bamdev",
+    "year": "2023"
+  },
+  {
+    "title": "Optimization and Generalization Guarantees for Weight Normalization",
+    "authors": "Andrew Lowy and Sina Baharlouei and Rakesh Pavan and Meisam ",
+    "year": "2022"
+  },
+  {
+    "title": "Personalized Federated Learning: A Unified Framework and Universal Optimization Techniques",
+    "authors": "Tianyi Alex Qiu and Ahmed Ismail and Zhonghao He and Shi Fen",
+    "year": "2026"
+  },
+  {
+    "title": "Solving Constrained Optimization Problems as ODE-based Models Using Reinforcement Learning",
+    "authors": "Yuan Gao and Yuki Takezawa and Sebastian U Stich",
+    "year": "2025"
+  },
+  {
+    "title": "Improved Differentially Private Riemannian Optimization: Fast Sampling and Variance Reduction",
+    "authors": "Otmane Sakhi and David Rohde and Nicolas Chopin",
+    "year": "2023"
+  },
+  {
+    "title": "A Stochastic Optimization Framework for Fair Risk Minimization",
+    "authors": "Shivi Dixit and Rishabh Gupta and Qi Zhang",
+    "year": "2025"
+  },
+  {
+    "title": "Self-Improvement as Coherence Optimization: A Theoretical Account",
+    "authors": "Kefan Su and Zongqing Lu",
+    "year": "2024"
+  },
+  {
+    "title": "A Bias Correction Mechanism for Distributed Asynchronous Optimization",
+    "authors": "Samuel Kim and Peter Y Lu and Charlotte Loh and Jamie Smith ",
+    "year": "2022"
+  },
+  {
+    "title": "Fast Slate Policy Optimization: Going Beyond Plackett-Luce",
+    "authors": "Amin Heyrani Nobari and Lyle Regenwetter and Giorgio Giannon",
+    "year": "2025"
+  },
+  {
+    "title": "A Fully Decentralized Surrogate for Multi-Agent Policy Optimization",
+    "authors": "ChangHao Li and Yuchen Zhuang and Chenxiao Gao and Haotian S",
+    "year": "2026"
+  },
+  {
+    "title": "Deep Learning for Bayesian Optimization of Scientific Problems with High-Dimensional Structure",
+    "authors": "Minsu Kim and Jiayao Gu and Ye Yuan and Taeyoung Yun and Zix",
+    "year": "2026"
+  },
+  {
+    "title": "NITO: Neural Implicit Fields for Resolution-free and Domain-Adaptable Topology Optimization",
+    "authors": "Syrine Belakaria and Alaleh Ahmadian and Barbara E Engelhard",
+    "year": "2025"
+  },
+  {
+    "title": "Non-Myopic Multi-Objective Bayesian Optimization",
+    "authors": "Yijia Wang and Matthias Poloczek and Daniel R. Jiang",
+    "year": "2023"
+  },
+  {
+    "title": "CF-HPO: Counterfactual Explanations for Hyperparameter Optimization",
+    "authors": "Peijia Qin and Ruiyi Zhang and Pengtao Xie",
+    "year": "2025"
+  },
+  {
+    "title": "NgIohTuned: a Highly Reproducible Black-box Optimization Wizard",
+    "authors": "Wenjie Li and Chi-Hua Wang and Guang Cheng and Qifan Song",
+    "year": "2023"
+  },
+  {
+    "title": "An Axiomatic Atlas for Optimization",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Optimum-statistical Collaboration Towards General and Efficient Black-box Optimization",
+    "authors": "Arsalan Sharifnassab and Saber Salehkaleybar and Dale Schuur",
+    "year": "2026"
+  },
+  {
+    "title": "Using Large Language Models for Hyperparameter Optimization",
+    "authors": "Ameesh Shah and Cameron Voloshin and Chenxi Yang and Abhinav",
+    "year": "2025"
+  },
+  {
+    "title": "Soft Preference Optimization: Aligning Language Models to Expert Distributions",
+    "authors": "Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zhang and Fe",
+    "year": "2025"
+  },
+  {
+    "title": "LTL-Constrained Policy Optimization with Cycle Experience Replay",
+    "authors": "Sinong Geng and Houssam Nassif and Zhaobin Kuang and Anders ",
+    "year": "2025"
+  },
+  {
+    "title": "High-dimensional Bayesian Optimization via Condensing-Expansion Projection",
+    "authors": "Ye Yuan and Youyuan Zhang and Can Chen and Haolun Wu and Mel",
+    "year": "2025"
+  },
+  {
+    "title": "Consideration for TMLR-to-ICLR",
+    "authors": "Raul Astudillo and Kejun Li and Maegan Tucker and Chu Xin Ch",
+    "year": "2025"
+  },
+  {
+    "title": "Factor Learning Portfolio Optimization Informed by Continuous-Time Finance Models",
+    "authors": "Mohit Rajpal and Lac Gia Tran and Yehong Zhang and Bryan Kia",
+    "year": "2024"
+  },
+  {
+    "title": "Design Editing for Offline Model-based Optimization",
+    "authors": "Adriano Fazzone and Yanhao Wang and Francesco Bonchi",
+    "year": "2024"
+  },
+  {
+    "title": "Preferential Multi-Objective Bayesian Optimization",
+    "authors": "El Mahdi Chayti and Sai Praneeth Karimireddy",
+    "year": "2024"
+  },
+  {
+    "title": "Understanding Fairness Surrogate Functions in Algorithmic Fairness",
+    "authors": "Wei Yao and Zhanke Zhou and Zhicong Li and Bo Han and Yong L",
+    "year": "2024"
+  },
+  {
+    "title": "Review Operationalizing Fairness in Text-to-Image Models",
+    "authors": "Zhiqun Zuo and Tian Xie and Xuwei Tan and Xueru Zhang and Mo",
+    "year": "2024"
+  },
+  {
+    "title": "Lookahead Counterfactual Fairness",
+    "authors": "Haotao Wang and Junyuan Hong and Jiayu Zhou and Zhangyang Wa",
+    "year": "2023"
+  },
+  {
+    "title": "How Robust is Your Fairness? Evaluating and Sustaining Fairness under Unseen Distribution Shifts",
+    "authors": "Kunwoong Kim and Insung Kong and Jongjin Lee and Minwoo Chae",
+    "year": "2025"
+  },
+  {
+    "title": "Fairness Through Matching",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "On the Connection Between Counterfactual Fairness, Statistical Parity and Individual Fairness",
+    "authors": "Emmanouil Kariotakis and Nicholas D Sidiropoulos and Aritra ",
+    "year": "2025"
+  },
+  {
+    "title": "Fairness-Aware Dense Subgraph Discovery",
+    "authors": "Andrea Baraldi and Matteo Brucato and Miroslav Dud{\\\\'\\\\i",
+    "year": "2026"
+  },
+  {
+    "title": "Speeding up fairness reductions",
+    "authors": "Harsh Satija and Alessandro Lazaric and Matteo Pirotta and J",
+    "year": "2023"
+  },
+  {
+    "title": "FairGrad: Fairness Aware Gradient Descent",
+    "authors": "Guojun Zhang and Saber Malekmohammadi and Xi Chen and Yaolia",
+    "year": "2023"
+  },
+  {
+    "title": "Harmonizing Gradient Matching For Fairness",
+    "authors": "Daisuke Hatano and Satoshi Hara and Hiromi Arai",
+    "year": "2025"
+  },
+  {
+    "title": "Path-Specific Counterfactual Fairness via Dividend Correction",
+    "authors": "Maggie Makar and Alexander D'Amour",
+    "year": "2023"
+  },
+  {
+    "title": "Fairness and robustness in anti-causal prediction",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "A Survey on Fairness Without Demographics",
+    "authors": "Ganghua Wang and Ali Payani and Myungjin Lee and Ramana Rao ",
+    "year": "2024"
+  },
+  {
+    "title": "Adversarial Fairness with Elastic Weight Consolidation",
+    "authors": "Boyang Zhang and Quanqi Hu and Mingxuan Sun and Qihang Lin a",
+    "year": "2025"
+  },
+  {
+    "title": "Learning to Rank with Top-$K$ Fairness",
+    "authors": "Nikita Malik and Konda Reddy Mopuri",
+    "year": "2025"
+  },
+  {
+    "title": "FaAlGrad: Fairness through Alignment of Gradients across Different Subpopulations",
+    "authors": "Anuj Kumar Sirohi and Anjali Gupta and Sandeep Kumar and Ami",
+    "year": "2026"
+  },
+  {
+    "title": "GraphGini: Fostering Individual and Group Fairness in Graph Neural Networks",
+    "authors": "Inbal Rachel Livni Navon and Omer Reingold and Judy Hanwen S",
+    "year": "2025"
+  },
+  {
+    "title": "Fairness with respect to Stereotype Predictors: Impossibilities and Best Practices",
+    "authors": "Sander Honig and Elyanne Oey and Lisanne Wallaard and Sharan",
+    "year": "2025"
+  },
+  {
+    "title": "A reproducibility study of “User-item fairness tradeoffs in recommendations”",
+    "authors": "Aida Mohammadshahi and Yani Ioannou",
+    "year": "2025"
+  },
+  {
+    "title": "What’s Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias",
+    "authors": "Ruben Figge and Sjoerd Gunneweg and Aaron Kuin and Mees Lind",
+    "year": "2025"
+  },
+  {
+    "title": "Reassessing Fairness: A Reproducibility Study of NIFA’s Impact on GNN Models",
+    "authors": "Gang Li and Qihang Lin and Ayush Ghosh and Tianbao Yang",
+    "year": "2025"
+  },
+  {
+    "title": "Multi-Output Distributional Fairness  via Post-Processing",
+    "authors": "Domonkos Nagy and Lohithsai Yadala Chanchu and Krystof Bobek",
+    "year": "2025"
+  },
+  {
+    "title": "Remembering to Be Fair Again: Reproducing Non-Markovian Fairness in Sequential Decision Making",
+    "authors": "Wenjing Chang and Kay Liu and Philip S. Yu and Jianjun Yu",
+    "year": "2025"
+  },
+  {
+    "title": "Enhancing Fairness in Unsupervised Graph Anomaly Detection through Disentanglement",
+    "authors": "Valentijn Oldenburg and Floris de Kam and Stef de Wildt and ",
+    "year": "2026"
+  },
+  {
+    "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
+    "authors": "Yixin Wang and Dhanya Sridhar and David Blei",
+    "year": "2023"
+  },
+  {
+    "title": "Adjusting Machine Learning Decisions for Equal Opportunity and Counterfactual Fairness",
+    "authors": "Sayantan Das and Mojtaba Kolahdouzi and Ali Etemad",
+    "year": "2025"
+  },
+  {
+    "title": "Kernel Space Conditional Distribution Alignment for Improving Group Fairness in Deepfake Detection",
+    "authors": "Quan Zhou and Jakub Marecek and Robert Noel Shorten",
+    "year": "2026"
+  },
+  {
+    "title": "Online Learning with Multiple Fairness Regularizers via Graph-Structured Feedback",
+    "authors": "Usman Gohar and Zeyu Tang and Jialu Wang and Kun Zhang and P",
+    "year": "2025"
+  },
+  {
+    "title": "Long-Term Fairness Without Utility Deterioration",
+    "authors": "Oscar Mir{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Reproducing FACTER: Fairness via Conformal Thresholding and Prompt Repair",
+    "authors": "Hongyi Ling and Zhimeng Jiang and Na Zou and Shuiwang Ji",
+    "year": "2025"
+  },
+  {
+    "title": "Counterfactual Fairness on Graphs: Augmentations, Hidden Confounders, and Identifiability",
+    "authors": "Jack Blandin and Ian A. Kash",
+    "year": "2024"
+  },
+  {
+    "title": "Individual Fairness as an Extension of Group Fairness",
+    "authors": "Yuji Roh and Weili Nie and De-An Huang and Steven Euijong Wh",
+    "year": "2023"
+  },
+  {
+    "title": "Dr-Fairness: Dynamic Data Ratio Adjustment for Fair Training on Real and Generated Data",
+    "authors": "Berkay Chakar and Amina Izbassar and Mina Jani{\\\\'c",
+    "year": "2024"
+  },
+  {
+    "title": "[Re] Reproducibility Study of Equal Improvability Fairness Notion",
+    "authors": "Camila Kolling and Till Speicher and Vedant Nanda and Mariya",
+    "year": "2025"
+  },
+  {
+    "title": "Pragmatic Fairness: Developing Policies with Outcome Disparity Control",
+    "authors": "Akshaj Kumar Veldanda and Ivan Brugere and Jiahao Chen and S",
+    "year": "2023"
+  },
+  {
+    "title": "Fairness via In-Processing in the Over-parameterized Regime: A Cautionary Tale with MinDiff Loss",
+    "authors": "Ahmad Reza Ehyaei and Golnoosh Farnadi and Samira Samadi",
+    "year": "2025"
+  },
+  {
+    "title": "Preserving Fairness in AI under Domain Shift",
+    "authors": "Iason Skylitsis and Zheng Feng and Idries Nasim and Camille ",
+    "year": "2024"
+  },
+  {
+    "title": "Reproducibility Study of \\",
+    "authors": "Junhyun Nam and Sangwoo Mo and Jaeho Lee and Jinwoo Shin",
+    "year": "2023"
+  },
+  {
+    "title": "[RE] Are Your Models Still Fair? Fairness Attacks on Graph Neural Networks via Node Injections",
+    "authors": "Wes Camp",
+    "year": "2025"
+  },
+  {
+    "title": "Bias-inducing geometries: an exactly solvable data model with fairness implications",
+    "authors": "Sihan Zeng and Sujay Bhatt and Alec Koppel and Sumitra Ganes",
+    "year": "2024"
+  },
+  {
+    "title": "Principle Counterfactual Fairness",
+    "authors": "Nurbek Tastan and Samuel Horv{\\\\'a",
+    "year": "2025"
+  },
+  {
+    "title": "When Do Causal Fairness Constraints Work? Reproducing and Stress-Testing Long-Term Fair Reinforcement Learning",
+    "authors": "Lucas Ponticelli and Vincent Loos and Eren Kocadag and Kacpe",
+    "year": "2024"
+  },
+  {
+    "title": "Smoothed Robustness Analysis: Bridging worst- and average-case robustness analyses via smoothed analysis",
+    "authors": "Rulin Shao and Zhouxing Shi and Jinfeng Yi and Pin-Yu Chen a",
+    "year": "2022"
+  },
+  {
+    "title": "On the Adversarial Robustness of Vision Transformers",
+    "authors": "Kumail Alhamoud and Hasan Abed Al Kader Hammoud and Motasem ",
+    "year": "2023"
+  },
+  {
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Adversarial Robustness of Graph Transformers",
+    "authors": "Enyi Jiang and David Shu Cheung and Gagandeep Singh",
+    "year": "2026"
+  },
+  {
+    "title": "Towards Generalized Certified Robustness with Multi-Norm Training",
+    "authors": "Jo{\\\\~a",
+    "year": ""
+  },
+  {
+    "title": "Rethinking Robustness in Machine Learning: A Posterior Agreement Approach",
+    "authors": "Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bui and Phuo",
+    "year": "2026"
+  },
+  {
+    "title": "Improving LLM Unlearning Robustness via Random Perturbations",
+    "authors": "Zhangheng LI and Tianlong Chen and Linyi Li and Bo Li and Zh",
+    "year": "2023"
+  },
+  {
+    "title": "Can Pruning Improve Certified Robustness of Neural Networks?",
+    "authors": "Oscar Chang and Otavio Braga and Hank Liao and Dmitriy Serdy",
+    "year": "2022"
+  },
+  {
+    "title": "Robustness Evaluation Using Local Substitute Networks",
+    "authors": "Alessandro De Palma and Serge Durand and Zakaria Chihani and",
+    "year": "2025"
+  },
+  {
+    "title": "On Using Certified Training towards Empirical Robustness",
+    "authors": "Maggie Makar and Alexander D'Amour",
+    "year": "2023"
+  },
+  {
+    "title": "Some Robustness Properties of Label Cleaning",
+    "authors": "Sisuo Lyu and Hong Liu and Jie Li and Yan Teng and Yingchun ",
+    "year": "2026"
+  },
+  {
+    "title": "Understanding Matrix Function Normalizations in Covariance Pooling through the Lens of Riemannian Geometry",
+    "authors": "Shaoyuan Xie and Zichao Li and Zeyu Wang and Cihang Xie",
+    "year": "2024"
+  },
+  {
+    "title": "On the Adversarial Robustness of Camera-based 3D Object Detection",
+    "authors": "Anders Johan Andreassen and Yasaman Bahri and Behnam Neyshab",
+    "year": "2022"
+  },
+  {
+    "title": "The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Assessing Robustness via Score-Based Adversarial Image Generation",
+    "authors": "Caio de Pr{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Standard-Deviation-Inspired Regularization for Improving Adversarial Robustness",
+    "authors": "Jiapeng Wu and Atiyeh Ashari Ghomi and David Glukhov and Jes",
+    "year": "2024"
+  },
+  {
+    "title": "Augment then Smooth: Reconciling Differential Privacy with Certified Robustness",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "SURE-VQA: Systematic Understanding of Robustness Evaluation in Medical VQA Tasks",
+    "authors": "Kyle O'Brien and Nathan Hoyen Ng and Isha Puri and Jorge Men",
+    "year": "2024"
+  },
+  {
+    "title": "Evaluation Pitfalls in Data Augmentation for Adversarial Robustness",
+    "authors": "Pratik Vaishnavi and Kevin Eykholt and Amir Rahmati",
+    "year": "2024"
+  },
+  {
+    "title": "A Study of the Effects of Transfer Learning on Adversarial Robustness",
+    "authors": "Ambar Pal and Rene Vidal and Jeremias Sulam",
+    "year": "2024"
+  },
+  {
+    "title": "Estimating the Adoption of Software Engineering Best Practices in Machine Learning Research",
+    "authors": "Roisin Luo and James McDermott and Colm O'Riordan",
+    "year": "2024"
+  },
+  {
+    "title": "Interpreting Global Perturbation Robustness of Image Models using Axiomatic Spectral Importance Decomposition",
+    "authors": "Amitangshu Mukherjee and Timur Ibrayev and Kaushik Roy",
+    "year": "2025"
+  },
+  {
+    "title": "On Inherent Adversarial Robustness of Active Vision Systems",
+    "authors": "Jingtong Su and Ya Shi Zhang and Nikolaos Tsilivis and Julia",
+    "year": "2024"
+  },
+  {
+    "title": "Real-world-robustness of tree-based classifiers",
+    "authors": "Tianjian Huang and Shaunak Ashish Halbe and Chinnadhurai San",
+    "year": "2023"
+  },
+  {
+    "title": "Investigations on Modularity and Invariance for Compositional Robustness",
+    "authors": "Yatong Bai and Mo Zhou and Vishal M. Patel and Somayeh Sojou",
+    "year": "2024"
+  },
+  {
+    "title": "MixedNUTS: Training-Free Accuracy-Robustness Balance via Nonlinearly Mixed Classifiers",
+    "authors": "Jovita Lukasik and Paul Gavrikov and Janis Keuper and Margre",
+    "year": "2023"
+  },
+  {
+    "title": "Improving Native CNN Robustness with Filter Frequency Regularization",
+    "authors": "Martha Lewis and Melanie Mitchell",
+    "year": "2025"
+  },
+  {
+    "title": "Evaluating the Robustness of Analogical Reasoning in Large Language Models",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Do Object Channels Improve Robustness in Deep Reinforcement Learning?",
+    "authors": "Suhyeok Jang and Seojin Kim and Jinwoo Shin and Jongheon Jeo",
+    "year": "2024"
+  },
+  {
+    "title": "Confidence-aware Denoised Fine-tuning of Off-the-shelf Models for Certified Robustness",
+    "authors": "Tal Alter and Raz Lapid and Moshe Sipper",
+    "year": "2025"
+  },
+  {
+    "title": "Understanding the robustness difference between stochastic gradient descent and adaptive gradient methods",
+    "authors": "Yaowen Wang and Daniel Cullina",
+    "year": "2026"
+  },
+  {
+    "title": "When does knowledge distillation improve robustness?",
+    "authors": "Jonathan Crabb{\\\\'e",
+    "year": "2024"
+  },
+  {
+    "title": "Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts",
+    "authors": "Yunzhen Feng and Tim G. J. Rudner and Nikolaos Tsilivis and ",
+    "year": "2024"
+  },
+  {
+    "title": "Towards Bridging the gap between Empirical and Certified Robustness against Adversarial Examples",
+    "authors": "Aradhana Sinha and Ananth Balashankar and Ahmad Beirami and ",
+    "year": "2024"
+  },
+  {
+    "title": "Large Pretraining Datasets Don't Guarantee Robustness after Fine-Tuning",
+    "authors": "PANKAJ KUMAR and Subhankar Mishra",
+    "year": "2025"
+  },
+  {
+    "title": "Robustness in Large Language Models: A Survey of Mitigation Strategies and Evaluation Metrics",
+    "authors": "Keliang Li and Hong Chang and Shiguang Shan and Xilin CHEN",
+    "year": "2024"
+  },
+  {
+    "title": "Improving Robustness and Diversity with Adversarial Contrastive Network Ensembles",
+    "authors": "Abhay Sheshadri and Aidan Ewart and Phillip Huang Guo and Ae",
+    "year": "2025"
+  },
+  {
+    "title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "authors": "Samuel Pfrommer and Brendon G. Anderson and Somayeh Sojoudi",
+    "year": "2023"
+  },
+  {
+    "title": "SafeGenes: Evaluating the Adversarial Robustness of Genomic Foundation Models",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "Intrinsic Biologically-Plausible Adversarial Robustness",
+    "authors": "Yu Inatsu",
+    "year": "2025"
+  },
+  {
+    "title": "Bayesian Optimization of Robustness Measures under Input Uncertainty: A Randomized Gaussian Process Upper Confidence Bound Approach",
+    "authors": "Bhavya Vasudeva and Kameron Shahabi and Vatsal Sharan",
+    "year": "2024"
+  },
+  {
+    "title": "On 3D Reconstruction Pre-training to Improve Adversarial Robustness",
+    "authors": "Hamza Mooraj and Georgios Pantazopoulos and Alessandro Sugli",
+    "year": "2026"
+  },
+  {
+    "title": "Is Smoothness the Key to Robustness? A Comparison of Attention and Convolution Models Using a Novel Metric",
+    "authors": "Anushiya Arunan and Xin Li and Yan Qin and U-Xuan Tan and VU",
+    "year": "2026"
+  },
+  {
+    "title": "Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency",
+    "authors": "Zachary Coalson and Huazheng Wang and Qingyun Wu and Sanghyu",
+    "year": "2025"
+  },
+  {
+    "title": "RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language Models for Deployable Anomaly Detection Assistants",
+    "authors": "Lawrence K. Saul",
+    "year": "2023"
+  },
+  {
+    "title": "Improving OOD Robustness via Background-Aware Test- Time-AugmentationinBlack-BoxandResourceConstrained Settings",
+    "authors": "Philip Sosnin and Mark Niklas Mueller and Maximilian Baader ",
+    "year": "2025"
+  },
+  {
+    "title": "DRO-Augment Framework: Robustness by Synergizing Wasserstein Distributionally Robust Optimization and Data Augmentation",
+    "authors": "Song Wang and Chris Tennant and Jundong Li",
+    "year": "2026"
+  },
+  {
+    "title": "Non-ergodicity in reinforcement learning: robustness via ergodicity transformations",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Certified Robustness to Data Poisoning in Gradient-Based Training",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "Assessing biomedical knowledge robustness in large language models by query-efficient sampling attacks",
+    "authors": "Fatemeh Ghofrani and Mehdi Yaghouti and Pooyan Jamshidi",
+    "year": "2025"
+  },
+  {
+    "title": "Non-backtracking Graph Neural Networks",
+    "authors": "Seonghyun Park and Narae Ryu and Gahee Kim and Dongyeop Woo ",
+    "year": "2024"
+  },
+  {
+    "title": "Genetic-Evolutionary Graph Neural Networks: A Paradigm for Improved Graph Representation Learning",
+    "authors": "Haimin ZHANG and Min Xu",
+    "year": "2025"
+  },
+  {
+    "title": "Expressive Pooling for Graph Neural Networks",
+    "authors": "Veronica Lachi and Alice Moallemy-Oureh and Andreas Roth and",
+    "year": "2025"
+  },
+  {
+    "title": "Piecewise Constant Spectral Graph Neural Network",
+    "authors": "Vahan Martirosyan and Jhony H. Giraldo and Fragkiskos D. Mal",
+    "year": "2025"
+  },
+  {
+    "title": "Flow-Attentional Graph Neural Networks",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Gradient Inversion Attack on Graph Neural Networks",
+    "authors": "Divya Anand Sinha and Yezi Liu and Ruijie Du and Athina Mark",
+    "year": "2025"
+  },
+  {
+    "title": "Towards Accurate Subgraph Similarity Computation via Neural Graph Pruning",
+    "authors": "Linfeng Liu and XU HAN and Dawei Zhou and Liping Liu",
+    "year": "2022"
+  },
+  {
+    "title": "Multi-conditioned Graph Diffusion for Neural Architecture Search",
+    "authors": "Rohan Asthana and Joschua Conrad and Youssef Dawoud and Maur",
+    "year": "2024"
+  },
+  {
+    "title": "GraphPNAS: Learning Probabilistic Graph Generators for Neural Architecture Search",
+    "authors": "Muchen Li and Jeffrey Yunfan Liu and Leonid Sigal and Renjie",
+    "year": "2023"
+  },
+  {
+    "title": "Sparse Decomposition of Graph Neural Networks",
+    "authors": "Yaochen Hu and Mai Zeng and Ge Zhang and Pavel Rumiantsev an",
+    "year": "2025"
+  },
+  {
+    "title": "E(n)-equivariant Graph Neural Cellular Automata",
+    "authors": "Gennaro Gala and Daniele Grattarola and Erik Quaeghebeur",
+    "year": "2024"
+  },
+  {
+    "title": "DrGNN: Deep Residual Graph Neural Network with Contrastive Learning",
+    "authors": "Lecheng Zheng and Dongqi Fu and Ross Maciejewski and Jingrui",
+    "year": "2024"
+  },
+  {
+    "title": "Attentive Walk-Aggregating Graph Neural Networks",
+    "authors": "Mehmet F Demirel and Shengchao Liu and Siddhant Garg and Zhe",
+    "year": "2022"
+  },
+  {
+    "title": "Faithful Interpretation for Graph Neural Networks",
+    "authors": "Lijie Hu and Tianhao Huang and Lu Yu and Wanyu Lin and Tianh",
+    "year": "2025"
+  },
+  {
+    "title": "Addressing caveats of neural persistence with deep graph persistence",
+    "authors": "Leander Girrbach and Anders Christensen and Ole Winther and ",
+    "year": "2023"
+  },
+  {
+    "title": "Graph Neural Networks Designed for Different Graph Types: A Survey",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Positional Encoder Graph Quantile Neural Networks for Geographic Data",
+    "authors": "William E. R. de Amorim and Scott A Sisson and Thais Carvalh",
+    "year": "2025"
+  },
+  {
+    "title": "Uncertainty in Graph Neural Networks: A Survey",
+    "authors": "Fangxin Wang and Yuqing Liu and Kay Liu and Yibo Wang and So",
+    "year": "2024"
+  },
+  {
+    "title": "Learning to Rank Features to Enhance Graph Neural Networks for Graph Classification",
+    "authors": "Fouad Alkhoury and Tamas Horvath and Christian Bauckhage and",
+    "year": "2025"
+  },
+  {
+    "title": "GENIE: Watermarking Graph Neural Networks for Link Prediction",
+    "authors": "Venkata Sai Pranav Bachina and Aaryan Ajay Sharma and Charu ",
+    "year": "2026"
+  },
+  {
+    "title": "Evaluating explainability techniques on discrete-time graph neural networks",
+    "authors": "Manuel Dileo and Matteo Zignani and Sabrina Tiziana Gaito",
+    "year": "2025"
+  },
+  {
+    "title": "Post-Training Neural Network Pruning using Graph Curvature",
+    "authors": "Shuhang Tan and Jayson Sia and Paul Bogdan and Radoslav Ivan",
+    "year": "2026"
+  },
+  {
+    "title": "Solving the Tree Containment Problem Using Graph Neural Networks",
+    "authors": "Arkadiy Dushatskiy and Esther Julien and Leen Stougie and Le",
+    "year": "2024"
+  },
+  {
+    "title": "Graph Neural Networks Formed via Layer-wise Ensembles of Heterogeneous Base Models",
+    "authors": "Jiuhai Chen and Jonas Mueller and Vassilis N. Ioannidis and ",
+    "year": "2024"
+  },
+  {
+    "title": "Personalized Layer Selection for Graph Neural Networks",
+    "authors": "Kartik Sharma and Vineeth Rakesh and Yingtong Dou and Srijan",
+    "year": "2025"
+  },
+  {
+    "title": "Partition-Based Active Learning for Graph Neural Networks",
+    "authors": "Jiaqi Ma and Ziqiao Ma and Joyce Chai and Qiaozhu Mei",
+    "year": "2023"
+  },
+  {
+    "title": "GraphPrivatizer: Improved Structural Differential Privacy for Graph Neural Networks",
+    "authors": "Rucha Bhalchandra Joshi and Patrick Indri and Subhankar Mish",
+    "year": "2024"
+  },
+  {
+    "title": "Stochastic Block Model-Aware Topological Neural Networks for Graph Link Prediction",
+    "authors": "Yuzhou Chen and Xiao Guo and Shujie Ma",
+    "year": "2025"
+  },
+  {
+    "title": "From Continuous Dynamics to Graph Neural Networks: Neural Diffusion and Beyond",
+    "authors": "Andi Han and Dai Shi and Lequan Lin and Junbin Gao",
+    "year": "2024"
+  },
+  {
+    "title": "Node-Specific Space Selection via Localized Geometric Hyperbolicity in Graph Neural Networks",
+    "authors": "See Hian Lee and Feng Ji and Wee Peng Tay",
+    "year": "2024"
+  },
+  {
+    "title": "On Time Series Clustering with Graph Neural Networks",
+    "authors": "Jonas Berg Hansen and Andrea Cini and Filippo Maria Bianchi",
+    "year": "2025"
+  },
+  {
+    "title": "Releasing Graph Neural Networks with Differential Privacy Guarantees",
+    "authors": "Iyiola Emmanuel Olatunji and Thorben Funke and Megha Khosla",
+    "year": "2023"
+  },
+  {
+    "title": "Rewiring with Positional Encodings for Graph Neural Networks",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Signed Graph Neural Networks: A Frequency Perspective",
+    "authors": "Rahul Singh and Yongxin Chen",
+    "year": "2023"
+  },
+  {
+    "title": "Towards Efficient Training of Graph Neural Networks: A Multiscale Approach",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Learning Federated Neural Graph Databases for Answering Complex Queries from Distributed Knowledge Graphs",
+    "authors": "Qi Hu and Weifeng Jiang and Haoran Li and Zihao Wang and Jia",
+    "year": "2025"
+  },
+  {
+    "title": "Layer-diverse Negative Sampling for Graph Neural Networks",
+    "authors": "Wei Duan and Jie Lu and Yu Guang Wang and Junyu Xuan",
+    "year": "2024"
+  },
+  {
+    "title": "Training-free Graph Neural Networks and the Power of Labels as Features",
+    "authors": "Ryoma Sato",
+    "year": "2024"
+  },
+  {
+    "title": "Graph-based Multi-ODE Neural Networks for Spatio-Temporal Traffic Forecasting",
+    "authors": "Zibo Liu and Parshin Shojaee and Chandan K. Reddy",
+    "year": "2023"
+  },
+  {
+    "title": "Bayesian Neighborhood Adaptation for Graph Neural Networks",
+    "authors": "Paribesh Regmi and Rui Li and Kishan K C",
+    "year": "2025"
+  },
+  {
+    "title": "Training Graph Neural Networks Subject to a Tight Lipschitz Constraint",
+    "authors": "Simona Ioana Juvina and Ana Antonia Neacșu and J{\\\\'e",
+    "year": "2024"
+  },
+  {
+    "title": "InduCE: Inductive Counterfactual Explanations for Graph Neural Networks",
+    "authors": "Samidha Verma and Burouj Armgaan and Sourav Medya and Sayan ",
+    "year": "2024"
+  },
+  {
+    "title": "Cooperative Minibatching in Graph Neural Networks",
+    "authors": "Muhammed Fatih Balin and Dominique LaSalle and Umit Catalyur",
+    "year": "2025"
+  },
+  {
+    "title": "Analysis of Convolutions, Non-linearity and Depth in Graph Neural Networks using Neural Tangent Kernel",
+    "authors": "Mahalakshmi Sabanayagam and Pascal Esser and Debarghya Ghosh",
+    "year": "2023"
+  },
+  {
+    "title": "Explainable Error Detection in Integrated Circuits Image Segmentation via Graph Neural Networks",
+    "authors": "MA XIAOYU and Jingyang Dai and Feng Ji and Deruo Cheng and Y",
+    "year": "2026"
+  },
+  {
+    "title": "Provable Robustness of (Graph) Neural Networks Against Data Poisoning and Backdoor Attacks",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Graph Structure Learning with Interpretable Bayesian Neural Networks",
+    "authors": "Max Wasserman and Gonzalo Mateos",
+    "year": "2024"
+  },
+  {
+    "title": "Graph Fourier Neural ODEs: Modeling Spatial-temporal Multi-scales in Molecular Dynamics",
+    "authors": "Fang Sun and Zijie Huang and Haixin Wang and Huacong Tang an",
+    "year": "2025"
+  },
+  {
+    "title": "Flexible Infinite-Width Graph Convolutional Neural Networks",
+    "authors": "Ben Anson and Edward Milsom and Laurence Aitchison",
+    "year": "2025"
+  },
+  {
+    "title": "Proper Orthogonal Decomposition for Scalable Training of Graph Neural Networks",
+    "authors": "Abhishek A and Manohar Kaul and Mohit Meena and Mahesh Chand",
+    "year": "2026"
+  },
+  {
+    "title": "Dynamic Neural Graph Encoding of Inference Processes in Deep Weight Space",
+    "authors": "Di Wu and Huan Liu and Zhixiang Chi and YUANHAO YU and Konst",
+    "year": "2026"
+  },
+  {
+    "title": "Tackling Provably Hard Representative Selection via Graph Neural Networks",
+    "authors": "Mehran Kazemi and Anton Tsitsulin and Hossein Esfandiari and",
+    "year": "2023"
+  },
+  {
+    "title": "Enhancing Remaining Useful Life Prediction with Ensemble Multi-Term Fourier Graph Neural Networks",
+    "authors": "Ya Song and Laurens Bliek and Yaoxin Wu and Yingqian Zhang",
+    "year": "2025"
+  },
+  {
+    "title": "Grothendieck Graph Neural Networks Framework: An Algebraic Platform for Crafting Topology-Aware GNNs",
+    "authors": "Amirreza Shiralinasab Langari and Leila Yeganeh and Kim Khoa",
+    "year": "2026"
+  },
+  {
+    "title": "Federated Spectral Graph Transformers Meet Neural Ordinary Differential Equations for Non-IID Graphs",
+    "authors": "Kishan Gurumurthy and Himanshu Pal and Charu Sharma",
+    "year": "2025"
+  },
+  {
+    "title": "Graph Potential Field  Neural Network for  Massive Agents Group-wise  Path Planning",
+    "authors": "Yueming Lyu and Xiaowei Zhou and Xingrui Yu and Ivor Tsang",
+    "year": "2025"
+  },
+  {
+    "title": "Towards Better Generalization with Flexible Representation of Multi-Module Graph Neural Networks",
+    "authors": "HyunGeun Lee and Kijung Yoon",
+    "year": "2023"
+  },
+  {
+    "title": "Explaining Graph Neural Networks for Node Similarity on Graphs",
+    "authors": "Daniel Daza and Cuong Xuan Chu and Trung-Kien Tran and Daria",
+    "year": "2026"
+  },
+  {
+    "title": "Attending to Graph Transformers",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "MaxCutBench: Revisiting and Benchmarking Graph Neural Networks for Maximum Cut",
+    "authors": "Ankur Nath and Alan Kuhnle",
+    "year": "2025"
+  },
+  {
+    "title": "[Re] GNNInterpreter: A probabilistic generative model-level explanation for Graph Neural Networks",
+    "authors": "Ana Vasilcoiu and T.H.F. Stessen and Thies Kersten and Batu ",
+    "year": "2024"
+  },
+  {
+    "title": "Enabling Automatic Differentiation with Mollified Graph Neural Operators",
+    "authors": "Ryan Y. Lin and Julius Berner and Valentin Duruisseaux and D",
+    "year": "2025"
+  },
+  {
+    "title": "Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges, and Opportunities",
+    "authors": "Antonio Longa and Veronica Lachi and Gabriele Santin and Mon",
+    "year": "2023"
+  },
+  {
+    "title": "TESGNN: Temporal Equivariant Scene Graph Neural Networks for Efficient and Robust Multi-View 3D Scene Understanding",
+    "authors": "Pham Phuoc Minh Quang and Nguyen Tiet Nguyen Khoi and Ngo Ch",
+    "year": "2025"
+  },
+  {
+    "title": "Graphon-Explainer: Generating Model-Level Explanations for Graph Neural Networks using Graphons",
+    "authors": "Sayan Saha and Sanghamitra Bandyopadhyay",
+    "year": "2024"
+  },
+  {
+    "title": "Directed Graph Transformers",
+    "authors": "Qitong Wang and Georgios Kollias and Vasileios Kalantzis and",
+    "year": "2024"
+  },
+  {
+    "title": "On Representing Convex Quadratically Constrained Quadratic Programs via Graph Neural Networks",
+    "authors": "Chenyang Wu and Qian Chen and Akang Wang and Tian Ding and R",
+    "year": "2025"
+  },
+  {
+    "title": "Formal Verification of Graph Convolutional Networks with Uncertain Node Features and Uncertain Graph Structure",
+    "authors": "Tobias Ladner and Michael Eichelbeck and Matthias Althoff",
+    "year": "2025"
+  },
+  {
+    "title": "Bridging Graph Position Encodings for Transformers with Weighted Graph-Walking Automata",
+    "authors": "Patrick Soga and David Chiang",
+    "year": "2023"
+  },
+  {
+    "title": "GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks",
+    "authors": "Taraneh Younesian and Daniel Daza and Emile van Krieken and ",
+    "year": "2025"
+  },
+  {
+    "title": "Understanding Sparse Neural Networks from their Topology via Multipartite Graph Representations",
+    "authors": "Elia Cunegatti and Matteo Farina and Doina Bucur and Giovann",
+    "year": "2024"
+  },
+  {
+    "title": "Graph Pooling via Ricci Flow",
+    "authors": "Amy Feng and Melanie Weber",
+    "year": "2024"
+  },
+  {
+    "title": "Statistical Test for Saliency Maps of Graph Neural Networks via Selective Inference",
+    "authors": "Shuichi Nishino and Tomohiro Shiraishi and Teruyuki Katsuoka",
+    "year": "2025"
+  },
+  {
+    "title": "Active Diffusion Subsampling",
+    "authors": "Ois{\\\\'\\\\i",
+    "year": "2025"
+  },
+  {
+    "title": "Diffusion Model Predictive Control",
+    "authors": "Guangyao Zhou and Sivaramakrishnan Swaminathan and Rajkumar ",
+    "year": "2025"
+  },
+  {
+    "title": "Efficient Diffusion Models: A Survey",
+    "authors": "Hui Shen and Jingxuan Zhang and Boning Xiong and Rui Hu and ",
+    "year": "2025"
+  },
+  {
+    "title": "Diffusion-RainbowPA: Improvements Integrated Preference Alignment for Diffusion-based Text-to-Image Generation",
+    "authors": "Haoyuan Sun and Bin Liang and Bo Xia and Jiaqi Wu and Yifei ",
+    "year": "2025"
+  },
+  {
+    "title": "On Memorization in Diffusion Models",
+    "authors": "Xiangming Gu and Chao Du and Tianyu Pang and Chongxuan Li an",
+    "year": "2025"
+  },
+  {
+    "title": "FoldDiff: Folding in Point Cloud Diffusion",
+    "authors": "Yuzhou Zhao and Juan Matias Di Martino and Amirhossein Farza",
+    "year": "2025"
+  },
+  {
+    "title": "Removing Structured Noise using Diffusion Models",
+    "authors": "Tristan Stevens and Hans van Gorp and Faik C Meral and Junse",
+    "year": "2025"
+  },
+  {
+    "title": "Physics Informed Distillation for Diffusion Models",
+    "authors": "Joshua Tian Jin Tee and Kang Zhang and Hee Suk Yoon and Dhan",
+    "year": "2024"
+  },
+  {
+    "title": "Diffusion Models for Constrained Domains",
+    "authors": "Nic Fishman and Leo Klarner and Valentin De Bortoli and Emil",
+    "year": "2023"
+  },
+  {
+    "title": "Video Diffusion Models: A Survey",
+    "authors": "Andrew Melnik and Michal Ljubljanac and Cong Lu and Qi Yan a",
+    "year": "2024"
+  },
+  {
+    "title": "DiffKGW: Stealthy and Robust Diffusion Model Watermarking",
+    "authors": "Tianxin Wei and Ruizhong Qiu and Yifan Chen and Yunzhe Qi an",
+    "year": "2026"
+  },
+  {
+    "title": "ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer",
+    "authors": "Jinyi Hu and Shengding Hu and Yuxuan Song and Yufei Huang an",
+    "year": "2026"
+  },
+  {
+    "title": "LLM-grounded Diffusion: Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models",
+    "authors": "Long Lian and Boyi Li and Adam Yala and Trevor Darrell",
+    "year": "2024"
+  },
+  {
+    "title": "Diffusion Models with Deterministic Normalizing Flow Priors",
+    "authors": "Mohsen Zand and Ali Etemad and Michael Greenspan",
+    "year": "2024"
+  },
+  {
+    "title": "Debiasing Diffusion Models via Score Guidance",
+    "authors": "Piyush Tiwary and Prabhav Verma and Prathosh AP",
+    "year": "2026"
+  },
+  {
+    "title": "Improving GFlowNets for Text-to-Image Diffusion Alignment",
+    "authors": "Dinghuai Zhang and Yizhe Zhang and Jiatao Gu and Ruixiang ZH",
+    "year": "2025"
+  },
+  {
+    "title": "Image retrieval outperforms diffusion models on data augmentation",
+    "authors": "Max F Burg and Florian Wenzel and Dominik Zietlow and Max Ho",
+    "year": "2023"
+  },
+  {
+    "title": "Soft Diffusion: Score Matching with General Corruptions",
+    "authors": "Giannis Daras and Mauricio Delbracio and Hossein Talebi and ",
+    "year": "2023"
+  },
+  {
+    "title": "Diffusion Models for Video Prediction and Infilling",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Differentially Private Diffusion Models",
+    "authors": "Tim Dockhorn and Tianshi Cao and Arash Vahdat and Karsten Kr",
+    "year": "2023"
+  },
+  {
+    "title": "Boomerang: Local sampling on image manifolds using diffusion models",
+    "authors": "Lorenzo Luzi and Paul M Mayer and Josue Casco-Rodriguez and ",
+    "year": "2024"
+  },
+  {
+    "title": "World Models via Policy-Guided Trajectory Diffusion",
+    "authors": "Marc Rigter and Jun Yamada and Ingmar Posner",
+    "year": "2024"
+  },
+  {
+    "title": "Continual Diffusion: Continual Customization of Text-to-Image Diffusion with C-LoRA",
+    "authors": "James Seale Smith and Yen-Chang Hsu and Lingyu Zhang and Tin",
+    "year": "2024"
+  },
+  {
+    "title": "G2D2: Gradient-Guided Discrete Diffusion for Inverse Problem Solving",
+    "authors": "Naoki Murata and Chieh-Hsin Lai and Yuhta Takida and Toshimi",
+    "year": "2025"
+  },
+  {
+    "title": "An optimal control perspective on diffusion-based generative modeling",
+    "authors": "Julius Berner and Lorenz Richter and Karen Ullrich",
+    "year": "2024"
+  },
+  {
+    "title": "Enhancing Molecular Conformer Generation via Fragment- Augmented Diffusion Pretraining",
+    "authors": "Xiaozhuang Song and YUZHAO TU and Tianshu Yu",
+    "year": "2025"
+  },
+  {
+    "title": "Hierarchically branched diffusion models leverage dataset structure for class-conditional generation",
+    "authors": "Alex M Tseng and Max W Shen and Tommaso Biancalani and Gabri",
+    "year": "2024"
+  },
+  {
+    "title": "GSURE-Based Diffusion Model Training with Corrupted Data",
+    "authors": "Bahjat Kawar and Noam Elata and Tomer Michaeli and Michael E",
+    "year": "2024"
+  },
+  {
+    "title": "Discffusion: Discriminative Diffusion Models as Few-shot Vision and Language Learners",
+    "authors": "Xuehai He and Weixi Feng and Tsu-Jui Fu and Varun Jampani an",
+    "year": "2024"
+  },
+  {
+    "title": "DisDet: Exploring Detectability of Backdoor Attack on Diffusion Models",
+    "authors": "Yang Sui and Huy Phan and Jinqi Xiao and Tianfang Zhang and ",
+    "year": "2025"
+  },
+  {
+    "title": "MemBench: Memorized Image Trigger Prompt Dataset for Diffusion Models",
+    "authors": "Chunsan Hong and Tae-Hyun Oh and Minhyuk Sung",
+    "year": "2025"
+  },
+  {
+    "title": "Solving Inverse Problems using Diffusion with Iterative Colored Renoising",
+    "authors": "Matthew C Bendel and Saurav K Shastri and Rizwan Ahmad and P",
+    "year": "2025"
+  },
+  {
+    "title": "Balanced Mixed-Type Tabular Data Synthesis with Diffusion Models",
+    "authors": "Zeyu Yang and Han Yu and Peikun Guo and Khadija Zanna and Xi",
+    "year": "2025"
+  },
+  {
+    "title": "Diffusion Self-Weighted Guidance for Offline Reinforcement Learning",
+    "authors": "Augusto Tagle and Javier Ruiz-del-Solar and Felipe Tobar",
+    "year": "2025"
+  },
+  {
+    "title": "Fast Training of Diffusion Models with Masked Transformers",
+    "authors": "Hongkai Zheng and Weili Nie and Arash Vahdat and Anima Anand",
+    "year": "2024"
+  },
+  {
+    "title": "Diffusion-based Cumulative Adversarial Purification for Vision Language Models",
+    "authors": "Jia Fu and Yongtao Wu and Yihang Chen and Kunyu Peng and Xia",
+    "year": "2026"
+  },
+  {
+    "title": "QDC: Quantum Diffusion Convolution Kernels on Graphs",
+    "authors": "Thomas Markovich",
+    "year": "2024"
+  },
+  {
+    "title": "Random Walk Diffusion for Efficient Large-Scale Graph Generation",
+    "authors": "Tobias Bernecker and Ghalia Rehawi and Francesco Paolo Casal",
+    "year": "2025"
+  },
+  {
+    "title": "Survey of Video Diffusion Models: Foundations, Implementations, and Applications",
+    "authors": "Yimu Wang and Xuye Liu and Wei Pang and Li Ma and Shuai Yuan",
+    "year": "2025"
+  },
+  {
+    "title": "Cometh: A continuous-time discrete-state graph diffusion model",
+    "authors": "Antoine Siraudin and Fragkiskos D. Malliaros and Christopher",
+    "year": "2025"
+  },
+  {
+    "title": "Teaching Diffusion Models to Ground Alpha Matte",
+    "authors": "Tianyi Xiang and Weiying Zheng and Yutao Jiang and Tingrui S",
+    "year": "2025"
+  },
+  {
+    "title": "GeNIe: Generative Hard Negative Images Through Diffusion",
+    "authors": "Soroush Abbasi Koohpayegani and Anuj Singh and Navaneet K L ",
+    "year": "2025"
+  },
+  {
+    "title": "The Missing U for Efficient Diffusion Models",
+    "authors": "Sergio Calvo Ordo{\\\\~n",
+    "year": ""
+  },
+  {
+    "title": "DRDT3: Diffusion-Refined Decision Test-Time Training Model",
+    "authors": "Xingshuai Huang and Di Wu and Benoit Boulet",
+    "year": "2025"
+  },
+  {
+    "title": "Faster Diffusion Through Temporal Attention Decomposition",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Unstable Unlearning: The Hidden Risk of Concept Resurgence in Diffusion Models",
+    "authors": "Vinith Menon Suriyakumar and Rohan Alur and Ayush Sekhari an",
+    "year": "2026"
+  },
+  {
+    "title": "Diffusion Models are Secretly Zero-Shot 3DGS Harmonizers",
+    "authors": "Vsevolod Skorokhodov and Nikita Durasov and Pascal Fua",
+    "year": "2026"
+  },
+  {
+    "title": "Conditional Image Synthesis with Diffusion Models: A Survey",
+    "authors": "Zheyuan Zhan and Defang Chen and Jian-Ping Mei and Zhenghe Z",
+    "year": "2025"
+  },
+  {
+    "title": "Convergence of denoising diffusion models under the manifold hypothesis",
+    "authors": "Valentin De Bortoli",
+    "year": "2022"
+  },
+  {
+    "title": "Data Attribution for Diffusion Models: Timestep-induced Bias in Influence Estimation",
+    "authors": "Tong Xie and Haoyu Li and Andrew Bai and Cho-Jui Hsieh",
+    "year": "2024"
+  },
+  {
+    "title": "ReVision: Refining Video Diffusion with Explicit 3D Motion Modeling",
+    "authors": "Qihao Liu and Ju He and Qihang Yu and Liang-Chieh Chen and A",
+    "year": "2026"
+  },
+  {
+    "title": "Joint Diffusion for Universal Hand-Object Grasp Generation",
+    "authors": "Jinkun Cao and Jingyuan Liu and Kris Kitani and Yi Zhou",
+    "year": "2025"
+  },
+  {
+    "title": "Guided Discrete Diffusion for Electronic Health Record Generation",
+    "authors": "Jun Han and Zixiang Chen and Yongqian Li and Yiwen Kou and E",
+    "year": "2025"
+  },
+  {
+    "title": "Differentially Private Latent Diffusion Models",
+    "authors": "Michael F Liu and Saiyue Lyu and Margarita Vinaroz and Mijun",
+    "year": "2024"
+  },
+  {
+    "title": "Discontinuity-Preserving Image Super-Resolution using MRF-Regularized One-Step Diffusion",
+    "authors": "Sanchar Palit and Subhasis Chaudhuri and Biplab Banerjee",
+    "year": "2026"
+  },
+  {
+    "title": "Bigger is not Always Better: Scaling Properties of Latent Diffusion Models",
+    "authors": "Kangfu Mei and Zhengzhong Tu and Mauricio Delbracio and Hoss",
+    "year": "2025"
+  },
+  {
+    "title": "VT-DUDA: Visual Token Conditioning for Diffusion-guided Unsupervised Domain Adaptation",
+    "authors": "Xuan Qi and Daniele Berardini and Dario Serez and Vito Paolo",
+    "year": "2026"
+  },
+  {
+    "title": "ADiff4TPP: Asynchronous Diffusion Models for Temporal Point Processes",
+    "authors": "Amartya Mukherjee and Ruizhi Deng and He Zhao and Yuzhen Mao",
+    "year": "2026"
+  },
+  {
+    "title": "Meta-Learning via Classifier(-free) Diffusion Guidance",
+    "authors": "Elvis Nava and Seijin Kobayashi and Yifei Yin and Robert K. ",
+    "year": "2023"
+  },
+  {
+    "title": "Transport with Support: Data-Conditional Diffusion Bridges",
+    "authors": "Ella Tamir and Martin Trapp and Arno Solin",
+    "year": "2023"
+  },
+  {
+    "title": "Responsive Noise-Relaying Diffusion Policy: Responsive and Efficient Visuomotor Control",
+    "authors": "Zhuoqun Chen and Xiu Yuan and Tongzhou Mu and Hao Su",
+    "year": "2025"
+  },
+  {
+    "title": "Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance",
+    "authors": "Bahjat Kawar and Roy Ganz and Michael Elad",
+    "year": "2023"
+  },
+  {
+    "title": "The Geometry of Phase Transitions in Diffusion Models: Tubular Neighbourhoods and Singularities",
+    "authors": "Manato Yaguchi and Kotaro Sakamoto and Ryosuke Sakamoto and ",
+    "year": "2025"
+  },
+  {
+    "title": "Ensemble Kalman Diffusion Guidance: A Derivative-free Method for Inverse Problems",
+    "authors": "Hongkai Zheng and Wenda Chu and Austin Wang and Nikola Boris",
+    "year": "2025"
+  },
+  {
+    "title": "Diffusion Models for Solving Inverse Problems via Posterior Sampling with Piecewise Guidance",
+    "authors": "Saeed Mohseni-Sehdeh and Walid Saad and Kei Sakaguchi and Ta",
+    "year": "2026"
+  },
+  {
+    "title": "Efficient and Unbiased Sampling from Boltzmann Distributions via Variance-Tuned Diffusion Models",
+    "authors": "Fengzhe Zhang and Laurence Illing Midgley and Jos{\\\\'e",
+    "year": "2025"
+  },
+  {
+    "title": "Unlearning in Diffusion models under Data Constraints: A Variational Inference Approach",
+    "authors": "Subhodip Panda and Varun M S and Shreyans Jain and Sarthak K",
+    "year": "2026"
+  },
+  {
+    "title": "Modeling Causal Mechanisms with Diffusion Models for Interventional and Counterfactual Queries",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Latte: Latent Diffusion Transformer for Video Generation",
+    "authors": "Xin Ma and Yaohui Wang and Xinyuan Chen and Gengyun Jia and ",
+    "year": "2025"
+  },
+  {
+    "title": "Zero-1-to-G: Taming Pretrained 2D Diffusion Model for Direct 3D Generation",
+    "authors": "Xuyi Meng and Chen Wang and Jiahui Lei and Kostas Daniilidis",
+    "year": "2025"
+  },
+  {
+    "title": "Score-Based Denoising Diffusion Models for Photon-Starved Image Restoration Problems",
+    "authors": "Savvas Melidonis and Yiming Xi and Konstantinos C. Zygalakis",
+    "year": "2025"
+  },
+  {
+    "title": "Sparse-to-Sparse Training of Diffusion Models",
+    "authors": "In{\\\\^e",
+    "year": "2025"
+  },
+  {
+    "title": "TabRep: Training Tabular Diffusion Models with a Simple and Effective Continuous Representation",
+    "authors": "Jacob Si and Zijing Ou and Mike Qu and Zhengrui Xiang and Yi",
+    "year": "2026"
+  },
+  {
+    "title": "EHRDiff : Exploring Realistic EHR Synthesis with Diffusion Models",
+    "authors": "Hongyi Yuan and Songchi Zhou and Sheng Yu",
+    "year": "2024"
+  },
+  {
+    "title": "Meta-Learning under Task Shift",
+    "authors": "Lei Sun and Yusuke Tanaka and Tomoharu Iwata",
+    "year": "2024"
+  },
+  {
+    "title": "Meta-Learning Adaptive Loss Functions",
+    "authors": "Christian Raymond and Qi Chen and Bing XUE and Mengjie Zhang",
+    "year": "2025"
+  },
+  {
+    "title": "Task Weighting in Meta-learning with Trajectory Optimisation",
+    "authors": "Cuong C. Nguyen and Thanh-Toan Do and Gustavo Carneiro",
+    "year": "2023"
+  },
+  {
+    "title": "MERMAIDE: Learning to Align Learners using Model-Based Meta-Learning",
+    "authors": "Arundhati Banerjee and Soham Rajesh Phade and Stefano Ermon ",
+    "year": "2023"
+  },
+  {
+    "title": "Maximising the Utility of Validation Sets for Imbalanced Noisy-label Meta-learning",
+    "authors": "Hoang Anh Dung and Cuong C. Nguyen and Vasileios Belagiannis",
+    "year": "2025"
+  },
+  {
+    "title": "Reusable Options through Gradient-based Meta Learning",
+    "authors": "David Kuric and Herke van Hoof",
+    "year": "2023"
+  },
+  {
+    "title": "Reducing Variance in Meta-Learning via Laplace Approximation for Regression Tasks",
+    "authors": "Alfredo Reichlin and Gustaf Tegn{\\\\'e",
+    "year": ""
+  },
+  {
+    "title": "Amphibian: A Meta-Learning Framework for Rehearsal-Free, Fast Online Continual Learning",
+    "authors": "Gobinda Saha and Kaushik Roy",
+    "year": "2025"
+  },
+  {
+    "title": "Meta Continual Learning on Graphs with Experience Replay",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Evolving Decomposed Plasticity Rules for Information-Bottlenecked Meta-Learning",
+    "authors": "Fan Wang and Hao Tian and Haoyi Xiong and Hua Wu and Jie Fu ",
+    "year": "2022"
+  },
+  {
+    "title": "Meta-Learning Sparse Compression Networks",
+    "authors": "Jonathan Schwarz and Yee Whye Teh",
+    "year": "2022"
+  },
+  {
+    "title": "Meta-learning Optimizers for Communication-Efficient Learning",
+    "authors": "Charles-{\\\\'E",
+    "year": "2025"
+  },
+  {
+    "title": "Meta-Learning Approach for Joint Multimodal Signals with Multimodal Iterative Adaptation",
+    "authors": "Sehun Lee and Wonkwang Lee and Gunhee Kim",
+    "year": "2024"
+  },
+  {
+    "title": "Jigsaw Game: Federated Clustering",
+    "authors": "JINXUAN XU and Hong-You Chen and Wei-Lun Chao and Yuqian Zha",
+    "year": "2024"
+  },
+  {
+    "title": "Locally Adaptive Federated Learning",
+    "authors": "Sohom Mukherjee and Nicolas Loizou and Sebastian U Stich",
+    "year": "2024"
+  },
+  {
+    "title": "Subspace based Federated Unlearning",
+    "authors": "Guanghao Li and Li Shen and Yan Sun and Yue Hu and Han Hu an",
+    "year": "2026"
+  },
+  {
+    "title": "Federated Graph Learning with Graphless Clients",
+    "authors": "Xingbo Fu and Song Wang and Yushun Dong and Binchi Zhang and",
+    "year": "2024"
+  },
+  {
+    "title": "On the Data Heterogeneity in Adaptive Federated Learning",
+    "authors": "Yujia Wang and Jinghui Chen",
+    "year": "2024"
+  },
+  {
+    "title": "Federated High-Dimensional Online Decision Making",
+    "authors": "Chi-Hua Wang and Wenjie Li and Guang Lin",
+    "year": "2023"
+  },
+  {
+    "title": "Leveraging Recursive Methods for Efficient Federated Learning",
+    "authors": "Jie Liu and Zuang Wang and Yongqiang Wang",
+    "year": "2026"
+  },
+  {
+    "title": "Straggler-Resilient Personalized Federated Learning",
+    "authors": "Isidoros Tziotis and Zebang Shen and Ramtin Pedarsani and Ha",
+    "year": "2023"
+  },
+  {
+    "title": "NeurIPS 2023 Competition: Privacy Preserving Federated Learning Document VQA",
+    "authors": "Marlon Tobaben and Mohamed Ali Souibgui and Rub{\\\\`e",
+    "year": ""
+  },
+  {
+    "title": "Provably Personalized and Robust Federated Learning",
+    "authors": "Mariel Werner and Lie He and Michael Jordan and Martin Jaggi",
+    "year": "2023"
+  },
+  {
+    "title": "Differentiated Aggregation to Improve Generalization in Federated Learning",
+    "authors": "Peyman Gholami and Hulya Seferoglu",
+    "year": "2025"
+  },
+  {
+    "title": "Harnessing the Power of Federated Learning in Federated Contextual Bandits",
+    "authors": "Chengshuai Shi and Ruida Zhou and Kun Yang and Cong Shen",
+    "year": "2024"
+  },
+  {
+    "title": "Federated Learning under Covariate Shifts with Generalization Guarantees",
+    "authors": "Ali Ramezani-Kebrya and Fanghui Liu and Thomas Pethick and G",
+    "year": "2023"
+  },
+  {
+    "title": "Task Arithmetic Through The Lens Of One-Shot Federated Learning",
+    "authors": "Zhixu Tao and Ian Mason and Sanjeev Kulkarni and Xavier Boix",
+    "year": "2025"
+  },
+  {
+    "title": "Federated TD Learning with Linear Function Approximation under Environmental Heterogeneity",
+    "authors": "Han Wang and Aritra Mitra and Hamed Hassani and George J. Pa",
+    "year": "2024"
+  },
+  {
+    "title": "Federated Variational Inference: Towards Improved Personalization and Generalization",
+    "authors": "Elahe Vedadi and Joshua V. Dillon and Philip Andrew Mansfiel",
+    "year": "2024"
+  },
+  {
+    "title": "Gradient Masked Averaging for Federated Learning",
+    "authors": "Irene Tenison and Sai Aravind Sreeramadas and Vaikkunth Mugu",
+    "year": "2023"
+  },
+  {
+    "title": "DFML: Decentralized Federated Mutual Learning",
+    "authors": "Yasser H. Khalil and Amir Hossein Estiri and Mahdi Beitollah",
+    "year": "2024"
+  },
+  {
+    "title": "Group Fair Federated Learning via Stochastic Kernel Regularization",
+    "authors": "Huzaifa Arif and Pin-Yu Chen and Keerthiram Murugesan and Al",
+    "year": "2025"
+  },
+  {
+    "title": "Leveraging Function Space Aggregation for Federated Learning at Scale",
+    "authors": "Nikita Dhawan and Nicole Elyse Mitchell and Zachary Charles ",
+    "year": "2024"
+  },
+  {
+    "title": "Cross-client Label Propagation for Transductive and Semi-Supervised Federated Learning",
+    "authors": "Jonathan Scott and Michelle Yeo and Christoph H Lampert",
+    "year": "2023"
+  },
+  {
+    "title": "Learning to Prompt Your Domain for Federated Vision-Language Models",
+    "authors": "Guoyizhe Wei and Feng Wang and Anshul Shah and Rama Chellapp",
+    "year": "2025"
+  },
+  {
+    "title": "Quantization Robust Federated Learning for Efficient Inference on Heterogeneous Devices",
+    "authors": "Kartik Gupta and Marios Fournarakis and Matthias Reisser and",
+    "year": "2023"
+  },
+  {
+    "title": "AdaFed: Fair Federated Learning via Adaptive Common Descent Direction",
+    "authors": "Shayan Mohajer Hamidi and EN-HUI YANG",
+    "year": "2024"
+  },
+  {
+    "title": "Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers",
+    "authors": "M Yashwanth and Sharannya Ghosh and Aditay Tripathi and Anir",
+    "year": "2026"
+  },
+  {
+    "title": "Achieving Faster than O(1/t) Convergence in General Convex Federated Learning",
+    "authors": "Jie Liu and Zuang Wang and Yongqiang Wang",
+    "year": "2026"
+  },
+  {
+    "title": "Federated Sampling with Langevin Algorithm under Isoperimetry",
+    "authors": "Lukang Sun and Adil Salim and Peter Richt{\\\\'a",
+    "year": "2024"
+  },
+  {
+    "title": "ParaBlock: Communication-Computation Parallel Block Coordinate Federated Learning for Large Language Models",
+    "authors": "Yujia Wang and Yuanpu Cao and Jinghui Chen",
+    "year": "2026"
+  },
+  {
+    "title": "FedLOE: Federated Domain Generalization via Locally Overfit Ensemble",
+    "authors": "Ruqi Bai and David I. Inouye",
+    "year": "2026"
+  },
+  {
+    "title": "Recovering Exact Support in Federated lasso without Optimization",
+    "authors": "Adarsh Barik and Jean Honorio",
+    "year": "2024"
+  },
+  {
+    "title": "Data-Free Diversity-Based Ensemble Selection for One-Shot Federated Learning",
+    "authors": "Naibo Wang and Wenjie Feng and yuchen deng and Moming Duan a",
+    "year": "2023"
+  },
+  {
+    "title": "Data Leakage in Federated Averaging",
+    "authors": "Dimitar Iliev Dimitrov and Mislav Balunovic and Nikola Konst",
+    "year": "2022"
+  },
+  {
+    "title": "Federated $\\\\mathcal{X}$-armed Bandit with Flexible Personalisation",
+    "authors": "Ali Arabzadeh and James A. Grant and David S. Leslie",
+    "year": "2024"
+  },
+  {
+    "title": "SSFL: Discovering Sparse Unified Subnetworks at Initialization for Efficient Federated Learning",
+    "authors": "Riyasat Ohib and Bishal Thapaliya and Gintare Karolina Dziug",
+    "year": "2026"
+  },
+  {
+    "title": "Federated Learning under Partially Disjoint Data via Manifold Reshaping",
+    "authors": "Ziqing Fan and Jiangchao Yao and Ruipeng Zhang and Lingjuan ",
+    "year": "2023"
+  },
+  {
+    "title": "Enhanced Federated Optimization: Adaptive Unbiased Client Sampling with Reduced Variance",
+    "authors": "Dun Zeng and Zenglin Xu and Yu Pan and Xu Luo and Qifan Wang",
+    "year": "2025"
+  },
+  {
+    "title": "Communication-Efficient Federated AUC Maximization with Cyclic Client Participation",
+    "authors": "Umesh-Vangapally and Wenhan Wu and Chen Chen and Zhishuai Gu",
+    "year": "2026"
+  },
+  {
+    "title": "Adaptive Clipping for Differential Private Federated Learning in Interpolation Regimes",
+    "authors": "Takumi Fukami and Tomoya Murata and Kenta Niwa",
+    "year": "2025"
+  },
+  {
+    "title": "Optimal Client Sampling for Federated Learning",
+    "authors": "Wenlin Chen and Samuel Horv{\\\\'a",
+    "year": "2022"
+  },
+  {
+    "title": "Personalised Federated Learning On Heterogeneous Feature Spaces",
+    "authors": "Alain Rakotomamonjy and Maxime Vono and Hamlet Jesse Medina ",
+    "year": "2024"
+  },
+  {
+    "title": "PaDPaF: Partial Disentanglement with Partially-Federated GANs",
+    "authors": "Abdulla Jasem Almansoori and Samuel Horv{\\\\'a",
+    "year": "2024"
+  },
+  {
+    "title": "Synthetic data shuffling accelerates the convergence of federated learning under data heterogeneity",
+    "authors": "Bo Li and Yasin Esfandiari and Mikkel N. Schmidt and Tommy S",
+    "year": "2024"
+  },
+  {
+    "title": "On Federated Compositional Optimization: Algorithms, Analysis, and Guarantees",
+    "authors": "Prashant Khanduri and Chengyin Li and Rafi Ibn Sultan and Ad",
+    "year": "2026"
+  },
+  {
+    "title": "Towards Preventing Global Knowledge Forgetting in Federated Learning with Non-IID Data",
+    "authors": "Abhijit Chunduru and Majid Morafah and Mahdi Morafah and Vis",
+    "year": "2026"
+  },
+  {
+    "title": "FedProTIP: Task-Agnostic Federated Continual Learning via Replay-Free Gradient Projection",
+    "authors": "Seohyeon Cha and Huancheng Chen and Haris Vikalo",
+    "year": "2026"
+  },
+  {
+    "title": "Mixed Nash for Robust Federated Learning",
+    "authors": "Wanyun Xie and Thomas Pethick and Ali Ramezani-Kebrya and Vo",
+    "year": "2024"
+  },
+  {
+    "title": "Fusion of Global and Local Knowledge for Personalized Federated Learning",
+    "authors": "Tiansheng Huang and Li Shen and Yan Sun and Weiwei Lin and D",
+    "year": "2023"
+  },
+  {
+    "title": "Distributionally Robust Alignment for Medical Federated Vision-Language Pre-training Under Data Heterogeneity",
+    "authors": "Zitao Shuai and Chenwei Wu and Zhengxu Tang and Liyue Shen",
+    "year": "2025"
+  },
+  {
+    "title": "On the Unreasonable Effectiveness of Federated Averaging with Heterogeneous Data",
+    "authors": "Jianyu Wang and Rudrajit Das and Gauri Joshi and Satyen Kale",
+    "year": "2024"
+  },
+  {
+    "title": "Model-Free Learning with Heterogeneous Dynamical Systems: A Federated LQR Approach",
+    "authors": "Han Wang and Leonardo Felipe Toso and Aritra Mitra and James",
+    "year": "2026"
+  },
+  {
+    "title": "Initialization Matters: Unraveling the Impact of Pre-Training on Federated Learning",
+    "authors": "Divyansh Jhunjhunwala and Pranay Sharma and Zheng Xu and Gau",
+    "year": "2025"
+  },
+  {
+    "title": "Federated Learning on Virtual Heterogeneous Data with Local-Global Dataset Distillation",
+    "authors": "Chun-Yin Huang and Ruinan Jin and Can Zhao and Daguang Xu an",
+    "year": "2025"
+  },
+  {
+    "title": "A Snapshot of the Frontiers of Client Selection in Federated Learning",
+    "authors": "Gergely D{\\\\'a",
+    "year": "2022"
+  },
+  {
+    "title": "An Improved Federated Clustering Algorithm with Model-based Clustering",
+    "authors": "Harsh Vardhan and Avishek Ghosh and Arya Mazumdar",
+    "year": "2024"
+  },
+  {
+    "title": "Trusted Aggregation (TAG): Backdoor Defense in Federated Learning",
+    "authors": "Joseph Lavond and Minhao Cheng and Yao Li",
+    "year": "2024"
+  },
+  {
+    "title": "Buffer-based Gradient Projection for Continual Federated Learning",
+    "authors": "Shenghong Dai and Jy-yong Sohn and Yicong Chen and S M Iftek",
+    "year": "2025"
+  },
+  {
+    "title": "Maximizing Global Model Appeal in Federated Learning",
+    "authors": "Yae Jee Cho and Divyansh Jhunjhunwala and Tian Li and Virgin",
+    "year": "2024"
+  },
+  {
+    "title": "FedLog: Personalized Federated Classification with Less Communication and More Flexibility",
+    "authors": "Haolin Yu and Guojun Zhang and Hongliang Li and Pascal Poupa",
+    "year": "2026"
+  },
+  {
+    "title": "Private Multi-Task Learning: Formulation and Applications to Federated Learning",
+    "authors": "Shengyuan Hu and Steven Wu and Virginia Smith",
+    "year": "2023"
+  },
+  {
+    "title": "Proportional Fairness in Federated Learning",
+    "authors": "Guojun Zhang and Saber Malekmohammadi and Xi Chen and Yaolia",
+    "year": "2023"
+  },
+  {
+    "title": "Personalized Federated Learning with Spurious Features: An Adversarial Approach",
+    "authors": "Xiaoyang Wang and Han Zhao and Klara Nahrstedt and Sanmi Koy",
+    "year": "2024"
+  },
+  {
+    "title": "Distributed Quasi-Newton Method for Fair and Fast Federated Learning",
+    "authors": "Shayan Mohajer Hamidi and Linfeng Ye",
+    "year": "2025"
+  },
+  {
+    "title": "FLR: Label-Mixture Regularization for Federated Learning with Noisy Labels",
+    "authors": "Taehyeon Kim and Donggyu Kim and Se-Young Yun",
+    "year": "2024"
+  },
+  {
+    "title": "Federated Learning with Efficient Local Adaptation for Realized Volatility Prediction",
+    "authors": "Lei Zhao and Lin Cai and Wu-Sheng Lu",
+    "year": "2025"
+  },
+  {
+    "title": "Modular Federated Contrastive Learning with Twin Normalization for Resource-limited Clients",
+    "authors": "Azadeh Motamedi and IL MIN KIM",
+    "year": "2024"
+  },
+  {
+    "title": "Fed-SB: A Silver Bullet for Extreme Communication Efficiency and Performance in (Private) Federated LoRA Fine-Tuning",
+    "authors": "Raghav Singhal and Kaustubh Ponkshe and Rohit Vartak and Lav",
+    "year": "2026"
+  },
+  {
+    "title": "Continual Adaptation of Vision Transformers for Federated Learning",
+    "authors": "Shaunak Halbe and James Seale Smith and Junjiao Tian and Zso",
+    "year": "2024"
+  },
+  {
+    "title": "Causal Parrots: Large Language Models May Talk Causality But Are Not Causal",
+    "authors": "Matej Ze{\\\\v{c",
+    "year": "2023"
+  },
+  {
+    "title": "Multiscale Causal Structure Learning",
+    "authors": "Gabriele D'Acunto and Paolo Di Lorenzo and Sergio Barbarossa",
+    "year": "2023"
+  },
+  {
+    "title": "Causal Discovery over High-Dimensional Structured Hypothesis Spaces with  Causal Graph Partitioning",
+    "authors": "Ashka Shah and Adela Frances DePavia and Nathaniel C Hudson ",
+    "year": "2025"
+  },
+  {
+    "title": "From Identifiable Causal Representations to Controllable Counterfactual Generation: A Survey on Causal Generative Modeling",
+    "authors": "Aneesh Komanduri and Xintao Wu and Yongkai Wu and Feng Chen",
+    "year": "2024"
+  },
+  {
+    "title": "Deep End-to-end Causal Inference",
+    "authors": "Tomas Geffner and Javier Antoran and Adam Foster and Wenbo G",
+    "year": "2024"
+  },
+  {
+    "title": "Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach",
+    "authors": "MASAYUKI TAKAYAMA and Tadahisa OKUDA and Thong Pham and Tats",
+    "year": "2025"
+  },
+  {
+    "title": "Invariance & Causal Representation Learning: Prospects and Limitations",
+    "authors": "Simon Bing and Tom Hochsprung and Jonas Wahl and Urmi Ninad ",
+    "year": "2024"
+  },
+  {
+    "title": "Bayesian Causal Bandits with Backdoor Adjustment Prior",
+    "authors": "Jireh Huang and Qing Zhou",
+    "year": "2023"
+  },
+  {
+    "title": "Demystifying amortized causal discovery with transformers",
+    "authors": "Francesco Montagna and Max Cairney-Leeming and Dhanya Sridha",
+    "year": "2025"
+  },
+  {
+    "title": "Improving Local Explainability By Learning Causal Graphs From Data",
+    "authors": "Daan Roos and Sebastian Gerwinn and Jan-Willem van de Meent ",
+    "year": "2026"
+  },
+  {
+    "title": "Identifying Causal Structure in Dynamical Systems",
+    "authors": "Dominik Baumann and Friedrich Solowjow and Karl Henrik Johan",
+    "year": "2022"
+  },
+  {
+    "title": "DAG-aware GAT for Causal Effect Estimation",
+    "authors": "Manqing Liu and David Remy Bellamy and Andrew Beam",
+    "year": "2026"
+  },
+  {
+    "title": "Facial Counterfactual Generation via Causal Mask-Guided Editing",
+    "authors": "Pei Sze Tan and Sailaja Rajanala and Arghya Pal and Raphael ",
+    "year": "2026"
+  },
+  {
+    "title": "Not All Causal Inference is the Same",
+    "authors": "Matej Ze{\\\\v{c",
+    "year": "2023"
+  },
+  {
+    "title": "Learning Multiscale Non-stationary Causal Structures",
+    "authors": "Gabriele D'Acunto and Gianmarco De Francisci Morales and Pao",
+    "year": "2023"
+  },
+  {
+    "title": "Identifying Macro Causal Effects in a C-DMG over ADMGs",
+    "authors": "Simon Ferreira and Charles K. Assaad",
+    "year": "2025"
+  },
+  {
+    "title": "Deep Autoregressive Models as Causal Inference Engines",
+    "authors": "Daniel Jiwoong Im and Kevin Zhang and Nakul Verma and Kyungh",
+    "year": "2025"
+  },
+  {
+    "title": "Jacobian-based Causal Discovery with Nonlinear ICA",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Generative Causal Structure Learning with Dual Latent Spaces and Annealing",
+    "authors": "Soma Bandyopadhyay and Sudeshna Sarkar",
+    "year": "2026"
+  },
+  {
+    "title": "Controllable Generative Modeling via Causal Reasoning",
+    "authors": "Joey Bose and Ricardo Pio Monti and Aditya Grover",
+    "year": "2022"
+  },
+  {
+    "title": "MACAW: A Causal Generative Model for Medical Imaging",
+    "authors": "Vibujithan Vigneshwaran and Erik Yuiti Ohara and Matthias Wi",
+    "year": "2026"
+  },
+  {
+    "title": "Causal Ordering for Structure Learning from Time Series",
+    "authors": "Pedro Sanchez and Damian Machlanski and Steven McDonagh and ",
+    "year": "2025"
+  },
+  {
+    "title": "Variational Causal Dynamics: Discovering Modular World Models from Interventions",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "RCT Rejection Sampling for Causal Estimation Evaluation",
+    "authors": "Katherine A. Keith and Sergey Feldman and David Jurgens and ",
+    "year": "2023"
+  },
+  {
+    "title": "Invariant Structure Learning for Better Generalization and Causal Explainability",
+    "authors": "Yunhao Ge and Sercan O Arik and Jinsung Yoon and Ao Xu and L",
+    "year": "2023"
+  },
+  {
+    "title": "Cluster-Dags as Powerful Background Knowledge For Causal Discovery",
+    "authors": "Jan Marco Ruiz de Vargas and Kirtan Padh and Niki Kilbertus",
+    "year": "2026"
+  },
+  {
+    "title": "Separability Analysis for Causal Discovery in Mixture of DAGs",
+    "authors": "Burak Varici and Dmitriy Katz and Dennis Wei and Prasanna Sa",
+    "year": "2024"
+  },
+  {
+    "title": "Learning domain-specific causal discovery from time series",
+    "authors": "Xinyue Wang and Konrad Kording",
+    "year": "2023"
+  },
+  {
+    "title": "Expressiveness of Parametrized Distributions over DAGs for Causal Discovery",
+    "authors": "Simon Rittel and Sebastian Tschiatschek",
+    "year": "2025"
+  },
+  {
+    "title": "A Survey on Causal Discovery Methods for I.I.D. and Time Series Data",
+    "authors": "Uzma Hasan and Emam Hossain and Md Osman Gani",
+    "year": "2023"
+  },
+  {
+    "title": "Identifiable Causal Inference with Noisy Treatment and No Side Information",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Sample, estimate, aggregate: A recipe for causal discovery foundation models",
+    "authors": "Menghua Wu and Yujia Bao and Regina Barzilay and Tommi Jaakk",
+    "year": "2025"
+  },
+  {
+    "title": "Causal Feature Selection via Orthogonal Search",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Physics-Aware Spatiotemporal Causal Graph Network for Forecasting with Limited Data",
+    "authors": "Zijun Cui and Sam Griesemer and Sungyong Seo and Joshua Hiki",
+    "year": "2025"
+  },
+  {
+    "title": "Models with a Cause: Causal Discovery with Language Models on Temporally Ordered Text Data",
+    "authors": "Bruce Rushing and Javier Gomez-Lavin",
+    "year": "2026"
+  },
+  {
+    "title": "Causal Reasoning and Large Language Models: Opening a New Frontier for Causality",
+    "authors": "Emre Kiciman and Robert Ness and Amit Sharma and Chenhao Tan",
+    "year": "2024"
+  },
+  {
+    "title": "Amortized Inference of Causal Models via Conditional Fixed-Point Iterations",
+    "authors": "Divyat Mahajan and Jannes Gladrow and Agrin Hilmkil and Chen",
+    "year": "2025"
+  },
+  {
+    "title": "Causal Graph Learning via Distributional Invariance of Cause-Effect Relationship",
+    "authors": "Nang Hung Nguyen and Phi Le Nguyen and Thao Nguyen Truong an",
+    "year": "2026"
+  },
+  {
+    "title": "Reinforcement Learning for Causal Discovery without Acyclicity Constraints",
+    "authors": "Bao Duong and Hung Le and Biwei Huang and Thin Nguyen",
+    "year": "2025"
+  },
+  {
+    "title": "On Theoretical Identifiability of Binary Latent Causal Graphical Models",
+    "authors": "Seunghyun Lee and Yuqi Gu",
+    "year": "2026"
+  },
+  {
+    "title": "CauFR-TS: Causal Time-Series Identifiability via Factorized Representations",
+    "authors": "Ayanabha Ghosh and Debasis Das and Asif Ekbal",
+    "year": "2026"
+  },
+  {
+    "title": "Reduced-Rank Outcome Compression for Causal Policy Optimization",
+    "authors": "Ezinne Nwankwo and Michael I. Jordan and Angela Zhou",
+    "year": "2026"
+  },
+  {
+    "title": "Bridging Causality, Individual Fairness, and Adversarial Robustness in the Absence of Structural Causal Model",
+    "authors": "Ahmad Reza Ehyaei and Golnoosh Farnadi and Samira Samadi",
+    "year": "2025"
+  },
+  {
+    "title": "Explaining the Behavior of Black-Box Prediction Algorithms with Causal Learning",
+    "authors": "Numair Sani and Daniel Malinsky and Ilya Shpitser",
+    "year": "2025"
+  },
+  {
+    "title": "HiBaNG: Hierarchical Bayesian Nonparametric Granger Causal Discovery in Low-Data Regimes",
+    "authors": "He Zhao and Vassili Kitsios and Terence O'kane and Edwin V. ",
+    "year": "2026"
+  },
+  {
+    "title": "Causal Decoding for Hallucination-Resistant Multimodal Large Language Models",
+    "authors": "Shiwei Tan and Hengyi Wang and Weiyi Qin and Qi Xu and Zhiga",
+    "year": "2026"
+  },
+  {
+    "title": "Estimating Potential Outcome Distributions with Collaborating Causal Networks",
+    "authors": "Tianhui Zhou and William E Carson IV and David Carlson",
+    "year": "2022"
+  },
+  {
+    "title": "TOTEM: TOkenized Time Series EMbeddings for General Time Series Analysis",
+    "authors": "Sabera J Talukder and Yisong Yue and Georgia Gkioxari",
+    "year": "2024"
+  },
+  {
+    "title": "Time Series Alignment with Global Invariances",
+    "authors": "Titouan Vayer and Romain Tavenard and Laetitia Chapel and R{",
+    "year": "2022"
+  },
+  {
+    "title": "Algorithmic Recourse in Abnormal Multivariate Time Series",
+    "authors": "Xiao Han and Lu Zhang and Yongkai Wu and Shuhan Yuan",
+    "year": "2026"
+  },
+  {
+    "title": "AdaWaveNet: Adaptive Wavelet Network for Time Series Analysis",
+    "authors": "Han Yu and Peikun Guo and Akane Sano",
+    "year": "2024"
+  },
+  {
+    "title": "UniTST: Effectively Modeling Inter-Series and Intra-Series Dependencies for Multivariate Time Series Forecasting",
+    "authors": "Juncheng Liu and Chenghao Liu and Gerald Woo and Yiwei Wang ",
+    "year": "2025"
+  },
+  {
+    "title": "The Time-Energy Model: Selective Time-Series Forecasting Using Energy-Based Models",
+    "authors": "Jonas Brusokas and Seshu Tirupathi and Dalin Zhang and Torbe",
+    "year": "2025"
+  },
+  {
+    "title": "Chronos: Learning the Language of Time Series",
+    "authors": "Abdul Fatir Ansari and Lorenzo Stella and Ali Caner Turkmen ",
+    "year": "2024"
+  },
+  {
+    "title": "Sortability of Time Series Data",
+    "authors": "Christopher Lohse and Jonas Wahl",
+    "year": "2025"
+  },
+  {
+    "title": "DiffCATS: Causally Associated Time-Series Generation through Diffusion Models",
+    "authors": "Giuseppe Masi and Andrea Coletta and Elizabeth Fons and Svit",
+    "year": "2026"
+  },
+  {
+    "title": "Persistent homology for time series: a selective review",
+    "authors": "Alexandre Bois and Hugo Henneuse and Brian Tervil and Lauren",
+    "year": "2026"
+  },
+  {
+    "title": "iHyperTime: Interpretable Time Series Generation with Implicit Neural Representations",
+    "authors": "Elizabeth Fons and Alejandro Sztrajman and Yousef El-Laham a",
+    "year": "2024"
+  },
+  {
+    "title": "DynaConF: Dynamic Forecasting of Non-Stationary Time Series",
+    "authors": "Siqi Liu and Andreas Lehrmann",
+    "year": "2024"
+  },
+  {
+    "title": "Hierarchical Time Series Forecasting with Robust Reconciliation",
+    "authors": "Shuhei Aikawa and Aru Suzuki and Kei Yoshitake and Kanata Te",
+    "year": "2026"
+  },
+  {
+    "title": "Neural Fourier Transform for Multiple Time Series Prediction",
+    "authors": "Noam Koren and Kira Radinsky and Daniel Freedman",
+    "year": "2026"
+  },
+  {
+    "title": "Long-term Forecasting with TiDE: Time-series Dense Encoder",
+    "authors": "Abhimanyu Das and Weihao Kong and Andrew Leach and Shaan K M",
+    "year": "2023"
+  },
+  {
+    "title": "Are Time-Indexed Foundation Models the Future of Time Series Imputation?",
+    "authors": "Etienne Le Naour and Tahar Nabil and Adrien Petralia and Ghi",
+    "year": "2026"
+  },
+  {
+    "title": "AT4TS : Autotune for Time Series Foundation Models",
+    "authors": "Shivani Tomar and Seshu Tirupathi and Radu Marinescu and Eli",
+    "year": "2025"
+  },
+  {
+    "title": "WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series",
+    "authors": "Jean-Christophe Gagnon-Audet and Kartik Ahuja and Mohammad J",
+    "year": "2023"
+  },
+  {
+    "title": "On the Regularization of Learnable Embeddings for Time Series Forecasting",
+    "authors": "Luca Butera and Giovanni De Felice and Andrea Cini and Cesar",
+    "year": "2025"
+  },
+  {
+    "title": "TSMixer: An All-MLP Architecture for Time Series Forecast-ing",
+    "authors": "Si-An Chen and Chun-Liang Li and Sercan O Arik and Nathanael",
+    "year": "2023"
+  },
+  {
+    "title": "CEPAE: Conditional Entropy-Penalized Autoencoders for Time Series Counterfactuals",
+    "authors": "Tomas Garriga and Gerard Sanz and Eduard Serrahima de Cambra",
+    "year": "2026"
+  },
+  {
+    "title": "Wavelet Networks: Scale-Translation Equivariant Learning From Raw Time-Series",
+    "authors": "David W. Romero and Erik J Bekkers and Jakub M. Tomczak and ",
+    "year": "2024"
+  },
+  {
+    "title": "TS-Reasoner: Domain-Oriented Time Series Inference Agents for Reasoning and Automated Analysis",
+    "authors": "Wen Ye and Wei Yang and Defu Cao and Yizhou Zhang and Luming",
+    "year": "2026"
+  },
+  {
+    "title": "DEUP: Direct Epistemic Uncertainty Prediction",
+    "authors": "Salem Lahlou and Moksh Jain and Hadi Nekoei and Victor I But",
+    "year": "2023"
+  },
+  {
+    "title": "Uncertainty-aware Reward Design Process",
+    "authors": "Yang yang and Xiaolu Zhou and Bosong Ding and Miao Xin",
+    "year": "2025"
+  },
+  {
+    "title": "Teaching Models to Express Their Uncertainty in Words",
+    "authors": "Stephanie Lin and Jacob Hilton and Owain Evans",
+    "year": "2022"
+  },
+  {
+    "title": "Hybrid Active Learning with Uncertainty-Weighted Embeddings",
+    "authors": "Yinan He and Lile Cai and Jingyi Liao and Chuan-Sheng Foo",
+    "year": "2024"
+  },
+  {
+    "title": "Uncertainty-Aware Systems for Human-AI Collaboration",
+    "authors": "Vasco Pearson and Jean V. Alves and Jacopo Bono and Mario A.",
+    "year": "2026"
+  },
+  {
+    "title": "Probabilistic neural operators for functional uncertainty quantification",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "(Implicit) Ensembles of Ensembles: Epistemic Uncertainty Collapse in Large Models",
+    "authors": "Andreas Kirsch",
+    "year": "2025"
+  },
+  {
+    "title": "Calibrated Uncertainty Quantification for Operator Learning via Conformal Prediction",
+    "authors": "Ziqi Ma and David Pitt and Kamyar Azizzadenesheli and Anima ",
+    "year": "2024"
+  },
+  {
+    "title": "HybridFlow: Quantification of Aleatoric and Epistemic Uncertainty with a Single Hybrid Model",
+    "authors": "Peter Van Katwyk and Karianne Bergen",
+    "year": "2025"
+  },
+  {
+    "title": "MUBen: Benchmarking the Uncertainty of Molecular Representation Models",
+    "authors": "Yinghao Li and Lingkai Kong and Yuanqi Du and Yue Yu and Yuc",
+    "year": "2024"
+  },
+  {
+    "title": "Variance-Gated Ensembles: An Epistemic-Aware Framework for Uncertainty Estimation",
+    "authors": "Martin Gillis and Isaac Xu and Thomas Trappenberg",
+    "year": "2026"
+  },
+  {
+    "title": "On the Importance of Uncertainty in Decision-Making with Large Language Models",
+    "authors": "Nicol{\\\\`o",
+    "year": "2024"
+  },
+  {
+    "title": "Hashing with Uncertainty Quantification via Sampling-based Hypothesis Testing",
+    "authors": "Yucheng Wang and Mingyuan Zhou and Xiaoning Qian",
+    "year": "2024"
+  },
+  {
+    "title": "A Review of Bayesian Uncertainty Quantification in Deep Probabilistic Image Segmentation",
+    "authors": "Amaan Valiuddin and Ruud Van Sloun and Christiaan Viviers an",
+    "year": "2025"
+  },
+  {
+    "title": "How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts?",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "MC Layer Normalization for calibrated uncertainty in Deep Learning",
+    "authors": "Thomas Frick and Diego Antognini and Ioana Giurgiu and Benja",
+    "year": "2024"
+  },
+  {
+    "title": "Approximate Bayesian Neural Operators: Uncertainty Quantification for Parametric PDEs",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "The Interplay of Uncertainty Modeling and Deep Active Learning: An Empirical Analysis in Image Classification",
+    "authors": "Denis Huseljic and Marek Herde and Yannick Nagel and Lukas R",
+    "year": "2024"
+  },
+  {
+    "title": "Uncertainty Estimation for Computed Tomography with a Linearised Deep Image Prior",
+    "authors": "Javier Antoran and Riccardo Barbano and Johannes Leuschner a",
+    "year": "2023"
+  },
+  {
+    "title": "When Does Uncertainty Matter?: Understanding the Impact of Predictive Uncertainty in ML Assisted Decision Making",
+    "authors": "Sean McGrath and Parth Mehta and Alexandra Zytek and Isaac L",
+    "year": "2023"
+  },
+  {
+    "title": "CUDA: Capturing Uncertainty and Diversity in Preference Feedback Augmentation",
+    "authors": "Sehyeok Kang and Jaewook Jeong and Se-Young Yun",
+    "year": "2026"
+  },
+  {
+    "title": "α-OCC: Uncertainty-Aware Camera-based 3D Semantic Occupancy Prediction",
+    "authors": "Sanbao Su and Nuo Chen and Chenchen Lin and Felix Juefei-Xu ",
+    "year": "2026"
+  },
+  {
+    "title": "Using Sum-Product Networks to Assess Uncertainty in Deep Active Learning",
+    "authors": "Mohamadsadegh Khosravani and Sandra Zilles",
+    "year": "2024"
+  },
+  {
+    "title": "Unreliable Monte Carlo Dropout Uncertainty Estimation",
+    "authors": "Xi Wang and Eric Nalisnick",
+    "year": "2026"
+  },
+  {
+    "title": "Are vision language models robust to classic uncertainty challenges?",
+    "authors": "Philipp Becker and Gerhard Neumann",
+    "year": "2022"
+  },
+  {
+    "title": "On Uncertainty in Deep State Space Models for Model-Based Reinforcement Learning",
+    "authors": "Zhen Lin and Shubhendu Trivedi and Jimeng Sun",
+    "year": "2024"
+  },
+  {
+    "title": "Uncertainty Quantification in Linear Regression With Mismatched Data",
+    "authors": "Jing Wang and Jie Shen and Xiaofei Ma and Andrew Arnold",
+    "year": "2022"
+  },
+  {
+    "title": "Robust uncertainty estimates with out-of-distribution pseudo-inputs training",
+    "authors": "Kutay Demiray and Efe Eren Ceyani and Ozgur S. Oguz",
+    "year": "2026"
+  },
+  {
+    "title": "Uncertainty-Aware Safety Propagation Critics for Safe Reinforcement Learning",
+    "authors": "Vikranth Dwaracherla and Zheng Wen and Ian Osband and Xiuyua",
+    "year": "2023"
+  },
+  {
+    "title": "Ensembles for Uncertainty Estimation: Benefits of Prior Functions and Bootstrapping",
+    "authors": "Fatemeh Daneshfar and Abdulhady abas and Moloud Abdar and Pi",
+    "year": "2025"
+  },
+  {
+    "title": "UMP-Net: Uncertainty-Aware Mixture of Prompts Network for Efficient Instruction Tuning",
+    "authors": "Nikita Durasov and Nik Dorndorf and Hieu Le and Pascal Fua",
+    "year": "2024"
+  },
+  {
+    "title": "Uncertainty Quantification in SVM prediction",
+    "authors": "Julian Rodemann and Alexander Marquard and Thomas Augustin a",
+    "year": "2026"
+  },
+  {
+    "title": "Efficient Uncertainty Estimation via Sensitivity-Guided Subnetwork Selection for Scalable Variational Inference",
+    "authors": "Giuseppe Serra and Ben Werner and Florian Buettner",
+    "year": "2025"
+  },
+  {
+    "title": "Uncertainty Distillation: Teaching Language Models to Express Semantic Confidence",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "LoRA-Ensemble: Efficient Uncertainty Modelling for Self-Attention Networks",
+    "authors": "Caio de Pr{\\\\'o",
+    "year": "2026"
+  },
+  {
+    "title": "Uncertainty-Aware Model-Agnostic Dynamic Feature Selection",
+    "authors": "Seungwoo Yoo and Juil Koo and Daehyeon Choi and Minhyuk Sung",
+    "year": "2026"
+  },
+  {
+    "title": "DiffusionRollout: Uncertainty-Aware Rollout Planning in Long-Horizon PDE Solving",
+    "authors": "Lukas Tatzel and Jonathan Wenger and Frank Schneider and Phi",
+    "year": "2025"
+  },
+  {
+    "title": "Fine-Grained Uncertainty Quantification for Long-Form Language Model Outputs: A Comparative Study",
+    "authors": "Carlos E. Luis and Alessandro Giacomo Bottero and Julia Vino",
+    "year": "2025"
+  },
+  {
+    "title": "Uncertainty Representations in State-Space Layers for Deep Reinforcement Learning under Partial Observability",
+    "authors": "Sihong He and Songyang Han and Sanbao Su and Shuo Han and Sh",
+    "year": "2023"
+  },
+  {
+    "title": "Robust Multi-Agent Reinforcement Learning with State Uncertainty",
+    "authors": "Laura Perez-Beltrachini and Mirella Lapata",
+    "year": "2025"
+  },
+  {
+    "title": "Uncertainty estimation in classification via weighted test-time augmentation",
+    "authors": "Tong Wu",
+    "year": "2024"
+  },
+  {
+    "title": "Wasserstein-type Gaussian Process Regressions for Input Measurement Uncertainty",
+    "authors": "Uddeshya Upadhyay and Sairam Bade and Arjun Puranik and Shah",
+    "year": "2023"
+  },
+  {
+    "title": "HypUC: Hyperfine Uncertainty Calibration with Gradient- boosted Corrections for Reliable Regression on Imbalanced Electrocardiograms",
+    "authors": "Luca Bindini and Lorenzo Perini and Stefano Nistri and Jesse",
+    "year": "2026"
+  },
+  {
+    "title": "Geometric Uncertainty for Detecting and Correcting Hallucinations in LLMs",
+    "authors": "Francisca Vasconcelos and Bobby He and Nalini M Singh and Ye",
+    "year": "2023"
+  },
+  {
+    "title": "Uncertainty Quantification for LLM Function-Calling",
+    "authors": "Dennis Thomas Ulmer and Christian Hardmeier and Jes Frellsen",
+    "year": "2023"
+  },
+  {
+    "title": "Data-Driven Priors for Uncertainty-Aware Deterioration Risk Prediction with Multimodal Data",
+    "authors": "Pengyun Wang and Yadi Cao and Chris Russell and Yanxin Shen ",
+    "year": "2025"
+  },
+  {
+    "title": "SPACR: Single-Pass Adaptive Training of Uncertainty-Aware Conformal Regressors",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "Uncertainty-Aware Transformers: Conformal Prediction for Language Models",
+    "authors": "Jiacheng Zhang and Jinhao Li and Hanxun Huang and Sarah Mona",
+    "year": "2026"
+  },
+  {
+    "title": "Black Box Uncertainty Analysis for Semantic Segmentation",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Representation Alignment in Neural Networks",
+    "authors": "Ehsan Imani and Wei Hu and Martha White",
+    "year": "2022"
+  },
+  {
+    "title": "Getting aligned on representational alignment",
+    "authors": "Ilia Sucholutsky and Lukas Muttenthaler and Adrian Weller an",
+    "year": "2025"
+  },
+  {
+    "title": "ResiDual Transformer Alignment with Spectral Decomposition",
+    "authors": "Lorenzo Basile and Valentino Maiorca and Luca Bortolussi and",
+    "year": "2025"
+  },
+  {
+    "title": "Robust Cross-Domain Alignment",
+    "authors": "Anish Chakrabarty and ARKAPRABHA BASU and Swagatam Das",
+    "year": "2026"
+  },
+  {
+    "title": "BalancedDPO: Adaptive Multi-Metric Alignment",
+    "authors": "Dipesh Tamboli and Souradip Chakraborty and Aditya Malusare ",
+    "year": "2026"
+  },
+  {
+    "title": "Legal Alignment for Safe and Ethical AI",
+    "authors": "Noam Kolt and Nicholas Caputo and Jack Boeglin and Cullen O'",
+    "year": "2026"
+  },
+  {
+    "title": "Watermarking Degrades Alignment in Language Models: Analysis and Mitigation",
+    "authors": "Apurv Verma and Hai Phan and Shubhendu Trivedi",
+    "year": "2026"
+  },
+  {
+    "title": "PROPS: Progressively Private Self-alignment of Large Language Models",
+    "authors": "Noel Teku and Fengwei Tian and Payel Bhattacharjee and Soura",
+    "year": "2025"
+  },
+  {
+    "title": "Identifying Spurious Correlations using Counterfactual Alignment",
+    "authors": "Joseph Paul Cohen and Louis Blankemeier and Akshay S Chaudha",
+    "year": "2025"
+  },
+  {
+    "title": "CAE v2: Context Autoencoder with CLIP Latent Alignment",
+    "authors": "Xinyu Zhang and Jiahui Chen and Junkun Yuan and Qiang Chen a",
+    "year": "2023"
+  },
+  {
+    "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+    "authors": "Chaoyu Li and Xiaoyi Gu and Yogesh Kulkarni and Eun Woo Im a",
+    "year": "2026"
+  },
+  {
+    "title": "Time Series Domain Adaptation via Channel-Selective Representation Alignment",
+    "authors": "Nauman Ahad and Mark A. Davenport and Eva L Dyer",
+    "year": "2025"
+  },
+  {
+    "title": "Relative Geometry of Neural Forecasters: Linking Accuracy and Alignment in Learned Latent Geometry",
+    "authors": "Deniz Kucukahmetler and Maximilian Jean Hemmann and Julian M",
+    "year": "2026"
+  },
+  {
+    "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
+    "authors": "Yiling Liu and Juncheng Dong and Ziyang Jiang and Ahmed Alou",
+    "year": "2025"
+  },
+  {
+    "title": "Understanding and Robustifying Sub-domain Alignment for Domain Adaptation",
+    "authors": "Youssef Mroueh and Apoorva Nitsure",
+    "year": "2025"
+  },
+  {
+    "title": "Information Theoretic Guarantees For Policy Alignment In Large Language Models",
+    "authors": "Hamza Mooraj and Georgios Pantazopoulos and Alessandro Sugli",
+    "year": "2026"
+  },
+  {
+    "title": "Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning",
+    "authors": "Siyuan Xu and Hangfan Zhang and Zhimeng Guo and Huaisheng Zh",
+    "year": "2026"
+  },
+  {
+    "title": "Foundational Challenges in Assuring Alignment and Safety of Large Language Models",
+    "authors": "Zefan Cai and Haoyi Qiu and Haozhe Zhao and Ke Wan and Jiach",
+    "year": "2026"
+  },
+  {
+    "title": "BiSSL: Enhancing the Alignment Between Self-Supervised Pretraining and Downstream Fine-Tuning via Bilevel Optimization",
+    "authors": "Yuhao Du and Zhuo Li and Pengyu Cheng and Zhihong Chen and Y",
+    "year": "2026"
+  },
+  {
+    "title": "From Preferences to Prejudice: The Role of Alignment Tuning in Shaping Social Bias in Video Diffusion Models",
+    "authors": "Song Wang and Chris Tennant and Jundong Li",
+    "year": "2026"
+  },
+  {
+    "title": "Position: Align AI to Our Aspirations, Not Our Flaws",
+    "authors": "Teodora Pandeva and Tim Bakker and Christian A. Naesseth and",
+    "year": "2024"
+  },
+  {
+    "title": "Pluralistic On-Policy Self-Distillation",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations in Ambiguous Video Labeling",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "Better Language Models Exhibit Higher Visual Alignment",
+    "authors": "Elia Cunegatti and Leonardo Lucio Custode and Giovanni Iacca",
+    "year": "2025"
+  },
+  {
+    "title": "LMA: Latent Motion Adjuster for Physics-based Multi-agent Interaction",
+    "authors": "Taiki Yano and Satoshi Yagi and Satoshi Yamamori and Jun Mor",
+    "year": "2026"
+  },
+  {
+    "title": "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration",
+    "authors": "Jonathan Hyun and Nicholas R Waytowich and Boyuan Chen",
+    "year": "2025"
+  },
+  {
+    "title": "Game Theory and Decision Theory in Multi-Agent Systems",
+    "authors": "Timothy Ossowski and Danyal Maqbool and Jixuan Chen and Zefa",
+    "year": "2025"
+  },
+  {
+    "title": "COMMA: A Communicative Multimodal Multi-Agent Benchmark",
+    "authors": "Chenyue Li and Hyeonjae Kim and Wen Deng and Mengxi Jin and ",
+    "year": "2026"
+  },
+  {
+    "title": "ClimateAgent: Multi-Agent Orchestration for Complex Climate Data Science Workflows",
+    "authors": "Kefan Su and Zongqing Lu",
+    "year": "2024"
+  },
+  {
+    "title": "A survey of multi-agent deep reinforcement learning with communication",
+    "authors": "Zhuoran Li and Ling Pan and Jiatai Huang and Longbo Huang",
+    "year": "2026"
+  },
+  {
+    "title": "MAD-Sherlock: Multi-Agent Debates for Out-of-Context Misinformation Detection",
+    "authors": "Songyang Han and Sanbao Su and Sihong He and Shuo Han and Ha",
+    "year": "2024"
+  },
+  {
+    "title": "What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?",
+    "authors": "Filippos Christianos and Georgios Papoudakis and Stefano V A",
+    "year": "2023"
+  },
+  {
+    "title": "Pareto Actor-Critic for Equilibrium Selection in Multi-Agent Reinforcement Learning",
+    "authors": "Weizhe Chen and Sven Koenig and Bistra Dilkina",
+    "year": "2025"
+  },
+  {
+    "title": "Solving Multi-agent Path Finding as an LLM Benchmark: How, How Good and Why",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "Unravelling multi-agent ranked delegations",
+    "authors": "Jie Liu and Yinmin Zhang and Chuming Li and Zhiyuan You and ",
+    "year": "2024"
+  },
+  {
+    "title": "SMART-JaCaMo: An Organisation-Based Team for the Multi-Agent Programming Contest",
+    "authors": "Tiancheng Lao and Xudong Guo and Mengge Liu and Junjie Yu an",
+    "year": "2025"
+  },
+  {
+    "title": "Exploration Strategies for Model-based Learning in Multi-agent Systems: Exploration Strategies",
+    "authors": "Tong Mu and Stephan Zheng and Alexander R Trott",
+    "year": "2022"
+  },
+  {
+    "title": "Action-Conditioned Transformers for Decentralized Multi-Agent World Models",
+    "authors": "Hang Lv and Pengxiang Zhan and Yanchao Tan and Zixuan Guo an",
+    "year": "2025"
+  },
+  {
+    "title": "A Recursive Policy Gradient Algorithm for Fast Multi-Agent Reinforcement Learning",
+    "authors": "Yang Zhang and Chenjia Bai and Bin Zhao and Junchi Yan and X",
+    "year": "2025"
+  },
+  {
+    "title": "Leveraging World Model Disentanglement in Value-Based Multi-Agent Reinforcement Learning",
+    "authors": "Feng Chen and Xinwei Chen and Rong-Jun Qin and Cong Guan and",
+    "year": "2025"
+  },
+  {
+    "title": "Mechanisms for environments in multi-agent systems: Survey and opportunities",
+    "authors": "Scott Reed and Konrad Zolna and Emilio Parisotto and Sergio ",
+    "year": "2022"
+  },
+  {
+    "title": "Parameter Sharing For Heterogeneous Agents in Multi-Agent Reinforcement Learning",
+    "authors": "Ziyu Cheng and Jinsheng Ren and Jun Yang and Zhouxian Jiang ",
+    "year": "2026"
+  },
+  {
+    "title": "LFC: Combining Autonomous Agents and Automated Planning in the Multi-Agent Programming Contest",
+    "authors": "Alakh Sharma and Gaurish Trivedi and Kartikey Singh Bhandari",
+    "year": "2026"
+  },
+  {
+    "title": "Generative Evolutionary Meta-Solver (GEMS): Scalable Surrogate-Free Multi-Agent Reinforcement Learning",
+    "authors": "Peihong Yu and Manav Mishra and Alec Koppel and Carl Busart ",
+    "year": "2025"
+  },
+  {
+    "title": "AgenticNet: Rethinking Multi-agent System Architectures with LLM-based Networks",
+    "authors": "Alessio Silverio and Carmen Michaela Chezan and Mathijs van ",
+    "year": "2026"
+  },
+  {
+    "title": "Reproducibility Study: Understanding multi-agent LLM cooperation in the GovSim framework",
+    "authors": "Jayesh K Gupta and Johannes Brandstetter",
+    "year": "2023"
+  },
+  {
+    "title": "Unlearning Sensitive Information in Multimodal LLMs: Benchmark and Attack-Defense Evaluation",
+    "authors": "Vaidehi Patil and Yi-Lin Sung and Peter Hase and Jie Peng an",
+    "year": "2024"
+  },
+  {
+    "title": "Population-based Evaluation in Repeated Rock-Paper-Scissors as a Benchmark for Multiagent Reinforcement Learning",
+    "authors": "Marc Lanctot and John Schultz and Neil Burch and Max Olan Sm",
+    "year": "2023"
+  },
+  {
+    "title": "Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning Force Fields with Molecular Simulations",
+    "authors": "Xiang Fu and Zhenghao Wu and Wujie Wang and Tian Xie and Sin",
+    "year": "2023"
+  },
+  {
+    "title": "mSOP-765k: A Benchmark For Multi-Modal Structured Output Predictions",
+    "authors": "Bianca Lamm and Janis Keuper",
+    "year": "2026"
+  },
+  {
+    "title": "AcademicEval: Live Long-Context LLM Benchmark",
+    "authors": "Haozhen Zhang and Tao Feng and Pengrui Han and Jiaxuan You",
+    "year": "2025"
+  },
+  {
+    "title": "SyntheRela: A Benchmark For Synthetic Relational Database Generation",
+    "authors": "Valter Hudovernik and Martin Jurkovic and Erik {\\\\v{S",
+    "year": "2026"
+  },
+  {
+    "title": "DASB - Discrete Audio and Speech Benchmark",
+    "authors": "Pooneh Mousavi and Jarod Duret and Darius Petermann and Arte",
+    "year": "2026"
+  },
+  {
+    "title": "The ConceptARC Benchmark: Evaluating Understanding and Generalization in the ARC Domain",
+    "authors": "Arsenii Kirillovich Moskvichev and Victor Vikram Odouard and",
+    "year": "2023"
+  },
+  {
+    "title": "SC2 Benchmark: Supervised Compression for Split Computing",
+    "authors": "Yoshitomo Matsubara and Ruihan Yang and Marco Levorato and S",
+    "year": "2023"
+  },
+  {
+    "title": "Holistic Evaluation of Language Models",
+    "authors": "Percy Liang and Rishi Bommasani and Tony Lee and Dimitris Ts",
+    "year": "2023"
+  },
+  {
+    "title": "SURFACEBENCH: A Geometry-Aware Benchmark for Symbolic Surface Discovery",
+    "authors": "Sanchit Kabra and Shobhnik Kriplani and Parshin Shojaee and ",
+    "year": "2026"
+  },
+  {
+    "title": "\\\\texttt{Complex-Edit}: CoT-Like Instruction Generation for Complexity-Controllable Image Editing Benchmark",
+    "authors": "Siwei Yang and Mude Hui and Bingchen Zhao and Yuyin Zhou and",
+    "year": "2026"
+  },
+  {
+    "title": "Results of requested experiment and TMLR evaluation criteria",
+    "authors": "Raman Dutt and Pedro Sanchez and Yongcheng Yao and Steven Mc",
+    "year": "2026"
+  },
+  {
+    "title": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+    "authors": "Zachary S Siegel and Sayash Kapoor and Nitya Nadgir and Bene",
+    "year": "2024"
+  },
+  {
+    "title": "ORGEval: Graph-Theoretic Evaluation of LLMs in Optimization Modeling",
+    "authors": "",
+    "year": ""
+  },
+  {
+    "title": "The Meta-Evaluation Problem in Explainable AI: Identifying Reliable Estimators with MetaQuantus",
+    "authors": "Samuel Stockman and Daniel John Lawson and Maximilian J. Wer",
+    "year": "2026"
+  },
+  {
+    "title": "EarthquakeNPP: A Benchmark for Earthquake Forecasting with Neural Point Processes",
+    "authors": "Weizhe Chen and Sven Koenig and Bistra Dilkina",
+    "year": "2025"
+  },
+  {
+    "title": "From Raw Corpora to Domain Benchmarks: Automated Evaluation of LLM Domain Expertise",
+    "authors": "Siwei Yang and Bingchen Zhao and Cihang Xie",
+    "year": "2025"
+  },
+  {
+    "title": "APBench: A Unified Availability Poisoning Attack and Defenses Benchmark",
+    "authors": "Aditya Chakravarty",
+    "year": "2026"
+  },
+  {
+    "title": "A Systematic Evaluation of Out-of-Distribution Generalization in Crop Yield Prediction",
+    "authors": "Haoxuan Chen and Yinuo Ren and Martin Renqiang Min and Lexin",
+    "year": "2026"
+  },
+  {
+    "title": "YRC-Bench: A Benchmark for Learning to Coordinate with Experts",
+    "authors": "Wankou Yang and Jiren Mai and Fei Zhang and Tongliang Liu an",
+    "year": "2024"
+  },
+  {
+    "title": "Unified Triplet-Level Hallucination Evaluation for Large Vision-Language Models",
+    "authors": "Katherine A. Keith and Sergey Feldman and David Jurgens and ",
+    "year": "2023"
+  },
+  {
+    "title": "CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design",
+    "authors": "Weiye Zhao and Yifan Sun and Feihan Li and Rui Chen and Ruix",
+    "year": "2024"
+  },
+  {
+    "title": "DECO-Bench: Unified Benchmark for Decoupled Task-Agnostic Synthetic Data Release",
+    "authors": "Shusheng Xu and Yancheng Liang and Yunfei Li and Simon Shaol",
+    "year": "2023"
+  },
+  {
+    "title": "Anomaly-Gym: A Benchmark for Anomaly Detection in Reinforcement Learning Environments",
+    "authors": "Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zhang and Fe",
+    "year": "2025"
+  },
+  {
+    "title": "LLM Evaluation Benchmark on Diverse Cultures and Languages",
+    "authors": "Kangyu Zheng and Kai Zhang and Jiale Tan and Xuehan Chen and",
+    "year": "2026"
+  },
+  {
+    "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+    "authors": "Wentao Ma and Weiming Ren and Yiming Jia and Zhuofeng Li and",
+    "year": "2026"
+  },
+  {
+    "title": "MetaCog-Bench: A Process-Based Benchmark for Evaluating Metacognitive Monitoring and Control in Large Language Models",
+    "authors": "Hager Radi Abdelwahed and Josiah P. Hanna and Matthew E. Tay",
+    "year": "2024"
+  },
+  {
+    "title": "Beyond Affinity: A Benchmark of 1D, 2D, and 3D Methods Reveals Critical Trade-offs in Structure-Based Drug Design",
+    "authors": "Dan Friedman and Adji Bousso Dieng",
+    "year": "2023"
+  },
+  {
+    "title": "ScImage: How good are multimodal large language models at scientific text-to-image generation?",
+    "authors": "Shrikant Kendre and Austin Xu and Honglu Zhou and Michael S ",
+    "year": "2026"
+  },
+  {
+    "title": "VideoEval-Pro: Robust and Realistic Long Video Understanding Evaluation",
+    "authors": "Yihong Guo and Hao Liu and Yisong Yue and Anqi Liu",
+    "year": "2024"
+  },
+  {
+    "title": "DafnyBench: A Benchmark for Formal Software Verification",
+    "authors": "Yaswanth Narsupalli and Abhranil Chandra and Sreevatsa Muppi",
+    "year": "2025"
+  },
+  {
+    "title": "A Diagnostic Benchmark for Transformer Training Failures: Establishing Baseline Methods and Quantifying the Accuracy-Interpretability Tradeof",
+    "authors": "Aur{\\\\'e",
+    "year": "2025"
+  },
+  {
+    "title": "ODRL: A Benchmark for Off-Dynamics Reinforcement Learning",
+    "authors": "Jorge Carrasco Pollo and Ioannis Kapetangeorgis and Joshua R",
+    "year": "2025"
+  },
+  {
+    "title": "Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics",
+    "authors": "Yihong Chen and Shuai Wang and Yaqing Wang and Quanming Yao",
+    "year": "2026"
+  }
+]

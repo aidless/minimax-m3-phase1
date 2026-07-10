@@ -1,0 +1,3626 @@
+metadata:
+  version: v5.3
+  created: '2026-07-05'
+  source: OpenReview API
+  total_papers: 833
+papers:
+- title: 'Prescribe-then-Select: Adaptive Policy Selection for Contextual Stochastic
+    Optimization'
+  authors: Caio de Pr\\
+  year: '2026'
+  topic: RL
+- title: 'Strengthening Interpretability: An Investigative Study of Integrated Gradient
+    Methods'
+  authors: Shree Singhi and Anupriya Kumari
+  year: '2024'
+  topic: optimization
+- title: Online Tensor Max-Norm Regularization via Stochastic Optimization
+  authors: Tong Wu
+  year: '2024'
+  topic: optimization
+- title: 'Solving Inverse Problems via Diffusion-Based Priors: An Approximation-Free
+    Ensemble Sampling Approach'
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: diffusion
+- title: Semantic-aware Adversarial Fine-tuning for CLIP
+  authors: Jiacheng Zhang and Jinhao Li and Hanxun Huang and ...
+  year: '2026'
+  topic: robustness
+- title: 'QuaRL: Quantization for Fast and Environmentally Sustainable Reinforcement
+    Learning'
+  authors: Srivatsan Krishnan and Max Lam and Sharad Chitlang...
+  year: '2022'
+  topic: RL
+- title: 'AgriPath: A Systematic Exploration of Architectural Trade- offs for Crop
+    Disease Classification'
+  authors: Hamza Mooraj and Georgios Pantazopoulos and Alessa...
+  year: '2026'
+  topic: general
+- title: 'Exploit CAM by itself: Complementary Learning System for Weakly Supervised
+    Semantic Segmentation'
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: vision
+- title: Towards Multi-spatiotemporal-scale Generalized PDE Modeling
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: time_series
+- title: 'EdgeMask-DG*: Learning Domain-Invariant Graph Structures via Adversarial
+    Edge Masking'
+  authors: Rishabh Bhattacharya and Naresh Manwani
+  year: '2026'
+  topic: robustness
+- title: Selective Prediction via Training Dynamics
+  authors: Stephan Rabanser and Anvith Thudi and Kimia Hamidi...
+  year: '2025'
+  topic: general
+- title: 'TimeSeAD: Benchmarking Deep Multivariate Time-Series Anomaly Detection'
+  authors: Dennis Wagner and Tobias Michels and Florian C.F. ...
+  year: '2023'
+  topic: time_series
+- title: 'AlignFix: Fixing Adversarial Perturbations by Agreement Checking for Adversarial
+    Robustness against Black-box Attacks'
+  authors: Ashutosh Kumar Nirala and Jin Tian and Olukorede F...
+  year: '2025'
+  topic: robustness
+- title: '[RE] GNNBoundary: Finding Boundaries and Going Beyond Them'
+  authors: Jan Henrik Bertrand and Lukas Bierling and Ina Kla...
+  year: '2025'
+  topic: graph
+- title: Smoothed Differential Privacy
+  authors: Ao Liu and Yu-Xiang Wang and Lirong Xia
+  year: '2023'
+  topic: federated
+- title: Calibrated Selective Classification
+  authors: Adam Fisch and Tommi S. Jaakkola and Regina Barzil...
+  year: '2022'
+  topic: calibration
+- title: Studying memorization of large language models using answers to Stack Overflow
+    questions
+  authors: Laura Caspari and Alexander Trautsch and Michael G...
+  year: '2025'
+  topic: LLM
+- title: Distributed Multi-Agent Lifelong Learning
+  authors: Prithviraj Tarale and Edward Rietman and Hava T Si...
+  year: '2025'
+  topic: multi_agent
+- title: Reward Distance Comparisons Under Transition Sparsity
+  authors: Yang Zhang and Chenjia Bai and Bin Zhao and Junchi...
+  year: '2025'
+  topic: RL
+- title: Decentralized Transformers with Centralized Aggregation are Sample-Efficient
+    Multi-Agent World Models
+  authors: Teodora Pandeva and Tim Bakker and Christian A. Na...
+  year: '2024'
+  topic: calibration
+- title: Label Noise-Robust Learning using a Confidence-Based Sieving Strategy
+  authors: Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zh...
+  year: '2025'
+  topic: robustness
+- title: 'LLaVA-OneVision: Easy Visual Task Transfer'
+  authors: Xu Han and Jiajing Hu and Liping Liu
+  year: '2026'
+  topic: meta_learning
+- title: Harnessing Optimization Dynamics for Curvature-Informed Model Merging
+  authors: Yucong Dai and Lu Zhang and Yaowei Hu and Susan Ga...
+  year: '2026'
+  topic: optimization
+- title: A Survey of Reasoning and Agentic Systems in Time Series with Large Language
+    Models
+  authors: Santiago Acevedo and Andrea Mascaretti and Riccard...
+  year: '2026'
+  topic: LLM
+- title: A Bi-level Framework for Debiasing Implicit Feedback with Low Variance
+  authors: Li Zhang and Pengtao Xie
+  year: '2026'
+  topic: fairness
+- title: Controlling Confusion via Generalisation Bounds
+  authors: Yi-Zeng Fang and Juinn-Dar Huang
+  year: '2026'
+  topic: theory
+- title: 'The Weakest Link: A Nodal Tension Model for Local Network Resilience'
+  authors: Emanuele Zangrando and Piero Deidda and Simone Bru...
+  year: '2026'
+  topic: general
+- title: Multi-objective Bayesian Optimization with Heuristic Objectives for Biomedical
+    and Molecular Data Analysis Workflows
+  authors: Soham Bonnerjee and Kingsley Yeon and Anna Asch an...
+  year: '2026'
+  topic: optimization
+- title: Closing the Modality Gap for Mixed Modality Search
+  authors: Mengwei Yang and Baturalp Buyukates and Yanning Sh...
+  year: '2026'
+  topic: general
+- title: 'Self-Consistent Flow: Unifying Velocity and Endpoint Prediction for Rectified
+    Flow Models'
+  authors: Willa Potosnak and Malcolm Wolff and Mengfei Cao a...
+  year: '2026'
+  topic: general
+- title: Causally Fair Node Classification on Non-IID Graph Data
+  authors: Yubo Li
+  year: '2026'
+  topic: fairness
+- title: A quantitative analysis of semantic information in deep representations of
+    text and images
+  authors: Dirk Elias Schut and Robert van Liere and Tristan ...
+  year: '2026'
+  topic: vision
+- title: Learning to Prompt for Generalizable Instance Segmentation via Bi-Level Optimization
+  authors: Manuel Wendl and Lukas Koller and Tobias Ladner an...
+  year: '2026'
+  topic: LLM
+- title: Rethinking Reward Models for Multi-Domain Test-Time Scaling
+  authors: Alan T. L. Bacellar and Sathvik Chemudupati and Sh...
+  year: '2026'
+  topic: RL
+- title: 'Beyond Freezing the Router: Rank-Aligned Post-Training Quantization for
+    Mixture-of-Experts Models'
+  authors: Saja Tawalbeh and Jose Oramas
+  year: '2026'
+  topic: efficiency
+- title: Provable Emergence of Deep Neural Collapse and Low-Rank Bias in $L^2$-Regularized
+    Nonlinear Networks
+  authors: Nam V. Nguyen and Thong T. Doan and Luong Tran and...
+  year: '2026'
+  topic: fairness
+- title: 'DP-FedSOFIM: Differentially Private Federated Stochastic Optimization using
+    Regularized Fisher Information Matrix'
+  authors: Javier Lopez-Piqueres and Pranav Deshpande and Arc...
+  year: '2026'
+  topic: federated
+- title: How Private is Your Attention? Bridging Privacy with In-Context Learning
+  authors: Parveena Shamim ABDUL SALAM and Abhishek A and Har...
+  year: '2026'
+  topic: federated
+- title: 'DuoShapley: Adaptive and Scalable Shapley Value Approximation for Federated
+    Learning'
+  authors: Shaoan Xie and Biwei Huang and Bin Gu and Tonglian...
+  year: '2026'
+  topic: federated
+- title: 'Forking-Sequences: Statistically and Computationally Efficient Multi-Horizon
+    Forecasting with Reduced Volatility'
+  authors: Tao Feng and Haozhen Zhang and Zijie Lei and Pengr...
+  year: '2026'
+  topic: time_series
+- title: 'Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill
+    Libraries'
+  authors: Peyman Baghershahi and Sourav Medya
+  year: '2026'
+  topic: general
+- title: 'Monte Carlo Multi-Feature Baseline Shapley (MMBS): An axiomatic attribution
+    method for fine-grained explanations of image classification networks'
+  authors: Zhaoyi Joey Hou and Alvin Zhang and Yining Lu and ...
+  year: '2026'
+  topic: RL
+- title: Training Verifiably Robust Agents Using Set-Based Reinforcement Learning
+  authors: Panagiotis Lymperopoulos and Liping Liu
+  year: '2026'
+  topic: RL
+- title: 'From Arithmetic to Logic: The Resilience of Logic and Lookup-Based Neural
+    Networks Under Parameter Bit-Flips'
+  authors: Yucong Dai and Jie Ji and Xiaolong Ma and Yongkai ...
+  year: '2026'
+  topic: general
+- title: Visual Explanations for Capsule Networks
+  authors: Alessandro Favero and Antonio Sclocchi and Matthie...
+  year: '2026'
+  topic: general
+- title: 'LibMoE: A Library for Comprehensive Research on Mixture of Experts in Large
+    Language Models'
+  authors: Bal\\
+  year: ''
+  topic: LLM
+- title: 'MetaTT: A Global Tensor-Train Adapter for Parameter-Efficient Fine-Tuning'
+  authors: Louie Hong Yao and Nicholas Jarvis and Tiffany Zha...
+  year: '2026'
+  topic: general
+- title: Temporal Energy Transformer for Long Range Propagation in Continuous Time
+    Dynamic Graphs
+  authors: Vincent Perreault and Katsumi Inoue and Richard La...
+  year: '2026'
+  topic: graph
+- title: Advancing Counterfactual Prediction through Nonlinear Quantile Regression
+  authors: Rui Xia and Ayan Das and Artem Artemev and Andi Zh...
+  year: '2026'
+  topic: general
+- title: 'FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data'
+  authors: Anna Bair and Madan Ravi Ganesh and Devin Willmott...
+  year: '2026'
+  topic: LLM
+- title: 'Freeze, Prompt, and Adapt: A Framework for Source-free Unsupervised GNN
+    Prompting'
+  authors: Liheng Ma and Soumyasundar Pal and Yingxue Zhang a...
+  year: '2026'
+  topic: LLM
+- title: 'CreativityPrism: A Cross-Domain Evaluation Framework for Large Language
+    Model Creativity'
+  authors: Haiquan Qiu and Quanming Yao
+  year: '2026'
+  topic: LLM
+- title: Towards Overcoming Reasoning Shortcuts in Neurosymbolic Learning via Efficient
+    Generative Proxies
+  authors: Alokendu Mazumder and Arnab Roy and Punit Rathore
+  year: '2026'
+  topic: generative
+- title: 'FairSAM: Fair Classification on Corrupted Image Data Through Sharpness-Aware
+    Minimization'
+  authors: Yihao Xue and Kristjan Greenewald and Youssef Mrou...
+  year: '2026'
+  topic: fairness
+- title: 'Bigger Isn’t Always Memorizing: Early Stopping Overparameterized Diffusion
+    Models'
+  authors: Brian Godwin Lim and Galvin Brice Lim and Renzo Ro...
+  year: '2026'
+  topic: RL
+- title: On Rate-Optimal Partitioning Classification from Observable and from Privatised
+    Data
+  authors: Guangming Huang and Yunfei Long and Cunjin Luo
+  year: '2026'
+  topic: optimization
+- title: A Geometric Lens on LLM Abilities through Joint Embedding Item Response Theory
+  authors: AJ Piergiovanni and Ganesh Satish Mallya and Dahun...
+  year: '2026'
+  topic: LLM
+- title: Neural Logic Networks for Interpretable Classification
+  authors: Lei Jiang and Weixin Yang and Xin Zhang and Hao Ni
+  year: '2026'
+  topic: general
+- title: Improved denoising diffusion probabilistic models with efficient non-diagonal
+    covariance modeling
+  authors: Edvin Listo Zec and Adam Breitholtz and Fredrik D....
+  year: '2026'
+  topic: diffusion
+- title: Leveraging Vision-Language Models for Resource Constrained Settings
+  authors: Weixin Chen and Antonio Vergari and Han Zhao
+  year: '2026'
+  topic: LLM
+- title: Plain Transformers Can be Powerful Graph Learners
+  authors: Chenguang Wang and Xuanhao Pan and Tianshu Yu
+  year: '2026'
+  topic: graph
+- title: Graph Unitary Message Passing
+  authors: Shubhang Bhatnagar and Andy Xu and Kar-Han Tan and...
+  year: '2026'
+  topic: graph
+- title: 'On Hamming–Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric:
+    Theory and Simple Proofs'
+  authors: Sneha Paul and Zachary Patterson and Nizar Bouguil...
+  year: '2026'
+  topic: theory
+- title: 'Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination
+    Detection'
+  authors: Xufeng Liu and Wenhan Gao and Yi Liu
+  year: '2026'
+  topic: vision
+- title: Enhancing Graph Representations with Neighborhood-Contextualized Message-Passing
+  authors: Hiroki Naganuma and Atish Agarwala and Priya Kasim...
+  year: '2026'
+  topic: graph
+- title: Similarity-Dissimilarity Loss for Multi-label Supervised Contrastive Learning
+  authors: Lu Wang and Wenyu Zhang and Wang Chengke and Guime...
+  year: '2026'
+  topic: general
+- title: Learning to Understand Videos From Encoded Bytes
+  authors: ''
+  year: ''
+  topic: general
+- title: 'GCN-DevLSTM: Path Development for Skeleton-Based Action Recognition'
+  authors: Disha Hegde and Jon Cockayne and Chris J. Oates
+  year: '2026'
+  topic: general
+- title: Overcoming label shift in target-aware federated learning
+  authors: Charles Westphal and Stephen Hailes and Mirco Muso...
+  year: '2026'
+  topic: federated
+- title: Can VLMs Reason Robustly? A Neuro-Symbolic Investigation
+  authors: Dongfu Jiang and Yi Lu and Zhuofeng Li and Zhiheng...
+  year: '2026'
+  topic: robustness
+- title: Towards Principled Task Grouping for Multi-Task Learning
+  authors: Zeynep Sonat Baltaci and Romain Loiseau and Mathie...
+  year: '2026'
+  topic: general
+- title: 'LUQ: Layerwise Ultra-Low Bit Quantization for Multimodal Large Language
+    Models'
+  authors: BIN XU and Ayan Banerjee and Sandeep Gupta
+  year: '2026'
+  topic: LLM
+- title: Domain Generalizable Adaptation of 3D Vision-Language Models via Regularized
+    Fine-Tuning
+  authors: Taiki Yano and Satoshi Yagi and Satoshi Yamamori a...
+  year: '2026'
+  topic: LLM
+- title: Confidence-Aware Explanations for 3D Molecular Graphs via Energy-Based Masking
+  authors: Howard Chen and Jiayi Geng and Adithya Bhaskar and...
+  year: '2026'
+  topic: graph
+- title: What do near-optimal learning rate schedules look like?
+  authors: Parsa Hosseini and Sumit Nawathe and Mazda Moayeri...
+  year: '2026'
+  topic: optimization
+- title: Domain Adaptation for Cold-Start Users in Sequential Recommendation
+  authors: Tianyi Alex Qiu and Ahmed Ismail and Zhonghao He a...
+  year: '2026'
+  topic: general
+- title: Modelling Complex Tabular Datasets with a Mixture of Diverse Generative Models
+  authors: Eva Yezerets and En Yang and Misha B. Ahrens and A...
+  year: '2026'
+  topic: generative
+- title: Extrapolating from Regularised Solutions for Solving Ill-Conditioned Linear
+    Systems in Machine Learning
+  authors: Saurabh Pujar and Ira Ceka and Irene L Manotas and...
+  year: '2026'
+  topic: general
+- title: 'TERC: A Transfer Entropy Redundancy Criterion for State Variable Selection
+    in Reinforcement Learning'
+  authors: ''
+  year: ''
+  topic: RL
+- title: 'VerlTool: Towards Holistic Agentic Reinforcement Learning with Tool Use'
+  authors: Andres Potapczynski and Ravi Kiran Selvam and Tati...
+  year: '2026'
+  topic: RL
+- title: Weight-balancing fixes and flows for deep learning
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: general
+- title: TMLR audience
+  authors: Rishabh Bhattacharya and Naresh Manwani
+  year: '2026'
+  topic: general
+- title: 'The SMOTE Paradox: Why a 92% Baseline Collapsed to 6%—A Systematic Review
+    of 821 Papers in Imbalanced Learning (2020–2025)'
+  authors: Severin Bratus and David F. Jenny and Andreas Ples...
+  year: '2026'
+  topic: general
+- title: 'Overview of eRisk 2025: Early Risk Prediction on the Internet'
+  authors: Fang Sun and Zijie Huang and Haixin Wang and Huaco...
+  year: '2025'
+  topic: RL
+- title: Overview of the CLEF 2025 SimpleText Track - Simplify Scientific Text (and
+    Nothing More)
+  authors: Valentijn Oldenburg and Floris de Kam and Stef de ...
+  year: '2026'
+  topic: general
+- title: Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025
+  authors: Charlesquin Kemajou Mbakam and Marcelo Pereyra and...
+  year: '2025'
+  topic: general
+- title: 'AI Idea Bench 2025: AI Research Idea Generation Benchmark'
+  authors: Oscar Mir\\
+  year: '2026'
+  topic: evaluation
+- title: 'Squeeze3D: Extreme Neural Compression with Latent Space Bridging'
+  authors: Caio de Pr\\
+  year: '2026'
+  topic: efficiency
+- title: 'Koli Calling 2024: Call for Submissions'
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: general
+- title: TMLR acceptance criteria
+  authors: Hamza Mooraj and Georgios Pantazopoulos and Alessa...
+  year: '2026'
+  topic: general
+- title: Report on the 7th International Workshop on Narrative Extraction from Texts
+    (Text2Story 2024) at ECIR 2024
+  authors: Lawrence K. Saul
+  year: '2023'
+  topic: general
+- title: Report on the 1st International Workshop on Graph-Based Approaches in Information
+    Retrieval (IRonGraphs 2024) at ECIR 2024
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: graph
+- title: E-Valuating Classifier Two-Sample Tests
+  authors: Asen Dotsinski and Udit Thakur and Marko Ivanov an...
+  year: '2025'
+  topic: general
+- title: The 2024 Foundation Model Transparency Index
+  authors: Izabela Kurek and Wojciech Trejter and Stipe Frkov...
+  year: '2025'
+  topic: general
+- title: Report on the 8th Workshop on Search-Oriented Conversational Artificial Intelligence
+    (SCAI 2024) at CHIIR 2024
+  authors: Kamil Ciosek and Nicol\\`o
+  year: '2025'
+  topic: general
+- title: '[Re] Improving Interpretation Faithfulness for Vision Transformers'
+  authors: Freek Byrman and Emma Kasteleyn and Bart Kuipers a...
+  year: '2025'
+  topic: architecture
+- title: Statistical Model Checking the 2024 Edition!
+  authors: Tijs Wiegman and Leyla Perotti and Vikt\\
+  year: '2025'
+  topic: general
+- title: Model AI Assignments 2024
+  authors: C\\ua
+  year: '2025'
+  topic: general
+- title: Report on the 1st International Workshop on Open Web Search (WOWS 2024) at
+    ECIR 2024
+  authors: Johanna D'Ciofalo Khodaverdian and Eric Banzuzi an...
+  year: '2025'
+  topic: general
+- title: Message from the General Chairs; ICHI 2024
+  authors: Meher Changlani and Benjamin Hucko and Ioannis Kec...
+  year: '2025'
+  topic: general
+- title: VAST 2024-MC2 Challenge
+  authors: Yuki Ichihara and Yuu Jinnai and Tetsuro Morimura ...
+  year: '2025'
+  topic: general
+- title: POMACS V8, N1, March 2024 Editorial
+  authors: Kelly Ramsay and Aukosh Jagannath and Shojaeddin C...
+  year: '2025'
+  topic: general
+- title: POMACS V8, N2, June 2024 Editorial
+  authors: Fang Sun and Zijie Huang and Haixin Wang and Huaco...
+  year: '2025'
+  topic: general
+- title: 'Meta-Calibration: Learning of Model Calibration Using Differentiable Expected
+    Calibration Error'
+  authors: Ondrej Bohdal and Yongxin Yang and Timothy Hospeda...
+  year: '2023'
+  topic: calibration
+- title: Assuming Locally Equal Calibration Errors for Non-Parametric Multiclass Calibration
+  authors: Kaspar Valk and Meelis Kull
+  year: '2023'
+  topic: calibration
+- title: Towards Unbiased Calibration using Meta-Regularization
+  authors: Cheng Wang and Jacek Golebiowski
+  year: '2024'
+  topic: calibration
+- title: Simple Calibration via Geodesic Kernels
+  authors: Jayanta Dey and Haoyin Xu and Ashwin De Silva and ...
+  year: '2025'
+  topic: calibration
+- title: Optimizing Estimators of Squared Calibration Errors in Classification
+  authors: Sebastian Gregor Gruber and Francis R. Bach
+  year: '2025'
+  topic: calibration
+- title: Does confidence calibration improve conformal prediction?
+  authors: HuaJun Xi and Jianguo Huang and Kangdao Liu and Le...
+  year: '2025'
+  topic: calibration
+- title: 'Hidden Heterogeneity: When to Choose Similarity-Based Calibration'
+  authors: Kiri L. Wagstaff and Thomas G Dietterich
+  year: '2023'
+  topic: calibration
+- title: On Calibration of Multilingual Question Answering LLMs
+  authors: Yahan Yang and Soham Dan and Dan Roth and Insup Le...
+  year: '2026'
+  topic: calibration
+- title: On Uncertainty Calibration for Equivariant Functions
+  authors: Edward Berman and Jacob Ginesin and Marco Pacini a...
+  year: '2026'
+  topic: calibration
+- title: Where are we with calibration under dataset shift in image classification?
+  authors: M\\
+  year: '2025'
+  topic: calibration
+- title: 'Evaluating Posterior Probabilities:  Decision Theory, Proper Scoring Rules,
+    and Calibration'
+  authors: Luciana Ferrer and Daniel Ramos
+  year: '2025'
+  topic: calibration
+- title: Estimating Expected Calibration Error for Positive-Unlabeled Learning
+  authors: Ryuichi Kiryo and Futoshi Futami and Masashi Sugiy...
+  year: '2026'
+  topic: calibration
+- title: 'Socrates Loss: Unifying Confidence Calibration and Classification by Leveraging
+    the Unknown'
+  authors: Sandra G\\
+  year: '2026'
+  topic: calibration
+- title: 'HopCast: Calibration of Autoregressive Dynamics Models'
+  authors: Muhammad Bilal Shahid and Cody Fleming
+  year: '2025'
+  topic: calibration
+- title: 'Calibration Enhanced Decision Maker: Towards Trustworthy Sequential Decision-Making
+    with Large Sequence Models'
+  authors: Haoyuan Sun and Bo Xia and Yifu Luo and Tiantian Z...
+  year: '2026'
+  topic: calibration
+- title: 'Calibration Attacks: A Comprehensive Study of Adversarial Attacks on Model
+    Confidence'
+  authors: Stephen Obadinma and Xiaodan Zhu and Hongyu Guo
+  year: '2024'
+  topic: calibration
+- title: Towards Understanding Variants of Invariant Risk Minimization through the
+    Lens of Calibration
+  authors: Kotaro Yoshida and Hiroki Naganuma
+  year: '2024'
+  topic: calibration
+- title: 'Neural Clamping: Joint Input Perturbation and Temperature Scaling for Neural
+    Network Calibration'
+  authors: Yung-Chen Tang and Pin-Yu Chen and Tsung-Yi Ho
+  year: '2024'
+  topic: calibration
+- title: On the Convergence and Calibration of Deep Learning with Differential Privacy
+  authors: Zhiqi Bu and Hua Wang and Zongyu Dai and Qi Long
+  year: '2023'
+  topic: calibration
+- title: 'Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects
+    in Large Language Models'
+  authors: Prateek Chhikara
+  year: '2025'
+  topic: calibration
+- title: 'Navigating Noise: A Study of How Noise Influences Generalisation and Calibration
+    of Neural Networks'
+  authors: Martin Ferianc and Ondrej Bohdal and Timothy Hospe...
+  year: '2024'
+  topic: calibration
+- title: An Empirical Study of Pre-trained Model Selection for Out-of-Distribution
+    Generalization and Calibration
+  authors: Hiroki Naganuma and Ryuichiro Hataya and Kotaro Yo...
+  year: '2025'
+  topic: calibration
+- title: Graph-based Confidence Calibration for Large Language Models
+  authors: Yukun Li and Sijia Wang and Lifu Huang and Liping ...
+  year: '2025'
+  topic: calibration
+- title: Using Platt’s scaling for calibration after undersampling — limitations and
+    how to address them
+  authors: Nathan Phelps and Daniel J Lizotte and Douglas G. ...
+  year: '2025'
+  topic: calibration
+- title: Conformal Calibration of Statistical Confidence Sets
+  authors: Luben Miguel Cruz Cabezas and Guilherme Soares and...
+  year: '2026'
+  topic: calibration
+- title: On Joint Regularization and Calibration in Deep Ensembles
+  authors: Laurits Fredsgaard and Mikkel N. Schmidt
+  year: '2025'
+  topic: calibration
+- title: End-to-End Conformal Calibration for Optimization Under Uncertainty
+  authors: Christopher Yeh and Nicolas Christianson and Alan ...
+  year: '2025'
+  topic: calibration
+- title: On Calibrating Diffusion Probabilistic Models
+  authors: Hamza Mooraj and Georgios Pantazopoulos and Alessa...
+  year: '2026'
+  topic: calibration
+- title: 'Causal Reinforcement Learning: A Survey'
+  authors: Anonymous
+  year: '2023'
+  topic: RL
+- title: Replay-enhanced Continual Reinforcement Learning
+  authors: Tommaso Marzi and Arshjot Singh Khehra and Andrea ...
+  year: '2024'
+  topic: RL
+- title: Feudal Graph Reinforcement Learning
+  authors: Paul Ghanem and Owen Lewis Howell and Michael Pott...
+  year: '2026'
+  topic: RL
+- title: Recursive Deep  Inverse Reinforcement Learning
+  authors: ABULIKEMU ABUDUWEILI and Changliu Liu
+  year: '2023'
+  topic: RL
+- title: An Optical Control Environment for  Benchmarking Reinforcement Learning Algorithms
+  authors: Oliver Schulte and Pascal Poupart
+  year: '2025'
+  topic: RL
+- title: When Should Reinforcement Learning Use Causal Reasoning?
+  authors: Mastane Achab and Reda ALAMI and YASSER ABDELAZIZ ...
+  year: '2023'
+  topic: RL
+- title: One-Step Distributional Reinforcement Learning
+  authors: Calarina Muslimani and Alex Lewandowski and Dale S...
+  year: '2023'
+  topic: RL
+- title: Reinforcement Teaching
+  authors: Stefan Sylvius Wagner and Peter Arndt and Jan Robi...
+  year: '2023'
+  topic: RL
+- title: Cyclophobic Reinforcement Learning
+  authors: Anonymous
+  year: '2023'
+  topic: RL
+- title: Multi-Source Transfer Learning for Deep Model-Based Reinforcement Learning
+  authors: Yinglun Xu and Tarun Suresh and Rohan Gumaste and ...
+  year: '2025'
+  topic: RL
+- title: Two-Step Offline Preference-Based Reinforcement Learning on Explicitly Constrained
+    Policies
+  authors: Rolf A. N. Starre and Sammie Katt and Mustafa Mert...
+  year: '2025'
+  topic: RL
+- title: Abstraction for Bayesian Reinforcement Learning in Factored POMDPs
+  authors: Ludvig Killingberg and Helge Langseth
+  year: '2023'
+  topic: RL
+- title: The Multiquadric Kernel for Moment-Matching Distributional Reinforcement
+    Learning
+  authors: Junlin Lu and Patrick Mannion and Karl Mason
+  year: '2024'
+  topic: RL
+- title: Sociodynamics of Reinforcement Learning
+  authors: Anonymous
+  year: '2024'
+  topic: RL
+- title: Demonstration-Guided Multi-Objective Reinforcement Learning
+  authors: Vanya Cohen and Geraud Nangue Tasse and Nakul Gopa...
+  year: '2024'
+  topic: RL
+- title: Compositional Instruction Following with Language Models and Reinforcement
+    Learning
+  authors: Louk van Remmerden and Zhao Yang and Shujian Yu an...
+  year: '2025'
+  topic: RL
+- title: Learning Task-Aware Abstract Representations for Meta-Reinforcement Learning
+  authors: Nabuat Zaman Nahim and Fairoz Nower Khan and Peizh...
+  year: '2026'
+  topic: RL
+- title: Constrained Reinforcement Learning Using Successor Representations
+  authors: Gregory Gorbov and Artem Latyshev and Aleksandr Pa...
+  year: '2025'
+  topic: RL
+- title: A Survey of Flow Matching in Reinforcement Learning
+  authors: Anonymous
+  year: '2025'
+  topic: RL
+- title: State-Constrained Offline Reinforcement Learning
+  authors: Johannes Hog and Raghu Rajan and Andr\\
+  year: '2025'
+  topic: RL
+- title: Group Fairness in Reinforcement Learning
+  authors: ''
+  year: ''
+  topic: RL
+- title: Meta-learning Population-based Methods for Reinforcement Learning
+  authors: Lorenz Wolf and Mirco Musolesi
+  year: '2025'
+  topic: RL
+- title: A Survey of Reinforcement Learning from Human Feedback
+  authors: Jiate Liu and Yiqin Zhu and Kaiwen Xiao and QIANG ...
+  year: '2023'
+  topic: RL
+- title: Heterogeneous Knowledge for Augmented Modular Reinforcement Learning
+  authors: Arnaud Robert and Aldo A. Faisal and Ciara Pike-Bu...
+  year: '2025'
+  topic: RL
+- title: 'RLTF: Reinforcement Learning from Unit Test Feedback'
+  authors: Cong Lu and Philip J. Ball and Tim G. J. Rudner an...
+  year: '2023'
+  topic: RL
+- title: Posterior Sampling for Reinforcement Learning on Graphs
+  authors: Sami Jullien and Mozhdeh Ariannezhad and Paul Grot...
+  year: '2023'
+  topic: RL
+- title: Challenges and Opportunities in Offline Reinforcement Learning from Visual
+    Observations
+  authors: James Queeney and Erhan Can Ozcan and Ioannis Pasc...
+  year: '2024'
+  topic: RL
+- title: A Simulation Environment and Reinforcement Learning Method for Waste Reduction
+  authors: Marco Bagatella and Sammy Joe Christen and Otmar H...
+  year: '2022'
+  topic: RL
+- title: Optimal Transport Perturbations for Safe Reinforcement Learning with Robustness
+    Guarantees
+  authors: Taiwei Shi and Yiyang Wu and Linxin Song and Tiany...
+  year: '2026'
+  topic: RL
+- title: 'SFP: State-free Priors for Exploration in Off-Policy Reinforcement Learning'
+  authors: Armin Saghafian and Amirmohammad Izadi and Negin H...
+  year: '2025'
+  topic: RL
+- title: Efficient Reinforcement Finetuning via Adaptive Curriculum Learning
+  authors: Jianhao Yan and Jin Xu and Chiyu Song and Chenming...
+  year: '2024'
+  topic: RL
+- title: 'CAREL: Instruction-guided reinforcement learning with cross-modal auxiliary
+    objectives'
+  authors: Evelyn Ma and S. Rasoul Etesami and Praneet Rathi
+  year: '2024'
+  topic: RL
+- title: Reward Poisoning on Federated Reinforcement Learning
+  authors: Georgios Tzannetos and B\\
+  year: '2023'
+  topic: RL
+- title: Proximal Curriculum for Reinforcement Learning Agents
+  authors: Nathan Wispinski and Andrew Butcher and Kory Walla...
+  year: '2023'
+  topic: RL
+- title: Normality-Guided Distributional Reinforcement Learning for Continuous Control
+  authors: Lijun Zhang and Lin Li and Wei Wei and Huizhong So...
+  year: '2024'
+  topic: RL
+- title: Adaptive patch foraging in deep reinforcement learning agents
+  authors: Tongzhou Mu and Kaixiang Lin and Feiyang Niu and G...
+  year: '2022'
+  topic: RL
+- title: Learning Two-Step Hybrid Policy for Graph-Based Interpretable Reinforcement
+    Learning
+  authors: Anonymous
+  year: '2026'
+  topic: RL
+- title: 'AGaLiTe: Approximate Gated Linear Transformers for Online Reinforcement
+    Learning'
+  authors: Aritra Mitra and George J. Pappas and Hamed Hassan...
+  year: '2024'
+  topic: RL
+- title: 'Temporal Difference Learning with Compressed Updates: Error-Feedback meets
+    Reinforcement Learning'
+  authors: Eseoghene Ben-Iwhiwhu and Saptarshi Nath and Prave...
+  year: '2023'
+  topic: RL
+- title: A Survey of State Representation Learning for Deep Reinforcement Learning
+  authors: Aleksandar Todorov and Juan Cardenas-Cartagena and...
+  year: '2025'
+  topic: RL
+- title: Lifelong Reinforcement Learning with Modulating Masks
+  authors: Guibin Zhang and Hejia Geng and Xiaohang Yu and Zh...
+  year: '2026'
+  topic: RL
+- title: Sparsity-Driven Plasticity in Multi-Task Reinforcement Learning
+  authors: Radu Stoican and Angelo Cangelosi and Christian Go...
+  year: '2026'
+  topic: RL
+- title: 'The Landscape of Agentic Reinforcement Learning for LLMs: A Survey'
+  authors: Qingfeng Lan and Yangchen Pan and Jun Luo and A. R...
+  year: '2023'
+  topic: RL
+- title: Task-Specific Exploration in Meta-Reinforcement Learning via Task Reconstruction
+  authors: Wenzhe Li and Hao Luo and Zichuan Lin and Chongjie...
+  year: '2023'
+  topic: RL
+- title: Memory-efficient Reinforcement Learning with Value-based Knowledge Consolidation
+  authors: Barna P\\
+  year: '2023'
+  topic: RL
+- title: A Survey on Transformers in Reinforcement Learning
+  authors: Anonymous
+  year: '2026'
+  topic: RL
+- title: Efficient Model-Based Multi-Agent Mean-Field Reinforcement Learning
+  authors: Anonymous
+  year: '2024'
+  topic: RL
+- title: Contextualize Me – The Case for Context in Reinforcement Learning
+  authors: Guanquan Wang and Takuya Hiraoka and Yoshimasa Tsu...
+  year: '2024'
+  topic: RL
+- title: Reinforcement Learning from Bagged Reward
+  authors: Georgios Tzannetos and Parameswaran Kamalaruban an...
+  year: '2024'
+  topic: RL
+- title: Planning with Consistency Models for Model-Based Offline Reinforcement Learning
+  authors: Adrian Remonda and Cole Corbitt Terrell and Eduard...
+  year: '2025'
+  topic: RL
+- title: Uncertainty-Based Experience Replay for Task-Agnostic Continual Reinforcement
+    Learning
+  authors: Anonymous
+  year: '2026'
+  topic: RL
+- title: Investigating Action Encodings in Recurrent Neural Networks in Reinforcement
+    Learning
+  authors: Yizhao Jin and Gregory Slabaugh and Simon Lucas
+  year: '2024'
+  topic: RL
+- title: Directed Exploration in Reinforcement Learning from Linear Temporal Logic
+  authors: Gaurav Chaudhary and Washim Uddin Mondal and Laxmi...
+  year: '2025'
+  topic: RL
+- title: Self-supervised Color Generalization in Reinforcement Learning
+  authors: Victor-Alexandru Darvariu and Stephen Hailes and M...
+  year: '2024'
+  topic: RL
+- title: 'MOORL: A Framework for Integrating Offline-Online Reinforcement Learning'
+  authors: Gabriel Stella and Dmitri Loguinov
+  year: '2026'
+  topic: RL
+- title: 'Graph Reinforcement Learning for Combinatorial Optimization: A Survey and
+    Unifying Perspective'
+  authors: Rolf A. N. Starre and Marco Loog and Elena Congedu...
+  year: '2023'
+  topic: RL
+- title: An Analysis of Model-Based Reinforcement Learning From Abstracted Observations
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: RL
+- title: Bayesian Methods for Constraint Inference in Reinforcement Learning
+  authors: Alex Beeson and David Ireland and Giovanni Montana
+  year: '2024'
+  topic: RL
+- title: An Investigation of Offline Reinforcement Learning in Factorisable Action
+    Spaces
+  authors: Ting Zhu and Yue Jin and Jeremie Houssineau and Gi...
+  year: '2024'
+  topic: RL
+- title: Efficient Action Robust Reinforcement Learning with Probabilistic Policy
+    Execution Uncertainty
+  authors: Anonymous
+  year: '2026'
+  topic: RL
+- title: Mitigating Relative Over-Generalization in Multi-Agent Reinforcement Learning
+  authors: Chenliang Li and Junyu Leng and Jiaxiang Li and Yo...
+  year: '2026'
+  topic: RL
+- title: Adaptive Rank Control for Robust Reinforcement Learning
+  authors: Ioannis Dimanidis and Tolga Ok and Peyman Mohajeri...
+  year: '2026'
+  topic: RL
+- title: Reset-free Reinforcement Learning with World Models
+  authors: Weiye Zhao and Yifan Sun and Feihan Li and Rui Che...
+  year: '2024'
+  topic: RL
+- title: Offline Reinforcement Learning via Inverse Optimization
+  authors: Huozhi Zhou and Jinglin Chen and Lav R. Varshney a...
+  year: '2022'
+  topic: RL
+- title: 'GUARD: A Safe Reinforcement Learning Benchmark'
+  authors: Aishwarya Mandyam and Didong Li and Andrew Jones a...
+  year: '2024'
+  topic: RL
+- title: Nonstationary Reinforcement Learning with Linear Function Approximation
+  authors: Zheming Fan and Guopu Zhu and Zixuan Yu and Shen W...
+  year: '2026'
+  topic: RL
+- title: 'KD-BIRL: Kernel Density Bayesian Inverse Reinforcement Learning'
+  authors: Lingwei Zhu and Matthew Kyle Schlegel and Han Wang...
+  year: '2024'
+  topic: RL
+- title: Offline Reinforcement Learning via Tsallis Regularization
+  authors: ''
+  year: ''
+  topic: RL
+- title: 'Conciliator steering: Imposing user preference in multi-objective reinforcement
+    learning'
+  authors: Anonymous
+  year: '2022'
+  topic: RL
+- title: Contextual Policies Enable Efficient and Interpretable Inverse Reinforcement
+    Learning for Populations
+  authors: Bang You and Huaping Liu and Jan Peters and Oleg A...
+  year: '2025'
+  topic: RL
+- title: Rollout Total Correlation for Deep Reinforcement Learning
+  authors: Gaurav Chaudhary and Laxmidhar Behera
+  year: '2025'
+  topic: RL
+- title: Evaluating Human-Language Model Interaction
+  authors: Manuel Faysse and Patrick Fernandes and Nuno M Gue...
+  year: '2025'
+  topic: LLM
+- title: 'CroissantLLM: A Truly Bilingual French-English Language Model'
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: Hierarchical Language Model Design For Interpretable Graph Reasoning
+  authors: Rui-Jie Zhu and Qihang Zhao and Guoqi Li and Jason...
+  year: '2024'
+  topic: LLM
+- title: 'SpikeGPT: Generative Pre-trained Language Model with Spiking Neural Networks'
+  authors: Ziheng Chen and Yue Song and Xiaojun Wu and Gaowen...
+  year: '2025'
+  topic: LLM
+- title: Multi-Attribute Constraint Satisfaction via Language Model Rewriting
+  authors: Shikun Liu and Linxi Fan and Edward Johns and Zhid...
+  year: '2024'
+  topic: LLM
+- title: 'Prismer: A Vision-Language Model with Multi-Task Experts'
+  authors: Jihao Liu and Jinliang Zheng and Boxiao Liu and Yu...
+  year: '2024'
+  topic: LLM
+- title: Enhancing Vision-Language Model with Unmasked Token Alignment
+  authors: Tong Wu
+  year: '2024'
+  topic: LLM
+- title: Tree Search for Language Model Agents
+  authors: Amine El hattami and Nicolas Chapados and Christop...
+  year: '2025'
+  topic: LLM
+- title: Spaced Scheduling for Large Language Model Training
+  authors: Jiacheng Zhang and Jinhao Li and Hanxun Huang and ...
+  year: '2026'
+  topic: LLM
+- title: Visually Descriptive Language Model for Vector Graphics Reasoning
+  authors: Yishan Wang and Tsai-Ning Wang and Mathias Funk an...
+  year: '2026'
+  topic: LLM
+- title: 'StethoLM: Audio Language Model for Cardiopulmonary Analysis Across Clinical
+    Tasks'
+  authors: Peiyang Song and Pengrui Han and Noah Goodman
+  year: '2026'
+  topic: LLM
+- title: Large Language Model Reasoning Failures
+  authors: Tejaswini Pedapati and Amit Dhurandhar and Soumya ...
+  year: '2025'
+  topic: LLM
+- title: Large Language Model Confidence Estimation via Black-Box Access
+  authors: Qiwen Dong and Xiaoyang Jing and Aoying Zhou and X...
+  year: '2020'
+  topic: LLM
+- title: 'MiniGPT-Med: A Unified Vision-Language Model for Radiology Image Understanding'
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: LLM
+- title: 'Large Language Model-based Data Science Agent: A Survey'
+  authors: Jackson Petty and Sjoerd van Steenkiste and Tal Li...
+  year: '2025'
+  topic: LLM
+- title: How Does Code Pretraining Affect Language Model Task Performance?
+  authors: Ali Taheri and Alireza Taban and Qizhou Wang and S...
+  year: '2026'
+  topic: LLM
+- title: 'Forgetting: A New Mechanism Towards Better Large Language Model Fine-tuning'
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: Continuous Language Model Interpolation yields Dynamic and Controllable Text
+    Generation
+  authors: Mustafa Shukor and Corentin Dancette and Alexandre...
+  year: '2023'
+  topic: LLM
+- title: 'UnIVAL: Unified Model for Image, Video, Audio and Language Tasks'
+  authors: Anirudhan Badrinath and Prabhat Agarwal and Jiajin...
+  year: '2025'
+  topic: vision
+- title: 'Unified Preference Optimization: Language Model Alignment Beyond the Preference
+    Frontier'
+  authors: Sonia Cromp and Satya Sai Srinath Namburi GNVV and...
+  year: '2026'
+  topic: LLM
+- title: 'Tabby: A Language Model Architecture for Tabular and Structured Data Synthesis'
+  authors: Pingcheng Jian and Xiao Wei and Yanbaihui Liu and ...
+  year: '2025'
+  topic: LLM
+- title: 'LAPP: Large Language Model Feedback for Preference-Driven Reinforcement
+    Learning'
+  authors: Laur\\`e
+  year: '2025'
+  topic: RL
+- title: Prompt Engineering Techniques for Language Model Reasoning Lack Replicability
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: 'Large Language Model-Brained GUI Agents: A Survey'
+  authors: Haoyang LI and Yiming Li and Anxin Tian and Tianha...
+  year: '2025'
+  topic: LLM
+- title: A Survey on Large Language Model Acceleration based on KV Cache Management
+  authors: Apurv Verma and Satyapriya Krishna and Sebastian G...
+  year: '2025'
+  topic: LLM
+- title: Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: LLM
+- title: 'One Model for All: Multi-Objective Controllable Language Models'
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: 'TE-VLM: Transfer Entropy for Vision Language Model Distillation'
+  authors: Hoyoung Kim and Seokhee Jin and Changhwan Sung and...
+  year: '2025'
+  topic: LLM
+- title: Sequential Causal Discovery with Noisy Language Model Priors
+  authors: ChangHao Li and Yuchen Zhuang and Chenxiao Gao and...
+  year: '2026'
+  topic: LLM
+- title: Active Prompt Learning with Vision-Language Model Priors
+  authors: Rishabh Bhattacharya and Naresh Manwani
+  year: '2026'
+  topic: LLM
+- title: Exploration-Driven Optimization for Test-Time Large Language Model Reasoning
+  authors: Anonymous
+  year: '2025'
+  topic: LLM
+- title: 'Valley: Video Assistant with Large Language Model Enhanced Ability'
+  authors: Ayan Sengupta and Md Shad Akhtar and Tanmoy Chakra...
+  year: '2024'
+  topic: LLM
+- title: Iterative Preference Optimization with Proximal Policy Regularization for
+    Large Language Model Alignment
+  authors: Anonymous
+  year: '2025'
+  topic: RL
+- title: Privacy-Preserving Language Model Inference with Instance Obfuscation
+  authors: Atsuki Yamaguchi and Terufumi Morishita and Aline ...
+  year: '2025'
+  topic: LLM
+- title: Multi-Modal Language Models as Text-to-Image Model Evaluators
+  authors: Teodora Pandeva and Tim Bakker and Christian A. Na...
+  year: '2024'
+  topic: LLM
+- title: TMLR Submission 4836
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: general
+- title: Explainable Graph Learning for Particle Accelerator Operations
+  authors: Carolina Zheng and Keyon Vafa and David Blei
+  year: '2023'
+  topic: graph
+- title: Adapting Chat Language Models Using Only Target Unlabeled Language Data
+  authors: Lars Malmqvist
+  year: '2026'
+  topic: LLM
+- title: Revisiting Topic-Guided Language Models
+  authors: Hiroki Furuta and Yutaka Matsuo and Aleksandra Fau...
+  year: '2024'
+  topic: LLM
+- title: 'Investigating Linguistic Steering: An Analysis of Adjectival Effects Across
+    Large Language Model Architectures'
+  authors: Atsuyuki Miyai and Jingkang Yang and Jingyang Zhan...
+  year: '2025'
+  topic: LLM
+- title: 'SQL-PaLM: Improved large language model adaptation for Text-to-SQL'
+  authors: Minttu Alakuijala and Reginald McLean and Isaac Wo...
+  year: '2025'
+  topic: LLM
+- title: Segmenting Text and Learning Their Rewards for Improved RLHF in Language
+    Model
+  authors: Omprakash Chakraborty and Aadarsh Sahoo and Ramesw...
+  year: '2024'
+  topic: RL
+- title: 'MGPATH: A Vision-Language Model with Multi-Granular Prompt Learning for
+    Few-Shot Whole Slide Pathology Classification'
+  authors: Xiachong Feng and Longxu Dou and Minzhi Li and Qin...
+  year: '2025'
+  topic: LLM
+- title: Exposing Limitations of Language Model Agents in Sequential-Task Compositions
+    on the Web
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: 'AA-SVD: Anchored and Adaptive SVD for Large Language Model Compression'
+  authors: Anonymous
+  year: '2026'
+  topic: LLM
+- title: 'Learning without training: The implicit dynamics of in-context learning'
+  authors: Anonymous
+  year: '2024'
+  topic: general
+- title: 'Model-diff: A Tool for Comparative Study of Language Models in the Input
+    Space'
+  authors: Anonymous
+  year: '2022'
+  topic: LLM
+- title: 'Hypothesize and Verify: Natural-Language Explanations of Vision Model Errors'
+  authors: Gabriel Poesia and Kanishk Gandhi and Eric Zelikma...
+  year: '2024'
+  topic: vision
+- title: 'Physics of Language Models: Part 1, Learning Hierarchical Language Structures'
+  authors: Jyh-Jing Hwang and Runsheng Xu and Hubert Lin and ...
+  year: '2025'
+  topic: LLM
+- title: Persona-aware Generative Model for Code-mixed Language
+  authors: Anonymous
+  year: '2025'
+  topic: generative
+- title: Data Models for Dataset Drift Controls in Machine Learning With Images
+  authors: O\\ug
+  year: '2026'
+  topic: vision
+- title: 'EMMA: End-to-End Multimodal Model for Autonomous Driving'
+  authors: Michael S Matena and Colin Raffel
+  year: '2026'
+  topic: general
+- title: Decentralized Projection-free Online Upper-Linearizable Optimization with
+    Applications to DR-Submodular Optimization
+  authors: Yiyang Lu and Mohammad Pedramfar and Vaneet Aggarw...
+  year: '2025'
+  topic: calibration
+- title: Optimistic Optimization of Gaussian Process Samples
+  authors: Julia Grosse and Cheng Zhang and Philipp Hennig
+  year: '2023'
+  topic: optimization
+- title: Bayesian Optimization with Informative Covariance
+  authors: Afonso Eduardo and Michael U. Gutmann
+  year: '2023'
+  topic: optimization
+- title: 'Triple Preference Optimization: Achieving Better Alignment using a Single
+    Step Optimization'
+  authors: Amir Saeidi and Shivanshu Verma and Kashif Rasul a...
+  year: '2025'
+  topic: LLM
+- title: Are Convex Optimization Curves Convex?
+  authors: Guy Barzilai and Ohad Shamir and Moslem Zamani
+  year: '2025'
+  topic: optimization
+- title: 'Forge: Foundational Optimization Representations from Graph Embeddings'
+  authors: Zohair Shafi and Serdar Kadioglu
+  year: '2026'
+  topic: graph
+- title: Can Optimization Trajectories Explain Multi-Task Transfer?
+  authors: David Mueller and Mark Dredze and Nicholas Andrews
+  year: '2025'
+  topic: optimization
+- title: Understanding Curriculum Learning in Policy Optimization for Online Combinatorial
+    Optimization
+  authors: Runlong Zhou and Zelin He and Yuandong Tian and Yi...
+  year: '2023'
+  topic: RL
+- title: Mini-Batch Optimization of Contrastive Loss
+  authors: Jaewoong Cho and Kartik Sreenivasan and Keon Lee a...
+  year: '2024'
+  topic: optimization
+- title: Contaminated Online Convex Optimization
+  authors: Tomoya Kamijima and Shinji Ito
+  year: '2024'
+  topic: optimization
+- title: Towards Optimization-Friendly Binary Neural Network
+  authors: Nianhui Guo and Joseph Bethge and Hong Guo and Chr...
+  year: '2023'
+  topic: optimization
+- title: Byzantine-Robust and Hessian-Free Federated Bilevel Optimization
+  authors: Xiwei Cheng and Xiangxin Zhou and Yuwei Yang and Y...
+  year: '2025'
+  topic: robustness
+- title: Decomposed Direct Preference Optimization for Structure-Based Drug Design
+  authors: Franck Iutzeler and Adrien Mazoyer
+  year: '2025'
+  topic: optimization
+- title: Risk-controlling Prediction with Distributionally Robust Optimization
+  authors: Guillaume Perrin and rodolphe le riche
+  year: '2024'
+  topic: robustness
+- title: Bayesian optimization with derivatives acceleration
+  authors: Reyhane Askari Hemmat and Amartya Mitra and Guilla...
+  year: '2023'
+  topic: optimization
+- title: 'LEAD: Min-Max Optimization from a Physical Perspective'
+  authors: Lawrence K. Saul
+  year: '2023'
+  topic: optimization
+- title: Dual Caption Preference Optimization for Diffusion Models
+  authors: Paul Brunzema and Alexander von Rohr and Friedrich...
+  year: '2025'
+  topic: diffusion
+- title: Frictionless Hamiltonian Descent with Discretization and Parallel Optimization
+  authors: Soichiro Nishimori and Yu-Jie Zhang and Thanawat L...
+  year: '2026'
+  topic: optimization
+- title: Event-Triggered Time-Varying Bayesian Optimization
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: optimization
+- title: On Symmetric Losses for Policy Optimization with Noisy Preferences
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: RL
+- title: 'Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective
+    Optimization'
+  authors: Daniel Cortild and Claire Delplancke and Nadia Oud...
+  year: '2025'
+  topic: optimization
+- title: Conditional Latent Space Molecular Scaffold Optimization for Accelerated
+    Molecular Design
+  authors: Ramnath Kumar and Kushal Alpesh Majmundar and Dhee...
+  year: '2024'
+  topic: optimization
+- title: Global Optimization Algorithm through High-Resolution Sampling
+  authors: Pranay Sharma and Rohan Panda and Gauri Joshi
+  year: '2023'
+  topic: optimization
+- title: Stochastic Re-weighted Gradient Descent via Distributionally Robust Optimization
+  authors: Song Wang and Chris Tennant and Jundong Li
+  year: '2026'
+  topic: robustness
+- title: Federated Minimax Optimization with Client Heterogeneity
+  authors: Teodora Pandeva and Tim Bakker and Christian A. Na...
+  year: '2024'
+  topic: federated
+- title: '$$\\texttt{C2-DPO}$$: Constrained Controlled Direct Preference Optimization'
+  authors: Zhou Fan and Xinran Han and Zi Wang
+  year: '2024'
+  topic: optimization
+- title: How Well Can Preference Optimization Generalize Under Noisy Feedback?
+  authors: Jun Song and Niao He and Lijun Ding and Chaoyue Zh...
+  year: '2023'
+  topic: optimization
+- title: Transfer Learning for Bayesian Optimization on Heterogeneous Search Spaces
+  authors: Ibrahim Merad and St\\
+  year: ''
+  topic: optimization
+- title: Provably Convergent Policy Optimization via Metric-aware Trust Region Methods
+  authors: Fusheng Liu and Haizhao Yang and Soufiane Hayou an...
+  year: '2022'
+  topic: RL
+- title: Test-Time Adaptation for Unsupervised Combinatorial Optimization
+  authors: Daniel Rho and Jun Myeong Choi and Biswadip Dey an...
+  year: '2026'
+  topic: optimization
+- title: Permutation Picture of Graph Combinatorial Optimization Problems
+  authors: Can Chen and Christopher Beckham and Zixuan Liu an...
+  year: '2024'
+  topic: graph
+- title: Robust Stochastic Optimization via Gradient Quantile Clipping
+  authors: Pedro Cisneros-Velarde and Zhijie Chen and Sanmi K...
+  year: '2025'
+  topic: robustness
+- title: From Optimization Dynamics to Generalization Bounds via Łojasiewicz Gradient
+    Inequality
+  authors: Filip Hanzely and Boxin Zhao and mladen kolar
+  year: '2023'
+  topic: optimization
+- title: 'ProJo4D: Progressive Joint Optimization for Sparse-View Inverse Physics
+    Estimation'
+  authors: Han Meng and Xinsong Feng and Yang Li and Chenan W...
+  year: '2026'
+  topic: optimization
+- title: Robust Guided Diffusion for Offline Black-Box Optimization
+  authors: Saiteja Utpala and Andi Han and Pratik Jawanpuria ...
+  year: '2023'
+  topic: robustness
+- title: Optimization and Generalization Guarantees for Weight Normalization
+  authors: Andrew Lowy and Sina Baharlouei and Rakesh Pavan a...
+  year: '2022'
+  topic: optimization
+- title: 'Personalized Federated Learning: A Unified Framework and Universal Optimization
+    Techniques'
+  authors: Tianyi Alex Qiu and Ahmed Ismail and Zhonghao He a...
+  year: '2026'
+  topic: federated
+- title: Solving Constrained Optimization Problems as ODE-based Models Using Reinforcement
+    Learning
+  authors: Yuan Gao and Yuki Takezawa and Sebastian U Stich
+  year: '2025'
+  topic: RL
+- title: 'Improved Differentially Private Riemannian Optimization: Fast Sampling and
+    Variance Reduction'
+  authors: Otmane Sakhi and David Rohde and Nicolas Chopin
+  year: '2023'
+  topic: optimization
+- title: A Stochastic Optimization Framework for Fair Risk Minimization
+  authors: Shivi Dixit and Rishabh Gupta and Qi Zhang
+  year: '2025'
+  topic: fairness
+- title: 'Self-Improvement as Coherence Optimization: A Theoretical Account'
+  authors: Kefan Su and Zongqing Lu
+  year: '2024'
+  topic: optimization
+- title: A Bias Correction Mechanism for Distributed Asynchronous Optimization
+  authors: Samuel Kim and Peter Y Lu and Charlotte Loh and Ja...
+  year: '2022'
+  topic: fairness
+- title: 'Fast Slate Policy Optimization: Going Beyond Plackett-Luce'
+  authors: Amin Heyrani Nobari and Lyle Regenwetter and Giorg...
+  year: '2025'
+  topic: RL
+- title: A Fully Decentralized Surrogate for Multi-Agent Policy Optimization
+  authors: ChangHao Li and Yuchen Zhuang and Chenxiao Gao and...
+  year: '2026'
+  topic: calibration
+- title: Deep Learning for Bayesian Optimization of Scientific Problems with High-Dimensional
+    Structure
+  authors: Minsu Kim and Jiayao Gu and Ye Yuan and Taeyoung Y...
+  year: '2026'
+  topic: optimization
+- title: 'NITO: Neural Implicit Fields for Resolution-free and Domain-Adaptable Topology
+    Optimization'
+  authors: Syrine Belakaria and Alaleh Ahmadian and Barbara E...
+  year: '2025'
+  topic: optimization
+- title: Non-Myopic Multi-Objective Bayesian Optimization
+  authors: Yijia Wang and Matthias Poloczek and Daniel R. Jia...
+  year: '2023'
+  topic: optimization
+- title: 'CF-HPO: Counterfactual Explanations for Hyperparameter Optimization'
+  authors: Peijia Qin and Ruiyi Zhang and Pengtao Xie
+  year: '2025'
+  topic: optimization
+- title: 'NgIohTuned: a Highly Reproducible Black-box Optimization Wizard'
+  authors: Wenjie Li and Chi-Hua Wang and Guang Cheng and Qif...
+  year: '2023'
+  topic: optimization
+- title: An Axiomatic Atlas for Optimization
+  authors: ''
+  year: ''
+  topic: optimization
+- title: Optimum-statistical Collaboration Towards General and Efficient Black-box
+    Optimization
+  authors: Arsalan Sharifnassab and Saber Salehkaleybar and D...
+  year: '2026'
+  topic: optimization
+- title: Using Large Language Models for Hyperparameter Optimization
+  authors: Ameesh Shah and Cameron Voloshin and Chenxi Yang a...
+  year: '2025'
+  topic: LLM
+- title: 'Soft Preference Optimization: Aligning Language Models to Expert Distributions'
+  authors: Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zh...
+  year: '2025'
+  topic: LLM
+- title: LTL-Constrained Policy Optimization with Cycle Experience Replay
+  authors: Sinong Geng and Houssam Nassif and Zhaobin Kuang a...
+  year: '2025'
+  topic: RL
+- title: High-dimensional Bayesian Optimization via Condensing-Expansion Projection
+  authors: Ye Yuan and Youyuan Zhang and Can Chen and Haolun ...
+  year: '2025'
+  topic: optimization
+- title: Consideration for TMLR-to-ICLR
+  authors: Raul Astudillo and Kejun Li and Maegan Tucker and ...
+  year: '2025'
+  topic: general
+- title: Factor Learning Portfolio Optimization Informed by Continuous-Time Finance
+    Models
+  authors: Mohit Rajpal and Lac Gia Tran and Yehong Zhang and...
+  year: '2024'
+  topic: optimization
+- title: Design Editing for Offline Model-based Optimization
+  authors: Adriano Fazzone and Yanhao Wang and Francesco Bonc...
+  year: '2024'
+  topic: optimization
+- title: Preferential Multi-Objective Bayesian Optimization
+  authors: El Mahdi Chayti and Sai Praneeth Karimireddy
+  year: '2024'
+  topic: optimization
+- title: Understanding Fairness Surrogate Functions in Algorithmic Fairness
+  authors: Wei Yao and Zhanke Zhou and Zhicong Li and Bo Han ...
+  year: '2024'
+  topic: fairness
+- title: Review Operationalizing Fairness in Text-to-Image Models
+  authors: Zhiqun Zuo and Tian Xie and Xuwei Tan and Xueru Zh...
+  year: '2024'
+  topic: fairness
+- title: Lookahead Counterfactual Fairness
+  authors: Haotao Wang and Junyuan Hong and Jiayu Zhou and Zh...
+  year: '2023'
+  topic: fairness
+- title: How Robust is Your Fairness? Evaluating and Sustaining Fairness under Unseen
+    Distribution Shifts
+  authors: Kunwoong Kim and Insung Kong and Jongjin Lee and M...
+  year: '2025'
+  topic: fairness
+- title: Fairness Through Matching
+  authors: ''
+  year: ''
+  topic: fairness
+- title: On the Connection Between Counterfactual Fairness, Statistical Parity and
+    Individual Fairness
+  authors: Emmanouil Kariotakis and Nicholas D Sidiropoulos a...
+  year: '2025'
+  topic: fairness
+- title: Fairness-Aware Dense Subgraph Discovery
+  authors: Andrea Baraldi and Matteo Brucato and Miroslav Dud...
+  year: '2026'
+  topic: fairness
+- title: Speeding up fairness reductions
+  authors: Harsh Satija and Alessandro Lazaric and Matteo Pir...
+  year: '2023'
+  topic: fairness
+- title: 'FairGrad: Fairness Aware Gradient Descent'
+  authors: Guojun Zhang and Saber Malekmohammadi and Xi Chen ...
+  year: '2023'
+  topic: fairness
+- title: Harmonizing Gradient Matching For Fairness
+  authors: Daisuke Hatano and Satoshi Hara and Hiromi Arai
+  year: '2025'
+  topic: fairness
+- title: Path-Specific Counterfactual Fairness via Dividend Correction
+  authors: Maggie Makar and Alexander D'Amour
+  year: '2023'
+  topic: fairness
+- title: Fairness and robustness in anti-causal prediction
+  authors: ''
+  year: ''
+  topic: fairness
+- title: A Survey on Fairness Without Demographics
+  authors: Ganghua Wang and Ali Payani and Myungjin Lee and R...
+  year: '2024'
+  topic: fairness
+- title: Adversarial Fairness with Elastic Weight Consolidation
+  authors: Boyang Zhang and Quanqi Hu and Mingxuan Sun and Qi...
+  year: '2025'
+  topic: fairness
+- title: Learning to Rank with Top-$K$ Fairness
+  authors: Nikita Malik and Konda Reddy Mopuri
+  year: '2025'
+  topic: fairness
+- title: 'FaAlGrad: Fairness through Alignment of Gradients across Different Subpopulations'
+  authors: Anuj Kumar Sirohi and Anjali Gupta and Sandeep Kum...
+  year: '2026'
+  topic: LLM
+- title: 'GraphGini: Fostering Individual and Group Fairness in Graph Neural Networks'
+  authors: Inbal Rachel Livni Navon and Omer Reingold and Jud...
+  year: '2025'
+  topic: fairness
+- title: 'Fairness with respect to Stereotype Predictors: Impossibilities and Best
+    Practices'
+  authors: Sander Honig and Elyanne Oey and Lisanne Wallaard ...
+  year: '2025'
+  topic: fairness
+- title: A reproducibility study of “User-item fairness tradeoffs in recommendations”
+  authors: Aida Mohammadshahi and Yani Ioannou
+  year: '2025'
+  topic: fairness
+- title: What’s Left After Distillation? How Knowledge Transfer Impacts Fairness and
+    Bias
+  authors: Ruben Figge and Sjoerd Gunneweg and Aaron Kuin and...
+  year: '2025'
+  topic: fairness
+- title: 'Reassessing Fairness: A Reproducibility Study of NIFA’s Impact on GNN Models'
+  authors: Gang Li and Qihang Lin and Ayush Ghosh and Tianbao...
+  year: '2025'
+  topic: fairness
+- title: Multi-Output Distributional Fairness  via Post-Processing
+  authors: Domonkos Nagy and Lohithsai Yadala Chanchu and Kry...
+  year: '2025'
+  topic: fairness
+- title: 'Remembering to Be Fair Again: Reproducing Non-Markovian Fairness in Sequential
+    Decision Making'
+  authors: Wenjing Chang and Kay Liu and Philip S. Yu and Jia...
+  year: '2025'
+  topic: fairness
+- title: Enhancing Fairness in Unsupervised Graph Anomaly Detection through Disentanglement
+  authors: Valentijn Oldenburg and Floris de Kam and Stef de ...
+  year: '2026'
+  topic: fairness
+- title: 'Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility
+    Study'
+  authors: Yixin Wang and Dhanya Sridhar and David Blei
+  year: '2023'
+  topic: fairness
+- title: Adjusting Machine Learning Decisions for Equal Opportunity and Counterfactual
+    Fairness
+  authors: Sayantan Das and Mojtaba Kolahdouzi and Ali Etemad
+  year: '2025'
+  topic: fairness
+- title: Kernel Space Conditional Distribution Alignment for Improving Group Fairness
+    in Deepfake Detection
+  authors: Quan Zhou and Jakub Marecek and Robert Noel Shorte...
+  year: '2026'
+  topic: LLM
+- title: Online Learning with Multiple Fairness Regularizers via Graph-Structured
+    Feedback
+  authors: Usman Gohar and Zeyu Tang and Jialu Wang and Kun Z...
+  year: '2025'
+  topic: fairness
+- title: Long-Term Fairness Without Utility Deterioration
+  authors: Oscar Mir\\
+  year: '2026'
+  topic: fairness
+- title: 'Reproducing FACTER: Fairness via Conformal Thresholding and Prompt Repair'
+  authors: Hongyi Ling and Zhimeng Jiang and Na Zou and Shuiw...
+  year: '2025'
+  topic: LLM
+- title: 'Counterfactual Fairness on Graphs: Augmentations, Hidden Confounders, and
+    Identifiability'
+  authors: Jack Blandin and Ian A. Kash
+  year: '2024'
+  topic: fairness
+- title: Individual Fairness as an Extension of Group Fairness
+  authors: Yuji Roh and Weili Nie and De-An Huang and Steven ...
+  year: '2023'
+  topic: fairness
+- title: 'Dr-Fairness: Dynamic Data Ratio Adjustment for Fair Training on Real and
+    Generated Data'
+  authors: Berkay Chakar and Amina Izbassar and Mina Jani\\
+  year: '2024'
+  topic: fairness
+- title: '[Re] Reproducibility Study of Equal Improvability Fairness Notion'
+  authors: Camila Kolling and Till Speicher and Vedant Nanda ...
+  year: '2025'
+  topic: fairness
+- title: 'Pragmatic Fairness: Developing Policies with Outcome Disparity Control'
+  authors: Akshaj Kumar Veldanda and Ivan Brugere and Jiahao ...
+  year: '2023'
+  topic: fairness
+- title: 'Fairness via In-Processing in the Over-parameterized Regime: A Cautionary
+    Tale with MinDiff Loss'
+  authors: Ahmad Reza Ehyaei and Golnoosh Farnadi and Samira ...
+  year: '2025'
+  topic: fairness
+- title: Preserving Fairness in AI under Domain Shift
+  authors: Iason Skylitsis and Zheng Feng and Idries Nasim an...
+  year: '2024'
+  topic: fairness
+- title: Reproducibility Study of \
+  authors: Junhyun Nam and Sangwoo Mo and Jaeho Lee and Jinwo...
+  year: '2023'
+  topic: general
+- title: '[RE] Are Your Models Still Fair? Fairness Attacks on Graph Neural Networks
+    via Node Injections'
+  authors: Wes Camp
+  year: '2025'
+  topic: fairness
+- title: 'Bias-inducing geometries: an exactly solvable data model with fairness implications'
+  authors: Sihan Zeng and Sujay Bhatt and Alec Koppel and Sum...
+  year: '2024'
+  topic: fairness
+- title: Principle Counterfactual Fairness
+  authors: Nurbek Tastan and Samuel Horv\\
+  year: '2025'
+  topic: fairness
+- title: When Do Causal Fairness Constraints Work? Reproducing and Stress-Testing
+    Long-Term Fair Reinforcement Learning
+  authors: Lucas Ponticelli and Vincent Loos and Eren Kocadag...
+  year: '2024'
+  topic: RL
+- title: 'Smoothed Robustness Analysis: Bridging worst- and average-case robustness
+    analyses via smoothed analysis'
+  authors: Rulin Shao and Zhouxing Shi and Jinfeng Yi and Pin...
+  year: '2022'
+  topic: robustness
+- title: On the Adversarial Robustness of Vision Transformers
+  authors: Kumail Alhamoud and Hasan Abed Al Kader Hammoud an...
+  year: '2023'
+  topic: robustness
+- title: Generalizability of Adversarial Robustness Under Distribution Shifts
+  authors: ''
+  year: ''
+  topic: robustness
+- title: Adversarial Robustness of Graph Transformers
+  authors: Enyi Jiang and David Shu Cheung and Gagandeep Sing...
+  year: '2026'
+  topic: robustness
+- title: Towards Generalized Certified Robustness with Multi-Norm Training
+  authors: Jo\\~a
+  year: ''
+  topic: robustness
+- title: 'Rethinking Robustness in Machine Learning: A Posterior Agreement Approach'
+  authors: Dang Huu-Tien and Hoang Thanh-Tung and Anh Tuan Bu...
+  year: '2026'
+  topic: robustness
+- title: Improving LLM Unlearning Robustness via Random Perturbations
+  authors: Zhangheng LI and Tianlong Chen and Linyi Li and Bo...
+  year: '2023'
+  topic: LLM
+- title: Can Pruning Improve Certified Robustness of Neural Networks?
+  authors: Oscar Chang and Otavio Braga and Hank Liao and Dmi...
+  year: '2022'
+  topic: robustness
+- title: Robustness Evaluation Using Local Substitute Networks
+  authors: Alessandro De Palma and Serge Durand and Zakaria C...
+  year: '2025'
+  topic: robustness
+- title: On Using Certified Training towards Empirical Robustness
+  authors: Maggie Makar and Alexander D'Amour
+  year: '2023'
+  topic: robustness
+- title: Some Robustness Properties of Label Cleaning
+  authors: Sisuo Lyu and Hong Liu and Jie Li and Yan Teng and...
+  year: '2026'
+  topic: robustness
+- title: Understanding Matrix Function Normalizations in Covariance Pooling through
+    the Lens of Riemannian Geometry
+  authors: Shaoyuan Xie and Zichao Li and Zeyu Wang and Cihan...
+  year: '2024'
+  topic: general
+- title: On the Adversarial Robustness of Camera-based 3D Object Detection
+  authors: Anders Johan Andreassen and Yasaman Bahri and Behn...
+  year: '2022'
+  topic: robustness
+- title: The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning
+  authors: ''
+  year: ''
+  topic: robustness
+- title: Assessing Robustness via Score-Based Adversarial Image Generation
+  authors: Caio de Pr\\
+  year: '2026'
+  topic: robustness
+- title: Standard-Deviation-Inspired Regularization for Improving Adversarial Robustness
+  authors: Jiapeng Wu and Atiyeh Ashari Ghomi and David Glukh...
+  year: '2024'
+  topic: robustness
+- title: 'Augment then Smooth: Reconciling Differential Privacy with Certified Robustness'
+  authors: ''
+  year: ''
+  topic: robustness
+- title: 'SURE-VQA: Systematic Understanding of Robustness Evaluation in Medical VQA
+    Tasks'
+  authors: Kyle O'Brien and Nathan Hoyen Ng and Isha Puri and...
+  year: '2024'
+  topic: robustness
+- title: Evaluation Pitfalls in Data Augmentation for Adversarial Robustness
+  authors: Pratik Vaishnavi and Kevin Eykholt and Amir Rahmat...
+  year: '2024'
+  topic: robustness
+- title: A Study of the Effects of Transfer Learning on Adversarial Robustness
+  authors: Ambar Pal and Rene Vidal and Jeremias Sulam
+  year: '2024'
+  topic: robustness
+- title: Estimating the Adoption of Software Engineering Best Practices in Machine
+    Learning Research
+  authors: Roisin Luo and James McDermott and Colm O'Riordan
+  year: '2024'
+  topic: general
+- title: Interpreting Global Perturbation Robustness of Image Models using Axiomatic
+    Spectral Importance Decomposition
+  authors: Amitangshu Mukherjee and Timur Ibrayev and Kaushik...
+  year: '2025'
+  topic: robustness
+- title: On Inherent Adversarial Robustness of Active Vision Systems
+  authors: Jingtong Su and Ya Shi Zhang and Nikolaos Tsilivis...
+  year: '2024'
+  topic: robustness
+- title: Real-world-robustness of tree-based classifiers
+  authors: Tianjian Huang and Shaunak Ashish Halbe and Chinna...
+  year: '2023'
+  topic: RL
+- title: Investigations on Modularity and Invariance for Compositional Robustness
+  authors: Yatong Bai and Mo Zhou and Vishal M. Patel and Som...
+  year: '2024'
+  topic: robustness
+- title: 'MixedNUTS: Training-Free Accuracy-Robustness Balance via Nonlinearly Mixed
+    Classifiers'
+  authors: Jovita Lukasik and Paul Gavrikov and Janis Keuper ...
+  year: '2023'
+  topic: RL
+- title: Improving Native CNN Robustness with Filter Frequency Regularization
+  authors: Martha Lewis and Melanie Mitchell
+  year: '2025'
+  topic: robustness
+- title: Evaluating the Robustness of Analogical Reasoning in Large Language Models
+  authors: ''
+  year: ''
+  topic: LLM
+- title: Do Object Channels Improve Robustness in Deep Reinforcement Learning?
+  authors: Suhyeok Jang and Seojin Kim and Jinwoo Shin and Jo...
+  year: '2024'
+  topic: RL
+- title: Confidence-aware Denoised Fine-tuning of Off-the-shelf Models for Certified
+    Robustness
+  authors: Tal Alter and Raz Lapid and Moshe Sipper
+  year: '2025'
+  topic: robustness
+- title: Understanding the robustness difference between stochastic gradient descent
+    and adaptive gradient methods
+  authors: Yaowen Wang and Daniel Cullina
+  year: '2026'
+  topic: robustness
+- title: When does knowledge distillation improve robustness?
+  authors: Jonathan Crabb\\
+  year: '2024'
+  topic: robustness
+- title: 'Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts'
+  authors: Yunzhen Feng and Tim G. J. Rudner and Nikolaos Tsi...
+  year: '2024'
+  topic: robustness
+- title: Towards Bridging the gap between Empirical and Certified Robustness against
+    Adversarial Examples
+  authors: Aradhana Sinha and Ananth Balashankar and Ahmad Be...
+  year: '2024'
+  topic: robustness
+- title: Large Pretraining Datasets Don't Guarantee Robustness after Fine-Tuning
+  authors: PANKAJ KUMAR and Subhankar Mishra
+  year: '2025'
+  topic: robustness
+- title: 'Robustness in Large Language Models: A Survey of Mitigation Strategies and
+    Evaluation Metrics'
+  authors: Keliang Li and Hong Chang and Shiguang Shan and Xi...
+  year: '2024'
+  topic: LLM
+- title: Improving Robustness and Diversity with Adversarial Contrastive Network Ensembles
+  authors: Abhay Sheshadri and Aidan Ewart and Phillip Huang ...
+  year: '2025'
+  topic: robustness
+- title: Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors
+    in LLMs
+  authors: Samuel Pfrommer and Brendon G. Anderson and Somaye...
+  year: '2023'
+  topic: LLM
+- title: 'SafeGenes: Evaluating the Adversarial Robustness of Genomic Foundation Models'
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: robustness
+- title: Intrinsic Biologically-Plausible Adversarial Robustness
+  authors: Yu Inatsu
+  year: '2025'
+  topic: robustness
+- title: 'Bayesian Optimization of Robustness Measures under Input Uncertainty: A
+    Randomized Gaussian Process Upper Confidence Bound Approach'
+  authors: Bhavya Vasudeva and Kameron Shahabi and Vatsal Sha...
+  year: '2024'
+  topic: robustness
+- title: On 3D Reconstruction Pre-training to Improve Adversarial Robustness
+  authors: Hamza Mooraj and Georgios Pantazopoulos and Alessa...
+  year: '2026'
+  topic: robustness
+- title: Is Smoothness the Key to Robustness? A Comparison of Attention and Convolution
+    Models Using a Novel Metric
+  authors: Anushiya Arunan and Xin Li and Yan Qin and U-Xuan ...
+  year: '2026'
+  topic: robustness
+- title: Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement
+    of Robustness and Efficiency
+  authors: Zachary Coalson and Huazheng Wang and Qingyun Wu a...
+  year: '2025'
+  topic: robustness
+- title: 'RobustMAD: Evaluating Real-World Robustness of Multimodal Small Language
+    Models for Deployable Anomaly Detection Assistants'
+  authors: Lawrence K. Saul
+  year: '2023'
+  topic: RL
+- title: Improving OOD Robustness via Background-Aware Test- Time-AugmentationinBlack-BoxandResourceConstrained
+    Settings
+  authors: Philip Sosnin and Mark Niklas Mueller and Maximili...
+  year: '2025'
+  topic: robustness
+- title: 'DRO-Augment Framework: Robustness by Synergizing Wasserstein Distributionally
+    Robust Optimization and Data Augmentation'
+  authors: Song Wang and Chris Tennant and Jundong Li
+  year: '2026'
+  topic: robustness
+- title: 'Non-ergodicity in reinforcement learning: robustness via ergodicity transformations'
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: RL
+- title: Certified Robustness to Data Poisoning in Gradient-Based Training
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: robustness
+- title: Assessing biomedical knowledge robustness in large language models by query-efficient
+    sampling attacks
+  authors: Fatemeh Ghofrani and Mehdi Yaghouti and Pooyan Jam...
+  year: '2025'
+  topic: LLM
+- title: Non-backtracking Graph Neural Networks
+  authors: Seonghyun Park and Narae Ryu and Gahee Kim and Don...
+  year: '2024'
+  topic: graph
+- title: 'Genetic-Evolutionary Graph Neural Networks: A Paradigm for Improved Graph
+    Representation Learning'
+  authors: Haimin ZHANG and Min Xu
+  year: '2025'
+  topic: graph
+- title: Expressive Pooling for Graph Neural Networks
+  authors: Veronica Lachi and Alice Moallemy-Oureh and Andrea...
+  year: '2025'
+  topic: graph
+- title: Piecewise Constant Spectral Graph Neural Network
+  authors: Vahan Martirosyan and Jhony H. Giraldo and Fragkis...
+  year: '2025'
+  topic: calibration
+- title: Flow-Attentional Graph Neural Networks
+  authors: ''
+  year: ''
+  topic: graph
+- title: Gradient Inversion Attack on Graph Neural Networks
+  authors: Divya Anand Sinha and Yezi Liu and Ruijie Du and A...
+  year: '2025'
+  topic: robustness
+- title: Towards Accurate Subgraph Similarity Computation via Neural Graph Pruning
+  authors: Linfeng Liu and XU HAN and Dawei Zhou and Liping L...
+  year: '2022'
+  topic: graph
+- title: Multi-conditioned Graph Diffusion for Neural Architecture Search
+  authors: Rohan Asthana and Joschua Conrad and Youssef Dawou...
+  year: '2024'
+  topic: graph
+- title: 'GraphPNAS: Learning Probabilistic Graph Generators for Neural Architecture
+    Search'
+  authors: Muchen Li and Jeffrey Yunfan Liu and Leonid Sigal ...
+  year: '2023'
+  topic: graph
+- title: Sparse Decomposition of Graph Neural Networks
+  authors: Yaochen Hu and Mai Zeng and Ge Zhang and Pavel Rum...
+  year: '2025'
+  topic: graph
+- title: E(n)-equivariant Graph Neural Cellular Automata
+  authors: Gennaro Gala and Daniele Grattarola and Erik Quaeg...
+  year: '2024'
+  topic: graph
+- title: 'DrGNN: Deep Residual Graph Neural Network with Contrastive Learning'
+  authors: Lecheng Zheng and Dongqi Fu and Ross Maciejewski a...
+  year: '2024'
+  topic: graph
+- title: Attentive Walk-Aggregating Graph Neural Networks
+  authors: Mehmet F Demirel and Shengchao Liu and Siddhant Ga...
+  year: '2022'
+  topic: graph
+- title: Faithful Interpretation for Graph Neural Networks
+  authors: Lijie Hu and Tianhao Huang and Lu Yu and Wanyu Lin...
+  year: '2025'
+  topic: graph
+- title: Addressing caveats of neural persistence with deep graph persistence
+  authors: Leander Girrbach and Anders Christensen and Ole Wi...
+  year: '2023'
+  topic: graph
+- title: 'Graph Neural Networks Designed for Different Graph Types: A Survey'
+  authors: ''
+  year: ''
+  topic: graph
+- title: Positional Encoder Graph Quantile Neural Networks for Geographic Data
+  authors: William E. R. de Amorim and Scott A Sisson and Tha...
+  year: '2025'
+  topic: graph
+- title: 'Uncertainty in Graph Neural Networks: A Survey'
+  authors: Fangxin Wang and Yuqing Liu and Kay Liu and Yibo W...
+  year: '2024'
+  topic: graph
+- title: Learning to Rank Features to Enhance Graph Neural Networks for Graph Classification
+  authors: Fouad Alkhoury and Tamas Horvath and Christian Bau...
+  year: '2025'
+  topic: graph
+- title: 'GENIE: Watermarking Graph Neural Networks for Link Prediction'
+  authors: Venkata Sai Pranav Bachina and Aaryan Ajay Sharma ...
+  year: '2026'
+  topic: graph
+- title: Evaluating explainability techniques on discrete-time graph neural networks
+  authors: Manuel Dileo and Matteo Zignani and Sabrina Tizian...
+  year: '2025'
+  topic: graph
+- title: Post-Training Neural Network Pruning using Graph Curvature
+  authors: Shuhang Tan and Jayson Sia and Paul Bogdan and Rad...
+  year: '2026'
+  topic: graph
+- title: Solving the Tree Containment Problem Using Graph Neural Networks
+  authors: Arkadiy Dushatskiy and Esther Julien and Leen Stou...
+  year: '2024'
+  topic: graph
+- title: Graph Neural Networks Formed via Layer-wise Ensembles of Heterogeneous Base
+    Models
+  authors: Jiuhai Chen and Jonas Mueller and Vassilis N. Ioan...
+  year: '2024'
+  topic: graph
+- title: Personalized Layer Selection for Graph Neural Networks
+  authors: Kartik Sharma and Vineeth Rakesh and Yingtong Dou ...
+  year: '2025'
+  topic: graph
+- title: Partition-Based Active Learning for Graph Neural Networks
+  authors: Jiaqi Ma and Ziqiao Ma and Joyce Chai and Qiaozhu ...
+  year: '2023'
+  topic: graph
+- title: 'GraphPrivatizer: Improved Structural Differential Privacy for Graph Neural
+    Networks'
+  authors: Rucha Bhalchandra Joshi and Patrick Indri and Subh...
+  year: '2024'
+  topic: graph
+- title: Stochastic Block Model-Aware Topological Neural Networks for Graph Link Prediction
+  authors: Yuzhou Chen and Xiao Guo and Shujie Ma
+  year: '2025'
+  topic: graph
+- title: 'From Continuous Dynamics to Graph Neural Networks: Neural Diffusion and
+    Beyond'
+  authors: Andi Han and Dai Shi and Lequan Lin and Junbin Gao
+  year: '2024'
+  topic: graph
+- title: Node-Specific Space Selection via Localized Geometric Hyperbolicity in Graph
+    Neural Networks
+  authors: See Hian Lee and Feng Ji and Wee Peng Tay
+  year: '2024'
+  topic: graph
+- title: On Time Series Clustering with Graph Neural Networks
+  authors: Jonas Berg Hansen and Andrea Cini and Filippo Mari...
+  year: '2025'
+  topic: graph
+- title: Releasing Graph Neural Networks with Differential Privacy Guarantees
+  authors: Iyiola Emmanuel Olatunji and Thorben Funke and Meg...
+  year: '2023'
+  topic: graph
+- title: Rewiring with Positional Encodings for Graph Neural Networks
+  authors: ''
+  year: ''
+  topic: graph
+- title: 'Signed Graph Neural Networks: A Frequency Perspective'
+  authors: Rahul Singh and Yongxin Chen
+  year: '2023'
+  topic: graph
+- title: 'Towards Efficient Training of Graph Neural Networks: A Multiscale Approach'
+  authors: ''
+  year: ''
+  topic: graph
+- title: Learning Federated Neural Graph Databases for Answering Complex Queries from
+    Distributed Knowledge Graphs
+  authors: Qi Hu and Weifeng Jiang and Haoran Li and Zihao Wa...
+  year: '2025'
+  topic: graph
+- title: Layer-diverse Negative Sampling for Graph Neural Networks
+  authors: Wei Duan and Jie Lu and Yu Guang Wang and Junyu Xu...
+  year: '2024'
+  topic: graph
+- title: Training-free Graph Neural Networks and the Power of Labels as Features
+  authors: Ryoma Sato
+  year: '2024'
+  topic: graph
+- title: Graph-based Multi-ODE Neural Networks for Spatio-Temporal Traffic Forecasting
+  authors: Zibo Liu and Parshin Shojaee and Chandan K. Reddy
+  year: '2023'
+  topic: graph
+- title: Bayesian Neighborhood Adaptation for Graph Neural Networks
+  authors: Paribesh Regmi and Rui Li and Kishan K C
+  year: '2025'
+  topic: graph
+- title: Training Graph Neural Networks Subject to a Tight Lipschitz Constraint
+  authors: Simona Ioana Juvina and Ana Antonia Neacșu and J\\
+  year: '2024'
+  topic: graph
+- title: 'InduCE: Inductive Counterfactual Explanations for Graph Neural Networks'
+  authors: Samidha Verma and Burouj Armgaan and Sourav Medya ...
+  year: '2024'
+  topic: graph
+- title: Cooperative Minibatching in Graph Neural Networks
+  authors: Muhammed Fatih Balin and Dominique LaSalle and Umi...
+  year: '2025'
+  topic: graph
+- title: Analysis of Convolutions, Non-linearity and Depth in Graph Neural Networks
+    using Neural Tangent Kernel
+  authors: Mahalakshmi Sabanayagam and Pascal Esser and Debar...
+  year: '2023'
+  topic: graph
+- title: Explainable Error Detection in Integrated Circuits Image Segmentation via
+    Graph Neural Networks
+  authors: MA XIAOYU and Jingyang Dai and Feng Ji and Deruo C...
+  year: '2026'
+  topic: graph
+- title: Provable Robustness of (Graph) Neural Networks Against Data Poisoning and
+    Backdoor Attacks
+  authors: ''
+  year: ''
+  topic: robustness
+- title: Graph Structure Learning with Interpretable Bayesian Neural Networks
+  authors: Max Wasserman and Gonzalo Mateos
+  year: '2024'
+  topic: graph
+- title: 'Graph Fourier Neural ODEs: Modeling Spatial-temporal Multi-scales in Molecular
+    Dynamics'
+  authors: Fang Sun and Zijie Huang and Haixin Wang and Huaco...
+  year: '2025'
+  topic: graph
+- title: Flexible Infinite-Width Graph Convolutional Neural Networks
+  authors: Ben Anson and Edward Milsom and Laurence Aitchison
+  year: '2025'
+  topic: graph
+- title: Proper Orthogonal Decomposition for Scalable Training of Graph Neural Networks
+  authors: Abhishek A and Manohar Kaul and Mohit Meena and Ma...
+  year: '2026'
+  topic: graph
+- title: Dynamic Neural Graph Encoding of Inference Processes in Deep Weight Space
+  authors: Di Wu and Huan Liu and Zhixiang Chi and YUANHAO YU...
+  year: '2026'
+  topic: graph
+- title: Tackling Provably Hard Representative Selection via Graph Neural Networks
+  authors: Mehran Kazemi and Anton Tsitsulin and Hossein Esfa...
+  year: '2023'
+  topic: graph
+- title: Enhancing Remaining Useful Life Prediction with Ensemble Multi-Term Fourier
+    Graph Neural Networks
+  authors: Ya Song and Laurens Bliek and Yaoxin Wu and Yingqi...
+  year: '2025'
+  topic: graph
+- title: 'Grothendieck Graph Neural Networks Framework: An Algebraic Platform for
+    Crafting Topology-Aware GNNs'
+  authors: Amirreza Shiralinasab Langari and Leila Yeganeh an...
+  year: '2026'
+  topic: graph
+- title: Federated Spectral Graph Transformers Meet Neural Ordinary Differential Equations
+    for Non-IID Graphs
+  authors: Kishan Gurumurthy and Himanshu Pal and Charu Sharm...
+  year: '2025'
+  topic: graph
+- title: Graph Potential Field  Neural Network for  Massive Agents Group-wise  Path
+    Planning
+  authors: Yueming Lyu and Xiaowei Zhou and Xingrui Yu and Iv...
+  year: '2025'
+  topic: graph
+- title: Towards Better Generalization with Flexible Representation of Multi-Module
+    Graph Neural Networks
+  authors: HyunGeun Lee and Kijung Yoon
+  year: '2023'
+  topic: graph
+- title: Explaining Graph Neural Networks for Node Similarity on Graphs
+  authors: Daniel Daza and Cuong Xuan Chu and Trung-Kien Tran...
+  year: '2026'
+  topic: graph
+- title: Attending to Graph Transformers
+  authors: ''
+  year: ''
+  topic: graph
+- title: 'MaxCutBench: Revisiting and Benchmarking Graph Neural Networks for Maximum
+    Cut'
+  authors: Ankur Nath and Alan Kuhnle
+  year: '2025'
+  topic: graph
+- title: '[Re] GNNInterpreter: A probabilistic generative model-level explanation
+    for Graph Neural Networks'
+  authors: Ana Vasilcoiu and T.H.F. Stessen and Thies Kersten...
+  year: '2024'
+  topic: graph
+- title: Enabling Automatic Differentiation with Mollified Graph Neural Operators
+  authors: Ryan Y. Lin and Julius Berner and Valentin Duruiss...
+  year: '2025'
+  topic: graph
+- title: 'Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges,
+    and Opportunities'
+  authors: Antonio Longa and Veronica Lachi and Gabriele Sant...
+  year: '2023'
+  topic: graph
+- title: 'TESGNN: Temporal Equivariant Scene Graph Neural Networks for Efficient and
+    Robust Multi-View 3D Scene Understanding'
+  authors: Pham Phuoc Minh Quang and Nguyen Tiet Nguyen Khoi ...
+  year: '2025'
+  topic: robustness
+- title: 'Graphon-Explainer: Generating Model-Level Explanations for Graph Neural
+    Networks using Graphons'
+  authors: Sayan Saha and Sanghamitra Bandyopadhyay
+  year: '2024'
+  topic: graph
+- title: Directed Graph Transformers
+  authors: Qitong Wang and Georgios Kollias and Vasileios Kal...
+  year: '2024'
+  topic: graph
+- title: On Representing Convex Quadratically Constrained Quadratic Programs via Graph
+    Neural Networks
+  authors: Chenyang Wu and Qian Chen and Akang Wang and Tian ...
+  year: '2025'
+  topic: graph
+- title: Formal Verification of Graph Convolutional Networks with Uncertain Node Features
+    and Uncertain Graph Structure
+  authors: Tobias Ladner and Michael Eichelbeck and Matthias ...
+  year: '2025'
+  topic: graph
+- title: Bridging Graph Position Encodings for Transformers with Weighted Graph-Walking
+    Automata
+  authors: Patrick Soga and David Chiang
+  year: '2023'
+  topic: graph
+- title: 'GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks'
+  authors: Taraneh Younesian and Daniel Daza and Emile van Kr...
+  year: '2025'
+  topic: graph
+- title: Understanding Sparse Neural Networks from their Topology via Multipartite
+    Graph Representations
+  authors: Elia Cunegatti and Matteo Farina and Doina Bucur a...
+  year: '2024'
+  topic: graph
+- title: Graph Pooling via Ricci Flow
+  authors: Amy Feng and Melanie Weber
+  year: '2024'
+  topic: graph
+- title: Statistical Test for Saliency Maps of Graph Neural Networks via Selective
+    Inference
+  authors: Shuichi Nishino and Tomohiro Shiraishi and Teruyuk...
+  year: '2025'
+  topic: graph
+- title: Active Diffusion Subsampling
+  authors: Ois\\'\\i
+  year: '2025'
+  topic: diffusion
+- title: Diffusion Model Predictive Control
+  authors: Guangyao Zhou and Sivaramakrishnan Swaminathan and...
+  year: '2025'
+  topic: diffusion
+- title: 'Efficient Diffusion Models: A Survey'
+  authors: Hui Shen and Jingxuan Zhang and Boning Xiong and R...
+  year: '2025'
+  topic: diffusion
+- title: 'Diffusion-RainbowPA: Improvements Integrated Preference Alignment for Diffusion-based
+    Text-to-Image Generation'
+  authors: Haoyuan Sun and Bin Liang and Bo Xia and Jiaqi Wu ...
+  year: '2025'
+  topic: LLM
+- title: On Memorization in Diffusion Models
+  authors: Xiangming Gu and Chao Du and Tianyu Pang and Chong...
+  year: '2025'
+  topic: diffusion
+- title: 'FoldDiff: Folding in Point Cloud Diffusion'
+  authors: Yuzhou Zhao and Juan Matias Di Martino and Amirhos...
+  year: '2025'
+  topic: diffusion
+- title: Removing Structured Noise using Diffusion Models
+  authors: Tristan Stevens and Hans van Gorp and Faik C Meral...
+  year: '2025'
+  topic: diffusion
+- title: Physics Informed Distillation for Diffusion Models
+  authors: Joshua Tian Jin Tee and Kang Zhang and Hee Suk Yoo...
+  year: '2024'
+  topic: diffusion
+- title: Diffusion Models for Constrained Domains
+  authors: Nic Fishman and Leo Klarner and Valentin De Bortol...
+  year: '2023'
+  topic: diffusion
+- title: 'Video Diffusion Models: A Survey'
+  authors: Andrew Melnik and Michal Ljubljanac and Cong Lu an...
+  year: '2024'
+  topic: diffusion
+- title: 'DiffKGW: Stealthy and Robust Diffusion Model Watermarking'
+  authors: Tianxin Wei and Ruizhong Qiu and Yifan Chen and Yu...
+  year: '2026'
+  topic: robustness
+- title: 'ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer'
+  authors: Jinyi Hu and Shengding Hu and Yuxuan Song and Yufe...
+  year: '2026'
+  topic: diffusion
+- title: 'LLM-grounded Diffusion: Enhancing Prompt Understanding of Text-to-Image
+    Diffusion Models with Large Language Models'
+  authors: Long Lian and Boyi Li and Adam Yala and Trevor Dar...
+  year: '2024'
+  topic: LLM
+- title: Diffusion Models with Deterministic Normalizing Flow Priors
+  authors: Mohsen Zand and Ali Etemad and Michael Greenspan
+  year: '2024'
+  topic: diffusion
+- title: Debiasing Diffusion Models via Score Guidance
+  authors: Piyush Tiwary and Prabhav Verma and Prathosh AP
+  year: '2026'
+  topic: fairness
+- title: Improving GFlowNets for Text-to-Image Diffusion Alignment
+  authors: Dinghuai Zhang and Yizhe Zhang and Jiatao Gu and R...
+  year: '2025'
+  topic: LLM
+- title: Image retrieval outperforms diffusion models on data augmentation
+  authors: Max F Burg and Florian Wenzel and Dominik Zietlow ...
+  year: '2023'
+  topic: diffusion
+- title: 'Soft Diffusion: Score Matching with General Corruptions'
+  authors: Giannis Daras and Mauricio Delbracio and Hossein T...
+  year: '2023'
+  topic: diffusion
+- title: Diffusion Models for Video Prediction and Infilling
+  authors: ''
+  year: ''
+  topic: diffusion
+- title: Differentially Private Diffusion Models
+  authors: Tim Dockhorn and Tianshi Cao and Arash Vahdat and ...
+  year: '2023'
+  topic: diffusion
+- title: 'Boomerang: Local sampling on image manifolds using diffusion models'
+  authors: Lorenzo Luzi and Paul M Mayer and Josue Casco-Rodr...
+  year: '2024'
+  topic: diffusion
+- title: World Models via Policy-Guided Trajectory Diffusion
+  authors: Marc Rigter and Jun Yamada and Ingmar Posner
+  year: '2024'
+  topic: RL
+- title: 'Continual Diffusion: Continual Customization of Text-to-Image Diffusion
+    with C-LoRA'
+  authors: James Seale Smith and Yen-Chang Hsu and Lingyu Zha...
+  year: '2024'
+  topic: diffusion
+- title: 'G2D2: Gradient-Guided Discrete Diffusion for Inverse Problem Solving'
+  authors: Naoki Murata and Chieh-Hsin Lai and Yuhta Takida a...
+  year: '2025'
+  topic: diffusion
+- title: An optimal control perspective on diffusion-based generative modeling
+  authors: Julius Berner and Lorenz Richter and Karen Ullrich
+  year: '2024'
+  topic: diffusion
+- title: Enhancing Molecular Conformer Generation via Fragment- Augmented Diffusion
+    Pretraining
+  authors: Xiaozhuang Song and YUZHAO TU and Tianshu Yu
+  year: '2025'
+  topic: diffusion
+- title: Hierarchically branched diffusion models leverage dataset structure for class-conditional
+    generation
+  authors: Alex M Tseng and Max W Shen and Tommaso Biancalani...
+  year: '2024'
+  topic: diffusion
+- title: GSURE-Based Diffusion Model Training with Corrupted Data
+  authors: Bahjat Kawar and Noam Elata and Tomer Michaeli and...
+  year: '2024'
+  topic: diffusion
+- title: 'Discffusion: Discriminative Diffusion Models as Few-shot Vision and Language
+    Learners'
+  authors: Xuehai He and Weixi Feng and Tsu-Jui Fu and Varun ...
+  year: '2024'
+  topic: diffusion
+- title: 'DisDet: Exploring Detectability of Backdoor Attack on Diffusion Models'
+  authors: Yang Sui and Huy Phan and Jinqi Xiao and Tianfang ...
+  year: '2025'
+  topic: robustness
+- title: 'MemBench: Memorized Image Trigger Prompt Dataset for Diffusion Models'
+  authors: Chunsan Hong and Tae-Hyun Oh and Minhyuk Sung
+  year: '2025'
+  topic: LLM
+- title: Solving Inverse Problems using Diffusion with Iterative Colored Renoising
+  authors: Matthew C Bendel and Saurav K Shastri and Rizwan A...
+  year: '2025'
+  topic: diffusion
+- title: Balanced Mixed-Type Tabular Data Synthesis with Diffusion Models
+  authors: Zeyu Yang and Han Yu and Peikun Guo and Khadija Za...
+  year: '2025'
+  topic: diffusion
+- title: Diffusion Self-Weighted Guidance for Offline Reinforcement Learning
+  authors: Augusto Tagle and Javier Ruiz-del-Solar and Felipe...
+  year: '2025'
+  topic: RL
+- title: Fast Training of Diffusion Models with Masked Transformers
+  authors: Hongkai Zheng and Weili Nie and Arash Vahdat and A...
+  year: '2024'
+  topic: diffusion
+- title: Diffusion-based Cumulative Adversarial Purification for Vision Language Models
+  authors: Jia Fu and Yongtao Wu and Yihang Chen and Kunyu Pe...
+  year: '2026'
+  topic: LLM
+- title: 'QDC: Quantum Diffusion Convolution Kernels on Graphs'
+  authors: Thomas Markovich
+  year: '2024'
+  topic: graph
+- title: Random Walk Diffusion for Efficient Large-Scale Graph Generation
+  authors: Tobias Bernecker and Ghalia Rehawi and Francesco P...
+  year: '2025'
+  topic: graph
+- title: 'Survey of Video Diffusion Models: Foundations, Implementations, and Applications'
+  authors: Yimu Wang and Xuye Liu and Wei Pang and Li Ma and ...
+  year: '2025'
+  topic: diffusion
+- title: 'Cometh: A continuous-time discrete-state graph diffusion model'
+  authors: Antoine Siraudin and Fragkiskos D. Malliaros and C...
+  year: '2025'
+  topic: graph
+- title: Teaching Diffusion Models to Ground Alpha Matte
+  authors: Tianyi Xiang and Weiying Zheng and Yutao Jiang and...
+  year: '2025'
+  topic: diffusion
+- title: 'GeNIe: Generative Hard Negative Images Through Diffusion'
+  authors: Soroush Abbasi Koohpayegani and Anuj Singh and Nav...
+  year: '2025'
+  topic: diffusion
+- title: The Missing U for Efficient Diffusion Models
+  authors: Sergio Calvo Ordo\\~n
+  year: ''
+  topic: diffusion
+- title: 'DRDT3: Diffusion-Refined Decision Test-Time Training Model'
+  authors: Xingshuai Huang and Di Wu and Benoit Boulet
+  year: '2025'
+  topic: diffusion
+- title: Faster Diffusion Through Temporal Attention Decomposition
+  authors: ''
+  year: ''
+  topic: diffusion
+- title: 'Unstable Unlearning: The Hidden Risk of Concept Resurgence in Diffusion
+    Models'
+  authors: Vinith Menon Suriyakumar and Rohan Alur and Ayush ...
+  year: '2026'
+  topic: diffusion
+- title: Diffusion Models are Secretly Zero-Shot 3DGS Harmonizers
+  authors: Vsevolod Skorokhodov and Nikita Durasov and Pascal...
+  year: '2026'
+  topic: diffusion
+- title: 'Conditional Image Synthesis with Diffusion Models: A Survey'
+  authors: Zheyuan Zhan and Defang Chen and Jian-Ping Mei and...
+  year: '2025'
+  topic: diffusion
+- title: Convergence of denoising diffusion models under the manifold hypothesis
+  authors: Valentin De Bortoli
+  year: '2022'
+  topic: diffusion
+- title: 'Data Attribution for Diffusion Models: Timestep-induced Bias in Influence
+    Estimation'
+  authors: Tong Xie and Haoyu Li and Andrew Bai and Cho-Jui H...
+  year: '2024'
+  topic: fairness
+- title: 'ReVision: Refining Video Diffusion with Explicit 3D Motion Modeling'
+  authors: Qihao Liu and Ju He and Qihang Yu and Liang-Chieh ...
+  year: '2026'
+  topic: diffusion
+- title: Joint Diffusion for Universal Hand-Object Grasp Generation
+  authors: Jinkun Cao and Jingyuan Liu and Kris Kitani and Yi...
+  year: '2025'
+  topic: diffusion
+- title: Guided Discrete Diffusion for Electronic Health Record Generation
+  authors: Jun Han and Zixiang Chen and Yongqian Li and Yiwen...
+  year: '2025'
+  topic: diffusion
+- title: Differentially Private Latent Diffusion Models
+  authors: Michael F Liu and Saiyue Lyu and Margarita Vinaroz...
+  year: '2024'
+  topic: diffusion
+- title: Discontinuity-Preserving Image Super-Resolution using MRF-Regularized One-Step
+    Diffusion
+  authors: Sanchar Palit and Subhasis Chaudhuri and Biplab Ba...
+  year: '2026'
+  topic: diffusion
+- title: 'Bigger is not Always Better: Scaling Properties of Latent Diffusion Models'
+  authors: Kangfu Mei and Zhengzhong Tu and Mauricio Delbraci...
+  year: '2025'
+  topic: diffusion
+- title: 'VT-DUDA: Visual Token Conditioning for Diffusion-guided Unsupervised Domain
+    Adaptation'
+  authors: Xuan Qi and Daniele Berardini and Dario Serez and ...
+  year: '2026'
+  topic: diffusion
+- title: 'ADiff4TPP: Asynchronous Diffusion Models for Temporal Point Processes'
+  authors: Amartya Mukherjee and Ruizhi Deng and He Zhao and ...
+  year: '2026'
+  topic: diffusion
+- title: Meta-Learning via Classifier(-free) Diffusion Guidance
+  authors: Elvis Nava and Seijin Kobayashi and Yifei Yin and ...
+  year: '2023'
+  topic: diffusion
+- title: 'Transport with Support: Data-Conditional Diffusion Bridges'
+  authors: Ella Tamir and Martin Trapp and Arno Solin
+  year: '2023'
+  topic: diffusion
+- title: 'Responsive Noise-Relaying Diffusion Policy: Responsive and Efficient Visuomotor
+    Control'
+  authors: Zhuoqun Chen and Xiu Yuan and Tongzhou Mu and Hao ...
+  year: '2025'
+  topic: RL
+- title: Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance
+  authors: Bahjat Kawar and Roy Ganz and Michael Elad
+  year: '2023'
+  topic: robustness
+- title: 'The Geometry of Phase Transitions in Diffusion Models: Tubular Neighbourhoods
+    and Singularities'
+  authors: Manato Yaguchi and Kotaro Sakamoto and Ryosuke Sak...
+  year: '2025'
+  topic: diffusion
+- title: 'Ensemble Kalman Diffusion Guidance: A Derivative-free Method for Inverse
+    Problems'
+  authors: Hongkai Zheng and Wenda Chu and Austin Wang and Ni...
+  year: '2025'
+  topic: diffusion
+- title: Diffusion Models for Solving Inverse Problems via Posterior Sampling with
+    Piecewise Guidance
+  authors: Saeed Mohseni-Sehdeh and Walid Saad and Kei Sakagu...
+  year: '2026'
+  topic: calibration
+- title: Efficient and Unbiased Sampling from Boltzmann Distributions via Variance-Tuned
+    Diffusion Models
+  authors: Fengzhe Zhang and Laurence Illing Midgley and Jos\...
+  year: '2025'
+  topic: fairness
+- title: 'Unlearning in Diffusion models under Data Constraints: A Variational Inference
+    Approach'
+  authors: Subhodip Panda and Varun M S and Shreyans Jain and...
+  year: '2026'
+  topic: diffusion
+- title: Modeling Causal Mechanisms with Diffusion Models for Interventional and Counterfactual
+    Queries
+  authors: ''
+  year: ''
+  topic: diffusion
+- title: 'Latte: Latent Diffusion Transformer for Video Generation'
+  authors: Xin Ma and Yaohui Wang and Xinyuan Chen and Gengyu...
+  year: '2025'
+  topic: diffusion
+- title: 'Zero-1-to-G: Taming Pretrained 2D Diffusion Model for Direct 3D Generation'
+  authors: Xuyi Meng and Chen Wang and Jiahui Lei and Kostas ...
+  year: '2025'
+  topic: diffusion
+- title: Score-Based Denoising Diffusion Models for Photon-Starved Image Restoration
+    Problems
+  authors: Savvas Melidonis and Yiming Xi and Konstantinos C....
+  year: '2025'
+  topic: diffusion
+- title: Sparse-to-Sparse Training of Diffusion Models
+  authors: In\\^e
+  year: '2025'
+  topic: diffusion
+- title: 'TabRep: Training Tabular Diffusion Models with a Simple and Effective Continuous
+    Representation'
+  authors: Jacob Si and Zijing Ou and Mike Qu and Zhengrui Xi...
+  year: '2026'
+  topic: diffusion
+- title: 'EHRDiff : Exploring Realistic EHR Synthesis with Diffusion Models'
+  authors: Hongyi Yuan and Songchi Zhou and Sheng Yu
+  year: '2024'
+  topic: diffusion
+- title: Meta-Learning under Task Shift
+  authors: Lei Sun and Yusuke Tanaka and Tomoharu Iwata
+  year: '2024'
+  topic: meta_learning
+- title: Meta-Learning Adaptive Loss Functions
+  authors: Christian Raymond and Qi Chen and Bing XUE and Men...
+  year: '2025'
+  topic: meta_learning
+- title: Task Weighting in Meta-learning with Trajectory Optimisation
+  authors: Cuong C. Nguyen and Thanh-Toan Do and Gustavo Carn...
+  year: '2023'
+  topic: optimization
+- title: 'MERMAIDE: Learning to Align Learners using Model-Based Meta-Learning'
+  authors: Arundhati Banerjee and Soham Rajesh Phade and Stef...
+  year: '2023'
+  topic: meta_learning
+- title: Maximising the Utility of Validation Sets for Imbalanced Noisy-label Meta-learning
+  authors: Hoang Anh Dung and Cuong C. Nguyen and Vasileios B...
+  year: '2025'
+  topic: meta_learning
+- title: Reusable Options through Gradient-based Meta Learning
+  authors: David Kuric and Herke van Hoof
+  year: '2023'
+  topic: optimization
+- title: Reducing Variance in Meta-Learning via Laplace Approximation for Regression
+    Tasks
+  authors: Alfredo Reichlin and Gustaf Tegn\\
+  year: ''
+  topic: meta_learning
+- title: 'Amphibian: A Meta-Learning Framework for Rehearsal-Free, Fast Online Continual
+    Learning'
+  authors: Gobinda Saha and Kaushik Roy
+  year: '2025'
+  topic: meta_learning
+- title: Meta Continual Learning on Graphs with Experience Replay
+  authors: ''
+  year: ''
+  topic: graph
+- title: Evolving Decomposed Plasticity Rules for Information-Bottlenecked Meta-Learning
+  authors: Fan Wang and Hao Tian and Haoyi Xiong and Hua Wu a...
+  year: '2022'
+  topic: meta_learning
+- title: Meta-Learning Sparse Compression Networks
+  authors: Jonathan Schwarz and Yee Whye Teh
+  year: '2022'
+  topic: meta_learning
+- title: Meta-learning Optimizers for Communication-Efficient Learning
+  authors: Charles-\\'E
+  year: '2025'
+  topic: optimization
+- title: Meta-Learning Approach for Joint Multimodal Signals with Multimodal Iterative
+    Adaptation
+  authors: Sehun Lee and Wonkwang Lee and Gunhee Kim
+  year: '2024'
+  topic: meta_learning
+- title: 'Jigsaw Game: Federated Clustering'
+  authors: JINXUAN XU and Hong-You Chen and Wei-Lun Chao and ...
+  year: '2024'
+  topic: federated
+- title: Locally Adaptive Federated Learning
+  authors: Sohom Mukherjee and Nicolas Loizou and Sebastian U...
+  year: '2024'
+  topic: federated
+- title: Subspace based Federated Unlearning
+  authors: Guanghao Li and Li Shen and Yan Sun and Yue Hu and...
+  year: '2026'
+  topic: federated
+- title: Federated Graph Learning with Graphless Clients
+  authors: Xingbo Fu and Song Wang and Yushun Dong and Binchi...
+  year: '2024'
+  topic: graph
+- title: On the Data Heterogeneity in Adaptive Federated Learning
+  authors: Yujia Wang and Jinghui Chen
+  year: '2024'
+  topic: federated
+- title: Federated High-Dimensional Online Decision Making
+  authors: Chi-Hua Wang and Wenjie Li and Guang Lin
+  year: '2023'
+  topic: federated
+- title: Leveraging Recursive Methods for Efficient Federated Learning
+  authors: Jie Liu and Zuang Wang and Yongqiang Wang
+  year: '2026'
+  topic: federated
+- title: Straggler-Resilient Personalized Federated Learning
+  authors: Isidoros Tziotis and Zebang Shen and Ramtin Pedars...
+  year: '2023'
+  topic: federated
+- title: 'NeurIPS 2023 Competition: Privacy Preserving Federated Learning Document
+    VQA'
+  authors: Marlon Tobaben and Mohamed Ali Souibgui and Rub\\`...
+  year: ''
+  topic: federated
+- title: Provably Personalized and Robust Federated Learning
+  authors: Mariel Werner and Lie He and Michael Jordan and Ma...
+  year: '2023'
+  topic: robustness
+- title: Differentiated Aggregation to Improve Generalization in Federated Learning
+  authors: Peyman Gholami and Hulya Seferoglu
+  year: '2025'
+  topic: federated
+- title: Harnessing the Power of Federated Learning in Federated Contextual Bandits
+  authors: Chengshuai Shi and Ruida Zhou and Kun Yang and Con...
+  year: '2024'
+  topic: federated
+- title: Federated Learning under Covariate Shifts with Generalization Guarantees
+  authors: Ali Ramezani-Kebrya and Fanghui Liu and Thomas Pet...
+  year: '2023'
+  topic: federated
+- title: Task Arithmetic Through The Lens Of One-Shot Federated Learning
+  authors: Zhixu Tao and Ian Mason and Sanjeev Kulkarni and X...
+  year: '2025'
+  topic: federated
+- title: Federated TD Learning with Linear Function Approximation under Environmental
+    Heterogeneity
+  authors: Han Wang and Aritra Mitra and Hamed Hassani and Ge...
+  year: '2024'
+  topic: federated
+- title: 'Federated Variational Inference: Towards Improved Personalization and Generalization'
+  authors: Elahe Vedadi and Joshua V. Dillon and Philip Andre...
+  year: '2024'
+  topic: federated
+- title: Gradient Masked Averaging for Federated Learning
+  authors: Irene Tenison and Sai Aravind Sreeramadas and Vaik...
+  year: '2023'
+  topic: federated
+- title: 'DFML: Decentralized Federated Mutual Learning'
+  authors: Yasser H. Khalil and Amir Hossein Estiri and Mahdi...
+  year: '2024'
+  topic: calibration
+- title: Group Fair Federated Learning via Stochastic Kernel Regularization
+  authors: Huzaifa Arif and Pin-Yu Chen and Keerthiram Muruge...
+  year: '2025'
+  topic: fairness
+- title: Leveraging Function Space Aggregation for Federated Learning at Scale
+  authors: Nikita Dhawan and Nicole Elyse Mitchell and Zachar...
+  year: '2024'
+  topic: federated
+- title: Cross-client Label Propagation for Transductive and Semi-Supervised Federated
+    Learning
+  authors: Jonathan Scott and Michelle Yeo and Christoph H La...
+  year: '2023'
+  topic: federated
+- title: Learning to Prompt Your Domain for Federated Vision-Language Models
+  authors: Guoyizhe Wei and Feng Wang and Anshul Shah and Ram...
+  year: '2025'
+  topic: LLM
+- title: Quantization Robust Federated Learning for Efficient Inference on Heterogeneous
+    Devices
+  authors: Kartik Gupta and Marios Fournarakis and Matthias R...
+  year: '2023'
+  topic: robustness
+- title: 'AdaFed: Fair Federated Learning via Adaptive Common Descent Direction'
+  authors: Shayan Mohajer Hamidi and EN-HUI YANG
+  year: '2024'
+  topic: fairness
+- title: Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers
+  authors: M Yashwanth and Sharannya Ghosh and Aditay Tripath...
+  year: '2026'
+  topic: LLM
+- title: Achieving Faster than O(1/t) Convergence in General Convex Federated Learning
+  authors: Jie Liu and Zuang Wang and Yongqiang Wang
+  year: '2026'
+  topic: federated
+- title: Federated Sampling with Langevin Algorithm under Isoperimetry
+  authors: Lukang Sun and Adil Salim and Peter Richt\\
+  year: '2024'
+  topic: federated
+- title: 'ParaBlock: Communication-Computation Parallel Block Coordinate Federated
+    Learning for Large Language Models'
+  authors: Yujia Wang and Yuanpu Cao and Jinghui Chen
+  year: '2026'
+  topic: LLM
+- title: 'FedLOE: Federated Domain Generalization via Locally Overfit Ensemble'
+  authors: Ruqi Bai and David I. Inouye
+  year: '2026'
+  topic: federated
+- title: Recovering Exact Support in Federated lasso without Optimization
+  authors: Adarsh Barik and Jean Honorio
+  year: '2024'
+  topic: federated
+- title: Data-Free Diversity-Based Ensemble Selection for One-Shot Federated Learning
+  authors: Naibo Wang and Wenjie Feng and yuchen deng and Mom...
+  year: '2023'
+  topic: federated
+- title: Data Leakage in Federated Averaging
+  authors: Dimitar Iliev Dimitrov and Mislav Balunovic and Ni...
+  year: '2022'
+  topic: federated
+- title: Federated $\\mathcal{X}$-armed Bandit with Flexible Personalisation
+  authors: Ali Arabzadeh and James A. Grant and David S. Lesl...
+  year: '2024'
+  topic: federated
+- title: 'SSFL: Discovering Sparse Unified Subnetworks at Initialization for Efficient
+    Federated Learning'
+  authors: Riyasat Ohib and Bishal Thapaliya and Gintare Karo...
+  year: '2026'
+  topic: federated
+- title: Federated Learning under Partially Disjoint Data via Manifold Reshaping
+  authors: Ziqing Fan and Jiangchao Yao and Ruipeng Zhang and...
+  year: '2023'
+  topic: federated
+- title: 'Enhanced Federated Optimization: Adaptive Unbiased Client Sampling with
+    Reduced Variance'
+  authors: Dun Zeng and Zenglin Xu and Yu Pan and Xu Luo and ...
+  year: '2025'
+  topic: fairness
+- title: Communication-Efficient Federated AUC Maximization with Cyclic Client Participation
+  authors: Umesh-Vangapally and Wenhan Wu and Chen Chen and Z...
+  year: '2026'
+  topic: federated
+- title: Adaptive Clipping for Differential Private Federated Learning in Interpolation
+    Regimes
+  authors: Takumi Fukami and Tomoya Murata and Kenta Niwa
+  year: '2025'
+  topic: federated
+- title: Optimal Client Sampling for Federated Learning
+  authors: Wenlin Chen and Samuel Horv\\
+  year: '2022'
+  topic: federated
+- title: Personalised Federated Learning On Heterogeneous Feature Spaces
+  authors: Alain Rakotomamonjy and Maxime Vono and Hamlet Jes...
+  year: '2024'
+  topic: federated
+- title: 'PaDPaF: Partial Disentanglement with Partially-Federated GANs'
+  authors: Abdulla Jasem Almansoori and Samuel Horv\\
+  year: '2024'
+  topic: federated
+- title: Synthetic data shuffling accelerates the convergence of federated learning
+    under data heterogeneity
+  authors: Bo Li and Yasin Esfandiari and Mikkel N. Schmidt a...
+  year: '2024'
+  topic: federated
+- title: 'On Federated Compositional Optimization: Algorithms, Analysis, and Guarantees'
+  authors: Prashant Khanduri and Chengyin Li and Rafi Ibn Sul...
+  year: '2026'
+  topic: federated
+- title: Towards Preventing Global Knowledge Forgetting in Federated Learning with
+    Non-IID Data
+  authors: Abhijit Chunduru and Majid Morafah and Mahdi Moraf...
+  year: '2026'
+  topic: graph
+- title: 'FedProTIP: Task-Agnostic Federated Continual Learning via Replay-Free Gradient
+    Projection'
+  authors: Seohyeon Cha and Huancheng Chen and Haris Vikalo
+  year: '2026'
+  topic: federated
+- title: Mixed Nash for Robust Federated Learning
+  authors: Wanyun Xie and Thomas Pethick and Ali Ramezani-Keb...
+  year: '2024'
+  topic: robustness
+- title: Fusion of Global and Local Knowledge for Personalized Federated Learning
+  authors: Tiansheng Huang and Li Shen and Yan Sun and Weiwei...
+  year: '2023'
+  topic: graph
+- title: Distributionally Robust Alignment for Medical Federated Vision-Language Pre-training
+    Under Data Heterogeneity
+  authors: Zitao Shuai and Chenwei Wu and Zhengxu Tang and Li...
+  year: '2025'
+  topic: LLM
+- title: On the Unreasonable Effectiveness of Federated Averaging with Heterogeneous
+    Data
+  authors: Jianyu Wang and Rudrajit Das and Gauri Joshi and S...
+  year: '2024'
+  topic: federated
+- title: 'Model-Free Learning with Heterogeneous Dynamical Systems: A Federated LQR
+    Approach'
+  authors: Han Wang and Leonardo Felipe Toso and Aritra Mitra...
+  year: '2026'
+  topic: federated
+- title: 'Initialization Matters: Unraveling the Impact of Pre-Training on Federated
+    Learning'
+  authors: Divyansh Jhunjhunwala and Pranay Sharma and Zheng ...
+  year: '2025'
+  topic: federated
+- title: Federated Learning on Virtual Heterogeneous Data with Local-Global Dataset
+    Distillation
+  authors: Chun-Yin Huang and Ruinan Jin and Can Zhao and Dag...
+  year: '2025'
+  topic: federated
+- title: A Snapshot of the Frontiers of Client Selection in Federated Learning
+  authors: Gergely D\\
+  year: '2022'
+  topic: federated
+- title: An Improved Federated Clustering Algorithm with Model-based Clustering
+  authors: Harsh Vardhan and Avishek Ghosh and Arya Mazumdar
+  year: '2024'
+  topic: federated
+- title: 'Trusted Aggregation (TAG): Backdoor Defense in Federated Learning'
+  authors: Joseph Lavond and Minhao Cheng and Yao Li
+  year: '2024'
+  topic: robustness
+- title: Buffer-based Gradient Projection for Continual Federated Learning
+  authors: Shenghong Dai and Jy-yong Sohn and Yicong Chen and...
+  year: '2025'
+  topic: federated
+- title: Maximizing Global Model Appeal in Federated Learning
+  authors: Yae Jee Cho and Divyansh Jhunjhunwala and Tian Li ...
+  year: '2024'
+  topic: federated
+- title: 'FedLog: Personalized Federated Classification with Less Communication and
+    More Flexibility'
+  authors: Haolin Yu and Guojun Zhang and Hongliang Li and Pa...
+  year: '2026'
+  topic: federated
+- title: 'Private Multi-Task Learning: Formulation and Applications to Federated Learning'
+  authors: Shengyuan Hu and Steven Wu and Virginia Smith
+  year: '2023'
+  topic: federated
+- title: Proportional Fairness in Federated Learning
+  authors: Guojun Zhang and Saber Malekmohammadi and Xi Chen ...
+  year: '2023'
+  topic: fairness
+- title: 'Personalized Federated Learning with Spurious Features: An Adversarial Approach'
+  authors: Xiaoyang Wang and Han Zhao and Klara Nahrstedt and...
+  year: '2024'
+  topic: robustness
+- title: Distributed Quasi-Newton Method for Fair and Fast Federated Learning
+  authors: Shayan Mohajer Hamidi and Linfeng Ye
+  year: '2025'
+  topic: fairness
+- title: 'FLR: Label-Mixture Regularization for Federated Learning with Noisy Labels'
+  authors: Taehyeon Kim and Donggyu Kim and Se-Young Yun
+  year: '2024'
+  topic: federated
+- title: Federated Learning with Efficient Local Adaptation for Realized Volatility
+    Prediction
+  authors: Lei Zhao and Lin Cai and Wu-Sheng Lu
+  year: '2025'
+  topic: federated
+- title: Modular Federated Contrastive Learning with Twin Normalization for Resource-limited
+    Clients
+  authors: Azadeh Motamedi and IL MIN KIM
+  year: '2024'
+  topic: federated
+- title: 'Fed-SB: A Silver Bullet for Extreme Communication Efficiency and Performance
+    in (Private) Federated LoRA Fine-Tuning'
+  authors: Raghav Singhal and Kaustubh Ponkshe and Rohit Vart...
+  year: '2026'
+  topic: federated
+- title: Continual Adaptation of Vision Transformers for Federated Learning
+  authors: Shaunak Halbe and James Seale Smith and Junjiao Ti...
+  year: '2024'
+  topic: federated
+- title: 'Causal Parrots: Large Language Models May Talk Causality But Are Not Causal'
+  authors: Matej Ze\\vc
+  year: '2023'
+  topic: LLM
+- title: Multiscale Causal Structure Learning
+  authors: Gabriele D'Acunto and Paolo Di Lorenzo and Sergio ...
+  year: '2023'
+  topic: causal
+- title: Causal Discovery over High-Dimensional Structured Hypothesis Spaces with  Causal
+    Graph Partitioning
+  authors: Ashka Shah and Adela Frances DePavia and Nathaniel...
+  year: '2025'
+  topic: graph
+- title: 'From Identifiable Causal Representations to Controllable Counterfactual
+    Generation: A Survey on Causal Generative Modeling'
+  authors: Aneesh Komanduri and Xintao Wu and Yongkai Wu and ...
+  year: '2024'
+  topic: causal
+- title: Deep End-to-end Causal Inference
+  authors: Tomas Geffner and Javier Antoran and Adam Foster a...
+  year: '2024'
+  topic: causal
+- title: 'Integrating Large Language Models in Causal Discovery: A Statistical Causal
+    Approach'
+  authors: MASAYUKI TAKAYAMA and Tadahisa OKUDA and Thong Pha...
+  year: '2025'
+  topic: LLM
+- title: 'Invariance & Causal Representation Learning: Prospects and Limitations'
+  authors: Simon Bing and Tom Hochsprung and Jonas Wahl and U...
+  year: '2024'
+  topic: causal
+- title: Bayesian Causal Bandits with Backdoor Adjustment Prior
+  authors: Jireh Huang and Qing Zhou
+  year: '2023'
+  topic: causal
+- title: Demystifying amortized causal discovery with transformers
+  authors: Francesco Montagna and Max Cairney-Leeming and Dha...
+  year: '2025'
+  topic: causal
+- title: Improving Local Explainability By Learning Causal Graphs From Data
+  authors: Daan Roos and Sebastian Gerwinn and Jan-Willem van...
+  year: '2026'
+  topic: graph
+- title: Identifying Causal Structure in Dynamical Systems
+  authors: Dominik Baumann and Friedrich Solowjow and Karl He...
+  year: '2022'
+  topic: causal
+- title: DAG-aware GAT for Causal Effect Estimation
+  authors: Manqing Liu and David Remy Bellamy and Andrew Beam
+  year: '2026'
+  topic: causal
+- title: Facial Counterfactual Generation via Causal Mask-Guided Editing
+  authors: Pei Sze Tan and Sailaja Rajanala and Arghya Pal an...
+  year: '2026'
+  topic: causal
+- title: Not All Causal Inference is the Same
+  authors: Matej Ze\\vc
+  year: '2023'
+  topic: causal
+- title: Learning Multiscale Non-stationary Causal Structures
+  authors: Gabriele D'Acunto and Gianmarco De Francisci Moral...
+  year: '2023'
+  topic: causal
+- title: Identifying Macro Causal Effects in a C-DMG over ADMGs
+  authors: Simon Ferreira and Charles K. Assaad
+  year: '2025'
+  topic: causal
+- title: Deep Autoregressive Models as Causal Inference Engines
+  authors: Daniel Jiwoong Im and Kevin Zhang and Nakul Verma ...
+  year: '2025'
+  topic: causal
+- title: Jacobian-based Causal Discovery with Nonlinear ICA
+  authors: ''
+  year: ''
+  topic: causal
+- title: Generative Causal Structure Learning with Dual Latent Spaces and Annealing
+  authors: Soma Bandyopadhyay and Sudeshna Sarkar
+  year: '2026'
+  topic: causal
+- title: Controllable Generative Modeling via Causal Reasoning
+  authors: Joey Bose and Ricardo Pio Monti and Aditya Grover
+  year: '2022'
+  topic: causal
+- title: 'MACAW: A Causal Generative Model for Medical Imaging'
+  authors: Vibujithan Vigneshwaran and Erik Yuiti Ohara and M...
+  year: '2026'
+  topic: causal
+- title: Causal Ordering for Structure Learning from Time Series
+  authors: Pedro Sanchez and Damian Machlanski and Steven McD...
+  year: '2025'
+  topic: causal
+- title: 'Variational Causal Dynamics: Discovering Modular World Models from Interventions'
+  authors: ''
+  year: ''
+  topic: RL
+- title: RCT Rejection Sampling for Causal Estimation Evaluation
+  authors: Katherine A. Keith and Sergey Feldman and David Ju...
+  year: '2023'
+  topic: causal
+- title: Invariant Structure Learning for Better Generalization and Causal Explainability
+  authors: Yunhao Ge and Sercan O Arik and Jinsung Yoon and A...
+  year: '2023'
+  topic: causal
+- title: Cluster-Dags as Powerful Background Knowledge For Causal Discovery
+  authors: Jan Marco Ruiz de Vargas and Kirtan Padh and Niki ...
+  year: '2026'
+  topic: graph
+- title: Separability Analysis for Causal Discovery in Mixture of DAGs
+  authors: Burak Varici and Dmitriy Katz and Dennis Wei and P...
+  year: '2024'
+  topic: causal
+- title: Learning domain-specific causal discovery from time series
+  authors: Xinyue Wang and Konrad Kording
+  year: '2023'
+  topic: causal
+- title: Expressiveness of Parametrized Distributions over DAGs for Causal Discovery
+  authors: Simon Rittel and Sebastian Tschiatschek
+  year: '2025'
+  topic: causal
+- title: A Survey on Causal Discovery Methods for I.I.D. and Time Series Data
+  authors: Uzma Hasan and Emam Hossain and Md Osman Gani
+  year: '2023'
+  topic: causal
+- title: Identifiable Causal Inference with Noisy Treatment and No Side Information
+  authors: ''
+  year: ''
+  topic: causal
+- title: 'Sample, estimate, aggregate: A recipe for causal discovery foundation models'
+  authors: Menghua Wu and Yujia Bao and Regina Barzilay and T...
+  year: '2025'
+  topic: causal
+- title: Causal Feature Selection via Orthogonal Search
+  authors: ''
+  year: ''
+  topic: causal
+- title: Physics-Aware Spatiotemporal Causal Graph Network for Forecasting with Limited
+    Data
+  authors: Zijun Cui and Sam Griesemer and Sungyong Seo and J...
+  year: '2025'
+  topic: graph
+- title: 'Models with a Cause: Causal Discovery with Language Models on Temporally
+    Ordered Text Data'
+  authors: Bruce Rushing and Javier Gomez-Lavin
+  year: '2026'
+  topic: LLM
+- title: 'Causal Reasoning and Large Language Models: Opening a New Frontier for Causality'
+  authors: Emre Kiciman and Robert Ness and Amit Sharma and C...
+  year: '2024'
+  topic: LLM
+- title: Amortized Inference of Causal Models via Conditional Fixed-Point Iterations
+  authors: Divyat Mahajan and Jannes Gladrow and Agrin Hilmki...
+  year: '2025'
+  topic: causal
+- title: Causal Graph Learning via Distributional Invariance of Cause-Effect Relationship
+  authors: Nang Hung Nguyen and Phi Le Nguyen and Thao Nguyen...
+  year: '2026'
+  topic: graph
+- title: Reinforcement Learning for Causal Discovery without Acyclicity Constraints
+  authors: Bao Duong and Hung Le and Biwei Huang and Thin Ngu...
+  year: '2025'
+  topic: RL
+- title: On Theoretical Identifiability of Binary Latent Causal Graphical Models
+  authors: Seunghyun Lee and Yuqi Gu
+  year: '2026'
+  topic: graph
+- title: 'CauFR-TS: Causal Time-Series Identifiability via Factorized Representations'
+  authors: Ayanabha Ghosh and Debasis Das and Asif Ekbal
+  year: '2026'
+  topic: causal
+- title: Reduced-Rank Outcome Compression for Causal Policy Optimization
+  authors: Ezinne Nwankwo and Michael I. Jordan and Angela Zh...
+  year: '2026'
+  topic: RL
+- title: Bridging Causality, Individual Fairness, and Adversarial Robustness in the
+    Absence of Structural Causal Model
+  authors: Ahmad Reza Ehyaei and Golnoosh Farnadi and Samira ...
+  year: '2025'
+  topic: fairness
+- title: Explaining the Behavior of Black-Box Prediction Algorithms with Causal Learning
+  authors: Numair Sani and Daniel Malinsky and Ilya Shpitser
+  year: '2025'
+  topic: causal
+- title: 'HiBaNG: Hierarchical Bayesian Nonparametric Granger Causal Discovery in
+    Low-Data Regimes'
+  authors: He Zhao and Vassili Kitsios and Terence Oane and E...
+  year: '2026'
+  topic: causal
+- title: Causal Decoding for Hallucination-Resistant Multimodal Large Language Models
+  authors: Shiwei Tan and Hengyi Wang and Weiyi Qin and Qi Xu...
+  year: '2026'
+  topic: LLM
+- title: Estimating Potential Outcome Distributions with Collaborating Causal Networks
+  authors: Tianhui Zhou and William E Carson IV and David Car...
+  year: '2022'
+  topic: causal
+- title: 'TOTEM: TOkenized Time Series EMbeddings for General Time Series Analysis'
+  authors: Sabera J Talukder and Yisong Yue and Georgia Gkiox...
+  year: '2024'
+  topic: time_series
+- title: Time Series Alignment with Global Invariances
+  authors: Titouan Vayer and Romain Tavenard and Laetitia Cha...
+  year: '2022'
+  topic: LLM
+- title: Algorithmic Recourse in Abnormal Multivariate Time Series
+  authors: Xiao Han and Lu Zhang and Yongkai Wu and Shuhan Yu...
+  year: '2026'
+  topic: time_series
+- title: 'AdaWaveNet: Adaptive Wavelet Network for Time Series Analysis'
+  authors: Han Yu and Peikun Guo and Akane Sano
+  year: '2024'
+  topic: time_series
+- title: 'UniTST: Effectively Modeling Inter-Series and Intra-Series Dependencies
+    for Multivariate Time Series Forecasting'
+  authors: Juncheng Liu and Chenghao Liu and Gerald Woo and Y...
+  year: '2025'
+  topic: time_series
+- title: 'The Time-Energy Model: Selective Time-Series Forecasting Using Energy-Based
+    Models'
+  authors: Jonas Brusokas and Seshu Tirupathi and Dalin Zhang...
+  year: '2025'
+  topic: time_series
+- title: 'Chronos: Learning the Language of Time Series'
+  authors: Abdul Fatir Ansari and Lorenzo Stella and Ali Cane...
+  year: '2024'
+  topic: time_series
+- title: Sortability of Time Series Data
+  authors: Christopher Lohse and Jonas Wahl
+  year: '2025'
+  topic: time_series
+- title: 'DiffCATS: Causally Associated Time-Series Generation through Diffusion Models'
+  authors: Giuseppe Masi and Andrea Coletta and Elizabeth Fon...
+  year: '2026'
+  topic: diffusion
+- title: 'Persistent homology for time series: a selective review'
+  authors: Alexandre Bois and Hugo Henneuse and Brian Tervil ...
+  year: '2026'
+  topic: time_series
+- title: 'iHyperTime: Interpretable Time Series Generation with Implicit Neural Representations'
+  authors: Elizabeth Fons and Alejandro Sztrajman and Yousef ...
+  year: '2024'
+  topic: time_series
+- title: 'DynaConF: Dynamic Forecasting of Non-Stationary Time Series'
+  authors: Siqi Liu and Andreas Lehrmann
+  year: '2024'
+  topic: time_series
+- title: Hierarchical Time Series Forecasting with Robust Reconciliation
+  authors: Shuhei Aikawa and Aru Suzuki and Kei Yoshitake and...
+  year: '2026'
+  topic: robustness
+- title: Neural Fourier Transform for Multiple Time Series Prediction
+  authors: Noam Koren and Kira Radinsky and Daniel Freedman
+  year: '2026'
+  topic: time_series
+- title: 'Long-term Forecasting with TiDE: Time-series Dense Encoder'
+  authors: Abhimanyu Das and Weihao Kong and Andrew Leach and...
+  year: '2023'
+  topic: time_series
+- title: Are Time-Indexed Foundation Models the Future of Time Series Imputation?
+  authors: Etienne Le Naour and Tahar Nabil and Adrien Petral...
+  year: '2026'
+  topic: time_series
+- title: 'AT4TS : Autotune for Time Series Foundation Models'
+  authors: Shivani Tomar and Seshu Tirupathi and Radu Marines...
+  year: '2025'
+  topic: time_series
+- title: 'WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series'
+  authors: Jean-Christophe Gagnon-Audet and Kartik Ahuja and ...
+  year: '2023'
+  topic: time_series
+- title: On the Regularization of Learnable Embeddings for Time Series Forecasting
+  authors: Luca Butera and Giovanni De Felice and Andrea Cini...
+  year: '2025'
+  topic: time_series
+- title: 'TSMixer: An All-MLP Architecture for Time Series Forecast-ing'
+  authors: Si-An Chen and Chun-Liang Li and Sercan O Arik and...
+  year: '2023'
+  topic: time_series
+- title: 'CEPAE: Conditional Entropy-Penalized Autoencoders for Time Series Counterfactuals'
+  authors: Tomas Garriga and Gerard Sanz and Eduard Serrahima...
+  year: '2026'
+  topic: time_series
+- title: 'Wavelet Networks: Scale-Translation Equivariant Learning From Raw Time-Series'
+  authors: David W. Romero and Erik J Bekkers and Jakub M. To...
+  year: '2024'
+  topic: general
+- title: 'TS-Reasoner: Domain-Oriented Time Series Inference Agents for Reasoning
+    and Automated Analysis'
+  authors: Wen Ye and Wei Yang and Defu Cao and Yizhou Zhang ...
+  year: '2026'
+  topic: time_series
+- title: 'DEUP: Direct Epistemic Uncertainty Prediction'
+  authors: Salem Lahlou and Moksh Jain and Hadi Nekoei and Vi...
+  year: '2023'
+  topic: uncertainty
+- title: Uncertainty-aware Reward Design Process
+  authors: Yang yang and Xiaolu Zhou and Bosong Ding and Miao...
+  year: '2025'
+  topic: RL
+- title: Teaching Models to Express Their Uncertainty in Words
+  authors: Stephanie Lin and Jacob Hilton and Owain Evans
+  year: '2022'
+  topic: uncertainty
+- title: Hybrid Active Learning with Uncertainty-Weighted Embeddings
+  authors: Yinan He and Lile Cai and Jingyi Liao and Chuan-Sh...
+  year: '2024'
+  topic: uncertainty
+- title: Uncertainty-Aware Systems for Human-AI Collaboration
+  authors: Vasco Pearson and Jean V. Alves and Jacopo Bono an...
+  year: '2026'
+  topic: uncertainty
+- title: Probabilistic neural operators for functional uncertainty quantification
+  authors: ''
+  year: ''
+  topic: uncertainty
+- title: '(Implicit) Ensembles of Ensembles: Epistemic Uncertainty Collapse in Large
+    Models'
+  authors: Andreas Kirsch
+  year: '2025'
+  topic: uncertainty
+- title: Calibrated Uncertainty Quantification for Operator Learning via Conformal
+    Prediction
+  authors: Ziqi Ma and David Pitt and Kamyar Azizzadenesheli ...
+  year: '2024'
+  topic: calibration
+- title: 'HybridFlow: Quantification of Aleatoric and Epistemic Uncertainty with a
+    Single Hybrid Model'
+  authors: Peter Van Katwyk and Karianne Bergen
+  year: '2025'
+  topic: uncertainty
+- title: 'MUBen: Benchmarking the Uncertainty of Molecular Representation Models'
+  authors: Yinghao Li and Lingkai Kong and Yuanqi Du and Yue ...
+  year: '2024'
+  topic: uncertainty
+- title: 'Variance-Gated Ensembles: An Epistemic-Aware Framework for Uncertainty Estimation'
+  authors: Martin Gillis and Isaac Xu and Thomas Trappenberg
+  year: '2026'
+  topic: uncertainty
+- title: On the Importance of Uncertainty in Decision-Making with Large Language Models
+  authors: Nicol\\`o
+  year: '2024'
+  topic: LLM
+- title: Hashing with Uncertainty Quantification via Sampling-based Hypothesis Testing
+  authors: Yucheng Wang and Mingyuan Zhou and Xiaoning Qian
+  year: '2024'
+  topic: uncertainty
+- title: A Review of Bayesian Uncertainty Quantification in Deep Probabilistic Image
+    Segmentation
+  authors: Amaan Valiuddin and Ruud Van Sloun and Christiaan ...
+  year: '2025'
+  topic: uncertainty
+- title: How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution
+    Shifts?
+  authors: ''
+  year: ''
+  topic: RL
+- title: MC Layer Normalization for calibrated uncertainty in Deep Learning
+  authors: Thomas Frick and Diego Antognini and Ioana Giurgiu...
+  year: '2024'
+  topic: calibration
+- title: 'Approximate Bayesian Neural Operators: Uncertainty Quantification for Parametric
+    PDEs'
+  authors: ''
+  year: ''
+  topic: uncertainty
+- title: 'The Interplay of Uncertainty Modeling and Deep Active Learning: An Empirical
+    Analysis in Image Classification'
+  authors: Denis Huseljic and Marek Herde and Yannick Nagel a...
+  year: '2024'
+  topic: uncertainty
+- title: Uncertainty Estimation for Computed Tomography with a Linearised Deep Image
+    Prior
+  authors: Javier Antoran and Riccardo Barbano and Johannes L...
+  year: '2023'
+  topic: graph
+- title: 'When Does Uncertainty Matter?: Understanding the Impact of Predictive Uncertainty
+    in ML Assisted Decision Making'
+  authors: Sean McGrath and Parth Mehta and Alexandra Zytek a...
+  year: '2023'
+  topic: uncertainty
+- title: 'CUDA: Capturing Uncertainty and Diversity in Preference Feedback Augmentation'
+  authors: Sehyeok Kang and Jaewook Jeong and Se-Young Yun
+  year: '2026'
+  topic: uncertainty
+- title: 'α-OCC: Uncertainty-Aware Camera-based 3D Semantic Occupancy Prediction'
+  authors: Sanbao Su and Nuo Chen and Chenchen Lin and Felix ...
+  year: '2026'
+  topic: uncertainty
+- title: Using Sum-Product Networks to Assess Uncertainty in Deep Active Learning
+  authors: Mohamadsadegh Khosravani and Sandra Zilles
+  year: '2024'
+  topic: uncertainty
+- title: Unreliable Monte Carlo Dropout Uncertainty Estimation
+  authors: Xi Wang and Eric Nalisnick
+  year: '2026'
+  topic: RL
+- title: Are vision language models robust to classic uncertainty challenges?
+  authors: Philipp Becker and Gerhard Neumann
+  year: '2022'
+  topic: LLM
+- title: On Uncertainty in Deep State Space Models for Model-Based Reinforcement Learning
+  authors: Zhen Lin and Shubhendu Trivedi and Jimeng Sun
+  year: '2024'
+  topic: RL
+- title: Uncertainty Quantification in Linear Regression With Mismatched Data
+  authors: Jing Wang and Jie Shen and Xiaofei Ma and Andrew A...
+  year: '2022'
+  topic: uncertainty
+- title: Robust uncertainty estimates with out-of-distribution pseudo-inputs training
+  authors: Kutay Demiray and Efe Eren Ceyani and Ozgur S. Ogu...
+  year: '2026'
+  topic: robustness
+- title: Uncertainty-Aware Safety Propagation Critics for Safe Reinforcement Learning
+  authors: Vikranth Dwaracherla and Zheng Wen and Ian Osband ...
+  year: '2023'
+  topic: RL
+- title: 'Ensembles for Uncertainty Estimation: Benefits of Prior Functions and Bootstrapping'
+  authors: Fatemeh Daneshfar and Abdulhady abas and Moloud Ab...
+  year: '2025'
+  topic: uncertainty
+- title: 'UMP-Net: Uncertainty-Aware Mixture of Prompts Network for Efficient Instruction
+    Tuning'
+  authors: Nikita Durasov and Nik Dorndorf and Hieu Le and Pa...
+  year: '2024'
+  topic: LLM
+- title: Uncertainty Quantification in SVM prediction
+  authors: Julian Rodemann and Alexander Marquard and Thomas ...
+  year: '2026'
+  topic: uncertainty
+- title: Efficient Uncertainty Estimation via Sensitivity-Guided Subnetwork Selection
+    for Scalable Variational Inference
+  authors: Giuseppe Serra and Ben Werner and Florian Buettner
+  year: '2025'
+  topic: uncertainty
+- title: 'Uncertainty Distillation: Teaching Language Models to Express Semantic Confidence'
+  authors: ''
+  year: ''
+  topic: LLM
+- title: 'LoRA-Ensemble: Efficient Uncertainty Modelling for Self-Attention Networks'
+  authors: Caio de Pr\\
+  year: '2026'
+  topic: uncertainty
+- title: Uncertainty-Aware Model-Agnostic Dynamic Feature Selection
+  authors: Seungwoo Yoo and Juil Koo and Daehyeon Choi and Mi...
+  year: '2026'
+  topic: uncertainty
+- title: 'DiffusionRollout: Uncertainty-Aware Rollout Planning in Long-Horizon PDE
+    Solving'
+  authors: Lukas Tatzel and Jonathan Wenger and Frank Schneid...
+  year: '2025'
+  topic: diffusion
+- title: 'Fine-Grained Uncertainty Quantification for Long-Form Language Model Outputs:
+    A Comparative Study'
+  authors: Carlos E. Luis and Alessandro Giacomo Bottero and ...
+  year: '2025'
+  topic: LLM
+- title: Uncertainty Representations in State-Space Layers for Deep Reinforcement
+    Learning under Partial Observability
+  authors: Sihong He and Songyang Han and Sanbao Su and Shuo ...
+  year: '2023'
+  topic: RL
+- title: Robust Multi-Agent Reinforcement Learning with State Uncertainty
+  authors: Laura Perez-Beltrachini and Mirella Lapata
+  year: '2025'
+  topic: RL
+- title: Uncertainty estimation in classification via weighted test-time augmentation
+  authors: Tong Wu
+  year: '2024'
+  topic: uncertainty
+- title: Wasserstein-type Gaussian Process Regressions for Input Measurement Uncertainty
+  authors: Uddeshya Upadhyay and Sairam Bade and Arjun Purani...
+  year: '2023'
+  topic: uncertainty
+- title: 'HypUC: Hyperfine Uncertainty Calibration with Gradient- boosted Corrections
+    for Reliable Regression on Imbalanced Electrocardiograms'
+  authors: Luca Bindini and Lorenzo Perini and Stefano Nistri...
+  year: '2026'
+  topic: calibration
+- title: Geometric Uncertainty for Detecting and Correcting Hallucinations in LLMs
+  authors: Francisca Vasconcelos and Bobby He and Nalini M Si...
+  year: '2023'
+  topic: LLM
+- title: Uncertainty Quantification for LLM Function-Calling
+  authors: Dennis Thomas Ulmer and Christian Hardmeier and Je...
+  year: '2023'
+  topic: LLM
+- title: Data-Driven Priors for Uncertainty-Aware Deterioration Risk Prediction with
+    Multimodal Data
+  authors: Pengyun Wang and Yadi Cao and Chris Russell and Ya...
+  year: '2025'
+  topic: uncertainty
+- title: 'SPACR: Single-Pass Adaptive Training of Uncertainty-Aware Conformal Regressors'
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: uncertainty
+- title: 'Uncertainty-Aware Transformers: Conformal Prediction for Language Models'
+  authors: Jiacheng Zhang and Jinhao Li and Hanxun Huang and ...
+  year: '2026'
+  topic: LLM
+- title: Black Box Uncertainty Analysis for Semantic Segmentation
+  authors: ''
+  year: ''
+  topic: uncertainty
+- title: Representation Alignment in Neural Networks
+  authors: Ehsan Imani and Wei Hu and Martha White
+  year: '2022'
+  topic: LLM
+- title: Getting aligned on representational alignment
+  authors: Ilia Sucholutsky and Lukas Muttenthaler and Adrian...
+  year: '2025'
+  topic: LLM
+- title: ResiDual Transformer Alignment with Spectral Decomposition
+  authors: Lorenzo Basile and Valentino Maiorca and Luca Bort...
+  year: '2025'
+  topic: LLM
+- title: Robust Cross-Domain Alignment
+  authors: Anish Chakrabarty and ARKAPRABHA BASU and Swagatam...
+  year: '2026'
+  topic: LLM
+- title: 'BalancedDPO: Adaptive Multi-Metric Alignment'
+  authors: Dipesh Tamboli and Souradip Chakraborty and Aditya...
+  year: '2026'
+  topic: LLM
+- title: Legal Alignment for Safe and Ethical AI
+  authors: Noam Kolt and Nicholas Caputo and Jack Boeglin and...
+  year: '2026'
+  topic: LLM
+- title: 'Watermarking Degrades Alignment in Language Models: Analysis and Mitigation'
+  authors: Apurv Verma and Hai Phan and Shubhendu Trivedi
+  year: '2026'
+  topic: LLM
+- title: 'PROPS: Progressively Private Self-alignment of Large Language Models'
+  authors: Noel Teku and Fengwei Tian and Payel Bhattacharjee...
+  year: '2025'
+  topic: LLM
+- title: Identifying Spurious Correlations using Counterfactual Alignment
+  authors: Joseph Paul Cohen and Louis Blankemeier and Akshay...
+  year: '2025'
+  topic: LLM
+- title: 'CAE v2: Context Autoencoder with CLIP Latent Alignment'
+  authors: Xinyu Zhang and Jiahui Chen and Junkun Yuan and Qi...
+  year: '2023'
+  topic: LLM
+- title: 'Video Generation Models: A Survey of Post-Training and Alignment'
+  authors: Chaoyu Li and Xiaoyi Gu and Yogesh Kulkarni and Eu...
+  year: '2026'
+  topic: LLM
+- title: Time Series Domain Adaptation via Channel-Selective Representation Alignment
+  authors: Nauman Ahad and Mark A. Davenport and Eva L Dyer
+  year: '2025'
+  topic: LLM
+- title: 'Relative Geometry of Neural Forecasters: Linking Accuracy and Alignment
+    in Learned Latent Geometry'
+  authors: Deniz Kucukahmetler and Maximilian Jean Hemmann an...
+  year: '2026'
+  topic: LLM
+- title: 'Geometry of Values: Task Vector Composition for Ethical Preference Alignment
+    in Language Models'
+  authors: Yiling Liu and Juncheng Dong and Ziyang Jiang and ...
+  year: '2025'
+  topic: LLM
+- title: Understanding and Robustifying Sub-domain Alignment for Domain Adaptation
+  authors: Youssef Mroueh and Apoorva Nitsure
+  year: '2025'
+  topic: LLM
+- title: Information Theoretic Guarantees For Policy Alignment In Large Language Models
+  authors: Hamza Mooraj and Georgios Pantazopoulos and Alessa...
+  year: '2026'
+  topic: RL
+- title: Personalizing Reinforcement Learning from Human Feedback with Variational
+    Preference Learning
+  authors: Siyuan Xu and Hangfan Zhang and Zhimeng Guo and Hu...
+  year: '2026'
+  topic: RL
+- title: Foundational Challenges in Assuring Alignment and Safety of Large Language
+    Models
+  authors: Zefan Cai and Haoyi Qiu and Haozhe Zhao and Ke Wan...
+  year: '2026'
+  topic: LLM
+- title: 'BiSSL: Enhancing the Alignment Between Self-Supervised Pretraining and Downstream
+    Fine-Tuning via Bilevel Optimization'
+  authors: Yuhao Du and Zhuo Li and Pengyu Cheng and Zhihong ...
+  year: '2026'
+  topic: LLM
+- title: 'From Preferences to Prejudice: The Role of Alignment Tuning in Shaping Social
+    Bias in Video Diffusion Models'
+  authors: Song Wang and Chris Tennant and Jundong Li
+  year: '2026'
+  topic: LLM
+- title: 'Position: Align AI to Our Aspirations, Not Our Flaws'
+  authors: Teodora Pandeva and Tim Bakker and Christian A. Na...
+  year: '2024'
+  topic: general
+- title: Pluralistic On-Policy Self-Distillation
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: RL
+- title: Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations
+    in Ambiguous Video Labeling
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: general
+- title: Better Language Models Exhibit Higher Visual Alignment
+  authors: Elia Cunegatti and Leonardo Lucio Custode and Giov...
+  year: '2025'
+  topic: LLM
+- title: 'LMA: Latent Motion Adjuster for Physics-based Multi-agent Interaction'
+  authors: Taiki Yano and Satoshi Yagi and Satoshi Yamamori a...
+  year: '2026'
+  topic: multi_agent
+- title: 'Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation
+    via Multi-Agent Collaboration'
+  authors: Jonathan Hyun and Nicholas R Waytowich and Boyuan ...
+  year: '2025'
+  topic: multi_agent
+- title: Game Theory and Decision Theory in Multi-Agent Systems
+  authors: Timothy Ossowski and Danyal Maqbool and Jixuan Che...
+  year: '2025'
+  topic: multi_agent
+- title: 'COMMA: A Communicative Multimodal Multi-Agent Benchmark'
+  authors: Chenyue Li and Hyeonjae Kim and Wen Deng and Mengx...
+  year: '2026'
+  topic: multi_agent
+- title: 'ClimateAgent: Multi-Agent Orchestration for Complex Climate Data Science
+    Workflows'
+  authors: Kefan Su and Zongqing Lu
+  year: '2024'
+  topic: multi_agent
+- title: A survey of multi-agent deep reinforcement learning with communication
+  authors: Zhuoran Li and Ling Pan and Jiatai Huang and Longb...
+  year: '2026'
+  topic: RL
+- title: 'MAD-Sherlock: Multi-Agent Debates for Out-of-Context Misinformation Detection'
+  authors: Songyang Han and Sanbao Su and Sihong He and Shuo ...
+  year: '2024'
+  topic: RL
+- title: What is the Solution for State-Adversarial Multi-Agent Reinforcement Learning?
+  authors: Filippos Christianos and Georgios Papoudakis and S...
+  year: '2023'
+  topic: RL
+- title: Pareto Actor-Critic for Equilibrium Selection in Multi-Agent Reinforcement
+    Learning
+  authors: Weizhe Chen and Sven Koenig and Bistra Dilkina
+  year: '2025'
+  topic: RL
+- title: 'Solving Multi-agent Path Finding as an LLM Benchmark: How, How Good and
+    Why'
+  authors: ''
+  year: ''
+  topic: LLM
+- title: Unravelling multi-agent ranked delegations
+  authors: Jie Liu and Yinmin Zhang and Chuming Li and Zhiyua...
+  year: '2024'
+  topic: multi_agent
+- title: 'SMART-JaCaMo: An Organisation-Based Team for the Multi-Agent Programming
+    Contest'
+  authors: Tiancheng Lao and Xudong Guo and Mengge Liu and Ju...
+  year: '2025'
+  topic: multi_agent
+- title: 'Exploration Strategies for Model-based Learning in Multi-agent Systems:
+    Exploration Strategies'
+  authors: Tong Mu and Stephan Zheng and Alexander R Trott
+  year: '2022'
+  topic: multi_agent
+- title: Action-Conditioned Transformers for Decentralized Multi-Agent World Models
+  authors: Hang Lv and Pengxiang Zhan and Yanchao Tan and Zix...
+  year: '2025'
+  topic: calibration
+- title: A Recursive Policy Gradient Algorithm for Fast Multi-Agent Reinforcement
+    Learning
+  authors: Yang Zhang and Chenjia Bai and Bin Zhao and Junchi...
+  year: '2025'
+  topic: RL
+- title: Leveraging World Model Disentanglement in Value-Based Multi-Agent Reinforcement
+    Learning
+  authors: Feng Chen and Xinwei Chen and Rong-Jun Qin and Con...
+  year: '2025'
+  topic: RL
+- title: 'Mechanisms for environments in multi-agent systems: Survey and opportunities'
+  authors: Scott Reed and Konrad Zolna and Emilio Parisotto a...
+  year: '2022'
+  topic: multi_agent
+- title: Parameter Sharing For Heterogeneous Agents in Multi-Agent Reinforcement Learning
+  authors: Ziyu Cheng and Jinsheng Ren and Jun Yang and Zhoux...
+  year: '2026'
+  topic: RL
+- title: 'LFC: Combining Autonomous Agents and Automated Planning in the Multi-Agent
+    Programming Contest'
+  authors: Alakh Sharma and Gaurish Trivedi and Kartikey Sing...
+  year: '2026'
+  topic: multi_agent
+- title: 'Generative Evolutionary Meta-Solver (GEMS): Scalable Surrogate-Free Multi-Agent
+    Reinforcement Learning'
+  authors: Peihong Yu and Manav Mishra and Alec Koppel and Ca...
+  year: '2025'
+  topic: RL
+- title: 'AgenticNet: Rethinking Multi-agent System Architectures with LLM-based Networks'
+  authors: Alessio Silverio and Carmen Michaela Chezan and Ma...
+  year: '2026'
+  topic: LLM
+- title: 'Reproducibility Study: Understanding multi-agent LLM cooperation in the
+    GovSim framework'
+  authors: Jayesh K Gupta and Johannes Brandstetter
+  year: '2023'
+  topic: LLM
+- title: 'Unlearning Sensitive Information in Multimodal LLMs: Benchmark and Attack-Defense
+    Evaluation'
+  authors: Vaidehi Patil and Yi-Lin Sung and Peter Hase and J...
+  year: '2024'
+  topic: LLM
+- title: Population-based Evaluation in Repeated Rock-Paper-Scissors as a Benchmark
+    for Multiagent Reinforcement Learning
+  authors: Marc Lanctot and John Schultz and Neil Burch and M...
+  year: '2023'
+  topic: RL
+- title: 'Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning
+    Force Fields with Molecular Simulations'
+  authors: Xiang Fu and Zhenghao Wu and Wujie Wang and Tian X...
+  year: '2023'
+  topic: evaluation
+- title: 'mSOP-765k: A Benchmark For Multi-Modal Structured Output Predictions'
+  authors: Bianca Lamm and Janis Keuper
+  year: '2026'
+  topic: evaluation
+- title: 'AcademicEval: Live Long-Context LLM Benchmark'
+  authors: Haozhen Zhang and Tao Feng and Pengrui Han and Jia...
+  year: '2025'
+  topic: LLM
+- title: 'SyntheRela: A Benchmark For Synthetic Relational Database Generation'
+  authors: Valter Hudovernik and Martin Jurkovic and Erik \\v...
+  year: '2026'
+  topic: evaluation
+- title: DASB - Discrete Audio and Speech Benchmark
+  authors: Pooneh Mousavi and Jarod Duret and Darius Peterman...
+  year: '2026'
+  topic: evaluation
+- title: 'The ConceptARC Benchmark: Evaluating Understanding and Generalization in
+    the ARC Domain'
+  authors: Arsenii Kirillovich Moskvichev and Victor Vikram O...
+  year: '2023'
+  topic: evaluation
+- title: 'SC2 Benchmark: Supervised Compression for Split Computing'
+  authors: Yoshitomo Matsubara and Ruihan Yang and Marco Levo...
+  year: '2023'
+  topic: evaluation
+- title: Holistic Evaluation of Language Models
+  authors: Percy Liang and Rishi Bommasani and Tony Lee and D...
+  year: '2023'
+  topic: LLM
+- title: 'SURFACEBENCH: A Geometry-Aware Benchmark for Symbolic Surface Discovery'
+  authors: Sanchit Kabra and Shobhnik Kriplani and Parshin Sh...
+  year: '2026'
+  topic: evaluation
+- title: '\\texttt{Complex-Edit}: CoT-Like Instruction Generation for Complexity-Controllable
+    Image Editing Benchmark'
+  authors: Siwei Yang and Mude Hui and Bingchen Zhao and Yuyi...
+  year: '2026'
+  topic: LLM
+- title: Results of requested experiment and TMLR evaluation criteria
+  authors: Raman Dutt and Pedro Sanchez and Yongcheng Yao and...
+  year: '2026'
+  topic: evaluation
+- title: 'CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic
+    Chest Radiographs'
+  authors: Zachary S Siegel and Sayash Kapoor and Nitya Nadgi...
+  year: '2024'
+  topic: graph
+- title: 'ORGEval: Graph-Theoretic Evaluation of LLMs in Optimization Modeling'
+  authors: ''
+  year: ''
+  topic: LLM
+- title: 'The Meta-Evaluation Problem in Explainable AI: Identifying Reliable Estimators
+    with MetaQuantus'
+  authors: Samuel Stockman and Daniel John Lawson and Maximil...
+  year: '2026'
+  topic: evaluation
+- title: 'EarthquakeNPP: A Benchmark for Earthquake Forecasting with Neural Point
+    Processes'
+  authors: Weizhe Chen and Sven Koenig and Bistra Dilkina
+  year: '2025'
+  topic: time_series
+- title: 'From Raw Corpora to Domain Benchmarks: Automated Evaluation of LLM Domain
+    Expertise'
+  authors: Siwei Yang and Bingchen Zhao and Cihang Xie
+  year: '2025'
+  topic: LLM
+- title: 'APBench: A Unified Availability Poisoning Attack and Defenses Benchmark'
+  authors: Aditya Chakravarty
+  year: '2026'
+  topic: robustness
+- title: A Systematic Evaluation of Out-of-Distribution Generalization in Crop Yield
+    Prediction
+  authors: Haoxuan Chen and Yinuo Ren and Martin Renqiang Min...
+  year: '2026'
+  topic: evaluation
+- title: 'YRC-Bench: A Benchmark for Learning to Coordinate with Experts'
+  authors: Wankou Yang and Jiren Mai and Fei Zhang and Tongli...
+  year: '2024'
+  topic: evaluation
+- title: Unified Triplet-Level Hallucination Evaluation for Large Vision-Language
+    Models
+  authors: Katherine A. Keith and Sergey Feldman and David Ju...
+  year: '2023'
+  topic: LLM
+- title: 'CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design'
+  authors: Weiye Zhao and Yifan Sun and Feihan Li and Rui Che...
+  year: '2024'
+  topic: evaluation
+- title: 'DECO-Bench: Unified Benchmark for Decoupled Task-Agnostic Synthetic Data
+    Release'
+  authors: Shusheng Xu and Yancheng Liang and Yunfei Li and S...
+  year: '2023'
+  topic: evaluation
+- title: 'Anomaly-Gym: A Benchmark for Anomaly Detection in Reinforcement Learning
+    Environments'
+  authors: Bo Li and Yuanhan Zhang and Dong Guo and Renrui Zh...
+  year: '2025'
+  topic: RL
+- title: LLM Evaluation Benchmark on Diverse Cultures and Languages
+  authors: Kangyu Zheng and Kai Zhang and Jiale Tan and Xueha...
+  year: '2026'
+  topic: LLM
+- title: 'Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review'
+  authors: Wentao Ma and Weiming Ren and Yiming Jia and Zhuof...
+  year: '2026'
+  topic: LLM
+- title: 'MetaCog-Bench: A Process-Based Benchmark for Evaluating Metacognitive Monitoring
+    and Control in Large Language Models'
+  authors: Hager Radi Abdelwahed and Josiah P. Hanna and Matt...
+  year: '2024'
+  topic: LLM
+- title: 'Beyond Affinity: A Benchmark of 1D, 2D, and 3D Methods Reveals Critical
+    Trade-offs in Structure-Based Drug Design'
+  authors: Dan Friedman and Adji Bousso Dieng
+  year: '2023'
+  topic: evaluation
+- title: 'ScImage: How good are multimodal large language models at scientific text-to-image
+    generation?'
+  authors: Shrikant Kendre and Austin Xu and Honglu Zhou and ...
+  year: '2026'
+  topic: LLM
+- title: 'VideoEval-Pro: Robust and Realistic Long Video Understanding Evaluation'
+  authors: Yihong Guo and Hao Liu and Yisong Yue and Anqi Liu
+  year: '2024'
+  topic: robustness
+- title: 'DafnyBench: A Benchmark for Formal Software Verification'
+  authors: Yaswanth Narsupalli and Abhranil Chandra and Sreev...
+  year: '2025'
+  topic: evaluation
+- title: 'A Diagnostic Benchmark for Transformer Training Failures: Establishing Baseline
+    Methods and Quantifying the Accuracy-Interpretability Tradeof'
+  authors: Aur\\
+  year: '2025'
+  topic: architecture
+- title: 'ODRL: A Benchmark for Off-Dynamics Reinforcement Learning'
+  authors: Jorge Carrasco Pollo and Ioannis Kapetangeorgis an...
+  year: '2025'
+  topic: RL
+- title: Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics
+  authors: Yihong Chen and Shuai Wang and Yaqing Wang and Qua...
+  year: '2026'
+  topic: evaluation
+aggregate:
+  total_papers: 833
+  topics:
+    RL: 123
+    LLM: 120
+    graph: 94
+    robustness: 63
+    diffusion: 61
+    federated: 56
+    fairness: 52
+    general: 45
+    optimization: 44
+    calibration: 39
+    causal: 32
+    uncertainty: 28
+    time_series: 23
+    evaluation: 17
+    multi_agent: 11
+    meta_learning: 10
+    vision: 6
+    generative: 3
+    theory: 2
+    efficiency: 2
+    architecture: 2
+  years:
+    ? ''
+    : 38
+    '2020': 1
+    '2022': 31
+    '2023': 124
+    '2024': 172
+    '2025': 241
+    '2026': 226

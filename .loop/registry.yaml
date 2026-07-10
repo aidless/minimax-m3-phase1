@@ -1,0 +1,106 @@
+papers:
+  resampling_calibration:
+    id: PAPER-A
+    path: RESAMPLING_CALIBRATION/
+    title: 'When More Data Changes the Story: N-Sensitive Calibration of Tree Ensembles
+      on Frozen LLM Embeddings'
+    short_title: N-Sensitive Calibration
+    venue: TMLR
+    type: empirical_characterization
+    phase: 5
+    phase_name: 提交就绪
+    score_self: 9.5
+    score_tmlr_calibrated: null
+    has_loop: true
+    loop_version: '3.1'
+    last_review: '2026-07-02'
+    reviewer_comments: true
+    experiments_complete: true
+  temporal_dynamics:
+    id: PAPER-B
+    path: TEMPORAL_DYNAMICS/
+    title: 'Beyond Point Estimates: Temporal Dynamics, Evaluator Effects, and Protocol
+      Interventions in Evaluator Preference Coupling'
+    short_title: Temporal Dynamics
+    venue: TMLR
+    type: empirical_characterization
+    phase: 0
+    phase_name: 待开始
+    score_self: 7.3
+    score_tmlr_calibrated: null
+    has_loop: false
+    loop_version: null
+    last_review: '2026-07-02'
+    reviewer_comments: false
+    experiments_complete: false
+    notes: N=3-5 throughout. Needs N≥10 confirmatory experiment. High self-citation
+      rate (57%).
+  calibration_contagion:
+    id: PAPER-C
+    path: calibration_contagion/
+    title: 'Calibrating the Evaluator: Does Probability Calibration Mitigate Preference
+      Coupling?'
+    short_title: Calibration Contagion
+    venue: TMLR
+    type: empirical_study
+    phase: 0
+    phase_name: 待开始
+    score_self: null
+    score_tmlr_calibrated: null
+    has_loop: false
+    loop_version: null
+    last_review: null
+    reviewer_comments: false
+    experiments_complete: unknown
+  calibration_effects:
+    id: PAPER-D
+    path: CALIBRATION_EFFECTS/
+    title: (待确认)
+    short_title: Calibration Effects
+    venue: TMLR
+    type: unknown
+    phase: 0
+    phase_name: 待评估
+    has_loop: false
+  flagship:
+    id: PAPER-E
+    path: FLAGSHIP/
+    title: (待确认)
+    short_title: Flagship
+    venue: TMLR
+    type: unknown
+    phase: 0
+    phase_name: 待评估
+    has_loop: false
+  closing_landscape:
+    id: closing_landscape
+    path: closing_landscape/
+    title: 'Closing the Calibration Landscape: A Multi-Evaluator Ensemble That Reduces
+      Coupling Without Increasing Noise'
+    short_title: 'Closing the Calibration Landscape: A Mul'
+    venue: TMLR
+    type: empirical_study
+    phase: 0
+    phase_name: 基线评估
+    score_self: null
+    score_tmlr_calibrated: null
+    has_loop: true
+    loop_version: '4.0'
+    last_review: null
+    reviewer_comments: false
+    experiments_complete: false
+    notes: Initialized 2026-07-02
+dependencies:
+- from: PAPER-B
+  to: PAPER-C
+  relation: PAPER-C tests a mitigation (evaluator calibration) for the coupling problem
+    characterized in PAPER-B
+- from: PAPER-B
+  to: PAPER-A
+  relation: Both use the same review methodology and share statistical patterns
+summary:
+  total_papers: 6
+  papers_with_loop: 2
+  papers_phase_5_ready: 1
+  papers_in_review: 0
+  avg_self_score: 8.4

@@ -1,0 +1,76 @@
+section,metric,value,unit,notes
+总览,scripts_count,4,files,核心 Python 脚本
+总览,integration_points,3,places,CLI + pre_review + advance_phase
+总览,test_cases,15,cases,粒度降级测试套件
+总览,test_pass_rate,100,%,15/15 全通过
+总览,readme_size,14933,bytes,15 节
+detector,severity_levels,4,levels,HIGH/MEDIUM/LOW/INFO
+detector,detector_count,6,detectors,arXiv/GitHub/internal/DOI/precision/term
+detector,context_granularity,5,levels,实验/标题/表格/列表/段落
+detector,contradiction_patterns,4,patterns,K/B/confidence/ECE
+detector,strict_mode,1,mode,强制 HIGH + granularity_label
+detector,soft_demotion,1,rule,段落 HIGH -> MEDIUM
+detector,purpose_heuristic,1,heuristic,标准误 vs 配对 CI 区分
+test_suite,case_C1,K_exper_strong_nostrict,K_B_conf,,HIGH+strong
+test_suite,case_C2,B_title_nostrict_purpose_distinct,K_B_conf,,INFO+mid
+test_suite,case_C3,K_table_nostrict,K_B_conf,,HIGH+mid
+test_suite,case_C4,B_list_nostrict,K_B_conf,,HIGH+mid
+test_suite,case_C5,K_para_nostrict_soft,K_B_conf,,MEDIUM+weak
+test_suite,case_C6,conf_title_nostrict,K_B_conf,confidence,HIGH+mid
+test_suite,case_C7,conf_cross_context,K_B_conf,confidence,INFO+strong
+test_suite,case_C8,conf_para_nostrict_soft,K_B_conf,confidence,MEDIUM+weak
+test_suite,case_C9,K_para_strict,K_B_conf,,HIGH+weak
+test_suite,case_C10,B_list_strict,K_B_conf,,HIGH+mid
+test_suite,case_C11,conf_exper_3plus1,K_B_conf,confidence,HIGH+strong
+test_suite,case_C12,conf_title_same_para,K_B_conf,confidence,HIGH+mid
+test_suite,case_C13,conf_cross_H3,K_B_conf,confidence,INFO+mid
+test_suite,case_C14,conf_list_no_title,K_B_conf,confidence,HIGH+mid
+test_suite,case_C15,conf_para_strict,K_B_conf,confidence,HIGH+weak
+real_data,PAPER-A_summary_H,0,count,840 chars
+real_data,PAPER-A_summary_M,0,count,840 chars
+real_data,PAPER-A_summary_L,0,count,840 chars
+real_data,PAPER-A_methods_H,0,count,3573 chars
+real_data,PAPER-A_methods_M,0,count,3573 chars
+real_data,PAPER-A_methods_L,0,count,3573 chars
+real_data,PAPER-A_experiments_H,0,count,6295 chars
+real_data,PAPER-A_experiments_M,2,count,6295 chars
+real_data,PAPER-A_experiments_L,0,count,6295 chars
+real_data,PAPER-A_critique_H,0,count,3815 chars
+real_data,PAPER-A_critique_M,0,count,3815 chars
+real_data,PAPER-A_critique_L,0,count,3815 chars
+real_data,PAPER-A_total_H,0,count,4 files combined
+real_data,PAPER-A_total_M,2,count,4 files combined
+real_data,PAPER-A_total_L,0,count,4 files combined
+real_data,arxiv_real,1,ref,arXiv:2110.14168 GSM8K real
+real_data,arxiv_hallucinated,1,ref,arXiv:2606.16682 future hallucinated
+v51_improvements,confidence_boundary_cases,5,cases,C11-C15
+v51_improvements,pattern_a_fixes,1,bug,confidence pattern_a
+v51_improvements,granularity_label_added,2,places,跨 context + strict
+v51_improvements,test_suite_integration,2,places,pre_review + advance_phase
+v51_improvements,phase_boundary_coverage,4,phases,1->2, 2->3, 3->4, 4->5
+v51_improvements,detector_bugs_fixed,1,bug,confidence pattern
+v51_improvements,total_improvements,7,items,v5.1 全部改进
+phase_planning,phase_2_priority,high,level,4 paper x 16 mm3
+phase_planning,phase_3_priority,medium,level,LLM-as-judge fallback
+phase_planning,phase_4_priority,low,level,本地小模型
+risk,m3_api_rate_limit,medium,risk_level,任务排队
+risk,m3_api_key_invalid,low,risk_level,.env 检测
+risk,detector_false_positive,low,risk_level,strict 人工确认
+risk,detector_false_negative,medium,risk_level,5 粒度降低漏报
+risk,test_suite_drift,low,risk_level,pre_review 自动跑
+file,mm3_hallucination_detector,1,file,_inbox/方法论/
+file,zotero_pdf_summary_demo,1,file,_inbox/方法论/
+file,zotero_minimax_check,1,file,_inbox/方法论/
+file,hallucination_check,1,file,.loop/
+file,_test_granularity_suite,1,file,F:/Research/
+file,mm3_hallucination_detector_README,1,file,_inbox/方法论/
+file,hallucination_check_README,1,file,.loop/
+file,pre_review_py_modified,1,file,.loop/pre_review.py
+file,advance_phase_py_modified,1,file,.loop/advance_phase.py
+file,completion_report,1,file,MiniMax_M3_Phase_1_完成报告.md
+file,metrics_csv,1,file,MiniMax_M3_Phase_1_metrics.csv
+version,detector_v5_1,2026-07-10,date,confidence pattern 修复
+version,readme_v5_1,2026-07-10,date,15 节
+version,test_suite_v1,2026-07-10,date,15 case
+version,completion_report_v1,2026-07-10,date,本报告
+version,metrics_csv_v1,2026-07-10,date,本文件

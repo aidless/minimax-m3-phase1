@@ -1,0 +1,452 @@
+# Loop Engineering v4.0 — Reusable Review Rulebook
+# 82 patterns extracted from 11 review rounds across 3 papers
+# Auto-applied by pre_review.py
+
+# ============================================================
+# Tier 1: Blocking — must pass before submission
+# ============================================================
+tier_1:
+  C1_first_claim:
+    id: C1
+    category: claim_evidence
+    description: "\"First\"/\"Novel\" claim undermined by prior work"
+    auto_check: "grep for 'first|novel|we are the first' in abstract+intro; for each hit, search Semantic Scholar for prior work"
+    severity: critical
+    
+  L1_missing_prior:
+    id: L1
+    category: literature
+    description: "Missing critical prior work that directly overlaps with novelty claim"
+    auto_check: "for each contribution claim, extract keywords; search for prior work with same keywords"
+    severity: critical
+    
+  C6_headline_contradiction:
+    id: C6
+    category: claim_evidence
+    description: "Headline finding contradicted by deeper analysis in later sections"
+    auto_check: "extract all quantitative claims from abstract; grep body for contrary evidence"
+    severity: critical
+    
+  M1_confounding_variable:
+    id: M1
+    category: methodology
+    description: "Treatment and control differ on more than the intended variable"
+    auto_check: "for each A/B comparison, enumerate all differences beyond the treatment"
+    severity: critical
+    
+  M3_suboptimal_method:
+    id: M3
+    category: methodology
+    description: "Suboptimal tool/method choice that biases results"
+    auto_check: "verify embedding model matches data language; verify CV protocol matches dataset size"
+    severity: critical
+    
+  C4_monotonic_violation:
+    id: C4
+    category: claim_evidence
+    description: "Monotonic/linear claim when evidence shows non-monotonicity"
+    auto_check: "grep for 'monotonic|linear|always'; check per-condition data for violations"
+    severity: critical
+    
+  C9_null_misinterpretation:
+    id: C9
+    category: claim_evidence
+    description: "\"No effect\" stated when correct interpretation is \"insufficient evidence\""
+    auto_check: "grep for 'no statistically significant|no detectable|no effect'; verify phrasing"
+    severity: critical
+
+# ============================================================
+# Tier 2: High Priority — should fix before submission
+# ============================================================
+tier_2:
+  L2_orphan_reference:
+    id: L2
+    category: literature
+    description: "Entry exists in .bib but has zero in-text citations"
+    auto_check: "diff all \\cite{...} keys against .bib keys; flag uncited entries"
+    severity: important
+    
+  C2_absolute_claim:
+    id: C2
+    category: claim_evidence
+    description: "Absolute claim not bounded by tested range"
+    auto_check: "for every 'small|large|always|never', check if tested range covers claimed scope"
+    severity: important
+    
+  S3_missing_effect_size:
+    id: S3
+    category: statistics
+    description: "Only p-values reported; no effect sizes"
+    auto_check: "for every p-value, check if effect size (d, delta, r) is reported nearby"
+    severity: important
+    
+  S4_uncorrected_multiple:
+    id: S4
+    category: statistics
+    description: "Multiple comparisons without correction"
+    auto_check: "count hypothesis tests per family; verify correction applied"
+    severity: important
+    
+  S5_missing_ci:
+    id: S5
+    category: statistics
+    description: "Key numbers in abstract missing confidence intervals"
+    auto_check: "for every number in abstract, check if CI/SD/SEM appears nearby"
+    severity: important
+    
+  C5_metaphor_as_measurement:
+    id: C5
+    category: claim_evidence
+    description: "Vivid metaphor presented as measured finding"
+    auto_check: "check title/abstract for metaphors (cost, damage, danger); verify direct measurement exists"
+    severity: important
+    
+  C3_all_claim:
+    id: C3
+    category: claim_evidence
+    description: "\"All X\" claim when only one instantiation tested"
+    auto_check: "grep for 'all.*model|all.*dataset|all.*condition'; verify diversity"
+    severity: important
+    
+  ST1_disconnected_studies:
+    id: ST1
+    category: structure
+    description: "Two disconnected studies forced into one paper"
+    auto_check: "if >1 study arm, verify shared dataset/protocol/cross-analysis"
+    severity: important
+    
+  E5_buried_novelty:
+    id: E5
+    category: evidence
+    description: "Most novel contribution buried in deep subsection"
+    auto_check: "identify most unique analysis; verify prominence in abstract/intro"
+    severity: important
+    
+  R1_missing_dataset_ids:
+    id: R1
+    category: reproducibility
+    description: "Dataset identifiers missing"
+    auto_check: "verify every dataset has resolvable ID (OpenML, UCI URL, DOI)"
+    severity: important
+
+# ============================================================
+# Tier 3: Polish — nice to have
+# ============================================================
+tier_3:
+  T1_term_variants:
+    id: T1
+    category: terminology
+    description: "Multiple synonyms for the same concept"
+    auto_check: "cluster noun phrases; flag >2 variants without semantic distinction"
+    severity: minor
+    
+  T6_undefined_acronym:
+    id: T6
+    category: terminology
+    description: "Abbreviation not defined at first use"
+    auto_check: "extract all ALLCAPS terms; verify first occurrence has expansion"
+    severity: minor
+    
+  F2_color_undocumented:
+    id: F2
+    category: figures
+    description: "Color meaning not in caption"
+    auto_check: "for each figure, verify color/line/marker meaning is explicit"
+    severity: minor
+    
+  F3_missing_n_in_caption:
+    id: F3
+    category: figures
+    description: "Sample size not in figure caption"
+    auto_check: "verify every data figure caption includes N"
+    severity: minor
+    
+  F7_caption_not_self_contained:
+    id: F7
+    category: figures
+    description: "Caption requires body text to understand"
+    auto_check: "read each caption in isolation; verify completeness"
+    severity: minor
+    
+  W4_chinglish_scan:
+    id: W4
+    category: writing
+    description: "Chinglish pattern detection"
+    auto_check: "regex for: 'different with', 'compare with'[bare], 'prove'[non-math], 'in the following', 'most of'[bare]"
+    severity: minor
+    
+  W3_absolute_verb:
+    id: W3
+    category: writing
+    description: "Absolute verb where softer verb appropriate"
+    auto_check: "grep for 'confirm|prove|demonstrate conclusively'; recommend softer alternatives"
+    severity: minor
+    
+  C7_count_mismatch:
+    id: C7
+    category: claim_evidence
+    description: "Text says N items but lists N+1"
+    auto_check: "regex: find 'N [noun]' where N is number; verify enumerated count"
+    severity: minor
+
+# ============================================================
+# Defense Readiness (adversarial review patterns)
+# ============================================================
+defense:
+  D1_incremental_attack:
+    id: D1
+    description: "Reviewer argues findings derivable from prior work"
+    preemptive: "Prepare rebuttal enumerating what is NEW vs already known"
+    
+  D2_limitation_as_flaw:
+    id: D2
+    description: "Reviewer argues acknowledged limitation should have been fixed"
+    preemptive: "For each limitation, prepare rebuttal showing conclusions are robust"
+    
+  D3_title_is_marketing:
+    id: D3
+    description: "Title/concept characterized as marketing, not science"
+    preemptive: "Map every vivid term to directly measured quantity"
+    
+  D4_not_a_contribution:
+    id: D4
+    description: "Contribution item is methodology description, not finding"
+    preemptive: "Audit each contribution bullet: is it a finding or a method?"
+
+# ============================================================
+# Academic Principles (v5.3, from 6 core dimensions)
+# ============================================================
+# 学术原则是学术共同体赖以生存的"元规则"
+# 六个核心维度：诚实性、严谨性、原创性、可复现性、规范引注、批判精神
+
+academic_principles:
+  # 1. 诚实性（真理至上）
+  A1_cherry_picking:
+    id: A1
+    principle: honesty
+    category: integrity
+    description: "Selective reporting — only significant results shown, null results hidden"
+    auto_check: "Detect 'all significant' without individual p-values; no non-significant results; unequal N"
+    severity: important
+    rationale: "数据必须真实记录，不得篡改、美化或选择性剔除"
+
+  A2_overclaim:
+    id: A2
+    principle: honesty
+    category: claim_evidence
+    description: "Conclusion overstates what the data actually shows"
+    auto_check: "Compare abstract claims against body evidence; flag universal claims from limited data"
+    severity: important
+    rationale: "结果无论是否符合预期，都必须如实呈现"
+
+  A3_tautology:
+    id: A3
+    principle: honesty
+    category: methodology
+    description: "Result that is true by construction presented as empirical discovery"
+    auto_check: "Detect when experimental design guarantees the outcome (e.g., identical inputs → identical outputs)"
+    severity: critical
+    rationale: "不得将设计产物包装为经验发现"
+
+  # 2. 严谨性（逻辑闭环）
+  A4_definition_mismatch:
+    id: A4
+    principle: rigor
+    category: definitions
+    description: "Theorem statement and proof use different quantities or definitions"
+    auto_check: "Compare theorem statement variables with proof derivation variables; flag mismatches"
+    severity: critical
+    rationale: "概念必须清晰界定，推理必须遵循逻辑"
+
+  A5_incomplete_proof:
+    id: A5
+    principle: rigor
+    category: theory
+    description: "Proof sketch without citation for non-trivial steps"
+    auto_check: "Detect 'proof sketch' or 'it can be shown' without references for key steps"
+    severity: important
+    rationale: "证据必须充分支撑论点，不夸大结论的适用范围"
+
+  A6_model_reality_gap:
+    id: A6
+    principle: rigor
+    category: methodology
+    description: "Theoretical model assumptions don't match empirical setup"
+    auto_check: "Compare theoretical assumptions (e.g., binary model) with actual measurement procedure"
+    severity: important
+    rationale: "明确研究的边界和局限性"
+
+  # 3. 原创性与问题意识
+  A7_novelty_verification:
+    id: A7
+    principle: originality
+    category: novelty
+    description: "'First'/'novel' claim not verified against literature"
+    auto_check: "Search Semantic Scholar for prior work on claimed novelty"
+    severity: important
+    rationale: "必须清晰区分'前人已言'与'己之所创'"
+
+  A8_gap_identification:
+    id: A8
+    principle: originality
+    category: contribution
+    description: "Research gap not clearly identified — why this work is needed"
+    auto_check: "Check if introduction identifies specific gap that prior work left open"
+    severity: minor
+    rationale: "明确研究解决了什么已有的知识缺口"
+
+  # 4. 可复现性与方法透明
+  A9_method_transparency:
+    id: A9
+    principle: reproducibility
+    category: methods
+    description: "Key methodological details missing (hyperparameters, seeds, data splits)"
+    auto_check: "Check for missing: random seeds, train/test split, hyperparameters, model versions"
+    severity: important
+    rationale: "研究方法和操作步骤必须详细到足以让同行重复验证"
+
+  A10_code_data_availability:
+    id: A10
+    principle: reproducibility
+    category: openness
+    description: "No mention of code or data availability"
+    auto_check: "Check for code/data availability statements"
+    severity: minor
+    rationale: "代码、数据应尽量开放共享"
+
+  # 5. 规范引注与知识产权
+  A11_self_citation_rate:
+    id: A11
+    principle: citation
+    category: integrity
+    description: "Self-citation rate exceeds reasonable threshold"
+    auto_check: "Calculate self-citation rate; flag >30%"
+    severity: important
+    rationale: "不过度自引或互引"
+
+  A12_ghost_references:
+    id: A12
+    principle: citation
+    category: integrity
+    description: "Bibliography entries never cited in text"
+    auto_check: "Diff bibitem keys against cite keys; flag uncited entries"
+    severity: critical
+    rationale: "引用必须精准溯源"
+
+  A13_citation_accuracy:
+    id: A13
+    principle: citation
+    category: accuracy
+    description: "Citation claims not supported by cited work"
+    auto_check: "Verify author/year/venue against known database"
+    severity: important
+    rationale: "不'伪引'、不'转引而不核查'"
+
+  # 6. 批判精神与谦逊开放
+  A14_limitation_honesty:
+    id: A14
+    principle: humility
+    category: limitations
+    description: "Limitations acknowledged but not discussed for impact on conclusions"
+    auto_check: "Check if limitations section discusses how each limitation affects main claims"
+    severity: minor
+    rationale: "谦逊接受同行的质询与评议"
+
+  A15_alternative_explanations:
+    id: A15
+    principle: humility
+    category: discussion
+    description: "No discussion of alternative explanations for observed results"
+    auto_check: "Check if discussion considers confounds, alternative hypotheses"
+    severity: minor
+    rationale: "以理性批判审视自己的成果"
+
+# ============================================================
+# Tier 2+: Paperreview.ai Gap Analysis (v5.2, from 12 AI reviews)
+# ============================================================
+tier_2_plus:
+  Q1_ci_coverage:
+    id: Q1
+    category: statistics
+    description: "Low confidence interval coverage across statistical claims"
+    auto_check: "Count CI occurrences vs p-value/statistical claims; flag when coverage < 50%"
+    severity: important
+    source: "paperreview.ai x12: 12/12 papers flagged for missing CIs"
+
+  Q2_effect_size:
+    id: Q2
+    category: statistics
+    description: "Effect sizes not reported alongside p-values"
+    auto_check: "Check that main comparisons with p-values also report Cohen's d, Cliff's δ, etc."
+    severity: important
+    source: "paperreview.ai x12: 7/12 papers flagged for inconsistent effect size reporting"
+
+  Q3_table_fig_consistency:
+    id: Q3
+    category: consistency
+    description: "Numerical values differ between tables, figures, and body text"
+    auto_check: "Extract metric values from tables, figure captions, and body; cross-validate"
+    severity: important
+    source: "paperreview.ai x12: 3/12 papers had table/figure/body numerical contradictions"
+
+  Q4_small_n_sweep:
+    id: Q4
+    category: methodology
+    description: "Sensitivity/ablation analyses run with N < 5"
+    auto_check: "Find N=X in sweep/ablation/sensitivity contexts; flag N < 5"
+    severity: minor
+    source: "paperreview.ai x12: 4/12 papers had underpowered sensitivity analyses"
+
+  Q5_notation_consistency:
+    id: Q5
+    category: presentation
+    description: "Same symbol defined differently in different locations"
+    auto_check: "Track symbol definitions (γ denotes, let X be, etc.); flag redefinitions"
+    severity: minor
+    source: "paperreview.ai x12: 6/12 papers had notation inconsistencies"
+
+  Q6_multiple_comparison:
+    id: Q6
+    category: statistics
+    description: "Multiple hypothesis tests without correction"
+    auto_check: "Count p-value mentions; verify Bonferroni/Holm/FDR correction applied"
+    severity: important
+    source: "paperreview.ai x12: 2/12 papers had uncorrected multiple comparisons"
+
+  Q7_selective_reporting:
+    id: Q7
+    category: methodology
+    description: "Signs of cherry-picking or selective reporting"
+    auto_check: "Detect 'all significant' claims, no non-significant results, unequal N, missing supplementary"
+    severity: minor
+    source: "Defect #5: cherry-picking detection"
+
+  Q8_power_analysis:
+    id: Q8
+    category: statistics
+    description: "Statistical power insufficient for reported sample sizes"
+    auto_check: "Compute MDE for reported N; check post-hoc power for reported effect sizes"
+    severity: important
+    source: "Defect #9: no power analysis"
+
+  Q9_bibentry_format:
+    id: Q9
+    category: presentation
+    description: "Bibliography entries with format issues (merged, missing fields)"
+    auto_check: "Check for merged bibitems, missing title/year/author, key format consistency"
+    severity: important
+    source: "Defect #4: table/figure consistency (extended to bib)"
+
+# ============================================================
+# Statistics
+# ============================================================
+stats:
+  total_patterns: 91
+  tier_1_critical: 7
+  tier_2_important: 10
+  tier_2_plus_quality: 9
+  tier_3_minor: 8
+  defense: 4
+  source_papers: 3
+  source_review_rounds: 11
+  source_paperreview_ai: 12

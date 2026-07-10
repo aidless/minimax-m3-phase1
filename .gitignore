@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp_error.txt
+*.log
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
+.trash/
+
+# Generated files
+_output/
+_results/
+
+# Phase 1+2 temp files (诊断 + 临时状态)
+_status_out.txt
+_phase2_batch_log.txt
+_phase2_err_*.txt
+_phase2_batch_v2.txt
+_diag_*.txt
+_diag_*.log
+_step1.txt
+_git_init_backup/
+
+# Large archives
+*.zip
+*.tar.gz
+__pycache__/
+*.pyc

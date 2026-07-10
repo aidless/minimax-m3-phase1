@@ -1,0 +1,35 @@
+# Pre-commit hook 配置
+# 当修改 detector 源码或测试套件时, 自动跑 K 冲突测试
+#
+# 安装: pip install pre-commit && pre-commit install
+# 手动跑: pre-commit run --all-files
+
+repos:
+  - repo: local
+    hooks:
+      - id: k-conflict-tests
+        name: K Conflict Decision Tree Tests
+        description: 跑 K 冲突决策树测试 (5/5)
+        entry: python _k_conflict_decision_tree.py
+        language: system
+        pass_filenames: false
+        always_run: true
+        files: '_k_conflict_decision_tree\.py|mm3_hallucination_detector\.py'
+
+      - id: main-test-suite
+        name: Main Test Suite (15 cases)
+        description: 跑主测试套件 (15 个粒度降级 case)
+        entry: python _test_granularity_suite.py
+        language: system
+        pass_filenames: false
+        always_run: false
+        files: 'mm3_hallucination_detector\.py'
+
+      - id: detector-py-compile
+        name: Detector py_compile check
+        description: 检查 detector 编译
+        entry: python -m py_compile _inbox/方法论/mm3_hallucination_detector.py
+        language: system
+        pass_filenames: false
+        always_run: false
+        files: 'mm3_hallucination_detector\.py'

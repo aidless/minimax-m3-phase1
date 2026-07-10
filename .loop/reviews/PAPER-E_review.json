@@ -1,0 +1,121 @@
+{
+  "paper_id": "PAPER-E",
+  "timestamp": "2026-07-05T15:30:00",
+  "overall_assessment": "This paper presents a joint measurement of strategy consensus and calibration contagion in multi-agent LLM systems. While the research question is timely and the experimental design is ambitious, the paper has several critical methodological issues that undermine its central claims. Most damaging: the reported exact numerical identity of γ and H across all four self-evaluation conditions (A-D) to three decimal places, despite stochastic generation at temperature 0.7, is either an extraordinary empirical result requiring much stronger evidence or indicates that TTRL and BOUNDARY_SYNC are mechanistically independent by design. The 2x2 factorial design collapses because one factor (calibration gating) almost never activates, sensitivity analyses are conducted with N=3 (no inferential power), and the cross-evaluator gradient rests on a single model pair per level.",
+  "score": 4,
+  "issues": [
+    {
+      "dimension": "methodology",
+      "severity": "critical",
+      "location": "Results/Finding 2 / Table 1",
+      "issue": "Exact numerical identity of γ and H across conditions A-D contradicts the stochastic protocol",
+      "evidence": "Table 1 reports γ=0.692±0.062 identically for all four conditions. Executor uses temperature 0.7 (stochastic). Evaluator is re-queried independently each round producing 150 fresh API calls per seed per condition.",
+      "fix": "Report cross-condition agreement rate of evaluator's binary preferences. If 100%, frame as evaluator determinism not empirical finding."
+    },
+    {
+      "dimension": "methodology",
+      "severity": "critical",
+      "location": "Methods/Design / Finding 4",
+      "issue": "2x2 factorial design collapses to single-factor experiment",
+      "evidence": "Gating triggered in only 2.7% of TTRL updates. C/D effectively identical to A/B. 60 runs are redundant.",
+      "fix": "Redesign gating mechanism or honestly report as single-factor experiment with null conditions."
+    },
+    {
+      "dimension": "claim_evidence",
+      "severity": "critical",
+      "location": "Results/Finding 2 / Discussion",
+      "issue": "Dissociation is a design property, not an empirical discovery",
+      "evidence": "Evaluator judges relative strategy quality (strategy A beats baseline), which remains unchanged regardless of communication. Two measurement channels are non-interacting by construction.",
+      "fix": "Clearly distinguish design-level independence from empirical question of whether communication affects evaluator preferences."
+    },
+    {
+      "dimension": "experiment_design",
+      "severity": "important",
+      "location": "Results/Finding 5 / Table 2",
+      "issue": "Sensitivity analyses with N=3 have zero inferential power",
+      "evidence": "Table 2 reports sensitivity results all with N=3 seeds, no std/p-values/CIs. Used to claim 'mechanism independence'.",
+      "fix": "Increase N to ≥10 or label as pilot/exploratory with no statistical validity."
+    },
+    {
+      "dimension": "claim_evidence",
+      "severity": "important",
+      "location": "Abstract / Results/Finding 3",
+      "issue": "Evaluator-identity gradient supported by only one data point per level",
+      "evidence": "Gradient: self-eval (A-D), within-family DeepSeek Pro (N=5, Δγ=+0.012), cross-family GLM (N=15, Δγ=-0.287). Each level = one model comparison.",
+      "fix": "Soften language from 'gradient' and 'necessary' to 'preliminary evidence'."
+    },
+    {
+      "dimension": "experiment_design",
+      "severity": "important",
+      "location": "Methods/Tasks",
+      "issue": "25 math problems cycled across 30 rounds x 5 agents = problem memorization",
+      "evidence": "150 problem-agent assignments per condition per seed with only 25 problems. Each problem presented ~30 times.",
+      "fix": "Report problem-presentation frequency. Test for performance differences between first and subsequent presentations."
+    },
+    {
+      "dimension": "claim_evidence",
+      "severity": "important",
+      "location": "Results / Table 1",
+      "issue": "30% accuracy drop is the most practical finding but severely under-analyzed",
+      "evidence": "Accuracy drops 0.281→0.198 (30%). Only mentioned in passing. No per-strategy or per-round analysis.",
+      "fix": "Add dedicated analysis: per-strategy accuracy changes, per-round trajectories, p-value for A vs B."
+    },
+    {
+      "dimension": "experiment_design",
+      "severity": "important",
+      "location": "Results/Finding 3",
+      "issue": "Condition E changes executor+evaluator+N+T simultaneously",
+      "evidence": "Qwen self-eval (γ=0.859) vs DeepSeek self-eval (γ=0.692) comparison never reported. Executor identity also matters.",
+      "fix": "Report DeepSeek vs Qwen self-eval γ comparison. Add DeepSeek+GLM condition to disentangle effects."
+    },
+    {
+      "dimension": "logic",
+      "severity": "important",
+      "location": "Results/Finding 3 / Discussion",
+      "issue": "Boundary condition claim conflates single observation with general principle",
+      "evidence": "One model (DeepSeek) shows γ invariance, one cross-family pair shows shift. Insufficient for 'boundary condition'.",
+      "fix": "Reframe as 'Self-evaluation appears to suppress strategy-level effects in the models tested'."
+    },
+    {
+      "dimension": "methodology",
+      "severity": "important",
+      "location": "Methods / Results",
+      "issue": "Qwen self-eval baseline buried in table footnote",
+      "evidence": "Table 1 footnote: '†Qwen self-eval baseline: γ=0.859±0.094, ECE=0.295±0.077'. Essential for Finding 3 but relegated.",
+      "fix": "Add as row in Table 1. Explain missing Brier score for Condition E."
+    },
+    {
+      "dimension": "literature",
+      "severity": "minor",
+      "location": "Introduction / Related Work",
+      "issue": "Heavy reliance on unpublished manuscripts from same author",
+      "evidence": "4/5 foundational citations are 'Manuscript' or 'TMLR submission' by same author.",
+      "fix": "Clearly state publication status. Frame as building on own prior work."
+    },
+    {
+      "dimension": "methodology",
+      "severity": "minor",
+      "location": "Methods",
+      "issue": "ECE equal-frequency binning not justified, differs from cited literature",
+      "evidence": "10-bin equal-frequency binning. Guo et al. 2017 (cited) uses equal-width.",
+      "fix": "Justify choice or switch to equal-width. Report both as robustness check."
+    },
+    {
+      "dimension": "methodology",
+      "severity": "minor",
+      "location": "Methods",
+      "issue": "Matched seeds methodology undefined",
+      "evidence": "Paper says 'Seeds matched across conditions' but never defines which RNG states are shared.",
+      "fix": "Explicitly define what is held fixed across conditions."
+    }
+  ],
+  "strengths": [
+    "Well-motivated research question important for multi-agent system design",
+    "Protocol clearly described with sufficient detail for replication",
+    "Evaluator as design choice is a valuable experimental dimension",
+    "Sensitivity analyses identify relevant knobs for practitioners",
+    "Concrete actionable design recommendations",
+    "Honest limitations acknowledgment"
+  ],
+  "verdict": "revision_needed"
+}

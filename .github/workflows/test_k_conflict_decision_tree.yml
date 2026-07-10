@@ -1,0 +1,108 @@
+# K 冲突决策树测试 - GitHub Actions CI 流水线
+#
+# 触发条件:
+#   - push 到 main/master 分支且改动 _k_conflict_decision_tree.py
+#   - pull_request 改动该文件
+#   - workflow_dispatch 手动触发
+#   - 每周一 0:00 定时 (防回归)
+#
+# 测试目标:
+#   - _k_conflict_decision_tree.py 5/5 测试通过
+#   - mm3_hallucination_detector.py 编译通过
+#   - 15 case 主测试套件通过
+
+name: K Conflict Decision Tree Tests
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '_k_conflict_decision_tree.py'
+      - 'mm3_hallucination_detector.py'
+      - '**/llm_summaries/*.md'
+      - '.github/workflows/test_k_conflict_decision_tree.yml'
+  pull_request:
+    paths:
+      - '_k_conflict_decision_tree.py'
+      - 'mm3_hallucination_detector.py'
+  workflow_dispatch:
+  schedule:
+    # 每周一 0:00 UTC 跑一次 (防回归)
+    - cron: '0 0 * * 1'
+
+jobs:
+  test-k-conflict:
+    name: K Conflict Decision Tree Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Run K Conflict Decision Tree Tests
+        run: |
+          echo "=== Running K Conflict Decision Tree ==="
+          python _k_conflict_decision_tree.py
+          echo "=== Exit code: $? ==="
+
+      - name: Run Main Test Suite (15 cases)
+        run: |
+          echo "=== Running Main Test Suite (15 cases) ==="
+          python _test_granularity_suite.py
+          echo "=== Exit code: $? ==="
+
+      - name: Run Detector Smoke Test
+        run: |
+          echo "=== Smoke Test: detector 编译 ==="
+          python -m py_compile _inbox/方法论/mm3_hallucination_detector.py
+          echo "=== Exit code: $? ==="
+
+      - name: Validate 4 paper × 4 task mm3 files (if available)
+        run: |
+          echo "=== Validating mm3 files (best-effort) ==="
+          python -c "
+          import os
+          papers = ['RESAMPLING_CALIBRATION', 'TEMPORAL_DYNAMICS',
+                    'calibration_contagion', 'CALIBRATION_EFFECTS']
+          tasks = ['summary', 'methods', 'experiments', 'critique']
+          total = 0
+          have = 0
+          for p in papers:
+              for t in tasks:
+                  f = f'F:/Research/{p}/llm_summaries/main.{t}.mm3.md'
+                  total += 1
+                  if os.path.exists(f):
+                      have += 1
+          print(f'  mm3 files: {have}/{total}')
+          # CI 允许 missing (不强制 fail)
+          if have < total:
+              print('  WARN: some mm3 files missing (expected on dev/CI)')
+          "
+
+  test-on-windows:
+    name: K Conflict Tests (Windows)
+    runs-on: windows-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Run K Conflict Decision Tree Tests
+        run: |
+          python _k_conflict_decision_tree.py
+
+      - name: Run Main Test Suite
+        run: |
+          python _test_granularity_suite.py

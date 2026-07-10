@@ -1,0 +1,215 @@
+{
+  "paper_id": "PAPER-E",
+  "timestamp": "2026-07-05T18:51:39.089759",
+  "score": 2.8000000000000007,
+  "total": 39,
+  "by_priority": {
+    "P0": 10,
+    "P1": 18,
+    "P2": 11
+  },
+  "by_source": {
+    "submission_audit": 1,
+    "quality_checks": 1,
+    "latex_check": 1,
+    "skill_bridge": 1,
+    "agent": 1
+  },
+  "issues": [
+    {
+      "code": "ABSTRACT_DENSE",
+      "priority": "P2",
+      "message": "Up to 7 numbers in one abstract sentence"
+    },
+    {
+      "code": "FIRST_CLAIM",
+      "priority": "P1",
+      "message": "1 \"first\"/\"novel\" claims in abstract. Verify with literature search."
+    },
+    {
+      "code": "CI_COVERAGE",
+      "priority": "P1",
+      "message": "Low CI coverage: 2 CIs for 29 statistical claims (7%). Add bootstrap CIs or ±SEM"
+    },
+    {
+      "code": "POWER_LOW_N",
+      "priority": "P1",
+      "message": "Smallest N=3. MDE at 80% power: d=2.29. Only effects larger than d=2.29 can be d"
+    },
+    {
+      "code": "UNUSED_LABEL",
+      "priority": "P2",
+      "message": "Label '\\label{fig:protocol}' is never referenced."
+    },
+    {
+      "code": "UNUSED_LABEL",
+      "priority": "P2",
+      "message": "Label '\\label{fig:results}' is never referenced."
+    },
+    {
+      "code": "UNUSED_LABEL",
+      "priority": "P2",
+      "message": "Label '\\label{tab:design}' is never referenced."
+    },
+    {
+      "code": "UNUSED_LABEL",
+      "priority": "P2",
+      "message": "Label '\\label{tab:results}' is never referenced."
+    },
+    {
+      "code": "UNUSED_LABEL",
+      "priority": "P2",
+      "message": "Label '\\label{tab:sensitivity}' is never referenced."
+    },
+    {
+      "code": "NO_DOI",
+      "priority": "P2",
+      "message": "No DOIs found in text. Add DOIs to bibliography entries."
+    },
+    {
+      "code": "PAIRED_TEST",
+      "priority": "P1",
+      "message": "Paired design detected but no paired test mentioned. Use paired t / Wilcoxon sig"
+    },
+    {
+      "code": "NO_SLICE",
+      "priority": "P2",
+      "message": "7 statistical claims but no slice/subgroup analysis mentioned. Consider per-cate"
+    },
+    {
+      "code": "AGENT_SUMMARY",
+      "priority": "P2",
+      "message": "Agent review: score=4/10, verdict=revision_needed"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Exact numerical identity of γ and H across conditions A-D contradic"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] 2x2 factorial design collapses to single-factor experiment → Redesi"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] Dissociation is a design property, not an empirical discovery → Cle"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] Sensitivity analyses with N=3 have zero inferential power → Increas"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] Evaluator-identity gradient supported by only one data point per le"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] 25 math problems cycled across 30 rounds x 5 agents = problem memor"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] 30% accuracy drop is the most practical finding but severely under-"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] Condition E changes executor+evaluator+N+T simultaneously → Report "
+    },
+    {
+      "code": "AGENT_LOGIC",
+      "priority": "P1",
+      "message": "[logic] Boundary condition claim conflates single observation with general princ"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Qwen self-eval baseline buried in table footnote → Add as row in Ta"
+    },
+    {
+      "code": "AGENT_LITERATU",
+      "priority": "P2",
+      "message": "[literature] Heavy reliance on unpublished manuscripts from same author → Clearl"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] ECE equal-frequency binning not justified, differs from cited liter"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Matched seeds methodology undefined → Explicitly define what is hel"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Exact numerical identity of γ and H across conditions A-D contradic"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] 2x2 factorial design collapses to single-factor experiment → Redesi"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] Dissociation is a design property, not an empirical discovery → Cle"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] Sensitivity analyses with N=3 have zero inferential power → Increas"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] Evaluator-identity gradient supported by only one data point per le"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] 25 math problems cycled across 30 rounds x 5 agents = problem memor"
+    },
+    {
+      "code": "AGENT_CLAIM_EV",
+      "priority": "P1",
+      "message": "[claim_evid] 30% accuracy drop is the most practical finding but severely under-"
+    },
+    {
+      "code": "AGENT_EXPERIME",
+      "priority": "P1",
+      "message": "[experiment] Condition E changes executor+evaluator+N+T simultaneously → Report "
+    },
+    {
+      "code": "AGENT_LOGIC",
+      "priority": "P1",
+      "message": "[logic] Boundary condition claim conflates single observation with general princ"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Qwen self-eval baseline buried in table footnote → Add as row in Ta"
+    },
+    {
+      "code": "AGENT_LITERATU",
+      "priority": "P2",
+      "message": "[literature] Heavy reliance on unpublished manuscripts from same author → Clearl"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] ECE equal-frequency binning not justified, differs from cited liter"
+    },
+    {
+      "code": "AGENT_METHODOL",
+      "priority": "P0",
+      "message": "[methodolog] Matched seeds methodology undefined → Explicitly define what is hel"
+    }
+  ]
+}

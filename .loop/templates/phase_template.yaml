@@ -1,0 +1,70 @@
+# Loop Engineering v4.0 — Phase 0 Template
+# Copy this to new paper's .loop/ and customize
+# Usage: python ../.loop/init.py PAPER_NAME
+
+phase_0_baseline:
+  description: "Establish paper quality baseline against TMLR standards"
+  
+  steps:
+    - id: "0.1"
+      name: "Venue-Fit Assessment"
+      action: "Use tmlr-submission skill to assess venue fit"
+      output: "gap_analysis.md"
+      
+    - id: "0.2"  
+      name: "Baseline Review"
+      action: "Run peer-review skill on current version"
+      output: ".loop/reviews/round_00_baseline.md"
+      
+    - id: "0.3"
+      name: "TMLR Baseline Comparison 🆕"
+      action: "Compare paper statistics against .loop/../tmlr_baselines.yaml"
+      output: "baseline_comparison.md"
+      
+    - id: "0.4"
+      name: "Issue Initialization"
+      action: "Create .loop/issue_tracker.yaml with all identified gaps"
+      output: ".loop/issue_tracker.yaml"
+      
+    - id: "0.5"
+      name: "Auto Pre-Review"
+      action: "Run python ../.loop/pre_review.py PAPER_ID"
+      output: "Terminal output — add new issues to tracker"
+
+  exit_conditions:
+    - "venue_fit_score >= 8"
+    - "issue_tracker.yaml initialized"
+    - "TMLR baseline comparison complete"
+    - "Auto pre-review passed (0 Tier 1 criticals)"
+
+phase_1_format:
+  description: "Convert to TMLR template"
+  max_rounds: 3
+  exit: "0 Error, ≤5 Warning compilation"
+
+phase_2_review:
+  description: "Multi-round progressive review"
+  max_rounds: 5
+  rounds:
+    - "2.0: Reference integrity"
+    - "2.1: Quick scan (11-point self-review + claims-evidence trace)"
+    - "2.2: Deep review (peer-review + TMLR-specific + stats audit)"
+    - "2.3: Adversarial review"
+    - "2.4: Third-party / cold restart review"
+    - "2.5: Final confirmation"
+  exit: "0 critical open, all important resolved or documented"
+
+phase_3_polish:
+  description: "Figures + writing polish"
+  max_rounds: 3
+  exit: "G1+G2 all pass, abstract standalone"
+
+phase_4_anonymize:
+  description: "Double-blind version"
+  max_rounds: 3
+  exit: "Zero identity leaks (grep verification)"
+
+phase_5_submit:
+  description: "Submission ready"
+  max_rounds: 3
+  exit: "A-G audit all pass, clean compile, user signed off"

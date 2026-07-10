@@ -1,0 +1,58 @@
+# Loop Engineering v4.0 — Cross-Paper Issue Correlation
+# Issues found in one paper that likely apply to others
+
+cross_references:
+  - pattern_id: "abstract_too_dense"
+    description: "Abstract contains too many numbers in a single sentence"
+    found_in: ["resampling_calibration", "temporal_dynamics"]
+    auto_check: "count numbers in abstract sentences; flag sentences with >5 numbers"
+    
+  - pattern_id: "crossover_claim_needs_controlled_ablation"
+    description: "Claim about X depending on Y range needs controlled ablation, not just cross-dataset comparison"
+    found_in: ["resampling_calibration"]
+    auto_check: "if paper claims 'X depends on Y', check for within-dataset controlled manipulation"
+    propagate_to: ["temporal_dynamics", "calibration_effects"]
+    
+  - pattern_id: "ci_overlap_not_noted"
+    description: "Point estimate comparison reported without noting CI overlap"
+    found_in: ["temporal_dynamics"]
+    auto_check: "for every comparison of two numbers, check CIs and flag if overlap not mentioned"
+    propagate_to: ["resampling_calibration"]
+    
+  - pattern_id: "linear_vs_monotonic_distinction"
+    description: "\"Linear\" claimed when only monotonic trend is supported"
+    found_in: ["temporal_dynamics"]
+    auto_check: "grep for 'linear'; verify N and functional form test"
+    propagate_to: ["resampling_calibration"]
+    
+  - pattern_id: "statistical_test_inconsistency"
+    description: "Different statistical methods used in different study arms without justification"
+    found_in: ["temporal_dynamics"]
+    auto_check: "audit all statistical tests; flag divergence"
+    propagate_to: ["resampling_calibration", "calibration_contagion"]
+    
+  - pattern_id: "missing_external_validation_citation"
+    description: "Convergent evidence from other groups not cited"
+    found_in: ["resampling_calibration"]
+    auto_check: "search for recent papers with consistent findings; flag if uncited"
+    propagate_to: ["temporal_dynamics"]
+    
+  - pattern_id: "title_scope_mismatch"
+    description: "Title covers only part of paper content"
+    found_in: ["resampling_calibration"]
+    auto_check: "compare title keywords against section headings; flag gaps"
+    propagate_to: ["temporal_dynamics"]
+    
+  - pattern_id: "proposed_experiments_in_results"
+    description: "Future work proposals mixed into Results section"
+    found_in: ["resampling_calibration"]
+    auto_check: "grep for 'proposed|future work|we plan to' in Results/Methods"
+    propagate_to: ["temporal_dynamics"]
+
+# Issue propagation log
+propagation_log:
+  - date: "2026-07-02"
+    from_paper: "resampling_calibration"
+    to_paper: "temporal_dynamics"
+    patterns: ["ci_overlap_not_noted", "linear_vs_monotonic", "abstract_too_dense"]
+    status: "pending_review"
