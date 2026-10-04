@@ -57,7 +57,7 @@ B (step_by_step): ...
 2. **`os.path.abspath(__file__)` 在 exec 模式下抛 NameError** → 主脚本里加 try/except fallback
 3. **Trae IDE 沙盒限制 `Remove-Item` 白名单** → 不能直接 `Remove-Item F:\Research\experiments\*`,要走 `python -c "import os; os.remove(...)"`
 4. **Anthropic 协议在 cn 端持续调用会 401** → 用 OpenAI 协议更稳
-5. **DeepSeek key 失效 (`hermes/.env` 里 sk-7fa33... 报 401)** → 主脚本里 hardcode 新 key `*REMOVED*`,后续可改回 env 读取
+5. **DeepSeek key 失效 (`hermes/.env` 里 sk-7fa33... 报 401)** → 主脚本里 hardcode 新 key `(已吊销，值不再记录)`,后续可改回 env 读取
 
 ## Smoke 验证 (2026-07-10, N=2 R=3)
 
