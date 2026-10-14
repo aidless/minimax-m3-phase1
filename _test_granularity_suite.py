@@ -22,8 +22,13 @@ import sys
 from pathlib import Path
 from collections import Counter
 
-# 让 detector 可被 import
-sys.path.insert(0, r'F:\Research\_inbox\方法论')
+# 让 detector 可被 import：优先用仓内相对路径（_inbox/方法论），
+# 兼容历史遗留的 F:\Research 绝对路径（cznego离机不可用时跳过）。
+_HERE = Path(__file__).resolve().parent
+for _cand in (_HERE / '_inbox' / '方法论', Path(r'F:\Research\_inbox\方法论')):
+    if _cand.is_dir():
+        sys.path.insert(0, str(_cand))
+        break
 from mm3_hallucination_detector import detect_internal_contradictions
 
 
