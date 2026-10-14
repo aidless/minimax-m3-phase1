@@ -18,12 +18,14 @@ on:
     branches: [main, master]
     paths:
       - '_k_conflict_decision_tree.py'
+      - '_test_granularity_suite.py'
       - 'mm3_hallucination_detector.py'
       - '**/llm_summaries/*.md'
       - '.github/workflows/test_k_conflict_decision_tree.yml'
   pull_request:
     paths:
       - '_k_conflict_decision_tree.py'
+      - '_test_granularity_suite.py'
       - 'mm3_hallucination_detector.py'
   workflow_dispatch:
   schedule:
@@ -89,6 +91,9 @@ jobs:
     name: K Conflict Tests (Windows)
     runs-on: windows-latest
     timeout-minutes: 5
+    env:
+      # Windows 控制台默认 cp1252，脚本含中文输出，不设则 UnicodeEncodeError
+      PYTHONIOENCODING: utf-8
 
     steps:
       - name: Checkout repository
