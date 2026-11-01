@@ -63,6 +63,48 @@ Phase 1 key outcome (from `MiniMax_M3_Phase_1_完成报告.md`): after M3 extrac
 
 The reports are written in Chinese; this README is the English summary.
 
+## Tests
+
+```bash
+cd minimax-m3-phase1
+python _k_conflict_decision_tree.py   # 5 PASS, 0 FAIL
+python _test_granularity_suite.py     # 15 PASS (all cases green)
+python -m py_compile _inbox/方法论/mm3_hallucination_detector.py   # compiles
+```
+
+- `_k_conflict_decision_tree.py` verifies the detector's K-mode conflict decision
+  tree (5 cases: K-explicit strong/no-strict, B-title purpose-distinct, K-table
+  factorial, K-mode-mismatch, strict-force-HIGH).
+- `_test_granularity_suite.py` verifies the granularity soft-demotion logic
+  (5 granularity levels × 4 modes × strict/normal = 15 cases, all green).
+
+## What this does and does not prove
+
+**Proves:** the hallucination detector's K-conflict decision tree classifies
+conflicts correctly across 5 curated cases, and the granularity soft-demotion
+rule demotes HIGH→MEDIUM correctly across 15 cases. Both suites pass on this
+tree.
+
+**Does not prove:** the detector caught no real hallucinations on the author's
+papers — the "PAPER-A 4 mm3.md, 0 HIGH 误报" figure lives in
+`MiniMax_M3_Phase_1_完成报告.md` and depends on 4 real PDF summaries generated
+by the M3 API, which are **not committed**. The 15-case suite is a synthetic
+unit suite over hand-built snippets, not a benchmark over the real pipeline.
+Phase 3+ capability is out of scope of this repository.
+
+## Reproducing the numbers
+
+```bash
+cd minimax-m3-phase1
+python _k_conflict_decision_tree.py      # 5 PASS, 0 FAIL
+python _test_granularity_suite.py        # 15 PASS
+```
+
+The "15 cases / 5 granularity / 4 modes / 100% pass" metrics in the phase report
+correspond to the granularity suite's actual green run on this tree. The
+"0 HIGH 误报" claim is **not** reproducible here (real PDFs not committed);
+see the phase report for its provenance.
+
 ## Limits
 
 - **The offline suites are fixture regressions, not end-to-end proof.** The 15+5 cases verify the K-conflict decision tree and soft-downgrade logic in isolation; they do not exercise a live M3 gateway.
