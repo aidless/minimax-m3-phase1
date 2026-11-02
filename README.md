@@ -78,6 +78,34 @@ python -m py_compile _inbox/方法论/mm3_hallucination_detector.py   # compiles
 - `_test_granularity_suite.py` verifies the granularity soft-demotion logic
   (5 granularity levels × 4 modes × strict/normal = 15 cases, all green).
 
+## Related work and how this compares
+
+This detector targets a narrow but concrete gap: **within-document contradictions
+across different descriptions of the same concept**, in agent-generated paper drafts
+before they enter a revision loop. It is not a general hallucination detector
+(it does not verify a claim against external facts), so the closest prior work is
+*internal-consistency* / *self-contradiction* checking over a single text.
+
+Compared to the common alternative — a whole-document regex or LLM "does this
+contradict" check — this repo's distinct choices are:
+
+1. **Context-aware, not whole-doc**: a conflict only fires when both descriptions
+   land in the *same* context (experiment / heading / table row / list item /
+   paragraph). Two different experiments using different confidence scales is
+   treated as legitimate multi-design coexistence, not a contradiction.
+2. **Purpose heuristic**: two numbers in one context are demoted to `INFO` when
+   they carry distinct purposes (e.g. "standard SE=5000" vs "paired CI=2000"),
+   which is a common legitimate design, not a hallucination.
+3. **Granularity soft-demotion**: a `HIGH` in a weak context (paragraph) is
+   demoted to `MEDIUM` because paragraphs can span sections and are higher-noise;
+   strong contexts (experiment) are not demoted.
+
+The honest comparison: prior whole-doc checks over-flag cross-context coexistence
+as contradiction; this repo trades recall for precision by only firing on
+same-context conflicts and by soft-demoting weak contexts. It does **not** claim
+higher detection of true hallucinations — that is untested here (real PDFs not
+committed). See `PREREG.md` for the boundary statement.
+
 ## What this does and does not prove
 
 **Proves:** the hallucination detector's K-conflict decision tree classifies
@@ -91,6 +119,16 @@ papers — the "PAPER-A 4 mm3.md, 0 HIGH 误报" figure lives in
 by the M3 API, which are **not committed**. The 15-case suite is a synthetic
 unit suite over hand-built snippets, not a benchmark over the real pipeline.
 Phase 3+ capability is out of scope of this repository.
+
+## Fail-closed behavior
+
+The detector is **conservative by construction**: it is wired as a pre-revision
+gate and, in `strict` mode, forces `HIGH` on any same-context conflict — it never
+"lets a flagged conflict pass" to downgrade a genuine contradiction to safe.
+Soft-demotion only applies in non-strict mode and only for weak (paragraph)
+contexts; the `--strict` flag exists precisely so a reviewer can force the
+conservative path. The test suites assert this direction (C9/C15 strict→HIGH,
+C5/C8 soft-demotion), and the detector's default is to **flag**, not to clear.
 
 ## Reproducing the numbers
 
