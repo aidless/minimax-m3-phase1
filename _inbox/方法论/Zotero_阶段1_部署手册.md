@@ -71,7 +71,7 @@ Start-Process "C:\Program Files\Zotero\zotero.exe"
 |---|---|
 | **Provider** | `MiniMax` (从下拉菜单直接选 preset，不要选 Custom OpenAI) |
 | **API Base URL** | `https://api.minimaxi.com/v1` (国内 cn) **或者** `https://api.minimax.io/v1` (海外 global) |
-| **API Key** | 你的 Token Plan Subscription Key：`sk-cp-GfCveDNpdjnPG21kWWXrnqoggrWwr1pMBNx0pDiKpBHmZ5IDe7DaviNQlwnEQ9848uS0TO7o0u0DcM_633lrLeUndOEiCbIJAL7_j4OtPSoOIYJehARVNLg` |
+| **API Key** | 你的 Token Plan Subscription Key：`<YOUR_MINIMAX_API_KEY>` |
 | **Model** | `MiniMax-M3` |
 
 ⚠️ **关键**：Base URL 跟 Key 必须同 region。如果 Key 是国内 cn 拿的，URL 必须用 `api.minimaxi.com`。混用必报 401。
