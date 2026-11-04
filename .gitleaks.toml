@@ -25,6 +25,15 @@ description = "OpenAI-style project key"
 regex = '''sk-[A-Za-z0-9_-]{40,}'''
 tags = ["key", "openai"]
 
+# 历史遗留：11903ad (2026-07-10) 曾在部署手册里贴入真实 key，该行已在 tip 脱敏，
+# 但 commit 永久留在历史里。此豁免只绑定「这一条规则 + 这一个 commit + 这一个路径」，
+# 不携带密文，也不覆盖其它 commit 或同路径的未来提交。
+[[rules.allowlists]]
+description = "legacy 11903ad only: rotated/removed key, sanitized at tip"
+condition = "AND"
+commits = ["11903ad5a4b5915cf42afd9ec4cbacf1a06a656f"]
+paths = ['''^_inbox/方法论/Zotero_阶段1_部署手册\.md$''']
+
 [[rules]]
 id = "github-pat"
 description = "GitHub personal access token"
