@@ -17,7 +17,7 @@ echo "=========================================="
 echo ""
 echo "▶ Step 1: K Conflict Decision Tree"
 echo "------------------------------------------"
-python _k_conflict_decision_tree.py
+python3 _k_conflict_decision_tree.py
 K_CONFLICT_EXIT=$?
 
 # 2. 主测试套件 (15 case)
@@ -25,7 +25,7 @@ if [ "$1" = "--all" ]; then
     echo ""
     echo "▶ Step 2: Main Test Suite (15 cases)"
     echo "------------------------------------------"
-    python _test_granularity_suite.py
+    python3 _test_granularity_suite.py
     MAIN_EXIT=$?
 else
     MAIN_EXIT=0
