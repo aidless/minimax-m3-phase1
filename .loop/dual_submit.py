@@ -9,9 +9,10 @@ from pathlib import Path
 LOOP_DIR = Path(__file__).resolve().parent
 AETTL_DIR = LOOP_DIR.parent
 
-AUTHOR_BLOCK = r"""Zewen Liu\\
-Independent Researcher\\
-\texttt{research@zliu.dev}"""
+# 署名从环境变量注入，公开仓不落真实姓名/邮箱（TMLR 匿名版不受影响）
+AUTHOR_NAME = os.environ.get("AUTHOR_NAME", "Anonymous")
+AUTHOR_EMAIL = os.environ.get("AUTHOR_EMAIL", "")
+AUTHOR_BLOCK = AUTHOR_NAME + "\\\\\nIndependent Researcher\\\\\n\\texttt{" + AUTHOR_EMAIL + "}"
 
 ACKNOWLEDGMENTS = r"""\section*{Acknowledgments}
 The author thanks the anonymous reviewers for their constructive feedback.

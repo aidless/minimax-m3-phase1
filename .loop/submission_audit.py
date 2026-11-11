@@ -375,7 +375,8 @@ def check_dual_consistency(paper_dir):
         
         if 'Anonymous Authors' not in tmlr_text:
             issues.append(('DUAL_AUTHOR', 'critical', 'TMLR version not anonymized'))
-        if 'Zewen Liu' not in arxiv_text and 'Anonymous' in arxiv_text:
+        expected_author = os.environ.get('AUTHOR_NAME', 'Anonymous')
+        if expected_author not in arxiv_text and 'Anonymous' in arxiv_text:
             issues.append(('DUAL_AUTHOR_ARXIV', 'important', 'arXiv version missing author name'))
         
         # Check content similarity (should be almost identical except preamble)
