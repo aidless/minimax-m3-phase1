@@ -1,5 +1,7 @@
 # minimax-m3-phase1
 
+> **English TL;DR**: Phase 1 wires MiniMax M3 into a TMLR submission pipeline with a 6-sub-detector hallucination gate. Both offline regressions re-ran green in this pass (5 PASS / 0 FAIL on the K-conflict tree; 15/15 on the granularity suite), and the aggregated `run_k_conflict_tests.sh --all` reports PASS / PASS. Live-model claims (real M3 calls, 0-HIGH-false-positive) are **NOT YET MEASURED** here.
+
 [![CI](https://github.com/aidless/minimax-m3-phase1/actions/workflows/test_k_conflict_decision_tree.yml/badge.svg)](https://github.com/aidless/minimax-m3-phase1/actions/workflows/test_k_conflict_decision_tree.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -154,3 +156,38 @@ see the phase report for its provenance.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## U1 live regression results (executed for this pass)
+
+| Command | Verified output (from this run) | Exit |
+|---|---|---|
+| `python3 _k_conflict_decision_tree.py` | `测试结果: 5 PASS, 0 FAIL` | 0 |
+| `python3 _test_granularity_suite.py` | `共 15 个测试, 通过 15, 失败 0` + `✅ 全部测试通过! 软降级逻辑生效正确.` | 0 |
+| `bash run_k_conflict_tests.sh --all` | `✅ K Conflict Tests: PASS` / `✅ Main Test Suite: PASS` | 0 |
+
+Metrics re-parsed live from the committed CSV (not from memory):
+
+| Metric (CSV `metric` field) | Value | Source (path:line) |
+|---|---|---|
+| scripts_count | 4 | `MiniMax_M3_Phase_1_metrics.csv:2` |
+| integration_points | 3 | `MiniMax_M3_Phase_1_metrics.csv:3` |
+| test_cases | 15 | `MiniMax_M3_Phase_1_metrics.csv:4` |
+| test_pass_rate | 100 | `MiniMax_M3_Phase_1_metrics.csv:5` |
+| severity_levels | 4 | `MiniMax_M3_Phase_1_metrics.csv:7` |
+| detector_count | 6 | `MiniMax_M3_Phase_1_metrics.csv:8` |
+| context_granularity | 5 | `MiniMax_M3_Phase_1_metrics.csv:9` |
+| contradiction_patterns | 4 | `MiniMax_M3_Phase_1_metrics.csv:10` |
+
+**NOT YET MEASURED in this pass**: any real M3 gateway call (needs
+`DEEPSEEK_API_KEY` and is nondeterministic) and the "0 HIGH 误报" claim (real
+PDFs are not committed). See `Limits` above for the full statement.
+
+**Reproduce the live checks above**:
+
+```bash
+python3 _k_conflict_decision_tree.py
+python3 _test_granularity_suite.py
+bash run_k_conflict_tests.sh --all
+```
+
+<!-- figure: pending real measurement -->
