@@ -32,6 +32,8 @@ on:
       - 'mm3_hallucination_detector.py'
   workflow_dispatch:
 
+permissions:
+  contents: read
 jobs:
   test-k-conflict:
     name: K Conflict Decision Tree Tests
