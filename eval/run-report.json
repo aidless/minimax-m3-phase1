@@ -1,0 +1,129 @@
+{
+ "total": 20,
+ "passed": 20,
+ "failed": 0,
+ "selftest": false,
+ "failed_by_axis": {},
+ "results": [
+  {
+   "id": "M3-01",
+   "axis": "ktree/decision",
+   "ok": true,
+   "detail": "HIGH"
+  },
+  {
+   "id": "M3-02",
+   "axis": "ktree/decision",
+   "ok": true,
+   "detail": "INFO"
+  },
+  {
+   "id": "M3-03",
+   "axis": "ktree/decision",
+   "ok": true,
+   "detail": "HIGH"
+  },
+  {
+   "id": "M3-04",
+   "axis": "ktree/purpose",
+   "ok": true,
+   "detail": "['standard_error']"
+  },
+  {
+   "id": "M3-05",
+   "axis": "ktree/purpose",
+   "ok": true,
+   "detail": "True"
+  },
+  {
+   "id": "M3-06",
+   "axis": "detector/contradiction",
+   "ok": true,
+   "detail": "MEDIUM"
+  },
+  {
+   "id": "M3-07",
+   "axis": "detector/contradiction",
+   "ok": true,
+   "detail": "HIGH"
+  },
+  {
+   "id": "M3-08",
+   "axis": "detector/contradiction",
+   "ok": true,
+   "detail": "HIGH"
+  },
+  {
+   "id": "M3-09",
+   "axis": "detector/granularity",
+   "ok": true,
+   "detail": "🟢强"
+  },
+  {
+   "id": "M3-10",
+   "axis": "detector/granularity",
+   "ok": true,
+   "detail": "[0, 1, 2, 3, 4]"
+  },
+  {
+   "id": "M3-11",
+   "axis": "detector/arxiv",
+   "ok": true,
+   "detail": "HIGH"
+  },
+  {
+   "id": "M3-12",
+   "axis": "detector/arxiv",
+   "ok": true,
+   "detail": "MEDIUM"
+  },
+  {
+   "id": "M3-13",
+   "axis": "detector/doi",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "id": "M3-14",
+   "axis": "detector/precision",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "id": "M3-15",
+   "axis": "detector/terms",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "id": "M3-16",
+   "axis": "metrics/csv",
+   "ok": true,
+   "detail": "15"
+  },
+  {
+   "id": "M3-17",
+   "axis": "metrics/csv",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "id": "M3-18",
+   "axis": "evidence/doc",
+   "ok": true,
+   "detail": "Items present (YES) | **41**"
+  },
+  {
+   "id": "M3-19",
+   "axis": "evidence/doc",
+   "ok": true,
+   "detail": "purpose_a != purpose_b (都非空) → INFO"
+  },
+  {
+   "id": "M3-20",
+   "axis": "suite/registry",
+   "ok": true,
+   "detail": "5"
+  }
+ ]
+}

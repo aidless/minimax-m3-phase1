@@ -191,3 +191,27 @@ bash run_k_conflict_tests.sh --all
 ```
 
 <!-- figure: pending real measurement -->
+
+## 验收题库与复算
+
+`eval/cases.jsonl` 是 20 条可执行验收题，覆盖两个决策实现与一份指标表的关键口径
+（K 冲突决策树的用途判定与 strict、detector 的上下文矛盾/粒度软降级、arXiv 年份窗口、
+DOI/精度/未定义术语三个子检测器、metrics CSV 的计数口径、证据文档的声明、测试注册表条数）。
+19 条 expr + 1 条 doc 之外的 18 条期望值**不是抄文档**，而是调用仓库里的
+`_k_conflict_decision_tree.py` / `_inbox/方法论/mm3_hallucination_detector.py` 现算，
+或解析 `MiniMax_M3_Phase_1_metrics.csv` / ast 数 `TEST_CASES` 得到：
+
+```bash
+python3 eval/run_cases.py            # 20/20 cases passed
+python3 eval/run_cases.py --save     # 顺带把结果写进 eval/run-report.json
+python3 eval/run_cases.py --selftest # 篡改第一条期望值，必须变红（证明这套题会失败）
+```
+
+**数字如何复算**：`eval/run-report.json` 里每条 case 都带 `id` / `axis` / `detail`，
+把 `detail` 与 `cases.jsonl` 的 `verify` 代码一起看，就能从源码复现该数字；
+`--save` 重跑一次即可重建整份报告，不需要手工抄数。`mode=doc` 的两条（M3-18/M3-19）
+直接按 `路径::正则` 在文档里查声明，改文档措辞就会变红。
+
+**失败归因**：`run_cases.py` 不只报通过率，失败时按 `axis` 汇总（例如
+`ktree/decision: 1 条 —— M3-01`），直接指出是决策树、detector 子检测器、指标表
+还是文档声明这一层坏了，而不是一句“通过率下降”。
