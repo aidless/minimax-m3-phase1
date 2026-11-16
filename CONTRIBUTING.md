@@ -7,17 +7,15 @@ Thanks for your interest in improving this repository.
 ```bash
 git clone https://github.com/aidless/minimax-m3-phase1.git
 cd minimax-m3-phase1
-pip install -r requirements.txt   # if present
+make check
 ```
+
+`make check` uses the Python 3 standard library only. `requirements.txt` is for the
+optional PDF path and is not part of the offline check.
 
 ## Verifying your change
 
-```bash
-bash run_k_conflict_tests.sh
-```
-
-If the repository has a `Makefile`, `make check` or the closest equivalent runs the same
-checks as CI. Please run it before opening a pull request.
+`make check` is the same command CI runs. Please run it before opening a pull request.
 
 ## Pull requests
 

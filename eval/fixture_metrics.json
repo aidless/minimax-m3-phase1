@@ -1,0 +1,2594 @@
+{
+  "cases": [
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [
+            "arXiv:9912.11111"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "arXiv 年份 2099 超出当前年 2026"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "arxiv_year_future"
+          ]
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx01",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx02",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx03",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx04",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx05",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [
+            "arXiv:2110.14168"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "arXiv 编号年份 (2021) 较早, LLM 引用旧论文时易出错"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "arxiv_year_old"
+          ]
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx06",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [
+            "https://github.com/notarealownerzzz/hallucinated-repo-xyz"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "GitHub URL 看起来格式正确,需人工核对"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "github_url"
+          ]
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx07",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 1,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 1,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx08",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 1,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [
+            "https://github.com/openai/gpt-2"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "GitHub URL 看起来格式正确,需人工核对"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "github_url"
+          ]
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx09",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 1,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "智能体数 K 冲突 (上下文: §Agent setup | 🟡中)"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "在 '§Agent setup' 内, 同一段里 K 既是 3 又是 5"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "internal_contradiction"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx10",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx11",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "智能体数 K 冲突 (上下文: 实验1 | 🟢强)"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "在 '实验1' 内, 同一段里 K 既是 3 又是 5"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "internal_contradiction"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx12",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "Bootstrap B 数量冲突 (上下文: §Bootstrap | 🟡中)"
+          ],
+          "n_issues": 1,
+          "pred": 0,
+          "reasons": [
+            "在 '§Bootstrap' 内, 同一段里 Bootstrap B 既是 5000 又是 2000 — 版本A用途=['standard_error'], 版本B用途=['confidence_interval', 'standard_error']"
+          ],
+          "severities": [
+            "INFO"
+          ],
+          "types": [
+            "multi_design_coexistence"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx13",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "ECE 分箱数冲突 (上下文: §Calibration | 🟡中)"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "在 '§Calibration' 内, 同一段里 ECE 用了 10 个分箱又用 15 个分箱"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "internal_contradiction"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx14",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx15",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {
+        "section_pointer": true
+      }
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [
+            "10.9999/this-doi-is-planted-fake."
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "DOI 格式正确,但需人工核对 (没调 CrossRef API)"
+          ],
+          "severities": [
+            "LOW"
+          ],
+          "types": [
+            "doi"
+          ]
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx16",
+      "labels": {
+        "arxiv": 0,
+        "doi": 1,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 1,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx17",
+      "labels": {
+        "arxiv": 0,
+        "doi": 1,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [
+            "10.5555/fixture-control-not-planted."
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "DOI 格式正确,但需人工核对 (没调 CrossRef API)"
+          ],
+          "severities": [
+            "LOW"
+          ],
+          "types": [
+            "doi"
+          ]
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx18",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 1,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [
+            "4 处"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "出现 4 处超过 4 位小数的概率值, M3 不该有这种精度"
+          ],
+          "severities": [
+            "LOW"
+          ],
+          "types": [
+            "precise_numbers"
+          ]
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx19",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 1,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 1,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx20",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 1,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx21",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 1,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx22",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [
+            "BDFG, HJQC, PLMK, WVNT, XRTS, ZQRX"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "6 个 M3 使用的英文缩写在原文里未出现 (可能是 M3 自创)"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "undefined_terms"
+          ]
+        }
+      },
+      "id": "fx23",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 1
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 1
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx24",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 1
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [
+            "AUC, FID, MAP, NLL, ROC, SGD"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "6 个 M3 使用的英文缩写在原文里未出现 (可能是 M3 自创)"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "undefined_terms"
+          ]
+        }
+      },
+      "id": "fx25",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 1
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx26",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "智能体数 K 冲突 (上下文: (文档开头) | ❓未知)"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "在 '(文档开头)' 内, 同一段里 K 既是 3 又是 5"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "internal_contradiction"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx27",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [
+            "confidence 描述冲突 (上下文: §Confidence | 🟡中)"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "在 '§Confidence' 内, 同一段/同一实验里 confidence 既是 5-category ordinal 又是 continuous [0,1]"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "internal_contradiction"
+          ]
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx28",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 1,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx29",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [
+            "4 处"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "出现 4 处超过 4 位小数的概率值, M3 不该有这种精度"
+          ],
+          "severities": [
+            "LOW"
+          ],
+          "types": [
+            "precise_numbers"
+          ]
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx30",
+      "labels": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 0,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 1,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [
+            "arXiv:2607.00001"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "arXiv 编号在当前年 ±2 月窗口内, 仍可能是 LLM 编造"
+          ],
+          "severities": [
+            "MEDIUM"
+          ],
+          "types": [
+            "arxiv_year_safe_window"
+          ]
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx31",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    },
+    {
+      "detail": {
+        "arxiv": {
+          "matches": [
+            "arXiv:2601.00001"
+          ],
+          "n_issues": 1,
+          "pred": 1,
+          "reasons": [
+            "arXiv 编号 2026.01 超出当前 ±2 月的安全窗口"
+          ],
+          "severities": [
+            "HIGH"
+          ],
+          "types": [
+            "arxiv_year_outside_safe_window"
+          ]
+        },
+        "doi": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "github": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "internal": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "precision": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        },
+        "terminology": {
+          "matches": [],
+          "n_issues": 0,
+          "pred": 0,
+          "reasons": [],
+          "severities": [],
+          "types": []
+        }
+      },
+      "id": "fx32",
+      "labels": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "pred": {
+        "arxiv": 1,
+        "doi": 0,
+        "github": 0,
+        "internal": 0,
+        "precision": 0,
+        "terminology": 0
+      },
+      "unscored": {}
+    }
+  ],
+  "clock": "2026-07-10",
+  "current_year": 2026,
+  "detector": "_inbox/方法论/mm3_hallucination_detector.py",
+  "fixtures": "eval/fixtures/snippets.jsonl",
+  "github_check_online": false,
+  "internal_info_counts_as_negative": true,
+  "kind": "synthetic-fixture heuristic eval",
+  "label_protocol": "eval/fixtures/PROTOCOL.md",
+  "limits": [
+    "synthetic snippets authored for this file",
+    "labels and scorer written by the same author; no second annotator",
+    "detector heuristics only; no live MiniMax M3 call",
+    "not a false-positive rate on real papers",
+    "arXiv/GitHub/DOI existence was not looked up"
+  ],
+  "n_fixtures": 32,
+  "network": "blocked",
+  "per_detector": {
+    "arxiv": {
+      "confusion": {
+        "gold0_pred0": 25,
+        "gold0_pred1": 1,
+        "gold1_pred0": 3,
+        "gold1_pred1": 3
+      },
+      "fn": 3,
+      "fn_ids": [
+        "fx02",
+        "fx03",
+        "fx04"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx06"
+      ],
+      "precision": {
+        "den": 4,
+        "num": 3,
+        "value": 0.75
+      },
+      "recall": {
+        "den": 6,
+        "num": 3,
+        "value": 0.5
+      },
+      "tn": 25,
+      "tp": 3
+    },
+    "doi": {
+      "confusion": {
+        "gold0_pred0": 29,
+        "gold0_pred1": 1,
+        "gold1_pred0": 1,
+        "gold1_pred1": 1
+      },
+      "fn": 1,
+      "fn_ids": [
+        "fx17"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx18"
+      ],
+      "precision": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "recall": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "tn": 29,
+      "tp": 1
+    },
+    "github": {
+      "confusion": {
+        "gold0_pred0": 29,
+        "gold0_pred1": 1,
+        "gold1_pred0": 1,
+        "gold1_pred1": 1
+      },
+      "fn": 1,
+      "fn_ids": [
+        "fx08"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx09"
+      ],
+      "precision": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "recall": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "tn": 29,
+      "tp": 1
+    },
+    "internal": {
+      "confusion": {
+        "gold0_pred0": 26,
+        "gold0_pred1": 1,
+        "gold1_pred0": 1,
+        "gold1_pred1": 4
+      },
+      "fn": 1,
+      "fn_ids": [
+        "fx11"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx12"
+      ],
+      "precision": {
+        "den": 5,
+        "num": 4,
+        "value": 0.8
+      },
+      "recall": {
+        "den": 5,
+        "num": 4,
+        "value": 0.8
+      },
+      "tn": 26,
+      "tp": 4
+    },
+    "precision": {
+      "confusion": {
+        "gold0_pred0": 28,
+        "gold0_pred1": 1,
+        "gold1_pred0": 2,
+        "gold1_pred1": 1
+      },
+      "fn": 2,
+      "fn_ids": [
+        "fx20",
+        "fx21"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx30"
+      ],
+      "precision": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "recall": {
+        "den": 3,
+        "num": 1,
+        "value": 0.333
+      },
+      "tn": 28,
+      "tp": 1
+    },
+    "terminology": {
+      "confusion": {
+        "gold0_pred0": 29,
+        "gold0_pred1": 1,
+        "gold1_pred0": 1,
+        "gold1_pred1": 1
+      },
+      "fn": 1,
+      "fn_ids": [
+        "fx24"
+      ],
+      "fp": 1,
+      "fp_ids": [
+        "fx25"
+      ],
+      "precision": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "recall": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "tn": 29,
+      "tp": 1
+    }
+  },
+  "section_pointer_ids_unscored": [
+    "fx15"
+  ],
+  "side_probe": {
+    "github_check_online_false_severities": [
+      "MEDIUM"
+    ],
+    "github_check_online_true_issue_count": 1,
+    "github_check_online_true_opened_socket": false,
+    "github_check_online_true_severities": [
+      "HIGH"
+    ],
+    "note": "check_online=True still returns an issue and does not open a socket. The module docstring mentions a GitHub API and CrossRef; those calls are not in the functions."
+  }
+}

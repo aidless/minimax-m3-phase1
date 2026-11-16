@@ -77,3 +77,22 @@ C11（3+1 因子设计 HIGH+strong）、C13（跨 H3 INFO+mid）。
 任何后续**能力**声明（"检出率 X%""误报率 Y%"）必须先在本仓补真实评测数据
 （提交真实 PDF 摘要或真实管线基准）再写；本仓当前只声明"5 用例决策树 + 15 用例
 粒度套件通过"，且明确该声明**不**外推到真实论文或能力上限。
+
+## 6. 合成片段离线分数（不替代上一节）
+
+`eval/fixtures/snippets.jsonl` 上的精确率 / 召回率是六条启发式的离线分数。
+标签含义是「作者有没有埋入」，不是「arXiv / GitHub / CrossRef 上是否存在」。
+它不满足上一节的真实 PDF 要求，也不是 live MiniMax M3 的结果。
+`make check` 重算下表；表与重算不一致则失败。
+
+<!-- fixture-metrics:start -->
+| detector | tp | fp | fn | tn | precision | recall |
+|---|---:|---:|---:|---:|---|---|
+| arxiv | 3 | 1 | 3 | 25 | 3/4 = 0.750 | 3/6 = 0.500 |
+| github | 1 | 1 | 1 | 29 | 1/2 = 0.500 | 1/2 = 0.500 |
+| internal | 4 | 1 | 1 | 26 | 4/5 = 0.800 | 4/5 = 0.800 |
+| doi | 1 | 1 | 1 | 29 | 1/2 = 0.500 | 1/2 = 0.500 |
+| precision | 1 | 1 | 2 | 28 | 1/2 = 0.500 | 1/3 = 0.333 |
+| terminology | 1 | 1 | 1 | 29 | 1/2 = 0.500 | 1/2 = 0.500 |
+n=32 synthetic fixtures; clock=2026-07-10; current_year=2026; network=blocked; check_online=false; labels=same-author, written before the run; heuristic offline mode only; not live MiniMax M3; not a real-paper false-positive rate.
+<!-- fixture-metrics:end -->
