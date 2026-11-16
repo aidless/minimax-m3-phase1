@@ -105,16 +105,21 @@ def granularity_keys(path: Path) -> list[str]:
 
 def run_py(script: str) -> tuple[int, str]:
     env = dict(os.environ)
+    # The suites print Chinese. On Windows, text=True otherwise decodes the
+    # pipe with the ANSI code page (cp1252) and the reader thread dies.
     env["PYTHONIOENCODING"] = "utf-8"
+    env["PYTHONUTF8"] = "1"
     proc = subprocess.run(
         [sys.executable, script],
         cwd=REPO,
         capture_output=True,
         text=True,
+        encoding="utf-8",
+        errors="replace",
         env=env,
         check=False,
     )
-    return proc.returncode, proc.stdout + proc.stderr
+    return proc.returncode, (proc.stdout or "") + (proc.stderr or "")
 
 
 def classify_csv(rows: list[dict], facts: dict) -> list[dict]:
