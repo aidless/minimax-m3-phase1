@@ -39,10 +39,16 @@ LEGACY_END = "<!-- unverifiable-legacy:end -->"
 BANNED_OUTSIDE_LEGACY = ("0 HIGH", "0-HIGH", "0 HIGH 误报")
 
 
-def sha1_file(path: Path) -> str:
-    digest = hashlib.sha1()
-    digest.update(path.read_bytes())
-    return digest.hexdigest()
+def _sha1(data: bytes) -> str:
+    return hashlib.sha1(data).hexdigest()
+
+
+def newline_forms(path: Path) -> tuple[bytes, bytes]:
+    """LF and CRLF forms of a text file. Checkout autocrlf must not change the classification."""
+    raw = path.read_bytes()
+    lf = raw.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    crlf = lf.replace(b"\n", b"\r\n")
+    return lf, crlf
 
 
 def to_repo_rel(raw: str) -> str | None:
@@ -211,10 +217,22 @@ def classify_csv(rows: list[dict], facts: dict) -> list[dict]:
             )
         elif metric == "readme_size":
             readme = REPO / "_inbox" / "方法论" / "mm3_hallucination_detector.README.md"
-            got = readme.stat().st_size if readme.is_file() else None
-            item["recomputed_bytes"] = got
-            item["status"] = "RECOMPUTED_MATCH" if str(got) == value else "RECOMPUTED_MISMATCH"
-            item["detail"] = "Byte size of _inbox/方法论/mm3_hallucination_detector.README.md today, versus the CSV."
+            if readme.is_file():
+                lf, crlf = newline_forms(readme)
+                item["recomputed_lf_bytes"] = len(lf)
+                item["recomputed_crlf_bytes"] = len(crlf)
+                if value == str(len(lf)):
+                    item["status"] = "RECOMPUTED_MATCH"
+                    item["detail"] = "CSV size matches the LF form of the detector README."
+                elif value == str(len(crlf)):
+                    item["status"] = "RECOMPUTED_MATCH"
+                    item["detail"] = "CSV size matches the CRLF form of the detector README."
+                else:
+                    item["status"] = "RECOMPUTED_MISMATCH"
+                    item["detail"] = "CSV size matches neither the LF nor the CRLF form of the detector README."
+            else:
+                item["status"] = "RECOMPUTED_MISMATCH"
+                item["detail"] = "Detector README is missing."
         elif metric in {"strict_mode", "soft_demotion", "purpose_heuristic"}:
             item["status"] = "NOT_A_MEASUREMENT"
             item["detail"] = "Flag that the heuristic exists in the source. Not a score."
@@ -222,7 +240,7 @@ def classify_csv(rows: list[dict], facts: dict) -> list[dict]:
             exists = file_checks[metric].is_file()
             item["recomputed"] = 1 if exists else 0
             item["status"] = "RECOMPUTED_MATCH" if exists and value == "1" else "RECOMPUTED_MISMATCH"
-            item["detail"] = str(file_checks[metric].relative_to(REPO))
+            item["detail"] = file_checks[metric].relative_to(REPO).as_posix()
         elif section == "file":
             item["detail"] = "File-inventory row without a mapped path in this checker."
         else:
@@ -254,16 +272,32 @@ def classify_evidence() -> list[dict]:
                 item["status"] = "ABSENT"
                 item["detail"] = "Mapped path is not in this checkout."
             else:
-                got_sha = sha1_file(path)
-                got_size = path.stat().st_size
-                item["current_sha1"] = got_sha
-                item["current_bytes"] = got_size
-                if got_sha == claimed_sha and got_size == claimed_size:
+                lf, crlf = newline_forms(path)
+                forms = {"lf": (lf, _sha1(lf)), "crlf": (crlf, _sha1(crlf))}
+                matched = next(
+                    (
+                        name
+                        for name, (blob, digest) in forms.items()
+                        if digest == claimed_sha and len(blob) == claimed_size
+                    ),
+                    None,
+                )
+                item["lf_sha1"] = forms["lf"][1]
+                item["lf_bytes"] = len(forms["lf"][0])
+                item["crlf_sha1"] = forms["crlf"][1]
+                item["crlf_bytes"] = len(forms["crlf"][0])
+                if matched:
                     item["status"] = "RECOMPUTED_MATCH"
-                    item["detail"] = "SHA1 and size match the 2026-07-10 scan."
+                    item["matched_newlines"] = matched
+                    item["detail"] = (
+                        f"SHA1 and size match the {matched.upper()} form of this file. "
+                        "Disk line endings are ignored."
+                    )
                 else:
                     item["status"] = "STALE"
-                    item["detail"] = "File is in the checkout but does not match the 2026-07-10 scan."
+                    item["detail"] = (
+                        "Neither the LF nor the CRLF form matches the 2026-07-10 fingerprint."
+                    )
         rows.append(item)
     return rows
 
@@ -339,7 +373,9 @@ def build() -> dict:
         "kind": "cited-number classification",
         "rule": (
             "RECOMPUTED_MATCH means this script derived the same value from the current tree. "
-            "STALE means the file is present and the 2026-07-10 fingerprint does not match. "
+            "Evidence SHA1 rows match if either the LF or the CRLF form matches, so a Windows checkout "
+            "with autocrlf does not flip the result. "
+            "STALE means the file is present and neither newline form matches the 2026-07-10 fingerprint. "
             "UNVERIFIABLE means the source of the number is not in this checkout. "
             "CURATED_NOT_A_CENSUS means the CSV counted a named subset. "
             "NOT_A_MEASUREMENT means the cell is a nickname, flag, or plan. "
