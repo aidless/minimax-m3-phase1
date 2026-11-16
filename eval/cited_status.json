@@ -1,0 +1,975 @@
+{
+  "csv_rows": [
+    {
+      "csv_value": "4",
+      "detail": "CSV inventory of 4 scripts. Those four files exist, and the tree also contains other Python files, so 4 is not a census.",
+      "metric": "scripts_count",
+      "named_files_exist": true,
+      "section": "总览",
+      "status": "CURATED_NOT_A_CENSUS"
+    },
+    {
+      "csv_value": "3",
+      "detail": "CSV says CLI + pre_review + advance_phase. The three files exist; 3 is not re-derived from a spec.",
+      "metric": "integration_points",
+      "named_files_exist": true,
+      "section": "总览",
+      "status": "CURATED_NOT_A_CENSUS"
+    },
+    {
+      "csv_value": "15",
+      "detail": "len(TEST_CASES) in _test_granularity_suite.py",
+      "metric": "test_cases",
+      "recomputed": 15,
+      "section": "总览",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "100",
+      "detail": "Reran _test_granularity_suite.py. 100 in the CSV means 15/15 on that suite only.",
+      "metric": "test_pass_rate",
+      "recomputed": {
+        "exit": 0,
+        "failed": 0,
+        "passed": 15,
+        "total": 15
+      },
+      "section": "总览",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "14933",
+      "detail": "Byte size of _inbox/方法论/mm3_hallucination_detector.README.md today, versus the CSV.",
+      "metric": "readme_size",
+      "recomputed_bytes": 22825,
+      "section": "总览",
+      "status": "RECOMPUTED_MISMATCH"
+    },
+    {
+      "csv_value": "4",
+      "detail": "sev_order=HIGH,MEDIUM,LOW,INFO",
+      "metric": "severity_levels",
+      "recomputed": 4,
+      "section": "detector",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "6",
+      "detail": "Calls inside analyze_file: detect_arxiv_year_issues, detect_github_issues, detect_internal_contradictions, detect_doi_issues, detect_precise_number_issues, detect_undefined_terms",
+      "metric": "detector_count",
+      "recomputed": 6,
+      "section": "detector",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "5",
+      "detail": "GRANULARITY keys: experiment,heading,table_row,list_item,paragraph",
+      "metric": "context_granularity",
+      "recomputed": 5,
+      "section": "detector",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "4",
+      "detail": "len(contradiction_patterns) in detect_internal_contradictions",
+      "metric": "contradiction_patterns",
+      "recomputed": 4,
+      "section": "detector",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Flag that the heuristic exists in the source. Not a score.",
+      "metric": "strict_mode",
+      "section": "detector",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Flag that the heuristic exists in the source. Not a score.",
+      "metric": "soft_demotion",
+      "section": "detector",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Flag that the heuristic exists in the source. Not a score.",
+      "metric": "purpose_heuristic",
+      "section": "detector",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "K_exper_strong_nostrict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C1",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "B_title_nostrict_purpose_distinct",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C2",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "K_table_nostrict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C3",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "B_list_nostrict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C4",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "K_para_nostrict_soft",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C5",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_title_nostrict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C6",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_cross_context",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C7",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_para_nostrict_soft",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C8",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "K_para_strict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C9",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "B_list_strict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C10",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_exper_3plus1",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C11",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_title_same_para",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C12",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_cross_H3",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C13",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_list_no_title",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C14",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "conf_para_strict",
+      "detail": "Case nickname. The pass/fail rerun is repo_facts.granularity_suite.",
+      "metric": "case_C15",
+      "section": "test_suite",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_summary_H",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_summary_M",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_summary_L",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_methods_H",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_methods_M",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_methods_L",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_experiments_H",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "2",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_experiments_M",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_experiments_L",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_critique_H",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_critique_M",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_critique_L",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_total_H",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "2",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_total_M",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "0",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "PAPER-A_total_L",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "arxiv_real",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Source mm3 texts and any live existence check are not in this checkout.",
+      "metric": "arxiv_hallucinated",
+      "section": "real_data",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "csv_value": "5",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "confidence_boundary_cases",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "pattern_a_fixes",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "granularity_label_added",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "test_suite_integration",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "4",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "phase_boundary_coverage",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "1",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "detector_bugs_fixed",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "7",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "total_improvements",
+      "section": "v51_improvements",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "high",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "phase_2_priority",
+      "section": "phase_planning",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "medium",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "phase_3_priority",
+      "section": "phase_planning",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "low",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "phase_4_priority",
+      "section": "phase_planning",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "medium",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "m3_api_rate_limit",
+      "section": "risk",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "low",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "m3_api_key_invalid",
+      "section": "risk",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "low",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "detector_false_positive",
+      "section": "risk",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "medium",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "detector_false_negative",
+      "section": "risk",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "low",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "test_suite_drift",
+      "section": "risk",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "1",
+      "detail": "_inbox/方法论/mm3_hallucination_detector.py",
+      "metric": "mm3_hallucination_detector",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "_inbox/方法论/zotero_pdf_summary_demo.py",
+      "metric": "zotero_pdf_summary_demo",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "_inbox/方法论/zotero_minimax_check.py",
+      "metric": "zotero_minimax_check",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": ".loop/hallucination_check.py",
+      "metric": "hallucination_check",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "_test_granularity_suite.py",
+      "metric": "_test_granularity_suite",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "_inbox/方法论/mm3_hallucination_detector.README.md",
+      "metric": "mm3_hallucination_detector_README",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": ".loop/hallucination_check.README.md",
+      "metric": "hallucination_check_README",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": ".loop/pre_review.py",
+      "metric": "pre_review_py_modified",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": ".loop/advance_phase.py",
+      "metric": "advance_phase_py_modified",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "MiniMax_M3_Phase_1_完成报告.md",
+      "metric": "completion_report",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "1",
+      "detail": "MiniMax_M3_Phase_1_metrics.csv",
+      "metric": "metrics_csv",
+      "recomputed": 1,
+      "section": "file",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "csv_value": "2026-07-10",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "detector_v5_1",
+      "section": "version",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2026-07-10",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "readme_v5_1",
+      "section": "version",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2026-07-10",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "test_suite_v1",
+      "section": "version",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2026-07-10",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "completion_report_v1",
+      "section": "version",
+      "status": "NOT_A_MEASUREMENT"
+    },
+    {
+      "csv_value": "2026-07-10",
+      "detail": "Planning note or changelog entry, not a recomputed result.",
+      "metric": "metrics_csv_v1",
+      "section": "version",
+      "status": "NOT_A_MEASUREMENT"
+    }
+  ],
+  "csv_status_counts": {
+    "CURATED_NOT_A_CENSUS": 2,
+    "NOT_A_MEASUREMENT": 38,
+    "RECOMPUTED_MATCH": 17,
+    "RECOMPUTED_MISMATCH": 1,
+    "UNVERIFIABLE": 17
+  },
+  "evidence_fingerprint_rows": [
+    {
+      "claimed_bytes": 41744,
+      "claimed_sha1": "feba9cf3b9c417a74d23ba0112d765890f346f62",
+      "current_bytes": 40871,
+      "current_sha1": "306fa2a5b421756736055d95df17d87905bcaa3c",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_inbox\\方法论\\mm3_hallucination_detector.py",
+      "repo_path": "_inbox/方法论/mm3_hallucination_detector.py",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 16852,
+      "claimed_sha1": "f9aedfc590c69fe264d9e992ad76cc3e4fc35364",
+      "current_bytes": 16469,
+      "current_sha1": "5de1c891f9f84b48ac1db62d37b5f62f4ac57882",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_inbox\\方法论\\zotero_pdf_summary_demo.py",
+      "repo_path": "_inbox/方法论/zotero_pdf_summary_demo.py",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 19659,
+      "claimed_sha1": "1ebf07dc92ccf4abcbf4e4002fe01fb08f8dfee2",
+      "current_bytes": 19231,
+      "current_sha1": "af052af150f06aa1c494722bfac50aecfafd3eba",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_inbox\\方法论\\zotero_minimax_check.py",
+      "repo_path": "_inbox/方法论/zotero_minimax_check.py",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 13115,
+      "claimed_sha1": "4453a3e37359fdec60eecc4aa46a459351eae91e",
+      "current_bytes": 13115,
+      "current_sha1": "4453a3e37359fdec60eecc4aa46a459351eae91e",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.loop\\hallucination_check.py",
+      "repo_path": ".loop/hallucination_check.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 22825,
+      "claimed_sha1": "e34e19fe7a9e18277fa41b40bb64eb9eddef0b5e",
+      "current_bytes": 22825,
+      "current_sha1": "e34e19fe7a9e18277fa41b40bb64eb9eddef0b5e",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_inbox\\方法论\\mm3_hallucination_detector.README.md",
+      "repo_path": "_inbox/方法论/mm3_hallucination_detector.README.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 22825,
+      "claimed_sha1": "e34e19fe7a9e18277fa41b40bb64eb9eddef0b5e",
+      "current_bytes": 22825,
+      "current_sha1": "e34e19fe7a9e18277fa41b40bb64eb9eddef0b5e",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.loop\\hallucination_check.README.md",
+      "repo_path": ".loop/hallucination_check.README.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 18658,
+      "claimed_sha1": "9e1dc7f5365c87764eb9acb88123ddc4f43bdcd3",
+      "current_bytes": 18951,
+      "current_sha1": "07ae8d8f7c9f4226a5124981113baa3d580de7c2",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_test_granularity_suite.py",
+      "repo_path": "_test_granularity_suite.py",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 10101,
+      "claimed_sha1": "bbb628ab919b7ec98d3c8245c3d83f14ce4661ae",
+      "current_bytes": 10101,
+      "current_sha1": "bbb628ab919b7ec98d3c8245c3d83f14ce4661ae",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_k_conflict_decision_tree.py",
+      "repo_path": "_k_conflict_decision_tree.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 3210,
+      "claimed_sha1": "8fc67ec158b78edfef274d233ebb95da158a718a",
+      "current_bytes": 1576,
+      "current_sha1": "396779302f2ca085a9f26df7e9f11951cffc9adf",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.github\\workflows\\test_k_conflict_decision_tree.yml",
+      "repo_path": ".github/workflows/test_k_conflict_decision_tree.yml",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 1209,
+      "claimed_sha1": "7b137db4466bc6d84c19f029b35108ae751e923d",
+      "current_bytes": 128,
+      "current_sha1": "55d75f1245d69d2741c56ea45d5adeb0d8fd6204",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.pre-commit-config.yaml",
+      "repo_path": ".pre-commit-config.yaml",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 1460,
+      "claimed_sha1": "3eb5d50d3bd9f1116086c484e158add2567ecbbd",
+      "current_bytes": 1462,
+      "current_sha1": "e9f29febd9a599badda4fcb92f78eb23dd50599f",
+      "detail": "File is in the checkout but does not match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\run_k_conflict_tests.sh",
+      "repo_path": "run_k_conflict_tests.sh",
+      "status": "STALE"
+    },
+    {
+      "claimed_bytes": 1394,
+      "claimed_sha1": "e0ffe13f321841303b8d7c9be606cc98a0fb5fda",
+      "current_bytes": 1394,
+      "current_sha1": "e0ffe13f321841303b8d7c9be606cc98a0fb5fda",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\run_k_conflict_tests.cmd",
+      "repo_path": "run_k_conflict_tests.cmd",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 10809,
+      "claimed_sha1": "0ed870b28a00d2082c9ca8084e81eec5a8525019",
+      "current_bytes": 10809,
+      "current_sha1": "0ed870b28a00d2082c9ca8084e81eec5a8525019",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.loop\\pre_review.py",
+      "repo_path": ".loop/pre_review.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 13543,
+      "claimed_sha1": "88cb5fc464e23bf62f97f05ef387f7fe5efb60a6",
+      "current_bytes": 13543,
+      "current_sha1": "88cb5fc464e23bf62f97f05ef387f7fe5efb60a6",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\.loop\\advance_phase.py",
+      "repo_path": ".loop/advance_phase.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 3137,
+      "claimed_sha1": "1bf2e1e3482a96da672c650084fb17c92aab382f",
+      "current_bytes": 3137,
+      "current_sha1": "1bf2e1e3482a96da672c650084fb17c92aab382f",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_phase2_batch.py",
+      "repo_path": "_phase2_batch.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 2733,
+      "claimed_sha1": "3c66bc041f949d1bf85f5a6fb6a4dc5735e50507",
+      "current_bytes": 2733,
+      "current_sha1": "3c66bc041f949d1bf85f5a6fb6a4dc5735e50507",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_phase2_batch_v2.py",
+      "repo_path": "_phase2_batch_v2.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 462,
+      "claimed_sha1": "b97c2167f469263ec613431c541bd90f4a30e783",
+      "current_bytes": 462,
+      "current_sha1": "b97c2167f469263ec613431c541bd90f4a30e783",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_phase2_step1.py",
+      "repo_path": "_phase2_step1.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 1555,
+      "claimed_sha1": "b186eb53d53bef759d064b18e0cbe2c32ae45e97",
+      "current_bytes": 1555,
+      "current_sha1": "b186eb53d53bef759d064b18e0cbe2c32ae45e97",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\_phase2_step2.py",
+      "repo_path": "_phase2_step2.py",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 16161,
+      "claimed_sha1": "5699830d5c980e1f97cda1979d2fedab1bd5bbae",
+      "current_bytes": 16161,
+      "current_sha1": "5699830d5c980e1f97cda1979d2fedab1bd5bbae",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_Phase_1_完成报告.md",
+      "repo_path": "MiniMax_M3_Phase_1_完成报告.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 12513,
+      "claimed_sha1": "60b9256d51f096e5eebc9541786af966ef58eb73",
+      "current_bytes": 12513,
+      "current_sha1": "60b9256d51f096e5eebc9541786af966ef58eb73",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_Phase_2_总结.md",
+      "repo_path": "MiniMax_M3_Phase_2_总结.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 5295,
+      "claimed_sha1": "6618fe75493a121d3763ca919260dbac06d542f2",
+      "current_bytes": 5295,
+      "current_sha1": "6618fe75493a121d3763ca919260dbac06d542f2",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_Phase_2_汇报.md",
+      "repo_path": "MiniMax_M3_Phase_2_汇报.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 10726,
+      "claimed_sha1": "17e57ff170cafa2afd64ca5e3fd4f57ec7c1a709",
+      "current_bytes": 10726,
+      "current_sha1": "17e57ff170cafa2afd64ca5e3fd4f57ec7c1a709",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_K冲突修复_技术文档.md",
+      "repo_path": "MiniMax_M3_K冲突修复_技术文档.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 6197,
+      "claimed_sha1": "5acf246c9c24a3a70fa0322d592f7ed2f3a0fdc5",
+      "current_bytes": 6197,
+      "current_sha1": "5acf246c9c24a3a70fa0322d592f7ed2f3a0fdc5",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_CI_集成说明.md",
+      "repo_path": "MiniMax_M3_CI_集成说明.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 2704,
+      "claimed_sha1": "4bbd52c7402a2a1355b2bfe445c87667bde9e9c1",
+      "current_bytes": 2704,
+      "current_sha1": "4bbd52c7402a2a1355b2bfe445c87667bde9e9c1",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_Batch_诊断报告.md",
+      "repo_path": "MiniMax_M3_Batch_诊断报告.md",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 4349,
+      "claimed_sha1": "677d3e50236d929667056c6fd846d202b94b36b4",
+      "current_bytes": 4349,
+      "current_sha1": "677d3e50236d929667056c6fd846d202b94b36b4",
+      "detail": "SHA1 and size match the 2026-07-10 scan.",
+      "evidence_path": "F:\\Research\\MiniMax_M3_Phase_1_metrics.csv",
+      "repo_path": "MiniMax_M3_Phase_1_metrics.csv",
+      "status": "RECOMPUTED_MATCH"
+    },
+    {
+      "claimed_bytes": 1756,
+      "claimed_sha1": "41ffa927f6d333943bfc0817144b6cc176137b76",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.summary.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 6081,
+      "claimed_sha1": "29d8cf01063218a687a4fffc6629ae89fccdad50",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.methods.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 8130,
+      "claimed_sha1": "6e54123c51cf7d4cf684cf03a0d4af2bf8405cf8",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.experiments.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 7264,
+      "claimed_sha1": "75a6feb39bf87a3de311bda12faa36d463218681",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.critique.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 1647,
+      "claimed_sha1": "8a106261611a70ad847f12b16cf0dd843bf72288",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.summary.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 5540,
+      "claimed_sha1": "530ae58a47bc6be1e6a47ee8c452e13d5d3ee8aa",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.methods.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 3491,
+      "claimed_sha1": "bed208a7329133a71e62e920f06430c84d6eab1e",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.experiments.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 6334,
+      "claimed_sha1": "b51348014067aa85344050f6e72b453a62a5bf65",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.critique.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 1509,
+      "claimed_sha1": "15ddd4be304e520aed6b95decd6c81f022e36764",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.summary.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 5345,
+      "claimed_sha1": "74f926957d9f3da8cb6b7df6ab371ed9420e47bd",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.methods.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 7299,
+      "claimed_sha1": "c18c15619933bf0185b8c6f959f2e6d5d2ac64d8",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.experiments.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 7250,
+      "claimed_sha1": "62cf6fa7b8d12cd1d94a8fdfc1010eab1344aba2",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.critique.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 1933,
+      "claimed_sha1": "74b968107cf5d6dd3fff7ca474c20d22f88779bd",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.summary.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 7216,
+      "claimed_sha1": "681bd09651d75dc52ce597d91049f5f616bcf718",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.methods.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 8750,
+      "claimed_sha1": "0618103fde55aabcffe6fb163f7e38147449c2f4",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.experiments.mm3.md",
+      "status": "UNVERIFIABLE"
+    },
+    {
+      "claimed_bytes": 6135,
+      "claimed_sha1": "b63096e55af80dadf7e791625dc656c9e00ed6d8",
+      "detail": "Path is not under F:\\Research in a form this checkout can map, or it is a bare filename.",
+      "evidence_path": "main.critique.mm3.md",
+      "status": "UNVERIFIABLE"
+    }
+  ],
+  "evidence_status_counts": {
+    "RECOMPUTED_MATCH": 18,
+    "STALE": 7,
+    "UNVERIFIABLE": 16
+  },
+  "kind": "cited-number classification",
+  "repo_facts": {
+    "contradiction_patterns": 4,
+    "detector_functions": [
+      "detect_arxiv_year_issues",
+      "detect_github_issues",
+      "detect_internal_contradictions",
+      "detect_doi_issues",
+      "detect_precise_number_issues",
+      "detect_undefined_terms"
+    ],
+    "detector_splitlines": 874,
+    "eval_cases": {
+      "exit": 0,
+      "passed": 20,
+      "total": 20
+    },
+    "granularity_case_count": 15,
+    "granularity_keys": [
+      "experiment",
+      "heading",
+      "table_row",
+      "list_item",
+      "paragraph"
+    ],
+    "granularity_suite": {
+      "exit": 0,
+      "failed": 0,
+      "passed": 15,
+      "total": 15
+    },
+    "k_conflict": {
+      "exit": 0,
+      "failed": 0,
+      "passed": 5
+    },
+    "k_conflict_case_count": 5,
+    "sev_order": [
+      "HIGH",
+      "MEDIUM",
+      "LOW",
+      "INFO"
+    ]
+  },
+  "rule": "RECOMPUTED_MATCH means this script derived the same value from the current tree. STALE means the file is present and the 2026-07-10 fingerprint does not match. UNVERIFIABLE means the source of the number is not in this checkout. CURATED_NOT_A_CENSUS means the CSV counted a named subset. NOT_A_MEASUREMENT means the cell is a nickname, flag, or plan. None of these labels are live MiniMax M3 results."
+}
